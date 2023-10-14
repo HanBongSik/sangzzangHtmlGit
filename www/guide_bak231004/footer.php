@@ -1,3 +1,0 @@
-<!--<footer>-->
-<!--    GUIDE footer-->
-<!--</footer>-->

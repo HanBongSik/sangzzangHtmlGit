@@ -427,7 +427,7 @@
                 팝업
             </div>
             <div class="__h2">
-                (0) 팝업 - 필수 (버튼 바인딩 class="btn <span class="__highlight">MODAL-BTN</span>" <span class="__highlight">data-target="#modalSample01"</span>)
+                (0) 팝업 타입1 - 필수 (버튼 바인딩 class="btn <span class="__highlight">MODAL-BTN</span>" <span class="__highlight">data-target="#modalSample01"</span>)
             </div>
             <div class="__preview">
                 <div class="__view" title="modal">
@@ -437,7 +437,7 @@
                 </div>
             </div>
             <div class="__h2" id="COMMON-MODAL-DIMMED-CLOSE">
-                (1) 배경 닫기 - dimmed 닫기 (class="modal-dimmed<span class="__highlight"> MODAL-DIMMED-CLOSE</span>")
+                (1) 배경 닫기 - dimmed 닫기 "types/modal-dimmed-close.tpl" (class="modal-dimmed<span class="__highlight"> MODAL-DIMMED-CLOSE</span>")
             </div>
             <div class="__preview">
                 <div class="__view" title="modal">
@@ -446,8 +446,13 @@
                     </div>
                 </div>
             </div>
-            <div class="__h2" id="COMMON-MODAL-FULL">
-                (0) full 화면 및 transform (class="<span class="__highlight"> modal-full</span>")
+<!--            <div class="__h2" id="COMMON-MODAL-FULL">-->
+<!--                (0) 팝업 타입2 - full 화면 및 transform (class="<span class="__highlight"> modal-full</span>")-->
+<!--            </div>-->
+
+            <div class="__h2" id="COMMON-MODAL-HEIGHT-FULL">
+                (0) 팝업 타입2 - 넓이 높이 full 화면 및 transform (class="<span class="__highlight"> modal-full</span>")<br>
+                "types/modal-full.tpl"
             </div>
             <div class="__preview">
                 <div class="__view" title="modal">
@@ -456,8 +461,22 @@
                     </div>
                 </div>
             </div>
-            <div class="__h2" id="COMMON-MODAL-HEIGHT-FULL">
-                (0) 높이만 full 화면 및 transform (class="<span class="__highlight"> modal-full modal-height-full</span>")
+
+            <div class="__h2" id="COMMON-MODAL-FULL">
+                (0) 팝업 타입2 - 최소높이 최대높이 (class="<span class="__highlight"> modal-full modal-height-max-full</span>")<br>
+                "types/modal-height-max-full.tpl"
+            </div>
+            <div class="__preview">
+                <div class="__view" title="modal">
+                    <div class="__list_wrapper">
+                        <?php include("types/modal-height-max-full.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+
+            <div class="__h2" id="COMMON-MODAL-FULL">
+                (0) 팝업 타입2 - 높이만 최대 (class="<span class="__highlight"> modal-full modal-height-full</span>")<br>
+                "types/modal-height-full.tpl"
             </div>
             <div class="__preview">
                 <div class="__view" title="modal">
@@ -466,16 +485,19 @@
                     </div>
                 </div>
             </div>
-            <div class="__h2" id="COMMON-MODAL-HEIGHT-FULL">
-                (0) 높이만 full 화면 및 translate (1) 배경 닫기 - dimmed 닫기 (class="modal-dimmed<span class="__highlight"> MODAL-DIMMED-CLOSE</span>")(class="<span class="__highlight"> modal-full modal-height-full</span>")
+            
+            <div class="__h2" id="COMMON-MODAL-FULL-MARGIN">
+                (0) 팝업 타입2 - 넓이 높이 full 화면 여백 및 transform (class="<span class="__highlight"> modal-full modal-full-margin</span>")<br>
+                "types/modal-full-margin.tpl"
             </div>
             <div class="__preview">
                 <div class="__view" title="modal">
                     <div class="__list_wrapper">
-                        <?php include("types/modal-height-full-dimmed-close.tpl"); ?>
+                        <?php include("types/modal-full-margin.tpl"); ?>
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div class="__box">

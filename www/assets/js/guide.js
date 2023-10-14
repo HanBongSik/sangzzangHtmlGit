@@ -68,7 +68,8 @@ window.addEventListener('resize', () => {
         if(aniOnInner){
             $(el).find('.modal-content').addClass(aniOnInner);
         }
-        if($(el).find('> .modal-full')){
+
+        if($(el).find('> div').first().hasClass('modal-full')){
             $(el).css('overflow','hidden');
         }
     }
@@ -80,7 +81,8 @@ window.addEventListener('resize', () => {
         let aniOffInner = $(el).find('.modal-content').data('ani-off');
         // alert('aniOff'+aniOff);
         // alert('aniOffInner'+aniOffInner);
-        if(aniOff == '' || aniOffInner == ''){
+
+        if(aniOff === undefined && aniOffInner === undefined){
             console.log(1);
             $(el).css('display','none').off('focus').find('.modal-temp').remove();
         }else{
@@ -100,45 +102,6 @@ window.addEventListener('resize', () => {
         $('html, body').css('overflow','visible');
         // alert(aniOff && aniOff.length > 0)
         // alert(aniOffInner && aniOffInner.length > 0)
-    }
-
-    function modalOff22(el){
-        let aniOn = $(el).data('ani-on');
-        let aniOff = $(el).data('ani-off');
-
-        /* 추가 작업 */
-        let aniOnInner = $(el).find('.modal-content').data('ani-on');
-        let aniOffInner = $(el).find('.modal-content').data('ani-off');
-        /* 추가 작업 End */
-
-        if(aniOff && aniOff.length > 0){
-            $(el).removeClass(aniOn);
-            $(el).addClass(aniOff);
-            setTimeout(function() {
-                $(el).css('display','none').off('focus').find('.modal-temp').remove();
-            },timeOutNum);
-        }else{
-            $(el).removeClass(aniOn);
-            $(el).addClass(aniOff);
-            $(el).css('display','none').off('focus').find('.modal-temp').remove();
-        }
-
-        /* 추가 작업 위에서 먼저 닫아버리네 */
-        if(aniOffInner && aniOffInner.length > 0){
-            $(el).find('.modal-content').removeClass(aniOnInner);
-            $(el).find('.modal-content').addClass(aniOffInner);
-            setTimeout(function() {
-                $(el).css('display','none').off('focus').find('.modal-temp').remove();
-            },timeOutNum);
-        }else{
-            $(el).find('.modal-content').removeClass(aniOnInner);
-            $(el).find('.modal-content').addClass(aniOffInner);
-            $(el).css('display','none').off('focus').find('.modal-temp').remove();
-        }
-        /* 추가 작업 End */
-
-        $("*[modal=1]").focus().removeAttr('modal');
-        $('html, body').css('overflow','visible');
     }
 
     function bindModals(){
