@@ -18,7 +18,15 @@ function navToggleBtn(){
         $(this).toggleClass('off');
     });
 }
+function guideBtnTop(){
+    $('#__guideBtnTop').click(function (event) {
+        event.preventDefault();
+        $('.__wrapper').animate({ scrollTop: 0 }, 300);
+    });
+}
+
 $( document ).ready( function() {
     gnbSlider();
     navToggleBtn();
+    guideBtnTop();
 } );

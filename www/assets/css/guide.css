@@ -197,6 +197,9 @@
 
 
 }
+/* 모바일 */
+/*-webkit-touch-collout:none !important;*/
+/*-webkit-user-select:none !important;*/
 
 
 /* 타이포그라피 */
@@ -286,7 +289,7 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 {background:var(--white);color:#000;border-color:#000;}
 
 .btn-excel , button.btn-excel, input[type="button"].btn-excel, input[type="submit"].btn-excel
-{background:url(/assets/img/guide-origin/btn-excel.png) no-repeat 10px center !important;color:#000;border-color:#000;padding-left: 30px;}
+{background:url(/assets/img/guide/btn-excel.png) no-repeat 10px center !important;color:#000;border-color:#000;padding-left: 30px;}
 
 /** 버튼 - 사이징 */
 .btn, button, input[type="button"], input[type="submit"],

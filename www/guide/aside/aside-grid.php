@@ -1,4 +1,5 @@
 <aside class="__guide_aside">
+    <?php include('./aside/aside-toggle.php')?>
     <?php include('./aside/aside-grid-link.php')?>
     <nav>
         <ul class="nav-01-ul">

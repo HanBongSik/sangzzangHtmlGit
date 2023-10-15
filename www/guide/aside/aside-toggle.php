@@ -1,0 +1,1 @@
+<div class="__guide_aside_toggle"><a href="#;" onclick="$('.__guide_aside,.__guide_aside_link, .__guide_aside_toggle').toggleClass('close')">←</a></div>

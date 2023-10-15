@@ -316,6 +316,18 @@
                     </div>
                 </div>
             </div>
+
+            <div class="__h2" id="COMMON-CHECKBOX-SWITCH">
+                (1) switch
+            </div>
+            <div class="__preview">
+                <div class="__view" title="checkbox-design">
+                    <div class="__list_wrapper">
+                        <?php include("types/checkbox-switch.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+
             <div class="__h2" id="COMMON-CALENDAR">
                 (1) 달력
             </div>

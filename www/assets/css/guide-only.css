@@ -73,7 +73,20 @@ html body .__c-inner:after{content:".c";position:absolute;left:0;top:0;transform
 .__form-grid .forms{position:relative;border:1px solid #c8c8c8;}
 .__form-grid .forms:after{content:".forms";position:absolute;left:0;top:0;transform:translate(0,-100%);color:#9b9797;font-weight:400;}
 
+.__btn-top-wrapper{position: fixed;right: 20px;bottom: 10px;background: #fff;box-shadow: 1px 2px 12px rgb(0 0 0 / 32%);border-radius: 50%;}
+#__guideBtnTop{display:block;padding:16px 20px;}
+@keyframes aside-ani-closed{
+    0%{
+        width:242px
+    }
+    100%{
+        width:0
+    }
+}
+
 .__guide_aside{position:relative;}
+.__guide_aside.close{animation-duration: 0.2s;animation-delay: 0s; animation-name: aside-ani-closed;width:0;overflow:hidden;}
+.__guide_aside_link.close{animation-duration: 0.2s;animation-delay: 0s; animation-name: aside-ani-closed;width:0;overflow:hidden;}
 .__guide_aside_link{position:fixed;background:#fff;z-index:10;width:100%;max-width:235px;text-align:center;display:flex;padding:10px 0;border-bottom:1px solid #ddd;}
 .__guide_aside_link a{flex:1;color:#a6a6a6;}
 .__guide_aside_link a.on{color:#000;font-weight:800;}
@@ -87,9 +100,13 @@ html body .__c-inner:after{content:".c";position:absolute;left:0;top:0;transform
 .__guide_aside nav .nav-02{position:relative;}
 .__guide_aside nav .nav-02-ul{overflow:hidden;display:none;display:block;padding-top:0;margin:0 5px 0px 15px;border-bottom:1px solid #ddd;padding-bottom:20px}
 .__guide_aside nav .nav-02:before{content:"";position:absolute;left:10px;top:15px;height:100%;width:1px;background:#ccc;}
-.__guide_aside nav .nav-02:nth-last-of-type(1):before{}
+.__guide_aside nav .nav-02-ul > li:nth-last-of-type(1) .nav-02:before{display:none;}
 .__guide_aside nav .nav-02:after{content:"";position:absolute;left:5px;top:14px;height:3px;width:3px;background:#fff;border:4px solid #ccc;border-radius:50%;}
 
+.__guide_aside_toggle{position:fixed;transform:translate(100%, -100%);left:215px;top:50%;z-index:100;background:#9e9e9e;border-top-right-radius:5px;border-bottom-right-radius:5px;will-change: transform; }
+.__guide_aside_toggle > a{display:block;text-align:right;color:#fff;padding:30px 4px;transform:rotate(0deg);transform-origin: center center;will-change: transform;}
+.__guide_aside_toggle.close{left:0;transform:translate(0, -100%);transition:all 0.2s;will-change: transform;}
+.__guide_aside_toggle.close > a{transform:rotate(180deg);transform-origin: center center;will-change: transform;}
 
 .__guide_aside nav .nav-02-link{display:block;padding:8px 0px 0px 24px;font-size:12px;}
 .__guide_aside nav .nav-02-link:hover{color:var(--primary);}

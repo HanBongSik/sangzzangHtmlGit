@@ -34,6 +34,9 @@
 
             <?php /*include('./footer.php')*/?>
         </div>
+        <div class="__btn-top-wrapper">
+            <a href="#" id="__guideBtnTop" title="위로">↑</a>
+        </div>
     </body>
 
 </html>

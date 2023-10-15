@@ -1,12 +1,8 @@
 <aside class="__guide_aside">
+    <?php include('./aside/aside-toggle.php')?>
     <?php include('./aside/aside-link.php')?>
     <nav>
         <ul class="nav-01-ul">
-
-
-
-
-
             <li class="nav-01-li">
                 <div class="nav-01 on">
                     <a class="nav-01-link" href="#COMMON-MODAL">
@@ -376,6 +372,13 @@
                         <div class="nav-02">
                             <a class="nav-02-link" href="#COMMON-CHECKBOX-RADIO-STYLE">
                                 <div class="nav-02-txt">(2) checkbox, radio - 디자인 추가</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-02">
+                            <a class="nav-02-link" href="#COMMON-CHECKBOX-SWITCH">
+                                <div class="nav-02-txt">(1) switch</div>
                             </a>
                         </div>
                     </li>
