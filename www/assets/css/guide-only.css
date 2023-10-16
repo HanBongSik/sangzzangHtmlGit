@@ -125,6 +125,7 @@ html body .__c-inner:after{content:".c";position:absolute;left:0;top:0;transform
 .__responsive-guide .__responsive-tab{flex:2;border-left:1px solid #ddd;border-right:1px solid #ddd;}
 .__responsive-guide .__responsive-pc{flex:3;}
 
+.__text-left{text-align:left !important;}
 
 
 

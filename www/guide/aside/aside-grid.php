@@ -5,22 +5,22 @@
         <ul class="nav-01-ul">
             <li class="nav-01-li">
                 <div class="nav-01">
-                    <a class="nav-01-link" href="#DEFAULT">
-                        <div class="nav-01-txt">Default</div>
+                    <a class="nav-01-link" href="#GRID-USAGE">
+                        <div class="nav-01-txt">자주 쓰는 예제</div>
                         <div class="nav-01-ico"></div>
                     </a>
                 </div>
                 <ul class="nav-02-ul">
                     <li>
                         <div class="nav-02">
-                            <a class="nav-02-link" href="#DEFAULT">
+                            <a class="nav-02-link" href="#GRID-USAGE-01">
                                 <div class="nav-02-txt">폰트</div>
                             </a>
                         </div>
                     </li>
                     <li>
                         <div class="nav-02">
-                            <a class="nav-02-link" href="#DEFAULT">
+                            <a class="nav-02-link" href="#GRID-USAGE-01">
                                 <div class="nav-02-txt">폰트 색상</div>
                             </a>
                         </div>

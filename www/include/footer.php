@@ -1,10 +1,8 @@
-<style>
 
-</style>
         <footer class="g footer">
 			<div class="r container">
 				<div class="c footer__list">
-					<a href="/sz_list_all.php">
+					<a href="/pages/list.php">
 						<div class="footer__list__ico"><img src="/assets/img/folder.png" alt=""/></div>
 						<p class="footer__list__name">상짱</p>
 					</a>

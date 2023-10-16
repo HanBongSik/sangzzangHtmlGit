@@ -1,14 +1,15 @@
 <div class="__list">
     <div class="__figure">
-        <div class="__element">
+        <div class="__element __text-left">
             <button type="button" class="btn MODAL-BTN" data-target="#modalSample01">모달</button>
-            <button type="button" class="btn MODAL-BTN" data-target="#modalSample02">모달 - Long</button>
-            <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample03">모달 (modal-dimmed HAS)</button>
-            <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample04">모달 (modal-content HAS)</button>
-            <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample05">모달 (modal-dimmed HAS / modal-content HAS)</button><br><br>
+            <button type="button" class="btn MODAL-BTN" data-target="#modalSample02">모달 - Long</button><br>
+            <br>
+            <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample03">모달 (modal-dimmed)</button>
+            <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample04">모달 (modal-content)</button>
+            <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample05">모달 (modal-dimmed / modal-content)</button><br><br>
             <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample06">모달 (modal-dimmed EMPTY)</button>
             <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample07">모달 (modal-content EMPTY)</button>
-            <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample08">모달 (modal-dimmed HAS / modal-content EMPTY)</button>
+            <button type="button" class="btn btn-black MODAL-BTN" data-target="#modalSample08">모달 (modal-dimmed / modal-content EMPTY)</button>
         </div>
         <div class="__class">.MODAL-BTN</div>
     </div>

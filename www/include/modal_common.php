@@ -226,7 +226,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/n.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/n.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">s._____am</strong>님이 상장을 보냈습니다.</div>
@@ -239,7 +239,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/ac.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/ac.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">hyungyu_v</strong>님이 상장을 보냈습니다.</div>
@@ -252,7 +252,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/b.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/b.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">ho__yaaaaa</strong>님이 상장을 보냈습니다.</div>
@@ -265,7 +265,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/p.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/p.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">meant4i</strong>님이 상장을 보냈습니다.</div>
@@ -278,7 +278,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/aa.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/aa.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">jinny_0724</strong>님이 상장을 보냈습니다.</div>
@@ -291,7 +291,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/k.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/k.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">areum7239</strong>님이 상장을 보냈습니다.</div>
@@ -304,7 +304,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/ar.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/ar.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">kmi0123</strong>님이 상장을 보냈습니다.</div>
@@ -317,7 +317,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/c.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/c.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">jjeon_sso0</strong>님이 상장을 보냈습니다.</div>
@@ -330,7 +330,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">nccwhite</strong>님이 상장을 보냈습니다.</div>
@@ -343,7 +343,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/aa.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/aa.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">lsklcd19</strong>님이 상장을 보냈습니다.</div>
@@ -356,7 +356,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/ap.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/ap.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">gowlsl0627</strong>님이 상장을 보냈습니다.</div>
@@ -369,7 +369,7 @@
                                         <a href="#;">
                                             <div class="user">
                                                 <div class="user-img">
-                                                    <img src="assets/tempImg/profile/k.jpg" alt="프로필 이미지">
+                                                    <img src="/assets/tempImg/profile/k.jpg" alt="프로필 이미지">
                                                 </div>
                                                 <div class="user-info">
                                                     <div class="info-nick"><strong class="">rimmmming715</strong>님이 상장을 보냈습니다.</div>
@@ -420,7 +420,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/z.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/z.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -436,7 +436,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/f.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/f.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -452,7 +452,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/e.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/e.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -469,7 +469,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/s.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/s.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -485,7 +485,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ag.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ag.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -501,7 +501,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/h.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/h.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -517,7 +517,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -533,7 +533,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/af.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -550,7 +550,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -566,7 +566,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -582,7 +582,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/h.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/h.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -598,7 +598,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -614,7 +614,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/af.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -631,7 +631,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -647,7 +647,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -663,7 +663,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/h.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/h.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -679,7 +679,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -695,7 +695,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/af.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -712,7 +712,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
@@ -728,7 +728,7 @@
 										<div class="user">
 											<a href="#;">
 												<div class="user-img">
-													<img src="assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
+													<img src="/assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
 												</div>
 											</a>
 											<div class="user-info">
