@@ -9,17 +9,6 @@
     <!-- header -->
     <?php include("$path/include/header.php"); ?>
     <!-- header End -->
-<style>
-    .header-01 h1,
-    .post__list__outer{box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);}
-
-    .post__list{margin-top:20px;}
-    .post__list .r{flex-wrap:wrap;justify-content:space-between;gap:30px 0}
-    .post__list .c{max-width:300px;}
-    .post__list__outer{display:inline-block;width:100%;margin:0 14px;border:1px solid #ddd;}
-    .sz-img{display:block;width:100%;}
-    section#container, header .header, footer .footer{max-width: 1000px;margin:0 auto;}
-</style>
     <!-- container -->
     <section id="container">
         <!-- h1 -->
@@ -37,25 +26,150 @@
                                 <div class="sz"><img src="https://requestman.cafe24.com/assets/img/temp_sz.png" class="sz-img" alt=""></div>
                             </div>
                             <div class="post_list__inner">
-                                <style>
-                                    .photo li{float:left;width:20%;}
-                                    .photo li img{display:block;width:100%;}
-                                </style>
-                                <div class="photo">
-                                    <ul>
-                                        <li><img src="/assets/tempImg/thumb/o.gif" alt=""></li>
-                                        <li><img src="/assets/tempImg/thumb/h.gif" alt=""></li>
-                                        <li><img src="/assets/tempImg/thumb/g.gif" alt=""></li>
-                                        <li><img src="/assets/tempImg/thumb/x.gif" alt=""></li>
-                                        <li><img src="/assets/tempImg/thumb/z.gif" alt=""></li>
+
+                                <div class="g g-pd-sm post-photo">
+                                    <ul class="post-photo__list">
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/o.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/h.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/g.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/x.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/z.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/o.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/h.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/g.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/x.gif" alt=""></div></li>
+                                        <li class="post-photo__list_item"><div class="photo-outer"><img class="photo-outer__img" src="/assets/tempImg/thumb/z.gif" alt=""></div></li>
                                     </ul>
-
                                 </div>
-
                             </div>
                             <div class="post_list__inner">
-                                <div class="sz"><img src="https://requestman.cafe24.com/assets/img/temp_sz.png" class="sz-img" alt=""></div>
+                                <div class="g g-pd-sm post-info">
+                                    <div class="r">
+<!--                                        <div class="c c-float">-->
+<!--                                            <div class="num">1</div>-->
+<!--                                        </div>-->
+                                        <div class="c c-float">
+                                            <div class="img-profile">
+                                                <div class="img-profile-outer">
+                                                    <img class="img-profile-outer__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="c">
+                                            <div class="g">
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="">
+                                                            <span class="user-id">bongsikhan</span>
+<!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+<!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div>
+                                                            <span class="user-name">한봉식</span>
+<!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+<!--                                                <div class="r">-->
+<!--                                                    <div class="c">-->
+<!--                                                        <div class="skill-list">-->
+<!--                                                            개발자 화가 축구 JAVA 서피스북-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+                                            </div>
+                                        </div>
+                                        <div class="c c-float">
+                                            <div class="btn-user-action">
+<!--                                                <span class="forms">-->
+<!--                                                    <button type="button" class="btn-primary">follow</button>-->
+<!--                                                </span>-->
+                                            </div>
+
+                                            <div class="btn-more-action">
+                                                <div class="img-more">
+                                                    <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
+                            <div class="post_list__inner">
+                                <div class="g g-pd-sm story">
+                                    디자이너지만 퍼블리싱에도 관심이 많은 정은아 대리님!
+                                </div>
+                            </div>
+                            <div class="post_list__inner">
+                                <div class="g g-pd-sm tag-skill">
+                                    <a href="#;" class="tag-skill__a">#상장</a> <a href="#;" class="tag-skill__a">#감사</a> <a href="#;" class="tag-skill__a">#친구</a> <a href="#;" class="tag-skill__a">#게임</a>
+                                </div>
+                            </div>
+                            <div class="post_list__inner">
+
+                                <div class="g g-pd-sm profile-imgs">
+                                    <div class="r">
+                                        <div class="c center-right">
+                                            <a href="#;" class="profile-imgs__outer">
+                                                <div class="sender">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer sm">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/ag.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                    <div class="img-profile-outer__nick">goodday</div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <div class="img-profile">
+                                                            <div class="img-profile-outer sm">
+                                                                <img class="img-profile-outer__img" src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="user-img">
+                                                            <div class="img-profile-outer sm">
+                                                                <img class="img-profile-outer__img" src="/assets/tempImg/profile/s.jpg" alt="프로필 이미지">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="user-img">
+                                                            <div class="img-profile-outer sm">
+                                                                <img class="img-profile-outer__img" src="/assets/tempImg/profile/l.jpg" alt="프로필 이미지">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="user-img">
+                                                            <div class="img-profile-outer sm">
+                                                                <img class="img-profile-outer__img" src="/assets/tempImg/profile/f.jpg" alt="프로필 이미지">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="user-img">
+                                                            <div class="img-profile-outer sm">
+                                                                <img class="img-profile-outer__img" src="/assets/tempImg/profile/z.jpg" alt="프로필 이미지">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <span class="num-width">20+</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
                         </div>
                     </li>
                 </ul>

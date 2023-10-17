@@ -22,8 +22,12 @@ header,
 .footer__list .alarm-new{overflow:hidden;position:absolute;top:0;right:-3px;border-radius:50%;padding-left:3.4px;width:14px;height:14px;line-height:14px;font-size:10px;text-align:center;background-color:red;color:#fff;letter-spacing:10px;}
 /* footer End */
 
+/* effect */
+.header-01 h1,
+.post__list__outer{box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);}
+/* effect End */
 
-/* */
+/* header */
 .header-01{position:relative;background-color: #fff;}
 .header-01 h1 {padding:8px 0;color:#333;font-size:16px;text-align:center;border:1px solid #ddd;border-top:none;font-weight:bold;}
 .header-01 h1{box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);}

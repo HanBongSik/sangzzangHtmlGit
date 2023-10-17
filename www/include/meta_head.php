@@ -29,6 +29,7 @@
 <link href="/assets/css/guide.css?v=<?php echo $version ?>" rel="stylesheet">
 <link href="/assets/css/guide_impreci.css?v=<?php echo $version ?>" rel="stylesheet">
 <link href="/assets/css/layout.css?v=<?php echo $version ?>" rel="stylesheet">
+<link href="/assets/css/pages.css?v=<?php echo $version ?>" rel="stylesheet">
 
 <!-- lib -->
     <!-- jquery -->
