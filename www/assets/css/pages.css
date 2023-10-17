@@ -1,0 +1,42 @@
+
+/* 상장 리스트 */
+.post__list{margin-top:20px;}
+.post__list > .r{flex-wrap:wrap;justify-content:space-between;gap:30px 0}
+.post__list > .r > .c{max-width:300px;}
+.post__list__outer{display:inline-block;width:100%;margin:0 14px;padding-bottom:10px;border:1px solid #ddd;border-radius:10px;overflow:hidden;}
+.sz-img{display:block;width:100%;}
+section#container, header .header, footer .footer{max-width: 1000px;margin:0 auto;}
+
+.post-photo__list{width:100%;overflow:auto;white-space:nowrap;}
+.post-photo__list_item{display:inline-block;width:20%;}
+
+    /* 상장 리스트 내 썸네일 이미지 */
+.photo-outer{height:40px;padding:2px;overflow:hidden;}
+.photo-outer__img{display:block;width:100%;border-radius:5px;}
+    /* 상장 리스트 내 썸네일 이미지 End */
+
+.profile-imgs__outer{display:inline-flex;align-items: center;gap:4px;}
+.profile-imgs__outer ul{float:left;padding-left:16px;}
+.profile-imgs__outer ul li{float:right;margin-left:-16px;}
+.profile-imgs__outer .num-width{display:inline-block;position:relative;top:-4px;align-self:flex-start;font-weight:400;font-size:11px;margin-left:-15px;background-color:var(--primary);color:#fff;padding:0 4px;border-radius:5px;}
+.sender{display:flex;align-items:center;gap:4px;padding-right:4px;}
+
+.img-profile-outer{display:flex;align-items:center;overflow:hidden;border:1px solid #afafaf;width:40px;height:40px;border-radius:50%;}
+.img-profile-outer.sm{width:30px;height:30px;}
+.img-profile-outer__img{display:block;width:100%;}
+.img-profile-outer__nick{}
+
+.post-info{}
+.post-info > .r{gap:6px;}
+.post-info > .r > .c{}
+.num{text-align:right;}
+.profile-img{}
+.btn-user-action{}
+.img-more{}
+.img-more__outer{display:block;}
+.img-more__outer__img{width:16px;opacity:0.5;}
+
+.tag-skill__a{color:var(--secondary)}
+
+
+/* 상장 리스트 End */
