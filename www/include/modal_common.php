@@ -1,10 +1,10 @@
 
 	<!-- 로그인 -->
     <div class="modal-dimmed" id="modalLogin">
-        <div class="modal">
+        <div class="modal-full modal-height-max-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
-                    <div class="modal-content">
+                    <div class="modal-content" data-ani-on="modal-ani-big" data-ani-off="modal-ani-big-small">
                         <div class="modal-close">
                             <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
                         </div>
@@ -13,56 +13,61 @@
                             <h2>로그인</h2>
                         </div>
                         <!-- 모달 헤더 End -->
-
                         <!-- 모달 바디 -->
                         <div class="modal-body">
-                            <div class="login-auto">
-                                <input type="checkbox" id="loginAuto"/>
-                                <label for="loginAuto">자동 로그인</label>
-                            </div>
-                            <hr>
-                            <div class="u-forms large login-id">
-                                <label for="loginId" class="hidden">아이디</label>
-                                <input type="text" name="" id="loginId" placeholder="아이디">
-                            </div>
-                            <hr class="hr-small">
-                            <div class="u-forms large login-pwd">
-                                <label for="loginId" class="hidden">비밀번호</label>
-                                <input type="email" name="" id="비밀번호" placeholder="비밀번호">
-                            </div>
-                            <hr>
-                            <div class="login-lnk">
-                                <a href="member_find_id.php">아이디 찾기</a>&nbsp;|&nbsp;
-                                <a href="member_find_pwd.php">비밀번호 찾기</a>&nbsp;|&nbsp;
-                                <a href="member_join.php">회원가입</a>
-                            </div>
-                            <hr>
-                            <div class="login-btn">
-                                <input class="button primary block x-large close" type="submit" onclick="go('mypage.php')" value="로그인"/>
-                            </div>
-                            <hr>
-                            <div class="login-sns">
-                                <a href="#;"><img src="./assets/img/naver.png" alt="네이버"></a>
-                                <a href="#;"><img src="./assets/img/kakao.png" alt="카카오톡"></a>
-                                <a href="#;"><img src="./assets/img/google.png" alt="구글"></a>
-                                <a href="#;"><img src="./assets/img/facebook.png" alt="페이스북"></a>
-                                <a href="#;"><img src="./assets/img/instagram.png" alt="인스타그램"></a>
-                                <!--
-                                <a href="#;"><img src="./assets/img/kakaostory.png" alt="카카오스토리"></a>
-                                -->
+                            <div class="g login">
+                                <div class="r">
+                                    <div class="c center-right">
+                                        <span class="forms">
+                                            <input type="checkbox" class="xs" name="loginAuto" value="loginAuto" id="loginAuto" checked="checked">
+                                            <label for="loginAuto">자동 로그인</label>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="r">
+                                    <span class="forms forms-full">
+                                        <input type="text" class="md" value="" placeholder="아이디">
+                                    </span>
+                                </div>
+                                <div class="r">
+                                    <span class="forms forms-full">
+                                        <input type="text" class="md" value="" placeholder="패스워드">
+                                    </span>
+                                </div>
+                                <div class="r">
+                                    <div class="login__login-lnk">
+                                        <a href="member_find_id.php">아이디 찾기</a>&nbsp;|&nbsp;
+                                        <a href="member_find_pwd.php">비밀번호 찾기</a>&nbsp;|&nbsp;
+                                        <a href="member_join.php">회원가입</a>
+                                    </div>
+                                </div>
+                                <style>
+                                    .login > .r{margin-bottom:10px;}
+                                    .login > .r:nth-last-of-type(1){margin-bottom:0;}
+                                    .login__login-lnk{width:100%;text-align:center;}
+                                    .login-sns{display:block;width:100%;}
+                                    .login-sns__outer{display:inline-block;text-align:center;}
+                                    .login-sns__img{display:block;width:100%;max-height:40px;}
+                                </style>
+                                <div class="r">
+                                    <div class="login-sns">
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/naver.png" alt="네이버"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/kakao.png" alt="카카오톡"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/google.png" alt="구글"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/facebook.png" alt="페이스북"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/instagram.png" alt="인스타그램"></a>
+                                        <!--
+                                        <a href="#;"><img src="./assets/img/kakaostory.png" alt="카카오스토리"></a>
+                                        -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- 모달 헤더 End -->
 
-                        <!-- 모달 바디 -->
-                        <div class="modal-body">
-                            모달 바디
-                        </div>
-                        <!-- 모달 바디 End -->
-
                         <!-- 모달 푸터 -->
                         <div class="modal-footer">
-                            <button class="btn">확인</button>
+                            <button class="btn">로그인</button>
                             <button class="btn btn-black MODAL-CLOSE">취소</button>
                         </div>
                         <!-- 모달 푸터 End -->
@@ -114,11 +119,11 @@
 
 
     <!-- 검색 -->
-    <div class="modal-dimmed" data-ani-on="modal-ani-up" data-ani-off="modal-ani-up-down" id="modalSearch">
-        <div class="modal-full">
+    <div class="modal-dimmed" id="modalSearch">
+        <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
-                    <div class="modal-content">
+                    <div class="modal-content" data-ani-on="modal-ani-up" data-ani-off="modal-ani-up-down">
                         <div class="modal-close">
                             <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
                         </div>
@@ -132,14 +137,21 @@
                         <div class="modal-body">
                             <div class="search-layer-body">
                                 <div class="search">
-                                    <div class="search-input">
-                                        <div class="u-forms">
-                                            <label for="for-text" class="hidden">입력값</label>
-                                            <input type="text" id="for-text">
+                                    <div class="g search-input">
+                                        <div class="r gap-hor-sm">
+                                            <div class="c">
+                                                <span class="forms forms-full">
+                                                    <input type="text" placeholder="검색어를 입력하세요" value="" id="inputKeyward" class="INPUT-RESET">
+                                                    <button class="INPUT-RESET-BTN" data-target="#inputKeyward">×</button>
+                                                </span>
+                                            </div>
+                                            <div class="c c-inner-width">
+                                                <div class="search-btn">
+                                                    <button type="button" class="button secondary large block">검색</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="search-btn">
-                                        <button type="button" class="button secondary large block">검색</button>
+
                                     </div>
                                 </div>
                                 <!-- tabs -->
@@ -147,7 +159,7 @@
                                     <ul>
                                         <li class="active"><a href="#tabSearchAll">전체</a></li>
                                         <li><a href="#tabSearchUser">회원</a></li>
-                                        <li><a href="#tabSearchTag">태그</a></li>
+<!--                                        <li><a href="#tabSearchTag">태그</a></li>-->
                                         <li><a href="#tabSearchSkill">스킬</a></li>
                                         <li><a href="#tabSearchSz">상장</a></li>
                                     </ul>
@@ -156,31 +168,31 @@
                                 <!-- panels -->
                                 <div class="panels">
                                     <div id="tabSearchAll" class="panel active" tabindex="0">
-                                        <!-- 전체 검색 -->
-                                        <?php include("include/include_temp/inc_search_all.php"); ?>
+                                        <!-- 전체 검색 -->_all
+                                        <?php include("$path/include/include_temp/inc_search_all.php"); ?>
                                         <!-- 전체 검색 End -->
                                     </div>
                                     <div id="tabSearchUser" class="panel" tabindex="0">
-                                        <!-- 회원 검색 -->
-                                        <?php include("include/include_temp/inc_search_01.php"); ?>
+                                        <!-- 회원 검색 -->01
+                                        <?php include("$path/include/include_temp/inc_search_01.php"); ?>
                                         <!-- 회원 검색 End -->
                                     </div>
 
                                     <div id="tabSearchTag" class="panel" tabindex="0">
-                                        <!-- 태그 검색 -->
-                                        <?php include("include/include_temp/inc_search_02.php"); ?>
+                                        <!-- 태그 검색 -->02
+                                        <?php /* include("include/include_temp/inc_search_02.php"); */ ?>
                                         <!-- 태그 검색 End -->
                                     </div>
 
                                     <div id="tabSearchSkill" class="panel" tabindex="0">
-                                        <!-- 스킬 검색 -->
-                                        <?php include("include/include_temp/inc_search_03.php"); ?>
+                                        <!-- 스킬 검색 -->03
+                                        <?php include("$path/include/include_temp/inc_search_03.php"); ?>
                                         <!-- 스킬 검색 End -->
                                     </div>
 
                                     <div id="tabSearchSz" class="panel" tabindex="0">
-                                        <!-- 상짱 검색 -->
-                                        <?php include("include/include_temp/inc_search_04.php"); ?>
+                                        <!-- 상짱 검색 -->04
+                                        <?php include("$path/include/include_temp/inc_search_04.php"); ?>
                                         <!-- 상짱 검색 End -->
                                     </div>
 
@@ -204,22 +216,290 @@
 
 
 	<!-- 알람 모달 팝업 -->
+
     <div class="modal-dimmed" id="modalAlarm">
-        <div class="modal">
+        <div class="modal-full modal-height-max-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
-                    <div class="modal-content">
+                    <div class="modal-content" data-ani-on="modal-ani-big" data-ani-off="modal-ani-big-small">
                         <div class="modal-close">
                             <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
                         </div>
                         <!-- 모달 헤더 -->
                         <div class="modal-header">
-                            <h2>모달 헤더</h2>
+                            <h2>알람</h2>
                         </div>
                         <!-- 모달 헤더 End -->
 
                         <!-- 모달 바디 -->
                         <div class="modal-body">
+                            <div class="user-list">
+                                <ul>
+                                    <li>
+
+                                        <div class="g g-pd-sm post-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/g.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="">
+                                                                    <span class="user-id">lilyiu_</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div>
+<!--                                                                    <span class="user-name">아이유</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-primary">팔로우중</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="g g-pd-sm post-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/l.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="">
+                                                                    <span class="user-id">ssuiming_yo</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div>
+<!--                                                                    <span class="user-name">이수민</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-gray">팔로우하기</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="g g-pd-sm post-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/am.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="">
+                                                                    <span class="user-id">j.__en</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div>
+<!--                                                                    <span class="user-name">박정은</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-primary">팔로우</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="g g-pd-sm post-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/be.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="">
+                                                                    <span class="user-id">gentle_sb</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div>
+<!--                                                                    <span class="user-name">진구</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-primary">팔로우</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="g g-pd-sm post-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/ax.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="">
+                                                                    <span class="user-id">street__spirit</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div>
+<!--                                                                    <span class="user-name">궤도</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                            <span class="forms">
+                                                <button type="button" class="btn-primary">팔로우</button>
+                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!--
                             <div class="user-list alarm-list">
                                 <ul>
                                     <li>
@@ -380,6 +660,7 @@
                                     </li>
                                 </ul>
                             </div>
+                            -->
                         </div>
                         <!-- 모달 바디 End -->
 

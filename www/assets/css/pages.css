@@ -1,8 +1,25 @@
+/* 검색 */
+.search-input{}
+/* 검색 End */
+
+/* 링크 리스트 - modal */
+.modal-body .modal-list li{margin:5px 0;}
+.modal-list li > a{overflow:hidden;display:block;border:1px solid #c8c8c8;border-radius:5px;padding:7px 0;height:100%;}
+.modal-list li.last{margin-top:10px;}
+/* 링크 리스트 - modal End */
+
+/* 로그인-modal */
+#modalLogin .modal-content{max-width:310px;}
+#modal-login .login-auto{padding-bottom:2px;font-size:14px;text-align:right;}
+#modal-login .login-sns{text-align:center;}
+#modal-login .login-lnk a{font-size:14px;}
+#modal-login .login-sns img{display:inline-block;height:38px;padding:0px;margin:0 5px;}
+/* 로그인-modal End */
 
 /* 상장 리스트 */
 .post__list{margin-top:20px;}
-.post__list > .r{flex-wrap:wrap;justify-content:space-between;gap:30px 0}
-.post__list > .r > .c{max-width:300px;}
+.post__list > .r{flex-wrap:wrap;justify-content:center;gap:30px 0}
+.post__list > .r > .c{width:100%;max-width:330px;align-items:start;}
 .post__list__outer{display:inline-block;width:100%;margin:0 14px;padding-bottom:10px;border:1px solid #ddd;border-radius:10px;overflow:hidden;}
 .sz-img{display:block;width:100%;}
 section#container, header .header, footer .footer{max-width: 1000px;margin:0 auto;}

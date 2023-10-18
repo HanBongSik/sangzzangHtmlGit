@@ -22,7 +22,7 @@
 
         <br></br>
         <div style="text-align:center;">
-            <a href="/pages/3d/index.php">3D 상장<br><img src="assets/tempImg/iu.png" style="box-shadow:6px 8px 32px rgb(0 0 0 / 20%);border-radius:20px;overflow:hidden;"></a>
+            <a href="/pages/3d/index.php">3D 상장<br><img src="/assets/tempImg/iu.png" style="box-shadow:6px 8px 32px rgb(0 0 0 / 20%);border-radius:20px;overflow:hidden;"></a>
         </div>
 
         <!--

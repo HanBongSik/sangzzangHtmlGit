@@ -8,7 +8,7 @@
 													<!-- 상장 내용 -->
 													<div class="sz-img">
 														<a href="./sz_view.php">
-															<img src="./assets/img/temp_sz.png" alt="받은 상장">
+															<img src="/assets/img/temp_sz.png" alt="받은 상장">
 														</a>
 													</div>
 													<!-- 상장 내용 End -->
@@ -18,7 +18,7 @@
 													<!-- 작성자 -->
 													<div class="user">
 														<div class="user-img">
-															<a href="#;"><img src="assets/tempImg/profile/hbs.jpg" alt="">
+															<a href="#;"><img src="/assets/tempImg/profile/hbs.jpg" alt="">
 															</a>
 														</div>
 														<div class="user-nickname">
@@ -26,7 +26,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="/assets/img/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -53,23 +53,23 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="/assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="/assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
 																	<span class="photo">
-																		<img class="ico-photo" src="./assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
+																		<img class="ico-photo" src="/assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
 																	</span>
 																</a>
 																<!--
 																<a href="#;">
 																	<span  class="movie">
-																		<img src="./assets/img/ico-movie.png" alt="movie"/>
+																		<img src="/assets/img/ico-movie.png" alt="movie"/>
 																	</span>
 																</a>
 																-->
@@ -86,27 +86,27 @@
 															<ul class="row">
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/o.gif">
+																		<img src="/assets/tempImg/thumb/o.gif">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/h.gif" alt="">
+																		<img src="/assets/tempImg/thumb/h.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/g.gif" alt="">
+																		<img src="/assets/tempImg/thumb/g.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/x.gif" alt="">
+																		<img src="/assets/tempImg/thumb/x.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/z.gif" alt="">
+																		<img src="/assets/tempImg/thumb/z.gif" alt="">
 																	</div>
 																</li>
 															</ul>
@@ -128,7 +128,7 @@
 													<!-- 상장 내용 -->
 													<div class="sz-img">
 														<a href="./sz_view.php">
-															<img src="./assets/img/temp_sz.png" alt="받은 상장">
+															<img src="/assets/img/temp_sz.png" alt="받은 상장">
 														</a>
 													</div>
 													<!-- 상장 내용 End -->
@@ -138,7 +138,7 @@
 													<!-- 작성자 -->
 													<div class="user">
 														<div class="user-img">
-															<a href="#;"><img src="assets/tempImg/profile/hbs.jpg" alt="">
+															<a href="#;"><img src="/assets/tempImg/profile/hbs.jpg" alt="">
 															</a>
 														</div>
 														<div class="user-nickname">
@@ -146,7 +146,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="/assets/img/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -173,23 +173,23 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="/assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="/assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
 																	<span class="photo">
-																		<img class="ico-photo" src="./assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
+																		<img class="ico-photo" src="/assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
 																	</span>
 																</a>
 																<!--
 																<a href="#;">
 																	<span  class="movie">
-																		<img src="./assets/img/ico-movie.png" alt="movie"/>
+																		<img src="/assets/img/ico-movie.png" alt="movie"/>
 																	</span>
 																</a>
 																-->
@@ -206,27 +206,27 @@
 															<ul class="row">
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/o.gif">
+																		<img src="/assets/tempImg/thumb/o.gif">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/h.gif" alt="">
+																		<img src="/assets/tempImg/thumb/h.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/g.gif" alt="">
+																		<img src="/assets/tempImg/thumb/g.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/x.gif" alt="">
+																		<img src="/assets/tempImg/thumb/x.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/z.gif" alt="">
+																		<img src="/assets/tempImg/thumb/z.gif" alt="">
 																	</div>
 																</li>
 															</ul>
@@ -248,7 +248,7 @@
 													<!-- 상장 내용 -->
 													<div class="sz-img">
 														<a href="./sz_view.php">
-															<img src="./assets/img/temp_sz.png" alt="받은 상장">
+															<img src="/assets/img/temp_sz.png" alt="받은 상장">
 														</a>
 													</div>
 													<!-- 상장 내용 End -->
@@ -258,7 +258,7 @@
 													<!-- 작성자 -->
 													<div class="user">
 														<div class="user-img">
-															<a href="#;"><img src="assets/tempImg/profile/hbs.jpg" alt="">
+															<a href="#;"><img src="/assets/tempImg/profile/hbs.jpg" alt="">
 															</a>
 														</div>
 														<div class="user-nickname">
@@ -266,7 +266,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="/assets/img/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -293,23 +293,23 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="/assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="/assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
 																	<span class="photo">
-																		<img class="ico-photo" src="./assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
+																		<img class="ico-photo" src="/assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
 																	</span>
 																</a>
 																<!--
 																<a href="#;">
 																	<span  class="movie">
-																		<img src="./assets/img/ico-movie.png" alt="movie"/>
+																		<img src="/assets/img/ico-movie.png" alt="movie"/>
 																	</span>
 																</a>
 																-->
@@ -326,27 +326,27 @@
 															<ul class="row">
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/o.gif">
+																		<img src="/assets/tempImg/thumb/o.gif">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/h.gif" alt="">
+																		<img src="/assets/tempImg/thumb/h.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/g.gif" alt="">
+																		<img src="/assets/tempImg/thumb/g.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/x.gif" alt="">
+																		<img src="/assets/tempImg/thumb/x.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/z.gif" alt="">
+																		<img src="/assets/tempImg/thumb/z.gif" alt="">
 																	</div>
 																</li>
 															</ul>
@@ -368,7 +368,7 @@
 													<!-- 상장 내용 -->
 													<div class="sz-img">
 														<a href="./sz_view.php">
-															<img src="./assets/img/temp_sz.png" alt="받은 상장">
+															<img src="/assets/img/temp_sz.png" alt="받은 상장">
 														</a>
 													</div>
 													<!-- 상장 내용 End -->
@@ -378,7 +378,7 @@
 													<!-- 작성자 -->
 													<div class="user">
 														<div class="user-img">
-															<a href="#;"><img src="assets/tempImg/profile/hbs.jpg" alt="">
+															<a href="#;"><img src="/assets/tempImg/profile/hbs.jpg" alt="">
 															</a>
 														</div>
 														<div class="user-nickname">
@@ -386,7 +386,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="/assets/img/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -413,23 +413,23 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="/assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="/assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
 																	<span class="photo">
-																		<img class="ico-photo" src="./assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
+																		<img class="ico-photo" src="/assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
 																	</span>
 																</a>
 																<!--
 																<a href="#;">
 																	<span  class="movie">
-																		<img src="./assets/img/ico-movie.png" alt="movie"/>
+																		<img src="/assets/img/ico-movie.png" alt="movie"/>
 																	</span>
 																</a>
 																-->
@@ -446,27 +446,27 @@
 															<ul class="row">
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/o.gif">
+																		<img src="/assets/tempImg/thumb/o.gif">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/h.gif" alt="">
+																		<img src="/assets/tempImg/thumb/h.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/g.gif" alt="">
+																		<img src="/assets/tempImg/thumb/g.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/x.gif" alt="">
+																		<img src="/assets/tempImg/thumb/x.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/z.gif" alt="">
+																		<img src="/assets/tempImg/thumb/z.gif" alt="">
 																	</div>
 																</li>
 															</ul>
@@ -488,7 +488,7 @@
 													<!-- 상장 내용 -->
 													<div class="sz-img">
 														<a href="./sz_view.php">
-															<img src="./assets/img/temp_sz.png" alt="받은 상장">
+															<img src="/assets/img/temp_sz.png" alt="받은 상장">
 														</a>
 													</div>
 													<!-- 상장 내용 End -->
@@ -498,7 +498,7 @@
 													<!-- 작성자 -->
 													<div class="user">
 														<div class="user-img">
-															<a href="#;"><img src="assets/tempImg/profile/hbs.jpg" alt="">
+															<a href="#;"><img src="/assets/tempImg/profile/hbs.jpg" alt="">
 															</a>
 														</div>
 														<div class="user-nickname">
@@ -506,7 +506,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="/assets/img/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -533,23 +533,23 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="/assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="/assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
 																	<span class="photo">
-																		<img class="ico-photo" src="./assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
+																		<img class="ico-photo" src="/assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
 																	</span>
 																</a>
 																<!--
 																<a href="#;">
 																	<span  class="movie">
-																		<img src="./assets/img/ico-movie.png" alt="movie"/>
+																		<img src="/assets/img/ico-movie.png" alt="movie"/>
 																	</span>
 																</a>
 																-->
@@ -566,27 +566,27 @@
 															<ul class="row">
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/o.gif">
+																		<img src="/assets/tempImg/thumb/o.gif">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/h.gif" alt="">
+																		<img src="/assets/tempImg/thumb/h.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/g.gif" alt="">
+																		<img src="/assets/tempImg/thumb/g.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/x.gif" alt="">
+																		<img src="/assets/tempImg/thumb/x.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/z.gif" alt="">
+																		<img src="/assets/tempImg/thumb/z.gif" alt="">
 																	</div>
 																</li>
 															</ul>
@@ -608,7 +608,7 @@
 													<!-- 상장 내용 -->
 													<div class="sz-img">
 														<a href="./sz_view.php">
-															<img src="./assets/img/temp_sz.png" alt="받은 상장">
+															<img src="/assets/img/temp_sz.png" alt="받은 상장">
 														</a>
 													</div>
 													<!-- 상장 내용 End -->
@@ -618,7 +618,7 @@
 													<!-- 작성자 -->
 													<div class="user">
 														<div class="user-img">
-															<a href="#;"><img src="assets/tempImg/profile/hbs.jpg" alt="">
+															<a href="#;"><img src="/assets/tempImg/profile/hbs.jpg" alt="">
 															</a>
 														</div>
 														<div class="user-nickname">
@@ -626,7 +626,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="/assets/img/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -653,23 +653,23 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="/assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="/assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
 																	<span class="photo">
-																		<img class="ico-photo" src="./assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
+																		<img class="ico-photo" src="/assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
 																	</span>
 																</a>
 																<!--
 																<a href="#;">
 																	<span  class="movie">
-																		<img src="./assets/img/ico-movie.png" alt="movie"/>
+																		<img src="/assets/img/ico-movie.png" alt="movie"/>
 																	</span>
 																</a>
 																-->
@@ -686,27 +686,27 @@
 															<ul class="row">
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/o.gif">
+																		<img src="/assets/tempImg/thumb/o.gif">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/h.gif" alt="">
+																		<img src="/assets/tempImg/thumb/h.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/g.gif" alt="">
+																		<img src="/assets/tempImg/thumb/g.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/x.gif" alt="">
+																		<img src="/assets/tempImg/thumb/x.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/z.gif" alt="">
+																		<img src="/assets/tempImg/thumb/z.gif" alt="">
 																	</div>
 																</li>
 															</ul>
@@ -728,7 +728,7 @@
 													<!-- 상장 내용 -->
 													<div class="sz-img">
 														<a href="./sz_view.php">
-															<img src="./assets/img/temp_sz.png" alt="받은 상장">
+															<img src="/assets/img/temp_sz.png" alt="받은 상장">
 														</a>
 													</div>
 													<!-- 상장 내용 End -->
@@ -738,7 +738,7 @@
 													<!-- 작성자 -->
 													<div class="user">
 														<div class="user-img">
-															<a href="#;"><img src="assets/tempImg/profile/hbs.jpg" alt="">
+															<a href="#;"><img src="/assets/tempImg/profile/hbs.jpg" alt="">
 															</a>
 														</div>
 														<div class="user-nickname">
@@ -746,7 +746,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="/assets/img/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -773,23 +773,23 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="/assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="/assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
 																	<span class="photo">
-																		<img class="ico-photo" src="./assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
+																		<img class="ico-photo" src="/assets/img/ico-photo.png" alt="photo"> <span class="nums">5</span>
 																	</span>
 																</a>
 																<!--
 																<a href="#;">
 																	<span  class="movie">
-																		<img src="./assets/img/ico-movie.png" alt="movie"/>
+																		<img src="/assets/img/ico-movie.png" alt="movie"/>
 																	</span>
 																</a>
 																-->
@@ -806,27 +806,27 @@
 															<ul class="row">
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/o.gif">
+																		<img src="/assets/tempImg/thumb/o.gif">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/h.gif" alt="">
+																		<img src="/assets/tempImg/thumb/h.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/g.gif" alt="">
+																		<img src="/assets/tempImg/thumb/g.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/x.gif" alt="">
+																		<img src="/assets/tempImg/thumb/x.gif" alt="">
 																	</div>
 																</li>
 																<li class="col-20p">
 																	<div>
-																		<img src="assets/tempImg/thumb/z.gif" alt="">
+																		<img src="/assets/tempImg/thumb/z.gif" alt="">
 																	</div>
 																</li>
 															</ul>
