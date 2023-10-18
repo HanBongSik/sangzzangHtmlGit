@@ -12,14 +12,20 @@
     <link href="/assets/css/default.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="/assets/css/guide-only.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="/assets/css/guide.css?v=<?php echo $version ?>" rel="stylesheet">
-    <!--        <link href="https://hanbongsik.cafe24.com/guide/assets/css/guide.css?v=1" rel="stylesheet">-->
-    <link href="/assets/css/layout.css?v=1" rel="stylesheet">
+
+    <link href="/assets/css/guide_impreci.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="/assets/css/layout.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="/assets/css/pages.css?v=<?php echo $version ?>" rel="stylesheet">
 
     <!-- lib -->
     <script src="/assets/lib/jquery-3.6.3.min.js?v=1"></script>
     <script src="/assets/lib/jquery-ui.js?v=1"></script>
     <link href="/assets/lib/jquery-ui.css?v=1" type="text/css" rel="stylesheet"/>
     <!-- lib End -->
+
+
+
+
 
     <script src="/assets/js/guide-layout.js?v=<?php echo $version ?>"></script>
     <script src="/assets/js/guide.js?v=<?php echo $version ?>"></script>

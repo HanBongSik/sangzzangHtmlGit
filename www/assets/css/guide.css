@@ -1495,6 +1495,7 @@ table.align-bottom, table .align-bottom{vertical-align:bottom !important;}
 
 .g-mgt{margin-top:54px !important;}
 .r{display:flex;}
+.r.r-wrap{flex-wrap:wrap;}
 .c{flex:auto;display:flex;align-items:center;}
 
 .r.r-mg-xs{margin:22px;}
@@ -1570,7 +1571,28 @@ table.align-bottom, table .align-bottom{vertical-align:bottom !important;}
 .r.c-pd-ver-lg > .c{padding-top:20px;padding-bottom:20px;}
 .r.c-pd-ver-xl > .c{padding-top:30px;padding-bottom:30px;}
 
-.c.c-float{flex:none !important;}
+.layout-flex{display:flex;gap:10px;flex-wrap:wrap;}
+.layout-flex .c{white-space:nowrap;display:flex;flex-wrap:wrap;align-items:center;text-align:left;}
+.layout-flex .c.fixed{white-space:nowrap;flex:0 auto;display:flex;align-items:center;}
+.layout-flex .c.flexible{flex-grow:1;display:flex;align-items:center;}
+.layout-flex .c.flexible-column{flex-grow:1;display:flex;flex-direction:column;align-items:flex-start;text-align:left;}
+
+/*
+    default (flex-basis가 auto이기 때문에 flex항목은 내부 컨텐츠 크기 만큼 공간을 차지하게 된다)
+    .c{flex:auto;flex: 1 1 auto;}
+*/
+
+.c.c-inner-width{flex:none !important;}
+.c.c-fixed-width{flex:none !important;}
+.c.c-full-width{flex:1 !important;}
+/*
+    1. 넓이 고정 c.fixed-width | flex:none;width:--px; (flex: 0 0 auto;)
+    2. 안쪽의 넓이 c.inner-width | flex:none; (flex: 0 0 auto;)
+    3. 이웃의 나머지 c.full-width | flex:1; ( flex: 1 0 auto;)
+    ✔4. 늘어났을 때 하단으로 r-wrap | flex-wrap:wrap;
+
+    기본값 flex:auto;
+*/
 
 .r.gap-xs{gap:2px;}
 .r.gap-sm{gap:4px;}
@@ -1712,11 +1734,5 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type=
 /*.layout-flex .col.fixed{white-space:nowrap;display:flex;align-items:center;}*/
 /*.layout-flex .col.flexible{flex-grow:1;display:flex;align-items:center;}*/
 /*.layout-flex .col.flexible-column{flex-grow:1;display:flex;flex-direction:column;align-items:flex-start;text-align:left;}*/
-
-.layout-flex{display:flex;gap:10px;flex-wrap:wrap;}
-.layout-flex .c{white-space:nowrap;display:flex;flex-wrap:wrap;align-items:center;text-align:left;}
-.layout-flex .c.fixed{white-space:nowrap;flex:0 auto;display:flex;align-items:center;}
-.layout-flex .c.flexible{flex-grow:1;display:flex;align-items:center;}
-.layout-flex .c.flexible-column{flex-grow:1;display:flex;flex-direction:column;align-items:flex-start;text-align:left;}
 
 

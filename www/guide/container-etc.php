@@ -9,12 +9,13 @@
                 ETC<span class="__sub">기타</span>
             </div>
             <div class="__h2">
-                (0) - 이용약관
+                (0) - 기본 정보 레이아웃 구조 <br>
+                사용 - 리스트
             </div>
             <div class="__preview">
                 <div class="__view" title="">
                     <div class="__list_wrapper">
-                        <?php include("types-etc/form-grid.tpl"); ?>
+                        <?php include("types_etc/info.tpl"); ?>
                     </div>
                 </div>
             </div>

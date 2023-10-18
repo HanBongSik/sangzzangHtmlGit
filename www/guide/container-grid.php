@@ -10,181 +10,37 @@
                 자주 쓰는 예제
             </div>
             <div class="__h2">
-                (1) - aaa
+                (1) - 3단 구조
             </div>
+
             <div class="__preview">
-                <div class="__view" title="col-align">
+                <div class="__view" title="usefull">
                     <div class="__list_wrapper">
-
-
-                        <div class="__list_wrap">
-                            <!--<div class="__list">-->
-                            <div class="__figure">
-                                <div class="__element">
-
-                                    <div class="g">
-
-                                        <div class="r">
-                                            <div class="c" style="height:50px;">
-                                                .c
-                                            </div>
-                                        </div>
-                                        <div class="r">
-                                            <div class="c" style="height:50px;">
-                                                .c
-                                            </div>
-                                        </div>
-
-                                        <div class="r">
-                                            <div class="c" style="height:50px;">
-                                                .c
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="__class" style="text-align:center;">.g .r.c-</div>
-                            </div>
-                            <!--</div>-->
-                        </div>
-
-
+                        <?php include("types-grid/usefull.tpl"); ?>
                     </div>
                 </div>
             </div>
 
 
             <div class="__h2">
-                (1) - bbb
+                (1) - 다중 구조
             </div>
             <div class="__preview">
-                <div class="__view" title="col-margin">
+                <div class="__view" title="usefull-02">
                     <div class="__list_wrapper">
-
-
-                        <div class="__list_wrap">
-                            <!--<div class="__list">-->
-                            <div class="__figure">
-                                <div class="__element">
-
-                                    <div class="g">
-
-                                        <div class="r">
-                                            <div class="c">
-                                                .c
-                                            </div>
-                                            <div class="c">
-                                                .c
-                                            </div>
-                                            <div class="c">
-
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="c" style="height:20px;">
-                                                                .c
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="c" style="height:20px;">
-                                                                .c
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="c" style="height:20px;">
-                                                                .c
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="c">
-                                                .c
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="__class" style="text-align:center;">.g .r.c-</div>
-                            </div>
-                            <!--</div>-->
-                        </div>
-
-
+                        <?php include("types-grid/usefull-02.tpl"); ?>
                     </div>
                 </div>
             </div>
 
             <div class="__h2">
-                (1) - 반응형일 때 2줄에서 1줄로, 1줄에서 2줄로
+                (1) - 내부 크기가 넘치면 하단으로 내리기
             </div>
+
             <div class="__preview">
-                <div class="__view" title="col-margin">
+                <div class="__view" title="usefull-03">
                     <div class="__list_wrapper">
-
-
-                        <div class="__list_wrap">
-                            <!--<div class="__list">-->
-                            <div class="__figure">
-                                <div class="__element">
-
-                                    <div class="g">
-
-                                        <div class="r">
-                                            <div class="c">
-                                                .c
-                                            </div>
-                                            <div class="c">
-                                                .c
-                                            </div>
-                                            <div class="c">
-
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="c" style="height:20px;">
-                                                                .c
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="c" style="height:20px;">
-                                                                .c
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="c" style="height:20px;">
-                                                                .c
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="c">
-                                                .c
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="__class" style="text-align:center;">.g .r.c-</div>
-                            </div>
-                            <!--</div>-->
-                        </div>
-
-
+                        <?php include("types-grid/usefull-03.tpl"); ?>
                     </div>
                 </div>
             </div>
@@ -244,7 +100,7 @@
             <div class="__preview">
                 <div class="__view" title="grid-flexible-fixed">
                     <div class="__list_wrapper">
-                        <?php include("types-grid/grid-flexible-fixed.tpl"); ?>
+                        <?php include("types-grid/col-width.tpl"); ?>
                     </div>
                 </div>
             </div>
@@ -368,6 +224,17 @@
                 <div class="__view" title="col-margin-custom">
                     <div class="__list_wrapper">
                         <?php include("types-grid/col-margin-custom.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+
+            <div class="__h2">
+                (1) - col 자동넓이 설정 (사용❌)
+            </div>
+            <div class="__preview">
+                <div class="__view" title="col-margin-custom">
+                    <div class="__list_wrapper">
+                        <?php /* include("types-grid/grid-flexible-fixed.tpl"); */ ?>
                     </div>
                 </div>
             </div>

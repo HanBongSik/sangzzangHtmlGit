@@ -48,7 +48,7 @@
 <!--                                        <div class="c c-float">-->
 <!--                                            <div class="num">1</div>-->
 <!--                                        </div>-->
-                                        <div class="c c-float">
+                                        <div class="c c-inner-width">
                                             <div class="img-profile">
                                                 <div class="img-profile-outer">
                                                     <img class="img-profile-outer__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
@@ -83,7 +83,7 @@
 <!--                                                </div>-->
                                             </div>
                                         </div>
-                                        <div class="c c-float">
+                                        <div class="c c-inner-width">
                                             <div class="btn-user-action">
 <!--                                                <span class="forms">-->
 <!--                                                    <button type="button" class="btn-primary">follow</button>-->
