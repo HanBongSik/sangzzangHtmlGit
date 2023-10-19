@@ -15,14 +15,15 @@
             <div class="__preview">
                 <div class="__view" title="">
                     <div class="__list_wrapper">
-                        <?php include("types_etc/info.tpl"); ?>
+                        <?php include("types-etc/info.tpl"); ?>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="__box">
             <div class="__h1">
-                Form <span class="__sub">datepicker추가</span>
+                검색 <span class="__sub"></span>
             </div>
             <div class="__h2">
                 (0) - 필수폼 인라인, 폼의 마진, 라벨 인풋 상하버전
@@ -30,7 +31,39 @@
             <div class="__preview">
                 <div class="__view" title="">
                     <div class="__list_wrapper">
-                        <?php include("types-etc/form.tpl"); ?>
+                        <?php include("types-etc/search.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="__box">
+            <div class="__h1">
+                보낸사람 <span class="__sub"></span>
+            </div>
+            <div class="__h2">
+                (0) - 필수폼 인라인, 폼의 마진, 라벨 인풋 상하버전
+            </div>
+            <div class="__preview">
+                <div class="__view" title="">
+                    <div class="__list_wrapper">
+                        <?php include("types-etc/with-sender.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="__box">
+            <div class="__h1">
+                보낸사람2 <span class="__sub"></span>
+            </div>
+            <div class="__h2">
+                (0) - 필수폼 인라인, 폼의 마진, 라벨 인풋 상하버전
+            </div>
+            <div class="__preview">
+                <div class="__view" title="">
+                    <div class="__list_wrapper">
+                        <?php include("types-etc/with-sender2.tpl"); ?>
                     </div>
                 </div>
             </div>
