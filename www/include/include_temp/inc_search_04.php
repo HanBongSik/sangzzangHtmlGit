@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->
@@ -333,7 +333,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->
@@ -462,7 +462,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->
@@ -601,7 +601,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->
@@ -758,7 +758,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->
@@ -911,7 +911,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->
@@ -1063,7 +1063,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->
@@ -1215,7 +1215,7 @@
                     </div>
                 </div>
                 <div class="post_list__inner">
-                    <div class="g g-pd-sm post-info">
+                    <div class="g g-pd-sm user-action-info">
                         <div class="r">
                             <!--                                        <div class="c c-float">-->
                             <!--                                            <div class="num">1</div>-->

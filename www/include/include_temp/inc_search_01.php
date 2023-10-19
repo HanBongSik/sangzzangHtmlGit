@@ -2,7 +2,7 @@
 <div class="user-list">
     <ul>
         <li>
-            <div class="g g-pd-sm post-info">
+            <div class="g g-pd-sm user-action-info">
                 <div class="r">
                     <!--                                        <div class="c c-float">-->
                     <!--                                            <div class="num">1</div>-->
@@ -54,7 +54,7 @@
         </li>
 
         <li>
-            <div class="g g-pd-sm post-info">
+            <div class="g g-pd-sm user-action-info">
                 <div class="r">
                     <!--                                        <div class="c c-float">-->
                     <!--                                            <div class="num">1</div>-->
@@ -106,7 +106,7 @@
         </li>
 
         <li>
-            <div class="g g-pd-sm post-info">
+            <div class="g g-pd-sm user-action-info">
                 <div class="r">
                     <!--                                        <div class="c c-float">-->
                     <!--                                            <div class="num">1</div>-->
@@ -158,7 +158,7 @@
         </li>
 
         <li>
-            <div class="g g-pd-sm post-info">
+            <div class="g g-pd-sm user-action-info">
                 <div class="r">
                     <!--                                        <div class="c c-float">-->
                     <!--                                            <div class="num">1</div>-->
@@ -211,7 +211,7 @@
 
         <li>
 
-            <div class="g g-pd-sm post-info">
+            <div class="g g-pd-sm user-action-info">
                 <div class="r">
                     <!--                                        <div class="c c-float">-->
                     <!--                                            <div class="num">1</div>-->

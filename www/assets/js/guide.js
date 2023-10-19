@@ -235,7 +235,10 @@ window.addEventListener('resize', () => {
     }
 
     function bindDatepicker(){
-        $( ".datepicker" ).datepicker();
+        if($(".datepicker").length > 0){
+            $(".datepicker").datepicker();
+        }
+
     }
     function datepickerSetting(){
         if ($.datepicker)

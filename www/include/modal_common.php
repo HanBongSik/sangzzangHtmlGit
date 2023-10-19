@@ -151,7 +151,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                                 <!-- tabs -->
@@ -216,12 +215,11 @@
 
 
 	<!-- 알람 모달 팝업 -->
-
     <div class="modal-dimmed" id="modalAlarm">
         <div class="modal-full modal-height-max-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
-                    <div class="modal-content" data-ani-on="modal-ani-big" data-ani-off="modal-ani-big-small">
+                    <div class="modal-content" data-ani-on="modal-ani-up" data-ani-off="modal-ani-up-down">
                         <div class="modal-close">
                             <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
                         </div>
