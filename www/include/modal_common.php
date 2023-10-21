@@ -136,6 +136,10 @@
                         <!-- 모달 바디 -->
                         <div class="modal-body">
                             <div class="search-layer-body">
+
+
+
+
                                 <div class="search">
                                     <div class="g search-input">
                                         <div class="r gap-hor-sm">
@@ -153,16 +157,20 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- tabs -->
-                                <div class="tabs fixed">
-                                    <ul>
-                                        <li class="active"><a href="#tabSearchAll">전체</a></li>
-                                        <li><a href="#tabSearchUser">회원</a></li>
-<!--                                        <li><a href="#tabSearchTag">태그</a></li>-->
-                                        <li><a href="#tabSearchSkill">스킬</a></li>
-                                        <li><a href="#tabSearchSz">상장</a></li>
-                                    </ul>
-                                </div>
+
+                                <div class="tab search_tab">
+                                    <div class="tab__list fixed">
+                                        <ul>
+                                            <li class="active"><a href="#tabSearchAll" data-target="#tabSearchAll">전체</a></li>
+                                            <li><a href="#tabSearchUser" data-target="#tabSearchUser">회원</a></li>
+                                            <!--                                        <li><a href="#tabSearchTag">태그</a></li>-->
+                                            <li><a href="#tabSearchSkill" data-target="#tabSearchSkill">스킬</a></li>
+                                            <li><a href="#tabSearchSz" data-target="#tabSearchSz">상장</a></li>
+                                        </ul>
+                                    </div>
+
+
+
                                 <!-- tabs End -->
                                 <!-- panels -->
                                 <div class="panels">
@@ -196,6 +204,8 @@
                                     </div>
 
                                 </div>
+                            </div>
+
                             </div>
                         </div>
                         <!-- 모달 바디 End -->
@@ -235,7 +245,7 @@
                                 <ul>
                                     <li>
 
-                                        <div class="g g-pd-sm post-info">
+                                        <div class="g g-pd-sm user-action-info">
                                             <div class="r">
                                                 <!--                                        <div class="c c-float">-->
                                                 <!--                                            <div class="num">1</div>-->
@@ -251,7 +261,7 @@
                                                     <div class="g">
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div class="">
+                                                                <div class="user-action-info-detail">
                                                                     <span class="user-id">lilyiu_</span>
                                                                     <span class="user-action">님이 상장을 보냈습니다.</span>
                                                                     <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -260,7 +270,7 @@
                                                         </div>
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div>
+                                                                <div class="user-action-info-detail">
 <!--                                                                    <span class="user-name">아이유</span>-->
                                                                     <span class="user-action-date">23.10.17 10 11</span>
                                                                 </div>
@@ -288,7 +298,7 @@
                                     </li>
 
                                     <li>
-                                        <div class="g g-pd-sm post-info">
+                                        <div class="g g-pd-sm user-action-info">
                                             <div class="r">
                                                 <!--                                        <div class="c c-float">-->
                                                 <!--                                            <div class="num">1</div>-->
@@ -304,7 +314,7 @@
                                                     <div class="g">
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div class="">
+                                                                <div class="user-action-info-detail">
                                                                     <span class="user-id">ssuiming_yo</span>
                                                                     <span class="user-action">님이 상장을 보냈습니다.</span>
                                                                     <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -313,7 +323,7 @@
                                                         </div>
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div>
+                                                                <div class="user-action-info-detail">
 <!--                                                                    <span class="user-name">이수민</span>-->
                                                                     <span class="user-action-date">23.10.17 10 11</span>
                                                                 </div>
@@ -340,7 +350,7 @@
                                     </li>
 
                                     <li>
-                                        <div class="g g-pd-sm post-info">
+                                        <div class="g g-pd-sm user-action-info">
                                             <div class="r">
                                                 <!--                                        <div class="c c-float">-->
                                                 <!--                                            <div class="num">1</div>-->
@@ -356,7 +366,7 @@
                                                     <div class="g">
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div class="">
+                                                                <div class="user-action-info-detail">
                                                                     <span class="user-id">j.__en</span>
                                                                     <span class="user-action">님이 상장을 보냈습니다.</span>
                                                                     <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -365,7 +375,7 @@
                                                         </div>
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div>
+                                                                <div class="user-action-info-detail">
 <!--                                                                    <span class="user-name">박정은</span>-->
                                                                     <span class="user-action-date">23.10.17 10 11</span>
                                                                 </div>
@@ -392,7 +402,7 @@
                                     </li>
 
                                     <li>
-                                        <div class="g g-pd-sm post-info">
+                                        <div class="g g-pd-sm user-action-info">
                                             <div class="r">
                                                 <!--                                        <div class="c c-float">-->
                                                 <!--                                            <div class="num">1</div>-->
@@ -408,7 +418,7 @@
                                                     <div class="g">
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div class="">
+                                                                <div class="user-action-info-detail">
                                                                     <span class="user-id">gentle_sb</span>
                                                                     <span class="user-action">님이 상장을 보냈습니다.</span>
                                                                     <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -417,7 +427,7 @@
                                                         </div>
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div>
+                                                                <div class="user-action-info-detail">
 <!--                                                                    <span class="user-name">진구</span>-->
                                                                     <span class="user-action-date">23.10.17 10 11</span>
                                                                 </div>
@@ -444,7 +454,7 @@
                                     </li>
 
                                     <li>
-                                        <div class="g g-pd-sm post-info">
+                                        <div class="g g-pd-sm user-action-info">
                                             <div class="r">
                                                 <!--                                        <div class="c c-float">-->
                                                 <!--                                            <div class="num">1</div>-->
@@ -460,7 +470,7 @@
                                                     <div class="g">
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div class="">
+                                                                <div class="user-action-info-detail">
                                                                     <span class="user-id">street__spirit</span>
                                                                     <span class="user-action">님이 상장을 보냈습니다.</span>
                                                                     <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -469,7 +479,7 @@
                                                         </div>
                                                         <div class="r">
                                                             <div class="c">
-                                                                <div>
+                                                                <div class="user-action-info-detail">
 <!--                                                                    <span class="user-name">궤도</span>-->
                                                                     <span class="user-action-date">23.10.17 10 11</span>
                                                                 </div>
@@ -1108,30 +1118,80 @@
 	</div>
 	<!-- 사진 보기 End -->
 
-    <!-- 사진 보기 S -->
-    <div class="modal-dimmed modal-skill" tabindex="0">
-        <div class="modal">
+    <!-- 스킬 보기 -->
+    <div class="modal-dimmed" id="modalSkill">
+        <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
-                    <div class="modal-content">
+                    <div class="modal-content" data-ani-on="modal-ani-big" data-ani-off="modal-ani-big-small">
                         <div class="modal-close">
-                            <a href="#modal" class="modal-close close">×<span class="hidden">닫기</span></a>
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
                         </div>
                         <!-- 모달 헤더 -->
                         <div class="modal-header">
-                            <h2>{닉네임}님의 스킬
-                                <a href="/assets/img/sample/sample-01.png" target="_blank"><img class="concept" src="/assets/img/sample/concept-01.png" alt=""></a>
-                                <a href="/assets/img/sample/sample-02.png" target="_blank"><img class="concept" src="/assets/img/sample/concept-02.png" alt=""></a>
-                                <a href="/assets/img/sample/sample-03.png" target="_blank"><img class="concept" src="/assets/img/sample/concept-03.png" alt=""></a>
-                                <a href="/assets/img/sample/sample-06.png" target="_blank"><img class="concept" src="/assets/img/sample/concept-04.png" alt=""></a>
-                                <a href="/assets/img/sample/sample-04.png" target="_blank"><img class="concept" src="/assets/img/sample/concept-01.png" alt=""></a>
-                                <a href="/assets/img/sample/sample-05.png" target="_blank"><img class="concept" src="/assets/img/sample/concept-02.png" alt=""></a>
-                            </h2>
+                            <h2>한봉식님의 스킬</h2>
                         </div>
                         <!-- 모달 헤더 End -->
 
                         <!-- 모달 바디 -->
                         <div class="modal-body">
+                            <div class="g g-pd-sm user-action-info">
+                                <div class="r">
+                                    <!--                                        <div class="c c-float">-->
+                                    <!--                                            <div class="num">1</div>-->
+                                    <!--                                        </div>-->
+                                    <div class="c c-inner-width">
+                                        <div class="img-profile">
+                                            <div class="img-profile-outer">
+                                                <img class="img-profile-outer__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="c">
+                                        <div class="g">
+                                            <div class="r">
+                                                <div class="c">
+                                                    <div class="user-action-info-detail">
+                                                        <span class="user-id">bongsikhan</span>
+                                                        <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                        <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="r">
+                                                <div class="c">
+                                                    <div class="user-action-info-detail">
+                                                        <span class="user-name">한봉식</span>
+                                                        <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--                                                <div class="r">-->
+                                            <!--                                                    <div class="c">-->
+                                            <!--                                                        <div class="skill-list">-->
+                                            <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                            <!--                                                        </div>-->
+                                            <!--                                                    </div>-->
+                                            <!--                                                </div>-->
+                                        </div>
+                                    </div>
+                                    <div class="c c-inner-width">
+                                        <div class="btn-user-action">
+                                            <!--                                                <span class="forms">-->
+                                            <!--                                                    <button type="button" class="btn-primary">follow</button>-->
+                                            <!--                                                </span>-->
+                                        </div>
+
+<!--                                        <div class="btn-more-action">-->
+<!--                                            <div class="img-more">-->
+<!--                                                <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+                                    </div>
+                                </div>
+
+                            </div>
+
                             <div class="user-skill-grp" style="margin:0 auto;width:278px;height:300px;">
                             </div>
                             <div class="user-skill-detail-grp">
@@ -1186,7 +1246,8 @@
 
                         <!-- 모달 푸터 -->
                         <div class="modal-footer">
-                            <button type="button" class="button secondary block x-large close" tabindex="0">취소</button>
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
                         </div>
                         <!-- 모달 푸터 End -->
                     </div>
@@ -1194,11 +1255,13 @@
             </div>
         </div>
     </div>
+    <!-- 스킬 보기 End -->
+
     <!-- 유저 팝업 End -->
     <script type="text/javascript">
         $(document).ready(function(){
             // Initialize the echarts instance based on the prepared dom
-            var myChart2 = echarts.init(document.querySelector('.modal-skill .user-skill-grp'), null, {
+            var myChart2 = echarts.init(document.querySelector('#modalSkill .user-skill-grp'), null, {
             });
 
             // Specify the configuration items and data for the chart

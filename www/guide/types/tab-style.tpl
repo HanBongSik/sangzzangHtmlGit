@@ -2,8 +2,8 @@
 <div class="__list_wrap">
     <div class="__figure">
         <div class="__element">
-            <div class="tabs-wrapper">
-                <div class="tabs secondary">
+            <div class="tab">
+                <div class="tab__list secondary">
                     <ul>
                         <li class="active"><a href="#tab-a-one" data-target="#tab-a-one">동해물동해물</a></li>
                         <li><a href="#tab-a-two" data-target="#tab-a-two">백두산</a></li>
@@ -41,7 +41,7 @@
     <div class="__figure">
         <div class="__element">
             <div class="tabs-wrapper">
-                <div class="tabs tertiary">
+                <div class="tab__list tertiary">
                     <ul>
                         <li class="active"><a href="#tab-one" data-target="#tab-c-one">동해물동해물</a></li>
                         <li><a href="#tab-c-two" data-target="#tab-c-two">백두산</a></li>

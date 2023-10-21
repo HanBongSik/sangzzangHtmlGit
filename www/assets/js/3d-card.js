@@ -1,5 +1,5 @@
-$(document).ready( function() {
 
+$(document).ready( function() {
     cubeAnim.init({
         elem : document.getElementById( 'my_cube' )
     });

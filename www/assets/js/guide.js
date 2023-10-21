@@ -122,13 +122,13 @@ window.addEventListener('resize', () => {
 
 /** 탭 */
     function bindTabs() {
-        $('.tabs a').on('click', function(e){
+        $('.tab__list a').on('click', function(e){
             let $tab = $(e.currentTarget),
-                targetID = $tab.attr('href'),
+                targetID = $tab.data('target'),
                 isTarget = $(targetID).length,
                 isChild = $tab.next().length;
-
-            $tab.parent().addClass('active').siblings().removeClass('active').find('.active').removeClass('active');
+            $tab.parents('.tab__list').find('> ul > li').removeClass('active');
+            $tab.parent().addClass('active');
 
             if (isTarget) {
                 $(targetID).addClass('active').siblings().removeClass('active');
@@ -142,13 +142,14 @@ window.addEventListener('resize', () => {
     }
 
     function bindMultiTabs() {
-        $('.multi-tabs a').on('click', function(e) {
+        $('.tab__list__multi a').on('click', function(e) {
             let $tab = $(e.currentTarget),
                 targetID = $tab.attr('href'),
                 isTarget = $(targetID).length,
                 isChild = $tab.next().length;
 
-            $tab.parent().addClass('active').siblings().removeClass('active').find('.active').removeClass('active');
+            $tab.parents('.tab__list__multi').find('> ul > li').removeClass('active');
+            $tab.parent().addClass('active');
 
             if (isTarget) {
                 $(targetID).addClass('active').siblings().removeClass('active');
@@ -161,7 +162,7 @@ window.addEventListener('resize', () => {
     }
 
     function bindNavTabs() {
-        $('.nav-tabs > ul > li > a').on('click', function(e) {
+        $('.tab__list.nav-tabs > ul > li > a').on('click', function(e) {
             let $tab = $(e.currentTarget);
             $tab.parent().toggleClass('focus').siblings().removeClass('focus').find('.focus').removeClass('focus');
             if ($tab.parent().hasClass('focus')) {
@@ -182,7 +183,7 @@ window.addEventListener('resize', () => {
     }
 
     function bindbuttonTabs() {
-        $('.button-tabs a').on('click', function(e) {
+        $('.tab__list.button-tabs a').on('click', function(e) {
             let $tab = $(e.currentTarget);
 
             $tab.addClass('active').siblings().removeClass('active')

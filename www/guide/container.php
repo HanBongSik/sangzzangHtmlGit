@@ -566,6 +566,17 @@
                 </div>
             </div>
 
+            <div class="__h2" id="COMMON-TAB-MULTI">
+                (1) 멀티탭 분리형(위 아래 디자인 다를 때)
+            </div>
+            <div class="__preview">
+                <div class="__view" title="tab">
+                    <div class="__list_wrapper">
+                        <?php include("types/tab-multi-seperate.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+
             <div class="__h2" id="COMMON-TAB-STYLE">
                 (2) 탭 - 디자인 추가
             </div>

@@ -45,7 +45,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -54,7 +54,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>
@@ -197,7 +197,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -206,7 +206,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>
@@ -349,7 +349,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -358,7 +358,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>
@@ -478,7 +478,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -487,7 +487,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>
@@ -617,7 +617,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -626,7 +626,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>
@@ -774,7 +774,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -783,7 +783,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>
@@ -927,7 +927,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -936,7 +936,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>
@@ -1079,7 +1079,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -1088,7 +1088,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>
@@ -1231,7 +1231,7 @@
                                 <div class="g">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="">
+                                            <div class="user-action-info-detail">
                                                 <span class="user-id">bongsikhan</span>
                                                 <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
@@ -1240,7 +1240,7 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div>
+                                            <div class="user-action-info-detail">
                                                 <span class="user-name">한봉식</span>
                                                 <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                             </div>

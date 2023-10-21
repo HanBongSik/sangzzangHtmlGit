@@ -51,10 +51,15 @@
     <!-- echart -->
     <script src="/assets/lib/echarts.min.js"></script>
     <!-- echart End -->
+
+
+
 <!-- lib End -->
 
 <script src="/assets/js/guide.js?v=<?php echo $version ?>"></script>
-<script src="/assets/js/3d-card.js?v=<?php echo $version ?>"></script>
+
+
+
 
 
 <!-- 원본

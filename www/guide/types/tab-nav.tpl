@@ -2,7 +2,7 @@
 <div class="__list_wrap">
     <div class="__figure">
         <div class="__element">
-            <div class="tabs-wrapper">
+            <div class="tab">
                 <div class="tabs">
                     <ul>
                         <li class="active"><a href="#tab-one" data-target="#tab-one">동해물동해물</a></li>

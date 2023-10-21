@@ -3,9 +3,15 @@
 <head>
     <?php $path = $_SERVER['DOCUMENT_ROOT'];?>
     <?php include("$path/include/meta_head.php"); ?>
+
+    <!-- 3D 카드 -->
     <link rel="stylesheet" href="/assets/css/3d-card.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
+    <!-- hammer -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.6/hammer.min.js'></script>
+    <!-- hammer End -->
+    <script src="/assets/js/3d-card.js?v=<?php echo $version ?>"></script>
+    <!-- 3D 카드 End -->
     <style>
         .cube{width:330px;height:524px;margin-left:0;margin-top:0;margin-left:-165px;margin-top:-242px;}
 
@@ -88,7 +94,7 @@
 
         <!-- partial -->
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.6/hammer.min.js'></script>
+<!--        <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.6/hammer.min.js'></script>-->
         <script  src="/assets/js/3d-card.js"></script>
 
     </section>

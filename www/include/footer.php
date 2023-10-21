@@ -8,7 +8,7 @@
 					</a>
 				</div>
 				<div class="c footer__list">
-					<a href="/myroom.php">
+					<a href="/pages/myroom.php">
 						<div class="footer__list__ico"><img src="/assets/img/diploma.png" alt=""/></div>
 						<p class="menu-name">내상짱</p>
 					</a>

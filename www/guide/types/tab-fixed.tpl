@@ -2,8 +2,8 @@
 <div class="__list_wrap">
     <div class="__figure">
         <div class="__element">
-            <div class="tabs-wrapper">
-                <div class="tabs fixed">
+            <div class="tab">
+                <div class="tab__list fixed">
                     <ul>
                         <li class="active"><a href="#tab-fixed-one" data-target="#tab-fixed-one">동해물동해물</a></li>
                         <li><a href="#tab-fixed-two" data-target="#tab-fixed-two">백두산</a></li>
@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="__class">.tabs-wrapper .tabs</div>
+        <div class="__class">.tab .fixed</div>
     </div>
 </div>
 
