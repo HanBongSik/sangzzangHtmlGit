@@ -32,15 +32,13 @@ section#container, header .header, footer .footer{max-width: 1000px;margin:0 aut
 .photo-outer__img{display:block;width:100%;border-radius:5px;}
     /* 상장 리스트 내 썸네일 이미지 End */
 
-.profile-imgs__outer{display:inline-flex;align-items: center;gap:4px;}
-.profile-imgs__outer ul{float:left;padding-left:16px;}
-.profile-imgs__outer ul li{float:right;margin-left:-16px;}
-.profile-imgs__outer .num-width{display:inline-block;position:relative;top:-4px;align-self:flex-start;font-weight:400;font-size:11px;margin-left:-15px;background-color:var(--primary);color:#fff;padding:0 4px;border-radius:5px;}
+
 .sender{display:flex;align-items:center;gap:4px;padding-right:4px;}
+.sender > .r{width:100%;}
 
-
-.img-profiles{float:left;padding-left:16px;}
-.profile-imgs__outer ul li{float:right;margin-left:-16px;}
+.img-profiles{position:relative;float:left;}
+.img-profiles > .r{position:relative;width:100%;}
+.img-profiles > .r > .c{margin-left:-16px;}
 
 
 
@@ -66,5 +64,18 @@ section#container, header .header, footer .footer{max-width: 1000px;margin:0 aut
 
 .tag-skill__a{color:var(--secondary)}
 
+    /* 보내는 사람 */
+.profile-imgs__outer{display:inline-flex;align-items: center;gap:4px;}
+.profile-imgs__outer ul{float:left;padding-left:16px;}
+.profile-imgs__outer ul li{float:right;margin-left:-16px;}
+.profile-imgs__outer .num-width{display:inline-block;position:relative;top:-4px;align-self:flex-start;font-weight:400;font-size:11px;margin-left:-15px;background-color:var(--primary);color:#fff;padding:0 4px;border-radius:5px;}
+
+.img-profiles{display:inline-flex;align-items: center;gap:4px;}
+.img-profiles ul{float:left;padding-right:10px;}
+.img-profiles ul li{float:right;margin-left:-16px;}
+.profile-imgs__outer .num-width{display:inline-block;position:relative;top:-4px;align-self:flex-start;font-weight:400;font-size:11px;margin-left:-15px;background-color:var(--primary);color:#fff;padding:0 4px;border-radius:5px;}
+
+.plus-num{position:absolute;right:0;top:-5px}
+.plus-num__outer{display:inline-block;position:relative;top:-4px;align-self:flex-start;font-weight:400;font-size:11px;margin-left:-15px;background-color:var(--primary);color:#fff;padding: 0 4px;border-radius:5px;}
 
 /* 상장 리스트 End */

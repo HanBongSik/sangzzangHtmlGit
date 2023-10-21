@@ -32,6 +32,14 @@
                             </a>
                         </div>
                     </li>
+
+                    <li>
+                        <div class="nav-02">
+                            <a class="nav-02-link" href="#COMMON-MODAL-CALENDAR">
+                                <div class="nav-02-txt">(0) 달력</div>
+                            </a>
+                        </div>
+                    </li>
                 </ul>
             </li>
 
@@ -488,6 +496,15 @@
                             </a>
                         </div>
                     </li>
+
+                    <li>
+                        <div class="nav-02">
+                            <a class="nav-02-link" href="#COMMON-MODAL-CALENDAR">
+                                <div class="nav-02-txt">(0) 달력</div>
+                            </a>
+                        </div>
+                    </li>
+                    
                 </ul>
             </li>
 
