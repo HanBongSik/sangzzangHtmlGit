@@ -236,6 +236,7 @@ window.addEventListener('resize', () => {
 
     function bindDatepicker(){
         if($(".datepicker").length > 0){
+            datepickerSetting();
             $(".datepicker").datepicker();
         }
 
@@ -254,7 +255,8 @@ window.addEventListener('resize', () => {
                 dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
                 showMonthAfterYear: true,
                 yearSuffix: '년',
-                closeText: "선택완료"
+                closeText: "선택완료",
+                todayHighlight :true,
             });
         }
     }
@@ -275,7 +277,7 @@ $(document).ready(function(){
     tabs(); //탭 실행
     tooltip(); //툴팁 실행
     bindDatepicker(); //데이트피커 실행
-    datepickerSetting(); //데이트피커 설정
+    // datepickerSetting(); //데이트피커 설정
     bindModals(); //모달 실행
     bindResetInput(); //인풋 초기화
 });

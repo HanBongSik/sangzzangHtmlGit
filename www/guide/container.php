@@ -510,6 +510,22 @@
                 </div>
             </div>
 
+
+            <div class="__h2" id="COMMON-MODAL-CALENDAR">
+                (0) 팝업 캘린더 타입
+<!--                - 넓이 높이 full 화면 여백 및 transform (class="<span class="__highlight"> modal-full modal-full-margin</span>")-->
+                <br>
+                "types/modal-calendar.tpl"
+                <br>한글이 나오지 않는 이유는 처음 display:none 이라서 bindDatepicker()가 실행하지 않기 때문.
+            </div>
+            <div class="__preview">
+                <div class="__view" title="modal">
+                    <div class="__list_wrapper">
+                        <?php include("types/modal-calendar.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div class="__box">
