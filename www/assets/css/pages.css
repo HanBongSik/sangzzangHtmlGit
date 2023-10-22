@@ -1,6 +1,8 @@
 /* 검색 */
+.search.gap{margin-top:10px;}
 .search_tab{margin-top:10px;}
-.search-input{}
+.search{width:100%;}
+
 /* 검색 End */
 
 /* 링크 리스트 - modal */
@@ -16,6 +18,10 @@
 #modal-login .login-lnk a{font-size:14px;}
 #modal-login .login-sns img{display:inline-block;height:38px;padding:0px;margin:0 5px;}
 /* 로그인-modal End */
+
+/* 유저 리스트 */
+.user-list{width:100%;}
+/* 유저 리스트 End */
 
 /* 상장 리스트 */
 .post__list{}
@@ -147,9 +153,7 @@
 .panels > .panel.rolling-paper .paper-top .add{margin:10px 10px 0 10px;}
 
 /* 포스트잇 */
-.postit > .r{flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px 0;}
+.postit > .r{flex-wrap:wrap;justify-content:center;gap:30px 0;}
 .postit__list{width:100%;max-width:330px;align-items:start;}
 .postit__list__outer{position:relative;display:inline-block;width:100%;margin:0 14px;padding-top:10px;overflow:hidden;}
 .postit__outer__header{position:absolute;width:100%;height:25px;padding-left:10px;padding-right:10px;background:#fff581;z-index:1;}
@@ -189,3 +193,107 @@
 /* 포스트잇 End */
 
 /* 내 상장 End */
+
+/* 포디움 시상식 */
+ .award-on{
+     animation-name: award-on;
+     animation-duration: .5s;
+     animation-delay: .5s;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+ }
+@keyframes award-on {
+    0%{
+        opacity:0
+    }
+    100%{
+        opacity:1
+    }
+
+}
+
+.light-ani-ing{
+    animation-name: light-ani-ing;
+    animation-duration: 6s;
+    animation-delay: .6s;
+    animation-iteration-count: infinite;
+}
+@keyframes light-ani-ing {
+
+    0%{
+        opacity:0.4
+    }
+    25%{
+        opacity:1
+    }
+    50%{
+        opacity:0.5
+    }
+    75%{
+        opacity:1
+    }
+    100%{
+        opacity:0.5
+    }
+}
+
+
+.podium-top{position:relative;background-color:#000;height:333px;width:100%;}
+.podium-top .podium-top-bg{opacity:0;position:absolute;left:0;top:0;width:100%;height:100%;background:url(/assets/img/bg-podium.png) #000 no-repeat center top;}
+.podium-top.podium-top-sz .podium-top-bg{background-image:url(/assets/img/bg-podium-sz.png);}
+.profile-img{display:inline-block;overflow:hidden;border-radius:50%;width:80px;border:1px solid #e5e5e5;vertical-align:top;}
+.award-title{position:absolute;left:0;top:0;width:100%;border:1px solid black;background-color:#000;opacity:0.6;color:#fff;text-align:center;padding:5px 0;}
+.award-list{opacity:0;position:absolute;left:0;top:0;width:100%;height:100%;z-index:0;}
+.award-ol{position:relative;margin:0 auto;width:300px;height:100%;}
+.award-ol li{float:left;position:absolute;left:0;top:0;width:100%;text-align:center;}
+.award-ol li a{display:inline-block;}
+.award-ol li.gold{left:0;top:90px;}
+.award-ol li.gold img{border:1px solid gold;}
+.award-ol li.silver{left:19px;top:170px;text-align:left;}
+.award-ol li.silver img{border:1px solid silver;}
+.award-ol li.bronze{left:auto;right:19px;top:190px;text-align:right;}
+.award-ol li.bronze img{border:1px solid bronze;}
+.award-ol li .award-nick{position:absolute;top:82px;top:-30px;left:0;width:100%;text-align:center;}
+.award-ol li .award-nick span{display:inline-block;padding:4px 10px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;border-radius:5px;max-width:80px;background-color:#fff;font-size:11px;opacity:0.8;color:#000;}
+.award-ol li.silver .award-nick{text-align:left;}
+.award-ol li.bronze .award-nick{text-align:right;}
+
+.podium-top-sz .award-ol li.gold{left:0;top:90px;}
+.podium-top-sz .award-ol li.gold img.profile-img{border:1px solid gold;}
+.podium-top-sz .award-ol li img.sz-img{position:absolute;left:50%;top:86px;margin-left:-38px;width:78px;height:108px;opacity:0.8;}
+.podium-top-sz .award-ol li.silver{left:10px;top:90px;text-align:left;}
+.podium-top-sz .award-ol li.silver img.profile-img{border:1px solid silver;}
+.podium-top-sz .award-ol li.silver img.sz-img{left:39px;top:86px;width:71px;height:108px;transform:perspective(370px) rotateY(27deg);}
+.podium-top-sz .award-ol li.bronze{left:auto;right:10px;top:92px;text-align:right;}
+.podium-top-sz .award-ol li.bronze img.profile-img{border:1px solid bronze;}
+.podium-top-sz .award-ol li.bronze img.sz-img{left:auto;right:0;top:84px;width:71px;transform:perspective(350px) rotateY(-24deg);}
+.podium-top-sz .award-ol li .award-nick{to1p:-20px;}
+
+.confetti{position:absolute;width:100%;height:100%;z-index:10;}
+.lights{opacity:0;position:absolute;width:100%;height:100%;z-index:2;background:url(/assets/img/bg-podium-lights.png) no-repeat center top;}
+.tabs-child{}
+.tabs-child ul{text-align:center;}
+.tabs-child li{position:relative;display:inline-block;padding:10px 0;}
+.tabs-child li > a{padding:0 20px;font-size:13px;color:#707070;}
+.tabs-child li.active > a{color:#000;}
+.tabs-child li > a:after{content: " ";box-sizing: border-box;display: block;position: absolute;top: 50%; right: 0;left: 0;width: 1px;height: 10px;margin-top: -3px;background-color: #bdbdbd;}
+.tabs-child li:first-child > a:after{display:none;}
+.user-list.list-ranking{margin-top:0;border-top:1px solid #e9e9e9;}
+.user-list.list-ranking li{display:flex;}
+.user-list.list-ranking li .user{flex:1;}
+
+.tab.tab-style-01 .panel__outer{margin-top:0;}
+.tab.tab-style-01 > .tab__list{overflow:hidden;}
+.tab.tab-style-01 > .tab__list > ul > li:first-child > a:before{display:none !important;}
+.tab.tab-style-01 > .tab__list > ul > li{border-bottom:1px solid #000 !important;}
+.tab.tab-style-01 > .tab__list > ul > li.active > a:before{display:block;border-bottom:1px solid #ddd2;}
+.tab.tab-style-01 > .tab__list > ul > li.active > a:after{display:block;border-bottom:1px solid #ddd2;}
+
+.podiums-search{}
+.podiums-search .user-list{margin-top:10px;}
+.podiums-search .search-input{background:#f7f7f7;padding:10px;}
+.podiums-body{margin-top:20px;}
+
+/* 포디움 시상식 End */
+
+

@@ -32,7 +32,9 @@ section#container .content{margin-top:20px;}
 .post__list__outer,
 .layout-two-one__layout-left,
 .layout-two-one__layout-right,
-.user-profile-card{box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);}
+.user-profile-card,
+.podiums .podiums-body,
+.sz-design-choice__li{box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);}
 /* effect End */
 
 /* header */
@@ -47,8 +49,8 @@ section#container .content{margin-top:20px;}
 
 /* 레이아웃 구조 */
 .layout-two-one{display:flex;gap:0 10px;}
-.layout-two-one__layout-left{flex:1;}
-.layout-two-one__layout-right{flex:1;}
+.layout-two-one__layout-left{flex:1;width:50%;}
+.layout-two-one__layout-right{flex:1;width:50%;}
 
 .layout-two-one.layout-with-profile .layout-two-one__layout-left{flex:none;width:300px;box-shadow:none;}
 .layout-two-one.layout-with-profile .layout-two-one__layout-right{flex:1;}
@@ -56,6 +58,8 @@ section#container .content{margin-top:20px;}
 @media (max-width:600px){
     .layout-two-one{display:block;flex-direction:column;}
     .layout-two-one.layout-with-profile .layout-two-one__layout-left{width:100%;}
+    .layout-two-one__layout-left{width:100%;}
+    .layout-two-one__layout-right{width:100%;}
 }
 /* 레이아웃 */
 
@@ -67,9 +71,9 @@ section#container .content{margin-top:20px;}
 .tab__list > ul > li{position:relative;background:#fff;border:none;}
 .tab__list > ul > li.active{background:#000;border-bottom:1px solid #000;}
 .tab__list > ul > li.active a{color:#fff;}
-.tab__list > ul > li > a{position:relative;display:flex;flex-direction:column;height:100%;width:100%;align-items:center;justify-content:center;}
+.tab__list > ul > li > a{position:relative;display:flex;flex-direction:column;height:100%;width:100%;align-items:center;justify-content:center;font-size:14px;}
 .tab__list > ul > li > a:after{content:'';border-top:none;display:none;}
-.tab__list > ul > li > a:before{border-top:none;margin-top:0;top:15px;width:1px;height:10px;border:none;background:#000;border:0;right:-1px;}
+.tab__list > ul > li > a:before{border-top:none;margin-top:0;top:15px;width:1px;height:10px;border:none;background:#8b8b8b;border:0;right:-1px;}
 .tab__list > ul > li.active > a:before{border:none;display:none;}
 .tab__list > ul > li.active > a:after{display:none;}
 
@@ -78,5 +82,12 @@ section#container .content{margin-top:20px;}
 
 .panel__outer{margin-top:20px;}
 .panel{display:none;}
+
+.tab.tab-style-01 > .tab__list > ul > li{border-bottom:1px solid #8b8b8b;border-top:1px solid #8b8b8b;}
+.tab.tab-style-01 > .tab__list > ul > li.active{background:#fff;color:#000;font-weight:bold;}
+.tab.tab-style-01 > .tab__list > ul > li.active a {color:#000;}
+
+.tab.tab-style-01.center > .tab__list > ul > li a{align-items: self-start;padding:0 20px;font-size:11px;}
+.tab.tab-style-01.center > .tab__list > ul > li:first-child  a{align-items: self-end;}
 
 /* 가이드의 impreci 전용 End */

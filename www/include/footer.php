@@ -14,7 +14,7 @@
 					</a>
 				</div>
 				<div class="c footer__list">
-					<a href="/sz_create.php">
+					<a href="/pages/sz_choice.php">
 						<div class="footer__list__ico"><img src="/assets/img/love-letter.png" alt=""/></div>
 						<p class="menu-name">만들기</p>
 					</a>
@@ -28,9 +28,9 @@
 				</div>
 				-->
 				<div class="c footer__list">
-					<a href="/award.php">
+					<a href="/pages/podium.php">
 						<div class="footer__list__ico"><img src="/assets/img/podium22.png" alt=""/></div>
-						<p class="menu-name">시상식</p>
+						<p class="menu-name">포디움</p>
 					</a>
 				</div>
 

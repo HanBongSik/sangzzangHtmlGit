@@ -171,40 +171,40 @@
 
 
 
-                                <!-- tabs End -->
-                                <!-- panels -->
-                                <div class="panels">
-                                    <div id="tabSearchAll" class="panel active" tabindex="0">
-                                        <!-- 전체 검색 -->_all
-                                        <?php include("$path/include/include_temp/inc_search_all.php"); ?>
-                                        <!-- 전체 검색 End -->
-                                    </div>
-                                    <div id="tabSearchUser" class="panel" tabindex="0">
-                                        <!-- 회원 검색 -->01
-                                        <?php include("$path/include/include_temp/inc_search_01.php"); ?>
-                                        <!-- 회원 검색 End -->
-                                    </div>
+                                    <!-- tabs End -->
+                                    <!-- panels -->
+                                    <div class="panels">
+                                        <div id="tabSearchAll" class="panel active" tabindex="0">
+                                            <!-- 전체 검색 -->_all
+                                            <?php include("$path/include/include_temp/inc_search_all.php"); ?>
+                                            <!-- 전체 검색 End -->
+                                        </div>
+                                        <div id="tabSearchUser" class="panel" tabindex="0">
+                                            <!-- 회원 검색 -->01
+                                            <?php include("$path/include/include_temp/inc_search_01.php"); ?>
+                                            <!-- 회원 검색 End -->
+                                        </div>
 
-                                    <div id="tabSearchTag" class="panel" tabindex="0">
-                                        <!-- 태그 검색 -->02
-                                        <?php /* include("include/include_temp/inc_search_02.php"); */ ?>
-                                        <!-- 태그 검색 End -->
-                                    </div>
+                                        <div id="tabSearchTag" class="panel" tabindex="0">
+                                            <!-- 태그 검색 -->02
+                                            <?php /* include("include/include_temp/inc_search_02.php"); */ ?>
+                                            <!-- 태그 검색 End -->
+                                        </div>
 
-                                    <div id="tabSearchSkill" class="panel" tabindex="0">
-                                        <!-- 스킬 검색 -->03
-                                        <?php include("$path/include/include_temp/inc_search_03.php"); ?>
-                                        <!-- 스킬 검색 End -->
-                                    </div>
+                                        <div id="tabSearchSkill" class="panel" tabindex="0">
+                                            <!-- 스킬 검색 -->03
+                                            <?php include("$path/include/include_temp/inc_search_03.php"); ?>
+                                            <!-- 스킬 검색 End -->
+                                        </div>
 
-                                    <div id="tabSearchSz" class="panel" tabindex="0">
-                                        <!-- 상짱 검색 -->04
-                                        <?php include("$path/include/include_temp/inc_search_04.php"); ?>
-                                        <!-- 상짱 검색 End -->
-                                    </div>
+                                        <div id="tabSearchSz" class="panel" tabindex="0">
+                                            <!-- 상짱 검색 -->04
+                                            <?php include("$path/include/include_temp/inc_search_04.php"); ?>
+                                            <!-- 상짱 검색 End -->
+                                        </div>
 
+                                    </div>
                                 </div>
-                            </div>
 
                             </div>
                         </div>
@@ -221,8 +221,169 @@
             </div>
         </div>
     </div>
-	<!-- 검색 End -->
+    <!-- 검색 End -->
 
+    <!-- 스티커 선택 -->
+    <style>
+        #modalSticker .modal-content{max-width:500px !important;width:100% !important;float:left !important;height:calc(var(--vh) - 0px) !important;max-height:calc(var(--vh) - 0px) !important;}
+        #modalSticker .sticker-choice{}
+        #modalSticker .sticker-choice li {float:left;width:33%;text-align:center;padding:10px;}
+        #modalSticker .sticker-choice li img{display:block;width:100%;}
+    </style>
+    <div class="modal-dimmed" id="modalSticker">
+        <div class="modal-full modal-height-full">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-left" data-ani-off="modal-ani-left-right">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>스티커 선택</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="sticker-choice">
+                                <ul class="row">
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="sticker" src="/assets/img/design/stk/sz_stk_000002.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="sticker" src="/assets/img/design/stk/sz_stk_000003.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="sticker" src="/assets/img/design/stk/sz_stk_000004.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="sticker" src="/assets/img/design/stk/sz_stk_000005.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="sticker" src="/assets/img/design/stk/sz_stk_000006.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="sticker" src="/assets/img/design/stk/sz_stk_000007.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="sticker" src="/assets/img/design/stk/sz_stk_000008.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- 스티커 선택 End -->
+
+    <!-- 도장 선택 -->
+    <style>
+        #modalStamp .modal-content{max-width:500px !important;width:100% !important;float:right !important;height:calc(var(--vh) - 0px) !important;max-height:calc(var(--vh) - 0px) !important;}
+        #modalStamp .stamp-choice{}
+        #modalStamp .stamp-choice li {float:left;width:33%;text-align:center;padding:10px;}
+        #modalStamp .stamp-choice li img{display:block;width:100%;}
+    </style>
+    <div class="modal-dimmed" id="modalStamp">
+        <div class="modal-full modal-height-full">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-right" data-ani-off="modal-ani-right-left">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>스티커 선택</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="stamp-choice">
+                                <ul class="row">
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="stamp" src="/assets/img/design/stp/sz_stp_000002.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="stamp" src="/assets/img/design/stp/sz_stp_000003.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="stamp" src="/assets/img/design/stp/sz_stp_000004.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="stamp" src="/assets/img/design/stp/sz_stp_000005.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="stamp" src="/assets/img/design/stp/sz_stp_000006.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="stamp" src="/assets/img/design/stp/sz_stp_000007.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="stamp" src="/assets/img/design/stp/sz_stp_000008.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="col-3">
+                                        <a href="#;">
+                                            <img class="stamp" src="/assets/img/design/stp/sz_stp_qr.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 스티커 선택 End -->
+    
 
 	<!-- 알람 모달 팝업 -->
     <div class="modal-dimmed" id="modalAlarm">

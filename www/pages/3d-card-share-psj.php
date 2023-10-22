@@ -51,7 +51,7 @@
                 <!--
                 <div class='face--tree face--ani'><img src="https://hanbongsik.cafe24.com/tempImg/iu.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>-->
 
-                <div class='face--tree face--ani'><img src="/assets/img/temp_sz2.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
+                <div class='face--tree face--ani'><img src="/assets/img/temp_sz_psj.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
 
                 <div class='face--four face--ani'></div>
                 <div class='face--five face--ani'></div>
@@ -63,7 +63,7 @@
 				<span>
 					<button id="refreshPage" class="btn-black" onclick="location.reload();return false;">새로고침</button>
 					<button id="reset-3d">원위치로</button>
-					<button id="refreshPage" class="btn-secondary">상장 받기</button>
+					<button id="receiveSz" class="btn-secondary MODAL-BTN" data-target="#modalReceiveSz">상장 받기</button>
 				</span>
             <!--
             <span>
@@ -136,4 +136,43 @@
         }
     </script>
 </div>
+
+<!-- 상장 받기 모달 팝업  -->
+<div class="modal-dimmed" id="modalReceiveSz">
+    <div class="modal">
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <div class="modal-content">
+                    <div class="modal-close">
+                        <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                    </div>
+                    <!-- 모달 헤더 -->
+                    <div class="modal-header">
+                        <h2>스크랩하기</h2>
+                    </div>
+                    <!-- 모달 헤더 End -->
+
+                    <!-- 모달 바디 -->
+                    <div class="modal-body">
+                        상장을 받으셨습니다.
+                        스킬이 아래처럼 높아지셨습니다.
+                        <div>
+                            <img src="/assets/img/temp_skill_increase.png" alt="">
+                        </div>
+
+                    </div>
+                    <!-- 모달 바디 End -->
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-footer">
+                        <button class="btn">확인</button>
+                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                    </div>
+                    <!-- 모달 푸터 End -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 상장 받기 팝업 End -->
 </body>

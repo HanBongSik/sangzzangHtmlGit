@@ -13,7 +13,7 @@
         </div>
 
         <div class="flex items-center">
-            <input type="text" id="messageInput" class="flex-grow p-2 border rounded" placeholder="메시지 입력">
+            <input type="text" id="messageInput" class="flex-grow p-2 border rounded" placeholder="메시지 입력" value="캠핑, 불멍, 추워">
             <button id="sendBtn" class="ml-2 bg-blue-500 text-white p-2 rounded">보내기</button>
         </div>
     </div>

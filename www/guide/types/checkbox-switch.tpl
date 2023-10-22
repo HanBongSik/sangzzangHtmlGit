@@ -1,19 +1,4 @@
 <div class="__list_wrap">
-    <style>
-        label.switch{position:relative;display:inline-block;width:60px;height:var(--md-height);}
-        label.switch input{opacity:0;width:0;height:0;}
-        label.switch .slider {position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.2s;transition:.2s;border-radius:34px;}
-        label.switch .slider:before {position:absolute;content: "";height:calc(var(--md-height) / 2 + 6px);width:calc(var(--md-height) / 2 + 6px);left:7px;bottom:5px;background-color:white;-webkit-transition:.2s;transition: .2s;border-radius:50%;}
-        label.switch input:checked + .slider {background-color:var(--primary);}
-        label.switch input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
-        label.switch input:checked + .slider:before {-webkit-transform: translateX(calc(var(--md-height) / 2 + 6px));-ms-transform: translateX(calc(var(--md-height) / 2 + 10px));transform: translateX(calc(var(--md-height) / 2 + 8px));}
-
-        label.switch input:disabled + .slider {background-color:var(--input-disabled-bg);}
-        label.switch input:disabled + .slider:before {-webkit-transform: translateX(calc(var(--md-height) / 2 + 6px));-ms-transform: translateX(calc(var(--md-height) / 2 + 10px));transform: translateX(calc(var(--md-height) / 2 + 8px));}
-
-        label.switch.secondary input:checked + .slider{background-color:var(--secondary)}
-    </style>
-
     <div class="__list">
         <div class="__figure">
             <div class="__element">

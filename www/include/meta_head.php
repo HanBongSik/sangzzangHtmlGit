@@ -52,11 +52,19 @@
     <script src="/assets/lib/echarts.min.js"></script>
     <!-- echart End -->
 
+    <!-- html2canvas -->
+    <script src="/assets/lib/html2canvas.min.js"></script>
+    <!-- html2canvas End -->
+
+
+
 
 
 <!-- lib End -->
 
 <script src="/assets/js/guide.js?v=<?php echo $version ?>"></script>
+<script src="/assets/js/ui_common.js?v=<?php echo $version ?>"></script>
+<script src="/assets/js/ui_page.js?v=<?php echo $version ?>"></script>
 
 
 
