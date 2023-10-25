@@ -1185,6 +1185,46 @@ table tr:hover td{background:#f8f8f8 !important;}
         opacity:0;
     }
 }
+
+
+
+.modal-ani-target{
+    animation-name: modal-ani-target;
+    animation-duration: 0.2s;
+    animation-delay: 0s;
+}
+
+.modal-ani-target-target{
+    animation-name: modal-ani-target-target;
+    animation-duration: 0.2s;
+    animation-delay: 0s;
+}
+
+
+@keyframes modal-ani-target{
+    0%{
+        transform:translate(-478px, -302.5px) scale(0);
+        opacity:0;
+    }
+    100%{
+        transform:translate(0, 0)  scale(1);
+        opacity:1;
+    }
+}
+
+@keyframes modal-ani-target-target{
+    0%{
+        transform:translate(0, 0)  scale(1);
+        opacity:1;
+    }
+    100%{
+        transform:translate(-478px, -302.5px) scale(0);
+        opacity:0;
+    }
+}
+
+
+
 /* 팝업 애니메이션 End */
 /* 팝업 모달 End */
 
