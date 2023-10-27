@@ -444,7 +444,6 @@
             <div class="__preview">
                 <div class="__view" title="modal">
                     <div class="__list_wrapper">
-                        <?php include("types/modal-test.tpl"); ?>
                         <?php include("types/modal.tpl"); ?>
                     </div>
                 </div>

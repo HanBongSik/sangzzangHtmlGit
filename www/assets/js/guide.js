@@ -13,6 +13,48 @@ window.addEventListener('resize', () => {
 
 
 /* 모달 팝업 */
+
+    var clickedX = '';
+    var clickedY = '';
+    function calcDistanceDifference(){
+        let centerX = window.innerWidth / 2;
+        let centerY = window.innerHeight / 2;
+        let distanceX = (-centerX) + clickedX;
+        let distanceY = (-centerY) + clickedY;
+        /* 기존 style이 있다면 삭제 */
+        if(document.getElementById('modalAniTarget')){
+            document.getElementById('modalAniTarget').remove();
+        }
+        /* 모달 버튼 클릭 위치로 열리는 모달팝업을 위함 */
+        let styleEl = document.createElement('style');
+
+        styleEl.id = 'modalAniTarget';
+        styleEl.innerHTML = `@keyframes modal-ani-target{
+                            0%{
+                                transform:translate(${distanceX}px, ${distanceY}px) scale(0);
+                                opacity:0;
+                            }
+                            100%{
+                                transform:translate(0, 0)  scale(1);
+                                opacity:1;
+                            }
+                        }
+        
+                        @keyframes modal-ani-target-target{
+                            0%{
+                                transform:translate(0, 0)  scale(1);
+                                opacity:1;
+                            }
+                            100%{
+                                transform:translate(${distanceX}px, ${distanceY}px) scale(0);
+                                opacity:0;
+                            }
+                        }
+                        `
+        document.head.appendChild(styleEl);
+        /* 모달 버튼 클릭 위치로 열리는 모달팝업을 위함 End */
+    }
+
     function modalOn(from,el){
         let aniOn = $(el).data('ani-on');
         let aniOff = $(el).data('ani-off');
@@ -105,10 +147,18 @@ window.addEventListener('resize', () => {
         // alert(aniOff && aniOff.length > 0)
         // alert(aniOffInner && aniOffInner.length > 0)
     }
-
+    
     function bindModals(){
         $('.MODAL-BTN').each(function(index, item){
             $(this).on('click',function(e){
+                $('.targets').css('left', e.clientX+'px');
+                $('.targets').css('top', e.clientY+'px');
+
+                clickedX = e.clientX;
+                clickedY = e.clientY;
+
+                calcDistanceDifference();
+
                 let sTarget = $(this).data('target');
                 modalOn(this, sTarget);
 
@@ -120,6 +170,7 @@ window.addEventListener('resize', () => {
             });
         });
     }
+
 /* 모달 팝업 End */
 
 /** 탭 */
@@ -281,8 +332,15 @@ $(document).ready(function(){
     tooltip(); //툴팁 실행
     bindDatepicker(); //데이트피커 실행
     // datepickerSetting(); //데이트피커 설정
+    // centerCoordinate();//디바이스 중앙 위치
     bindModals(); //모달 실행
     bindResetInput(); //인풋 초기화
+});
+
+$(window).on('resize', function(){
+    // centerCoordinate();
+    // calcDistanceDifference();
+    // clickedXY();
 });
 
 

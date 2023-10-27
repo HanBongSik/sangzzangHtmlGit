@@ -140,13 +140,11 @@
     var centerX = '';
     var centerY = window.innerHeight / 2;
 
-    var clickX = '';
-    var clickY = '';
+    var clickedX = '';
+    var clickedY = '';
 
-    function centerXY(){
+    function centerCoordinate(){
         console.log('centerX : ' + centerX + 'centerY : ' + centerY);
-        $('.centercenter').css('left', centerX+'px');
-        $('.centercenter').css('top', centerY+'px');
     }
 
 
@@ -155,20 +153,19 @@
         $('.targets').css('left', e.clientX+'px');
         $('.targets').css('top', e.clientY+'px');
 
-        clickX = e.clientX;
-        clickY = e.clientY;
+        clickedX = e.clientX;
+        clickedY = e.clientY;
 
-        console.log('clickX : ' + e.clientX+'px;' + 'clickY : ' + e.clientY+'px;');
-        calcXY();
+        calcDistanceDifference();
 
-        // alert('x : ' + (clickX - centerX ) + 'Y : ' + (clickY - centerY ) );
+        // alert('x : ' + (clickedX - centerX ) + 'Y : ' + (clickedY - centerY ) );
     })
 
-    function calcXY(){
+    function calcDistanceDifference(){
         let centerX = window.innerWidth / 2;
         let centerY = window.innerHeight / 2;
-        let distanceX = (-centerX) + clickX;
-        let distanceY = (-centerY) + clickY;
+        let distanceX = (-centerX) + clickedX;
+        let distanceY = (-centerY) + clickedY;
         /* 기존 style이 있다면 삭제 */
         if(document.getElementById('modalAniTarget')){
             document.getElementById('modalAniTarget').remove();
@@ -205,14 +202,14 @@
     }
 
     $(document).ready(function(){
-        centerXY();
-        // clickXY();
+        centerCoordinate();
+        // clickedXY();
     });
 
     $(window).on('resize', function(){
-        centerXY();
-        calcXY();
-        // clickXY();
+        centerCoordinate();
+        calcDistanceDifference();
+        // clickedXY();
     });
 
 
