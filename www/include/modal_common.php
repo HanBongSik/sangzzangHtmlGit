@@ -390,7 +390,7 @@
         <div class="modal-full modal-height-max-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
-                    <div class="modal-content" data-ani-on="modal-ani-up" data-ani-off="modal-ani-up-down">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
                         <div class="modal-close">
                             <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
                         </div>
@@ -847,365 +847,503 @@
 	<!-- 알람 팝업 End -->
 
 
-	<!-- 함께 보낸 분 -->
-	<div class="modal-dimmed modal-with" tabindex="0">
-		<div class="modal">
-			<div class="modal-wrapper">
-				<div class="modal-container">
-					<div class="modal-content modal-content-large">
-						<div class="modal-close">
-							<a href="#modal" class="modal-close close">×<span class="hidden">닫기</span></a>
-						</div>
-						<!-- 모달 헤더 -->
-						<div class="modal-header">
-							<h2>함께 보낸 분</h2>
-						</div>
-						<!-- 모달 헤더 End -->
 
-						<!-- 모달 바디 -->
-						<div class="modal-body">
-							<div class="user-list with-list">
-								<ul>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/z.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>goosing</strong></a></div>
-												<div class="info-name">이운성</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/f.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>_hanabiya______</strong></a></div>
-												<div class="info-name">심재익</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/e.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>manbang_kim</strong></a></div>
-												<div class="info-name">김나라</div>
-												
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/s.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>i_am_limdae</strong></a></div>
-												<div class="info-name">박정은</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ag.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>daewoon.jo</strong></a></div>
-												<div class="info-name">김수영</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block  medium">팔로우 하기</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/h.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>heeyou.yang</strong></a></div>
-												<div class="info-name">이운성</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>jjeon_sso0</strong></a></div>
-												<div class="info-name">심재익</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>lsklcd19</strong></a></div>
-												<div class="info-name">아이유</div>
-												
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>_habim_</strong></a></div>
-												<div class="info-name">박정은</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>i.jaesun</strong></a></div>
-												<div class="info-name">김수영</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block  medium">팔로우 하기</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/h.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>coral0128</strong></a></div>
-												<div class="info-name">이운성</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>gimsuryeon2124</strong></a></div>
-												<div class="info-name">심재익</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>jake__kang</strong></a></div>
-												<div class="info-name">아이유</div>
-												
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>dae_kwang_</strong></a></div>
-												<div class="info-name">박정은</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>gentle_sb</strong></a></div>
-												<div class="info-name">김수영</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block  medium">팔로우 하기</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/h.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>meant4i</strong></a></div>
-												<div class="info-name">이운성</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>dae_kwang_</strong></a></div>
-												<div class="info-name">심재익</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>ho__yaaaaa</strong></a></div>
-												<div class="info-name">아이유</div>
-												
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ao.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>sum7700</strong></a></div>
-												<div class="info-name">박정은</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block primary medium">팔로우 중</button>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="user">
-											<a href="#;">
-												<div class="user-img">
-													<img src="/assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
-												</div>
-											</a>
-											<div class="user-info">
-												<div class="info-nick"><a href="#;"><strong>bamv__hm</strong></a></div>
-												<div class="info-name">김수영</div>
-											</div>
-											<div class="user-function">
-												<button type="button" class="button block  medium">팔로우 하기</button>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!-- 모달 바디 End -->
+    <!-- 함께 보낸 분 모달 팝업 -->
+    <div class="modal-dimmed" id="modalWith">
+        <div class="modal-full modal-height-max-full">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>함께 보낸 분들</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
 
-						<!-- 모달 푸터 -->
-						<div class="modal-footer">
-							<button type="button" class="button secondary block x-large close" tabindex="0">취소</button>
-						</div>
-						<!-- 모달 푸터 End -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- 함께 보낸 분 End -->
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="user-list">
+                                <ul>
+                                    <li>
+
+                                        <div class="g g-pd-sm user-action-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/g.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <span class="user-id">lilyiu_</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <!--                                                                    <span class="user-name">아이유</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-primary">팔로우중</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="g g-pd-sm user-action-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/l.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <span class="user-id">ssuiming_yo</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <!--                                                                    <span class="user-name">이수민</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-gray">팔로우하기</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="g g-pd-sm user-action-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/am.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <span class="user-id">j.__en</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <!--                                                                    <span class="user-name">박정은</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-primary">팔로우</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="g g-pd-sm user-action-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/be.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <span class="user-id">gentle_sb</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <!--                                                                    <span class="user-name">진구</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-primary">팔로우</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="g g-pd-sm user-action-info">
+                                            <div class="r">
+                                                <!--                                        <div class="c c-float">-->
+                                                <!--                                            <div class="num">1</div>-->
+                                                <!--                                        </div>-->
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile-outer__img" src="/assets/tempImg/profile/ax.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <span class="user-id">street__spirit</span>
+                                                                    <span class="user-action">님이 상장을 보냈습니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <!--                                                                    <span class="user-name">궤도</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--                                                <div class="r">-->
+                                                        <!--                                                    <div class="c">-->
+                                                        <!--                                                        <div class="skill-list">-->
+                                                        <!--                                                            개발자 화가 축구 JAVA 서피스북-->
+                                                        <!--                                                        </div>-->
+                                                        <!--                                                    </div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="c c-inner-width">
+                                                    <div class="btn-user-action">
+                                            <span class="forms">
+                                                <button type="button" class="btn-primary">팔로우</button>
+                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!--
+                            <div class="user-list alarm-list">
+                                <ul>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/n.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">s._____am</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/ac.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">hyungyu_v</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/b.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">ho__yaaaaa</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/p.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">meant4i</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/aa.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">jinny_0724</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/k.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">areum7239</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/ar.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">kmi0123</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/c.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">jjeon_sso0</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/ae.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">nccwhite</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/aa.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">lsklcd19</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/ap.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">gowlsl0627</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#;">
+                                            <div class="user">
+                                                <div class="user-img">
+                                                    <img src="/assets/tempImg/profile/k.jpg" alt="프로필 이미지">
+                                                </div>
+                                                <div class="user-info">
+                                                    <div class="info-nick"><strong class="">rimmmming715</strong>님이 상장을 보냈습니다.</div>
+                                                    <div class="info-date">2020.08.28 12:00</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            -->
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 함께 보낸 분 팝업 End -->
+
+    <!-- 포스트 더보기 팝업  -->
+    <div class="modal-dimmed" id="modalMore">
+        <div class="modal">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>더보기</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <ul class="modal-list">
+                                <li><a href="#;">신고하기</a></li>
+                            </ul>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 포스트 더보기 팝업 End -->
 
 	
 	<!-- 사진 보기 -->
@@ -1284,7 +1422,7 @@
         <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
-                    <div class="modal-content" data-ani-on="modal-ani-big" data-ani-off="modal-ani-big-small">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
                         <div class="modal-close">
                             <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
                         </div>

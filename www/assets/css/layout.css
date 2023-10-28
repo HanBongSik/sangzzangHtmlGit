@@ -29,12 +29,14 @@ section#container .content{margin-top:20px;}
 /* effect */
 .effect-none{box-shadow:none !important;}
 .header-01 h1,
-.post__list__outer,
 .layout-two-one__layout-left,
 .layout-two-one__layout-right,
 .user-profile-card,
 .podiums .podiums-body,
 .sz-design-choice__li{box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);}
+
+.post__list__outer{box-shadow: 4px 5px 10px rgb(0 0 0 / 10%);}
+.sz-img{box-shadow: 0px 0px 4px rgb(0 0 0 / 10%);}
 /* effect End */
 
 /* header */

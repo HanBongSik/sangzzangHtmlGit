@@ -16,7 +16,7 @@
             <li class="c">
                 <div class="post__list__outer">
                     <div class="post_list__inner">
-                        <a href="/pages/post.php">
+                        <a href="/pages/sz_view.php">
                             <div class="sz"><img src="https://requestman.cafe24.com/assets/img/temp_sz.png" class="sz-img" alt=""></div>
                         </a>
                     </div>
@@ -27,7 +27,7 @@
             <li class="c">
                 <div class="post__list__outer">
                     <div class="post_list__inner">
-                        <a href="/pages/post.php">
+                        <a href="/pages/sz_view.php">
                             <div class="sz"><img src="https://requestman.cafe24.com/assets/img/temp_sz.png" class="sz-img" alt=""></div>
                         </a>
                     </div>
@@ -38,7 +38,7 @@
             <li class="c">
                 <div class="post__list__outer">
                     <div class="post_list__inner">
-                        <a href="/pages/post.php">
+                        <a href="/pages/sz_view.php">
                             <div class="sz"><img src="https://requestman.cafe24.com/assets/img/temp_sz.png" class="sz-img" alt=""></div>
                         </a>
                     </div>
@@ -49,7 +49,7 @@
             <li class="c">
                 <div class="post__list__outer">
                     <div class="post_list__inner">
-                        <a href="/pages/post.php">
+                        <a href="/pages/sz_view.php">
                             <div class="sz"><img src="https://requestman.cafe24.com/assets/img/temp_sz.png" class="sz-img" alt=""></div>
                         </a>
                     </div>
@@ -60,7 +60,7 @@
             <li class="c">
                 <div class="post__list__outer">
                     <div class="post_list__inner">
-                        <a href="/pages/post.php">
+                        <a href="/pages/sz_view.php">
                             <div class="sz"><img src="https://requestman.cafe24.com/assets/img/temp_sz.png" class="sz-img" alt=""></div>
                         </a>
                     </div>
@@ -71,7 +71,7 @@
             <li class="c">
                 <div class="post__list__outer">
                     <div class="post_list__inner">
-                        <a href="/pages/post.php">
+                        <a href="/pages/sz_view.php">
                             <div class="sz"><img src="https://requestman.cafe24.com/assets/img/temp_sz.png" class="sz-img" alt=""></div>
                         </a>
                     </div>
