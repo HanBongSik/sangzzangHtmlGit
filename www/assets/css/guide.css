@@ -488,7 +488,7 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 {background:var(--gray);border-color:var(--gray);color:#fff;}
 
 .btn-search, button.btn-search, input[type="button"].btn-search, input[type="submit"].btn-search
-{background:var(--white);color:#000;border-color:#000;}
+{background: var(--black);color: #fff;border-color: var(--black);}
 
 .btn-excel , button.btn-excel, input[type="button"].btn-excel, input[type="submit"].btn-excel
 {background:url(/assets/img/guide/btn-excel.png) no-repeat 10px center !important;color:#000;border-color:#000;padding-left: 30px;}

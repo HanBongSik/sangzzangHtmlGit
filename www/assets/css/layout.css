@@ -35,8 +35,9 @@ section#container .content{margin-top:20px;}
 .podiums .podiums-body,
 .sz-design-choice__li{box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);}
 
-.post__list__outer{box-shadow: 4px 5px 10px rgb(0 0 0 / 10%);}
+.post{box-shadow: 4px 5px 10px rgb(0 0 0 / 10%);}
 .sz-img{box-shadow: 0px 0px 4px rgb(0 0 0 / 10%);}
+.img-charge{box-shadow: 0px 5px 12px 2px rgb(0 0 0 / 10%);}
 /* effect End */
 
 /* header */
@@ -71,7 +72,7 @@ section#container .content{margin-top:20px;}
 .tab__list{border:1px solid #e9e9e9;}
 .tab__list > ul > li:first-child > a:before{display:none;}
 .tab__list > ul > li{position:relative;background:#fff;border:none;}
-.tab__list > ul > li.active{background:#000;border-bottom:1px solid #000;}
+.tab__list > ul > li.active{background:#000;border-bottom:1px solid #000;z-index:1;}
 .tab__list > ul > li.active a{color:#fff;}
 .tab__list > ul > li > a{position:relative;display:flex;flex-direction:column;height:100%;width:100%;align-items:center;justify-content:center;font-size:14px;}
 .tab__list > ul > li > a:after{content:'';border-top:none;display:none;}

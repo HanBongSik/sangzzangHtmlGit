@@ -51,7 +51,9 @@
                                                 </div>
                                                 <div class="c c-inner-width">
                                                     <div class="search-btn">
-                                                        <button type="button" class="button secondary large block">검색</button>
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-search">검색</button>
+                                                        </span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -86,8 +88,11 @@
                                         </span>
                                                 </div>
                                                 <div class="c c-inner-width">
+
                                                     <div class="search-btn">
-                                                        <button type="button" class="button secondary large block">검색</button>
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-search">검색</button>
+                                                        </span>
                                                     </div>
                                                 </div>
                                             </div>

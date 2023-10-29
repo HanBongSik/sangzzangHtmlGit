@@ -33,16 +33,21 @@
 /* 유저 리스트 End */
 
 /* 상장 리스트 */
-.post__list{}
-.post__list > .r{flex-wrap:wrap;justify-content:center;gap:30px 0}
-.post__list > .r > .c{width:100%;max-width:330px;align-items:start;}
-.post__list__outer{display:inline-block;width:100%;margin:0 14px;padding:15px;border:1px solid #ddd;border-radius:10px;overflow:hidden;}
-.post_list__inner > .lay-user-action-info{padding-bottom:5px;}
-.post_list__inner > .sz{}
-.post_list__inner > .post-photo .post-photo__list{border-top:1px solid #ececec;padding-top:5px;}
-.post_list__inner > .tag-skills{padding-top:10px;padding-bottom:5px;}
-.post_list__inner > .story{padding-top:10px;color:#050505;padding-bottom:10px;}
-.post_list__inner > .user-profile{border-top:1px solid #ececec;padding-top:10px;}
+.posts{}
+.posts__list{flex-wrap:wrap;justify-content:center;gap:30px 0}
+.posts__list__item{width:100%;max-width:330px;align-items:start;}
+
+@media (max-width: 500px) {
+    .posts__list__item{max-width:none;}
+}
+
+.post{display:inline-block;width:100%;margin:0 14px;padding:15px;border:1px solid #ddd;border-radius:10px;overflow:hidden;}
+.post__row > .lay-user-action-info{padding-bottom:5px;}
+.post__row > .sz{margin:0 auto;}
+.post__row > .post-photo .post-photo__list{border-top:1px solid #ececec;padding-top:5px;}
+.post__row > .tag-skills{padding-top:10px;padding-bottom:5px;}
+.post__row > .story{padding-top:10px;color:#050505;padding-bottom:10px;}
+.post__row > .user-profile{border-top:1px solid #ececec;padding-top:10px;}
 
 .sz-img{display:block;width:100%;}
 
@@ -74,6 +79,8 @@
 .img-profile__img{display:block;width:100%;}
 .img-profile__img{display:block;width:100%;}
 .img-profile-outer__nick{}
+.user-follow-state__link{font-weight:bold;}
+.user-follow-state.following .user-follow-state__link{color:#f2a83b;}
 
 /*.post-info{}*/
 /*.post-info > .r{gap:6px;}*/
@@ -113,32 +120,16 @@
 .tag-skills.tag-skills-st01 {}
 .tag-skills.tag-skills-st01 .tag-skills__list{overflow:auto;justify-content: flex-start;flex-wrap:nowrap;padding-bottom:4px;}
 .tag-skills.tag-skills-st01 .tag-skills__list__item{box-shadow:none !important;opacity:0.8;}
-.tag-skills.tag-skills-st01 .tag-skill{flex-direction:row-reverse;border:1px solid #e4e4e4;background:#ff5200;background:#ff18d6;}
-.tag-skills.tag-skills-st01 .tag-skill__gauge-bg{position:absolute;left:0;top:0;height:100%;background: rgb(249,0,204);
+.tag-skills.tag-skills-st01 .tag-skill{flex-direction:row-reverse;border:1px solid #e4e4e4;background:#ff5200;background:#ff0300;background:#dc00b4;}
+.tag-skills.tag-skills-st01 .tag-skill__gauge-bg{position:absolute;left:0;top:0;width:100%;height:100%;background: rgb(249,0,204);
     background: linear-gradient(270deg, rgba(249,0,204,1) 0%, rgba(249,0,204,0) 100%);}
 .tag-skills.tag-skills-st01 .tag-skill__gauge{position:absolute;left:0;top:0;height:100%;background:#ff1088;
     background: rgb(255,16,136);
-    background: linear-gradient(90deg, rgba(255,16,136,1) 0%, rgb(255 0 128) 50%, rgba(255,16,136,0) 100%)
+    background: linear-gradient(135deg, rgba(255,16,136,1) 0%, rgb(255 0 128) 50%, rgba(255,16,136,0) 100%);
 }
 .tag-skills.tag-skills-st01 .tag-skills__list__item .tag-skill__name{color:#fff;}
 .tag-skills.tag-skills-st01 .tag-skills__list__item .tag-skill__num{display:none;background:none;color:#fff;padding-left:0;}
 .tag-skills.tag-skills-st01 .tag-skills__list__item .tag-skill__value{}
-
-
-
-.btn-grad {
-    background-image: linear-gradient(to right, #B24592 0%, #F15F79  51%, #B24592  100%);
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: block;
-}
 
 .btn-grad:hover {
     background-position: right center; /* change the direction of the change here */
@@ -146,15 +137,24 @@
     text-decoration: none;
 }
 
+/* 좋아요 버튼 영역 */
+.action-btns{padding-bottom:10px;}
+.action-btns-col{flex:1;}
+.btn-action__img{display:block;height:50px;}
+.comments-num > .r{gap:5px;}
+.comments-num__img{height:20px;}
+.img-charge{opacity:1;border-radius:50%;overflow:hidden;}
+/* 좋아요 버튼 영역 End */
+
 /* 보내는 사람 */
 .profile-imgs__outer{display:inline-flex;align-items: center;gap:4px;}
 .profile-imgs__outer ul{float:left;padding-left:16px;}
 .profile-imgs__outer ul li{float:right;margin-left:-16px;}
 .profile-imgs__outer .num-width{display:inline-block;position:relative;top:-4px;align-self:flex-start;font-weight:400;font-size:11px;margin-left:-15px;background-color:var(--primary);color:#fff;padding:0 4px;border-radius:5px;}
 
-.img-profiles{display:inline-flex;align-items: center;gap:4px;}
-.img-profiles ul{float:left;padding-right:10px;}
-.img-profiles ul li{float:right;margin-left:-16px;}
+.img-profiles{display:flex;align-items: center;gap:4px;}
+.img-profiles ul{display:flex;flex-direction:row-reverse;padding-right:10px;}
+.img-profiles ul li{position:relative;margin-left:-16px;}
 .img-profiles .img-profile-outer{width: 30px;height: 30px;}
 
 .profile-imgs__outer .num-width{display:inline-block;position:relative;top:-4px;align-self:flex-start;font-weight:400;font-size:11px;margin-left:-15px;background-color:var(--primary);color:#fff;padding:0 4px;border-radius:5px;}
