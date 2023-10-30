@@ -148,7 +148,7 @@
                             <div id="written" class="panel" tabindex="0">
                                 <div class="panel__outer">
                                     <h2 class="blind">작성한 상장</h2>
-                                    <?php include("$path/include/sz_list_test.php"); ?>
+                                    <?php include("$path/include/sz_list_02.php"); ?>
                                     <?php /* include("$path/include/my_room_written.php"); */ ?>
                                 </div>
                             </div>

@@ -1,7 +1,7 @@
 <div class="__list_wrap" style="overflow:hidden;">
     <!--<div class="__list">-->
     <div class="__figure">
-        <div class="__element">
+        <div class="__element __view_grid">
 
             <div class="r gap-xs">
                 <div class="c">

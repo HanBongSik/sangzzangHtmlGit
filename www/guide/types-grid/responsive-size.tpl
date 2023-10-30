@@ -2,7 +2,7 @@
 <div class="__list_wrap">
     <!--<div class="__list">-->
     <div class="__figure">
-        <div class="__element">
+        <div class="__element __view_grid">
             <div class="container container-full __responsive-guide">
                 <div class="__responsive-device __responsive-mob">
                     <div class="__responsive-device-width"><span>0~600</span></div>

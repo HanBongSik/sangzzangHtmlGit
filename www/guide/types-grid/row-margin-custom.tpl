@@ -2,7 +2,7 @@
 <div class="__list_wrap">
     <!--<div class="__list">-->
     <div class="__figure">
-        <div class="__element">
+        <div class="__element __view_grid">
 
             <div class="r r-mg-ver-xs">
                 .r.r-mg-hor-xs style="margin-top:22px"

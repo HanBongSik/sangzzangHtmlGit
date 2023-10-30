@@ -122,10 +122,10 @@
 .tag-skills.tag-skills-st01 .tag-skills__list__item{box-shadow:none !important;opacity:0.8;}
 .tag-skills.tag-skills-st01 .tag-skill{flex-direction:row-reverse;border:1px solid #e4e4e4;background:#ff5200;background:#ff0300;background:#dc00b4;}
 .tag-skills.tag-skills-st01 .tag-skill__gauge-bg{position:absolute;left:0;top:0;width:100%;height:100%;background: rgb(249,0,204);
-    background: linear-gradient(270deg, rgba(249,0,204,1) 0%, rgba(249,0,204,0) 100%);}
+    background: linear-gradient(315deg, rgb(235 6 3) 0%, rgba(253,6,3,0) 100%)}
 .tag-skills.tag-skills-st01 .tag-skill__gauge{position:absolute;left:0;top:0;height:100%;background:#ff1088;
     background: rgb(255,16,136);
-    background: linear-gradient(135deg, rgba(255,16,136,1) 0%, rgb(255 0 128) 50%, rgba(255,16,136,0) 100%);
+    background: linear-gradient(136deg, rgba(255,16,136,1) 0%, rgb(255 0 128) 50%, rgba(255,16,136,0) 100%)
 }
 .tag-skills.tag-skills-st01 .tag-skills__list__item .tag-skill__name{color:#fff;}
 .tag-skills.tag-skills-st01 .tag-skills__list__item .tag-skill__num{display:none;background:none;color:#fff;padding-left:0;}

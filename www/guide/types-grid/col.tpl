@@ -2,7 +2,7 @@
 <div class="__list_wrap">
     <!--<div class="__list">-->
     <div class="__figure">
-        <div class="__element">
+        <div class="__element ">
 
             <div class="r">
                 <div class="c">
