@@ -488,10 +488,17 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 {background:var(--gray);border-color:var(--gray);color:#fff;}
 
 .btn-search, button.btn-search, input[type="button"].btn-search, input[type="submit"].btn-search
-{background: var(--black);color: #fff;border-color: var(--black);}
+{background: #9e9e9e;color: #fff;border-color: #8b8b8b;}
 
 .btn-excel , button.btn-excel, input[type="button"].btn-excel, input[type="submit"].btn-excel
 {background:url(/assets/img/guide/btn-excel.png) no-repeat 10px center !important;color:#000;border-color:#000;padding-left: 30px;}
+
+
+.btn-follow, button.btn-follow, input[type="button"].btn-follow, input[type="submit"].btn-follow
+{background: var(--gray);border-color: var(--gray);color: var(--black);}
+.btn-follow-ing, button.btn-follow-ing, input[type="button"].btn-follow-ing, input[type="submit"].btn-follow-ing
+{background: var(--primary);color: #fff;border-color: var(--primary);}
+
 
 /** 버튼 - 사이징 */
 .btn, button, input[type="button"], input[type="submit"],
@@ -1217,19 +1224,19 @@ table tr:hover td{background:#f8f8f8 !important;}
 /* 팝업 애니메이션 */
 .modal-ani-on{
     animation-name: modal-ani-big;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 
 .modal-ani-off{
     animation-name: modal-ani-big-small;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 
 .modal-ani-up{
     animation-name: modal-ani-up;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-up{
@@ -1243,7 +1250,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 
 .modal-ani-up-down{
     animation-name: modal-ani-up-down;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-up-down{
@@ -1258,7 +1265,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 
 .modal-ani-down{
     animation-name: modal-ani-down;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-down{
@@ -1272,7 +1279,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 
 .modal-ani-down-up{
     animation-name: modal-ani-down-up;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-down-up{
@@ -1286,7 +1293,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 
 .modal-ani-left{
     animation-name: modal-ani-left;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-left{
@@ -1299,7 +1306,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 }
 .modal-ani-left-right{
     animation-name: modal-ani-left-right;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-left-right{
@@ -1313,7 +1320,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 
 .modal-ani-right{
     animation-name: modal-ani-right;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-right{
@@ -1326,7 +1333,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 }
 .modal-ani-right-left{
     animation-name: modal-ani-right-left;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-right-left{
@@ -1340,12 +1347,12 @@ table tr:hover td{background:#f8f8f8 !important;}
 
 .modal-ani-big{
     animation-name: modal-ani-big;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-big{
     0%{
-        transform:scale(0);
+        transform:scale(0.5);
         opacity:0;
     }
     100%{
@@ -1355,7 +1362,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 }
 .modal-ani-big-small{
     animation-name: modal-ani-big-small;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-big-small{
@@ -1364,22 +1371,58 @@ table tr:hover td{background:#f8f8f8 !important;}
         opacity:1;
     }
     100%{
-        transform:scale(0);
+        transform:scale(0.5);
+        opacity:0;
+    }
+}
+
+
+.modal-ani-opacity{
+    animation-name: modal-ani-opacity;
+    animation-duration: 0.3s;
+    animation-delay: 0s;
+}
+
+.modal-ani-opacity-opacity{
+    animation-name: modal-ani-opacity-opacity;
+    animation-duration: 0.26s;
+    animation-delay: 0.03s;
+}
+
+
+@keyframes modal-ani-opacity{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+@keyframes modal-ani-opacity-opacity{
+    0%{
+        opacity:1;
+    }
+    100%{
         opacity:0;
     }
 }
 
 
 
+
+
+
 .modal-ani-target{
     animation-name: modal-ani-target;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 
 .modal-ani-target-target{
     animation-name: modal-ani-target-target;
-    animation-duration: 0.2s;
+    animation-duration: 0.3s;
     animation-delay: 0s;
 }
 

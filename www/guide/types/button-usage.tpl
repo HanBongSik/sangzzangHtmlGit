@@ -86,7 +86,30 @@
                     <button type="button" class="btn-excel">엑셀 다운</button>
                 </span>
             </div>
-            <div class="__class">.btn-search</div>
+            <div class="__class">.btn-excel</div>
         </div>
     </div>
+
+
+    <div class="__list">
+        <div class="__figure">
+            <div class="__element">
+                <span class="forms">
+                    <button type="button" class="btn-follow">팔로우</button>
+                </span>
+            </div>
+            <div class="__class">.btn-follow</div>
+        </div>
+    </div>
+    <div class="__list">
+        <div class="__figure">
+            <div class="__element">
+                <span class="forms">
+                    <button type="button" class="btn-follow-ing">팔로잉</button>
+                </span>
+            </div>
+            <div class="__class">.btn-follow-ing</div>
+        </div>
+    </div>
+
 </div>

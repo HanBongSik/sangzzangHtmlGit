@@ -1,5 +1,5 @@
-/* css의 --transition-time보다 -500 작아야 한다! */
-var timeOutNum = 150;
+/* css의 --transition-time보다 -50 작아야 한다! */
+var timeOutNum = 280;
 
 /* 모바일 100vh 사용을 위함 */
 let vh = window.innerHeight;
@@ -127,7 +127,6 @@ window.addEventListener('resize', () => {
         // alert('aniOffInner'+aniOffInner);
 
         if(aniOff === undefined && aniOffInner === undefined){
-            console.log(1);
             $(el).css('display','none').off('focus').find('.modal-temp').remove();
         }else{
             $(el).removeClass(aniOn);
@@ -135,7 +134,6 @@ window.addEventListener('resize', () => {
             $(el).find('.modal-content').removeClass(aniOnInner);
             $(el).find('.modal-content').addClass(aniOffInner);
             setTimeout(function() {
-                console.log(3)
                 $(el).find('.modal-content').removeClass(aniOffInner);
                 $(el).css('display','none').off('focus').find('.modal-temp').remove();
             },timeOutNum);

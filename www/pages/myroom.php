@@ -128,7 +128,7 @@
                             <!-- 차저 -->
                             <div id="charger" class="panel rolling-paper" tabindex="0">
                                 <div class="panel__outer">
-                                    <?php include("$path/include/include_temp/inc_search_all.php"); ?>
+                                    <?php include("$path/include/include_temp/inc_user_list.php"); ?>
                                     <?php /* include("$path/include/my_room_charger.php"); */?>
                                 </div>
                             </div>
@@ -157,8 +157,7 @@
                             <!-- 팔로잉 -->
                             <div id="following" class="panel" tabindex="0">
                                 <div class="panel__outer">
-                                    <h2 class="blind">팔로잉</h2>
-                                    <?php include("$path/include/include_temp/inc_search_all.php"); ?>
+                                    <h2 class="blind">팔로잉</h2><?php include("$path/include/include_temp/inc_user_list_04.php"); ?>
                                     <?php /* include("$path/include/my_room_following.php"); */?>
                                 </div>
                             </div>
@@ -166,8 +165,7 @@
                             <!-- 팔로잉 -->
                             <div id="follower" class="panel" tabindex="0">
                                 <div class="panel__outer">
-                                    <h2 class="blind">팔로워</h2>
-                                    <?php include("$path/include/include_temp/inc_search_01.php"); ?>
+                                    <h2 class="blind">팔로워</h2><?php include("$path/include/include_temp/inc_user_list_03.php"); ?>
                                     <?php /* include("$path/include/my_room_follower.php"); */?>
                                 </div>
                             </div>

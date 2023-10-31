@@ -1,6 +1,7 @@
 <div class="__list">
     <div class="__figure">
         <div class="__element __text-left">
+            <button type="button" class="btn MODAL-BTN" data-target="#modalSampleOpacityTargetCalendar01">모달 - Opacity-Target</button>
             <button type="button" class="btn MODAL-BTN" data-target="#modalSampleTargetCalendar01">모달 최대 높이 full 달력 - Target</button>
             <button type="button" class="btn MODAL-BTN" data-target="#modalHeightMaxFullCalendarSample01">모달 최대 높이 full 달력</button>
             <button type="button" class="btn MODAL-BTN" data-target="#modalHeightMaxFullCalendarSample02">모달 최대 높이 full 달력 - Long</button><br>
@@ -16,6 +17,37 @@
 
         </div>
         <div class="__class">.MODAL-BTN</div>
+    </div>
+</div>
+<div class="modal-dimmed" id="modalSampleOpacityTargetCalendar01" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+    <div class="modal-full modal-height-max-full modal-calendar">
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                    <div class="modal-close">
+                        <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                    </div>
+                    <!-- 모달 헤더 -->
+                    <div class="modal-header">
+                        <h2>달력</h2>
+                    </div>
+                    <!-- 모달 헤더 End -->
+
+                    <!-- 모달 바디 -->
+                    <div class="modal-body">
+                        <div class="datepicker"></div>
+                    </div>
+                    <!-- 모달 바디 End -->
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-footer">
+                        <button class="btn">확인</button>
+                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                    </div>
+                    <!-- 모달 푸터 End -->
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -851,7 +851,7 @@
 
 
     <!-- 함께 보낸 분 모달 팝업 -->
-    <div class="modal-dimmed" id="modalWith">
+    <div class="modal-dimmed" id="modalWith" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
         <div class="modal-full modal-height-max-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
