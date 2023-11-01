@@ -96,7 +96,7 @@
                                 <li class="active"><a href="#tab-showcase" data-target="#showcase"><div class="tab-name">쇼케이스</div></a></li>
                                 <li><a href="#rolling-paper" data-target="#rolling-paper"><div class="tab-name">롤링페이퍼</div></a></li>
 <!--                                <li><a href="#energizer" data-target="#energizer"><div class="tab-name">에너자이저</div></a></li>-->
-                                <li><a href="#charger" data-target="#charger"><div class="tab-name">차저</div></a></li>
+                                <li><a href="#charger" data-target="#charger"><div class="tab-name"><img class="ico-charger" src="/assets/img/ico/ico-charger.png" alt="charger">차저</div></a></li>
                             </ul>
                             <ul class="big">
                                 <li><a href="#received" data-target="#received"><div class="tab-name">받은 상장</div><div class="num">12</div></a></li>
@@ -128,7 +128,7 @@
                             <!-- 차저 -->
                             <div id="charger" class="panel rolling-paper" tabindex="0">
                                 <div class="panel__outer">
-                                    <?php include("$path/include/include_temp/inc_user_list.php"); ?>
+                                    <?php include("$path/include/include_temp/inc_user_list_charger.php"); ?>
                                     <?php /* include("$path/include/my_room_charger.php"); */?>
                                 </div>
                             </div>

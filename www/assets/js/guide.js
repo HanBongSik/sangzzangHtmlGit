@@ -128,6 +128,8 @@ window.addEventListener('resize', () => {
 
         if(aniOff === undefined && aniOffInner === undefined){
             $(el).css('display','none').off('focus').find('.modal-temp').remove();
+            $("*[modal=1]").focus().removeAttr('modal');
+            $('html, body').css('overflow','visible');
         }else{
             $(el).removeClass(aniOn);
             $(el).addClass(aniOff);
@@ -136,12 +138,12 @@ window.addEventListener('resize', () => {
             setTimeout(function() {
                 $(el).find('.modal-content').removeClass(aniOffInner);
                 $(el).css('display','none').off('focus').find('.modal-temp').remove();
+                $("*[modal=1]").focus().removeAttr('modal');
+                $('html, body').css('overflow','visible');
             },timeOutNum);
         }
 
 
-        $("*[modal=1]").focus().removeAttr('modal');
-        $('html, body').css('overflow','visible');
         // alert(aniOff && aniOff.length > 0)
         // alert(aniOffInner && aniOffInner.length > 0)
     }

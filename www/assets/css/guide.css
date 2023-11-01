@@ -441,7 +441,7 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 /* 버튼 */
 /** 버튼 - 필수 */
 .btn, button, input[type="button"], input[type="submit"]
-{appearance:none;display:inline-block;background:var(--primary);min-width:var(--btn-md-min-width);height:var(--md-height);line-height:var(--md-line-height);color:#fff;border-radius:var(--radius);border:1px solid var(--primary);cursor:pointer;transition:all var(--transition-time);vertical-align:middle;}
+{appearance:none;display:inline-block;background:var(--primary);min-width:var(--btn-md-min-width);height:var(--md-height);line-height:var(--md-line-height);color:#fff;border-radius:var(--radius);border:1px solid var(--primary);cursor:pointer;transition:all var(--transition-time);vertical-align:middle;white-space:nowrap;}
 
 .btn:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover
 {opacity:0.8;}
@@ -495,9 +495,9 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 
 
 .btn-follow, button.btn-follow, input[type="button"].btn-follow, input[type="submit"].btn-follow
-{background: var(--gray);border-color: var(--gray);color: var(--black);}
+{background: white;border-color: var(--black);color: var(--black);}
 .btn-follow-ing, button.btn-follow-ing, input[type="button"].btn-follow-ing, input[type="submit"].btn-follow-ing
-{background: var(--primary);color: #fff;border-color: var(--primary);}
+{background: #fff; color:var(--primary);border-color: var(--primary);}
 
 
 /** 버튼 - 사이징 */
@@ -514,7 +514,7 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 .btn-lg, button.lg, input[type="button"].lg, input[type="submit"].btn-lg
 {min-width:0;height:var(--lg-height);line-height:var(--lg-line-height);padding:var(--btn-lg-padding);font-size:var(--lg-font-size);font-weight:var(--btn-lg-font-weight);}
 
-.btn-xl, button.md, input[type="button"].xl, input[type="submit"].btn-xl
+.btn-xl, button.xl, input[type="button"].xl, input[type="submit"].btn-xl
 {min-width:0;height:var(--xl-height);line-height:var(--xl-line-height);padding:var(--btn-xl-padding);font-size:var(--xl-font-size);font-weight:var(--btn-xl-font-weight);}
 
 .btn-xxl, button.xxl, input[type="button"].xxl, input[type="submit"].btn-xxl
@@ -1213,10 +1213,21 @@ table tr:hover td{background:#f8f8f8 !important;}
     {display:flex;align-items:center;justify-content:center;font-size:16px;}
 
     .modal-full .modal-body
-    {flex:1;border-top:1px solid #e8e8e8;padding:10px 10px 0 10px;overflow:auto;}
+    {flex:1;border-top:1px solid #e8e8e8;padding:10px 10px 0 10px;overflow:auto;overflow-y: scroll;}
 
     .modal-full .modal-footer
     {flex:none;margin-top:10px;}
+
+    .modal-footer .btn,
+    .modal-footer button.xl,
+    .modal-footer input[type="button"].xl,
+    .modal-footer input[type="submit"].btn-xl
+    {
+        height:var(--xl-height);
+        line-height: var(--xl-line-height);
+        padding: var(--btn-xl-padding);
+        font-size: var(--xl-font-size);
+        font-weight: var(--btn-xl-font-weight);}
 
     .modal-calendar .modal-content{max-width:360px !important;}
     /* 팝업 full 모달 End */
