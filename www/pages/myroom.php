@@ -35,8 +35,8 @@
                                     <div class="r">
                                         <div class="c">
                                             <div class="img-profile">
-                                                <div class="img-profile-outer">
-                                                    <img class="img-profile-outer__img big" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                <div class="img-profile-outer big">
+                                                    <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
                                                 </div>
                                             </div>
                                         </div>
@@ -54,16 +54,60 @@
                         <div class="r">
                             <div class="c">
                                 <div class="user-profile-card__body">
+                                    <div class="g lay-user-action-info">
+                                        <div class="r">
+                                            <div class="c c-inner-width">
+                                                <!-- 유저 프로필 덩어리 -->
+
+                                                <div class="g user-profile">
+                                                    <div class="r">
+                                                        <div class="c">
+                                                            <div class="user-action-info-detail">
+                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsikbongsik</span></a>
+                                                                <!--                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
+                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="r">
+                                                        <div class="c">
+                                                            <div class="user-action-info-detail">
+                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 유저 프로필 덩어리 End -->
+
+                                            </div>
+                                            <div class="c c-inner-width">
+                                                <span class="forms">
+                                                    <button type="button" class="btn-follow-ing">팔로잉</button>
+                                                </span>
+                                            </div>
+
+                                            <div class="c c-full center-right">
+                                                <div class="btn-more-action">
+                                                    <div class="img-more">
+                                                        <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
+                                                            <div class="img-more__outer">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
 
                                     <div class="user-infos">
-                                        <div class="nick">
-                                            bongsik
-                                            <button type="button" class="button primary medium">팔로우 중</button> <button type="button" class="button medium hidden">팔로우</button>
 
-                                            <!--                                        <button type="button" class="button medium" onclick="go('./member_info.php')">편집</button>-->
-                                            <!--                                        <button href="/myroom-2.php" class="button medium" onclick="go('./myroom-bar.php')">바형태</button>-->
-                                            <!--                                        <button href="/myroom-2.php" class="button medium" onclick="go('./myroom-bar-2.php')">바2형태</button>-->
-                                        </div>
                                         <div class="intro">
                                             이시대의 상남자 입니다.
                                         </div>

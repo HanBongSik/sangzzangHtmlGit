@@ -32,7 +32,7 @@
 .users{width:100%;padding:10px 10px;}
 .users__list{}
 .users__list__item{padding:10px 0;}
-.user-id{font-weight:bold;}
+.user-id{font-weight:bold;word-break:break-all;}
 .user-alarm{color:#949494;}
 .user-charger-send-skill{color:#949494;}
 /* 유저 리스트 End */
@@ -74,13 +74,12 @@
 .img-profiles{position:relative;float:left;}
 .img-profiles > .r{position:relative;width:100%;}
 .img-profiles > .r > .c{margin-left:-16px;}
-
 .img-profiles .user-img .img-profile__outer{width:var(--img-profiles-width);height:var(--img-profiles-height);}
 
 .img-profile__outer{display:flex;align-items:center;overflow:hidden;border:1px solid #afafaf;width:40px;height:40px;border-radius:50%;}
 .img-profile__outer.sm{width:30px;height:30px;}
 .img-profile__img{display:block;width:100%;}
-.img-profile__img{display:block;width:100%;}
+.img-profile-outer.big .img-profile-outer .img-profile__img{display:block;height:100%;width:auto;padding:10px 0;}
 .img-profile-outer__nick{}
 .user-follow-state__link{font-weight:bold;}
 .user-follow-state.following .user-follow-state__link{color:#f2a83b;}
@@ -91,6 +90,8 @@
 
 /* 아이템들의 layout */
 .lay-user-action-info{}
+.lay-user-action-info > .r{flex-wrap:wrap;}
+.lay-user-action-info > .r > .c{max-width:100%;}
 .lay-user-action-info.lay-user-action-top > .r > .c{align-items:flex-start;}
 /* 아이템들의 layout End */
 
@@ -189,14 +190,18 @@
 .user-profile-card__header > .r{}
 .user-profile-card__header > .r > .c{flex:1;}
 .user-profile-card__header > .r > .c{align-items:center;justify-content:center;}
-.user-profile-card__header > .r > .c .img-profile{display:flex;align-items:center;justify-content:center;padding:20px 0;}
-.user-profile-card__header > .r > .c .skills{width:100%;height:100%;}
+.user-profile-card__header > .r > .c .img-profile-outer{display:flex;align-items:center;justify-content:center;}
+.user-profile-card__header > .r > .c .img-profile-outer.big{}
+.img-profile-outer.big .img-profile__img{}
+.user-profile-card__header > .r > .c .skills{width:100%;height:100%;min-height:140px;}
 .user-profile-card__header > .r > .c .skills a{display:block;width:100%;height:100%;text-align: center;}
 .user-profile-card__header > .r > .c .skills a > div{margin:0 auto !important;width:100% !important;}
 .user-profile-card__header > .r > .c .skills a > canvas{}
+.user-profile-card__body > .lay-user-action-info > .r{gap:10px;}
 .user-profile-card .img-profile{width:100%;height:100%;}
-.user-profile-card .img-profile-outer{width:100%;height:100%;max-width:100px;max-height:100px;}
-.user-profile-card .img-profile-outer__img.big{height:100%;}
+.user-profile-card .img-profile{width:100%;height:100%;max-width:100px;max-height:100px;border-radius:50%;overflow:hidden;}
+.user-profile-card .img-profile__img.big{height:100%;}
+
 
 
 .user-profile-card .user-infos{margin-top:8px;}

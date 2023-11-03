@@ -4,9 +4,6 @@
     <div class="__figure">
         <div class="__element">
 
-
-
-
             <div class="g posts">
                 <ul class="r posts__list">
 
