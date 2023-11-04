@@ -825,11 +825,11 @@ input[type="radio"].md
 
 input[type="radio"] + label,
 input[type="radio"] + label.md
-{display:inline-flex;height:var(--md-height);align-items:center;line-height:var(--sm-line-height);padding-left:calc(var(--md-height) + 5px);background:url(/assets/img/guide/radio.png) no-repeat 0 center;background-size:var(--sm-height);vertical-align:middle;cursor:pointer;}
+{display:inline-flex;height:var(--md-height);align-items:center;line-height:var(--sm-line-height);padding-left:calc(var(--md-height) + 0px);background:url(/assets/img/guide/radio.png) no-repeat 0 center;background-size:var(--sm-height);vertical-align:middle;cursor:pointer;}
 
 input[type="radio"]:checked + label,
 input[type="radio"]:checked + label.md
-{background:url(/assets/img/guide/radio-checked.png) no-repeat 0 center;background-size:var(--sm-height);}
+{background:url(/assets/img/guide/radio-checked.png) no-repeat 0 center;background-size:var(--sm-height);color:var(--primary);}
 
 input[type="radio"]:disabled + label,
 input[type="radio"].md:disabled + label
@@ -1186,10 +1186,10 @@ table tr:hover td{background:#f8f8f8 !important;}
     {display:flex;flex-direction:column;position:relative;margin:0 auto;padding:10px 0px;width:100%;height:100vh;height:var(--vh);border:1px solid white;border-radius:4px;background-color:#fff;}
 
     .modal-full.modal-height-max-full .modal-content
-    {max-height:calc(var(--vh) - 20px);height:auto;width:calc(100% - 20px);max-width:500px;}
+    {max-height:calc(var(--vh) - 40px);height:auto;width:calc(100% - 20px);max-width:500px;}
 
     .modal-full.modal-height-full .modal-content
-    {max-width:600px;max-height:calc(var(--vh) - 20px);}
+    {max-width:600px;max-height:calc(var(--vh) - 40px);}
 
     .modal-full.modal-full-margin .modal-content
     {width:calc(100% - 20px);max-height:calc(var(--vh) - 20px);}

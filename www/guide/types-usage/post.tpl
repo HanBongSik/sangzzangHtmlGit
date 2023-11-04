@@ -246,10 +246,9 @@
                                     <div class="r">
                                         <div class="c">
                                             <!-- 유저 프로필 덩어리 -->
-                                            <a href="/pages/myroom.php">
-                                            </a><div class="g user-profile user-profile-top"><a href="/pages/myroom.php">
-                                                </a><div class="r"><a href="/pages/myroom.php">
-                                                    </a><div class="c c-inner-width"><a href="/pages/myroom.php">
+                                            <div class="g user-profile user-profile-top">
+                                                <div class="r">
+                                                    <div class="c c-inner-width"><a href="/pages/myroom.php">
                                                         </a><div class="img-profile"><a href="/pages/myroom.php">
                                                             </a><a href="/pages/myroom.php" class="img-profile__link">
                                                                 <div class="img-profile__outer">
@@ -622,10 +621,9 @@
                                     <div class="r">
                                         <div class="c">
                                             <!-- 유저 프로필 덩어리 -->
-                                            <a href="/pages/myroom.php">
-                                            </a><div class="g user-profile user-profile-top"><a href="/pages/myroom.php">
-                                                </a><div class="r"><a href="/pages/myroom.php">
-                                                    </a><div class="c c-inner-width"><a href="/pages/myroom.php">
+                                            <div class="g user-profile user-profile-top">
+                                                <div class="r">
+                                                    <div class="c c-inner-width"><a href="/pages/myroom.php">
                                                         </a><div class="img-profile"><a href="/pages/myroom.php">
                                                             </a><a href="/pages/myroom.php" class="img-profile__link">
                                                                 <div class="img-profile__outer">

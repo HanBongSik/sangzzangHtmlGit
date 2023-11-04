@@ -10,10 +10,7 @@ window.addEventListener('resize', () => {
 })
 /* 모바일 100vh 사용을 위함 End */
 
-
-
 /* 모달 팝업 */
-
     var clickedX = '';
     var clickedY = '';
     function calcDistanceDifference(){
@@ -54,6 +51,63 @@ window.addEventListener('resize', () => {
         document.head.appendChild(styleEl);
         /* 모달 버튼 클릭 위치로 열리는 모달팝업을 위함 End */
     }
+
+
+
+
+
+
+/* 헤더 높이 css 변수로 사용하기 위함 */
+function styleHeaderHeight(){
+    let target = document.querySelector('header.header');
+    let headerHeightNum = target.clientHeight; //46px;
+    /* 기존 style이 있다면 삭제 */
+    if(document.getElementById('styleHeaderHeight')){
+        document.getElementById('styleHeaderHeight').remove();
+    }
+    let styleEl = document.createElement('style');
+    styleEl.id = 'headerHeight';
+    // styleEl.innerHTML = `.HEADER-HEIGHT{${HeaderHeight}px !important;}`;//.w-90{min-width:var(--w-90) !important;}
+    styleEl.innerHTML =`:root {
+        --hedaer-height: ${headerHeightNum}px;
+    }`;
+    document.head.appendChild(styleEl);
+}
+/* 헤더 높이 css 변수로 사용하기 위함 */
+
+/* 푸터 높이 css 변수로 사용하기 위함 */
+function styleFooterHeight(){
+    let target = document.querySelector('footer.footer');
+    let footerHeightNum = target.clientHeight; //46px;
+    /* 기존 style이 있다면 삭제 */
+    if(document.getElementById('styleHeaderHeight')){
+        document.getElementById('styleHeaderHeight').remove();
+    }
+    let styleEl = document.createElement('style');
+    styleEl.id = 'footerHeight';
+    styleEl.innerHTML =`:root {
+        --footer-height: ${footerHeightNum}px;
+    }`;
+    document.head.appendChild(styleEl);
+}
+/* 푸터 높이 css 변수로 사용하기 위함 */
+
+/* 제목 높이 css 변수로 사용하기 위함 */
+function styleHeader01Height(){
+    let target = document.querySelector('.header-01');
+    let header01HeightNum = target.clientHeight; //46px;
+    /* 기존 style이 있다면 삭제 */
+    if(document.getElementById('styleHeader01Height')){
+        document.getElementById('styleHeader01Height').remove();
+    }
+    let styleEl = document.createElement('style');
+    styleEl.id = 'header01Height';
+    styleEl.innerHTML =`:root {
+        --header01-height: ${header01HeightNum}px;
+    }`;
+    document.head.appendChild(styleEl);
+}
+/* 제목 높이 css 변수로 사용하기 위함 */
 
     function modalOn(from,el){
         let aniOn = $(el).data('ani-on');
@@ -116,6 +170,17 @@ window.addEventListener('resize', () => {
         if($(el).find('> div').first().hasClass('modal-full')){
             $(el).css('overflow','hidden');
         }
+        setTimeout(function(e) {
+            modalOnAfter(el);
+            e.preventDefault();
+        },100);
+
+    }
+    function modalOnAfter(el){
+        if(el == '#modalSzDownload'){
+            szClone();
+            onScreenShotClick();
+        }
     }
 
     function modalOff(el){
@@ -143,10 +208,19 @@ window.addEventListener('resize', () => {
             },timeOutNum);
         }
 
+        setTimeout(function(e) {
+            modalOffAfter(el);
+            e.preventDefault();
+        },timeOutNum);
 
         // alert(aniOff && aniOff.length > 0)
         // alert(aniOffInner && aniOffInner.length > 0)
     }
+function modalOffAfter(el){
+    if(el == '#modalSzDownload'){
+        $('#modalSzDownload .sz-download-modal-col').empty();
+    }
+}
     
     function bindModals(){
         $('.MODAL-BTN').each(function(index, item){
@@ -160,7 +234,8 @@ window.addEventListener('resize', () => {
                 calcDistanceDifference();
 
                 let sTarget = $(this).data('target');
-                modalOn(this, sTarget);
+                let oFunction = $(this).data('fnc');
+                modalOn(this, sTarget, oFunction);
 
                 $(sTarget).find('.MODAL-CLOSE').on('click',function(){
                     modalOff(sTarget);
@@ -335,6 +410,9 @@ $(document).ready(function(){
     // centerCoordinate();//디바이스 중앙 위치
     bindModals(); //모달 실행
     bindResetInput(); //인풋 초기화
+    styleHeaderHeight(); //헤더 높이 css 변수
+    styleFooterHeight(); //푸터 높이 css 변수
+    styleHeader01Height(); //제목 높이 css 변수
 });
 
 $(window).on('resize', function(){

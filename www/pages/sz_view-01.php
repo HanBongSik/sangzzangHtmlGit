@@ -1397,12 +1397,7 @@
             });
         }
 
-        $(document).ready(function(){
-            $('#download').on('click',function(e){
-                onScreenShotClick();
-                e.preventDefault();
-            })
-        })
+
     </script>
 
 </div>

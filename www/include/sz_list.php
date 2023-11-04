@@ -210,67 +210,67 @@
                         <div class="r">
                             <div class="c">
                                 <!-- 유저 프로필 덩어리 -->
-                                <a href="/pages/myroom.php">
-                                    <div class="g user-profile user-profile-top">
-                                        <div class="r">
-                                            <div class="c c-inner-width">
-                                                <div class="img-profile">
-                                                    <a href="/pages/myroom.php" class="img-profile__link">
-                                                        <div class="img-profile__outer">
-                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
-                                                        </div>
-                                                    </a>
-                                                </div>
+
+                                <div class="g user-profile user-profile-top">
+                                    <div class="r">
+                                        <div class="c c-inner-width">
+                                            <div class="img-profile">
+                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                    <div class="img-profile__outer">
+                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                    </div>
+                                                </a>
                                             </div>
-                                            <div class="c">
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
-                                                                <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
-                                                                <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
-                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                        </div>
+                                        <div class="c">
+                                            <div class="g">
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
+                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
+                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill style-01">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-95">95%</div>
-                                                                            <span class="tag-skill__num">12</span>
-                                                                            <span class="tag-skill__name">패션</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-85">85%</div>
-                                                                            <span class="tag-skill__num">82</span>
-                                                                            <span class="tag-skill__name">아트</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-50">50%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">beauty</span>
-                                                                        </div>
-                                                                    </li>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="g tag-skills tag-skills-st01">
+                                                            <ul class="r tag-skills__list">
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill style-01">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-95">95%</div>
+                                                                        <span class="tag-skill__num">12</span>
+                                                                        <span class="tag-skill__name">패션</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-85">85%</div>
+                                                                        <span class="tag-skill__num">82</span>
+                                                                        <span class="tag-skill__name">아트</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-50">50%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">beauty</span>
+                                                                    </div>
+                                                                </li>
 <!--                                                                    <li class="c tag-skills__list__item">-->
 <!--                                                                        <div class="tag-skill">-->
 <!--                                                                            <div class="tag-skill__gauge-bg"></div>-->
@@ -303,16 +303,15 @@
 <!--                                                                            <span class="tag-skill__name">nature</span>-->
 <!--                                                                        </div>-->
 <!--                                                                    </li>-->
-                                                                </ul>
+                                                            </ul>
 
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- 유저 프로필 덩어리 End -->
 
                             </div>
@@ -540,85 +539,83 @@
                         <div class="r">
                             <div class="c">
                                 <!-- 유저 프로필 덩어리 -->
-                                <a href="/pages/myroom.php">
-                                    <div class="g user-profile user-profile-top">
-                                        <div class="r">
-                                            <div class="c c-inner-width">
-                                                <div class="img-profile">
-                                                    <a href="/pages/myroom.php" class="img-profile__link">
-                                                        <div class="img-profile__outer">
-                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                <div class="g user-profile user-profile-top">
+                                    <div class="r">
+                                        <div class="c c-inner-width">
+                                            <div class="img-profile">
+                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                    <div class="img-profile__outer">
+                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                    </div>
+                                                </a>
                                             </div>
-                                            <div class="c">
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
-                                                                <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
-                                                                <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
-                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                        </div>
+                                        <div class="c">
+                                            <div class="g">
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
+                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
+                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-78">78%</div>
-                                                                            <span class="tag-skill__num">666</span>
-                                                                            <span class="tag-skill__name">게임</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-65">65%</div>
-                                                                            <span class="tag-skill__num">37</span>
-                                                                            <span class="tag-skill__name">맥북</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">8</span>
-                                                                            <span class="tag-skill__name">여행</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">nature</span>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="g tag-skills tag-skills-st01">
+                                                            <ul class="r tag-skills__list">
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-78">78%</div>
+                                                                        <span class="tag-skill__num">666</span>
+                                                                        <span class="tag-skill__name">게임</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-65">65%</div>
+                                                                        <span class="tag-skill__num">37</span>
+                                                                        <span class="tag-skill__name">맥북</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">8</span>
+                                                                        <span class="tag-skill__name">여행</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">nature</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
 
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- 유저 프로필 덩어리 End -->
 
                             </div>
@@ -854,109 +851,108 @@
                         <div class="r">
                             <div class="c">
                                 <!-- 유저 프로필 덩어리 -->
-                                <a href="/pages/myroom.php">
-                                    <div class="g user-profile user-profile-top">
-                                        <div class="r">
-                                            <div class="c c-inner-width">
-                                                <div class="img-profile">
-                                                    <a href="/pages/myroom.php" class="img-profile__link">
-                                                        <div class="img-profile__outer">
-                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="c">
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
-                                                                <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
-                                                                <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
-                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill style-01">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-95">95%</div>
-                                                                            <span class="tag-skill__num">12</span>
-                                                                            <span class="tag-skill__name">패션</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-85">85%</div>
-                                                                            <span class="tag-skill__num">82</span>
-                                                                            <span class="tag-skill__name">아트</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-50">50%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">beauty</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-78">78%</div>
-                                                                            <span class="tag-skill__num">666</span>
-                                                                            <span class="tag-skill__name">게임</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-65">65%</div>
-                                                                            <span class="tag-skill__num">37</span>
-                                                                            <span class="tag-skill__name">맥북</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">8</span>
-                                                                            <span class="tag-skill__name">여행</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">nature</span>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
 
-                                                            </div>
+                                <div class="g user-profile user-profile-top">
+                                    <div class="r">
+                                        <div class="c c-inner-width">
+                                            <div class="img-profile">
+                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                    <div class="img-profile__outer">
+                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="c">
+                                            <div class="g">
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
+                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
+                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="g tag-skills tag-skills-st01">
+                                                            <ul class="r tag-skills__list">
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill style-01">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-95">95%</div>
+                                                                        <span class="tag-skill__num">12</span>
+                                                                        <span class="tag-skill__name">패션</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-85">85%</div>
+                                                                        <span class="tag-skill__num">82</span>
+                                                                        <span class="tag-skill__name">아트</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-50">50%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">beauty</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-78">78%</div>
+                                                                        <span class="tag-skill__num">666</span>
+                                                                        <span class="tag-skill__name">게임</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-65">65%</div>
+                                                                        <span class="tag-skill__num">37</span>
+                                                                        <span class="tag-skill__name">맥북</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">8</span>
+                                                                        <span class="tag-skill__name">여행</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">nature</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- 유저 프로필 덩어리 End -->
 
                             </div>
@@ -1628,109 +1624,107 @@
                         <div class="r">
                             <div class="c">
                                 <!-- 유저 프로필 덩어리 -->
-                                <a href="/pages/myroom.php">
-                                    <div class="g user-profile user-profile-top">
-                                        <div class="r">
-                                            <div class="c c-inner-width">
-                                                <div class="img-profile">
-                                                    <a href="/pages/myroom.php" class="img-profile__link">
-                                                        <div class="img-profile__outer">
-                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                <div class="g user-profile user-profile-top">
+                                    <div class="r">
+                                        <div class="c c-inner-width">
+                                            <div class="img-profile">
+                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                    <div class="img-profile__outer">
+                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                    </div>
+                                                </a>
                                             </div>
-                                            <div class="c">
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
-                                                                <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
-                                                                <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
-                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                        </div>
+                                        <div class="c">
+                                            <div class="g">
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
+                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
+                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill style-01">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-95">95%</div>
-                                                                            <span class="tag-skill__num">12</span>
-                                                                            <span class="tag-skill__name">패션</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-85">85%</div>
-                                                                            <span class="tag-skill__num">82</span>
-                                                                            <span class="tag-skill__name">아트</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-50">50%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">beauty</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-78">78%</div>
-                                                                            <span class="tag-skill__num">666</span>
-                                                                            <span class="tag-skill__name">게임</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-65">65%</div>
-                                                                            <span class="tag-skill__num">37</span>
-                                                                            <span class="tag-skill__name">맥북</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">8</span>
-                                                                            <span class="tag-skill__name">여행</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">nature</span>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="g tag-skills tag-skills-st01">
+                                                            <ul class="r tag-skills__list">
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill style-01">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-95">95%</div>
+                                                                        <span class="tag-skill__num">12</span>
+                                                                        <span class="tag-skill__name">패션</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-85">85%</div>
+                                                                        <span class="tag-skill__num">82</span>
+                                                                        <span class="tag-skill__name">아트</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-50">50%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">beauty</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-78">78%</div>
+                                                                        <span class="tag-skill__num">666</span>
+                                                                        <span class="tag-skill__name">게임</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-65">65%</div>
+                                                                        <span class="tag-skill__num">37</span>
+                                                                        <span class="tag-skill__name">맥북</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">8</span>
+                                                                        <span class="tag-skill__name">여행</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">nature</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
 
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- 유저 프로필 덩어리 End -->
 
                             </div>
@@ -2026,109 +2020,107 @@
                         <div class="r">
                             <div class="c">
                                 <!-- 유저 프로필 덩어리 -->
-                                <a href="/pages/myroom.php">
-                                    <div class="g user-profile user-profile-top">
-                                        <div class="r">
-                                            <div class="c c-inner-width">
-                                                <div class="img-profile">
-                                                    <a href="/pages/myroom.php" class="img-profile__link">
-                                                        <div class="img-profile__outer">
-                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                <div class="g user-profile user-profile-top">
+                                    <div class="r">
+                                        <div class="c c-inner-width">
+                                            <div class="img-profile">
+                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                    <div class="img-profile__outer">
+                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                    </div>
+                                                </a>
                                             </div>
-                                            <div class="c">
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
-                                                                <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
-                                                                <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
-                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                        </div>
+                                        <div class="c">
+                                            <div class="g">
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
+                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
+                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill style-01">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-95">95%</div>
-                                                                            <span class="tag-skill__num">12</span>
-                                                                            <span class="tag-skill__name">패션</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-85">85%</div>
-                                                                            <span class="tag-skill__num">82</span>
-                                                                            <span class="tag-skill__name">아트</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-50">50%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">beauty</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-78">78%</div>
-                                                                            <span class="tag-skill__num">666</span>
-                                                                            <span class="tag-skill__name">게임</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-65">65%</div>
-                                                                            <span class="tag-skill__num">37</span>
-                                                                            <span class="tag-skill__name">맥북</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">8</span>
-                                                                            <span class="tag-skill__name">여행</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">nature</span>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="g tag-skills tag-skills-st01">
+                                                            <ul class="r tag-skills__list">
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill style-01">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-95">95%</div>
+                                                                        <span class="tag-skill__num">12</span>
+                                                                        <span class="tag-skill__name">패션</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-85">85%</div>
+                                                                        <span class="tag-skill__num">82</span>
+                                                                        <span class="tag-skill__name">아트</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-50">50%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">beauty</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-78">78%</div>
+                                                                        <span class="tag-skill__num">666</span>
+                                                                        <span class="tag-skill__name">게임</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-65">65%</div>
+                                                                        <span class="tag-skill__num">37</span>
+                                                                        <span class="tag-skill__name">맥북</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">8</span>
+                                                                        <span class="tag-skill__name">여행</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">nature</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
 
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- 유저 프로필 덩어리 End -->
 
                             </div>
@@ -2415,109 +2407,107 @@
                         <div class="r">
                             <div class="c">
                                 <!-- 유저 프로필 덩어리 -->
-                                <a href="/pages/myroom.php">
-                                    <div class="g user-profile user-profile-top">
-                                        <div class="r">
-                                            <div class="c c-inner-width">
-                                                <div class="img-profile">
-                                                    <a href="/pages/myroom.php" class="img-profile__link">
-                                                        <div class="img-profile__outer">
-                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                <div class="g user-profile user-profile-top">
+                                    <div class="r">
+                                        <div class="c c-inner-width">
+                                            <div class="img-profile">
+                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                    <div class="img-profile__outer">
+                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                    </div>
+                                                </a>
                                             </div>
-                                            <div class="c">
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
-                                                                <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
-                                                                <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
-                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                        </div>
+                                        <div class="c">
+                                            <div class="g">
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
+                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
+                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill style-01">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-95">95%</div>
-                                                                            <span class="tag-skill__num">12</span>
-                                                                            <span class="tag-skill__name">패션</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-85">85%</div>
-                                                                            <span class="tag-skill__num">82</span>
-                                                                            <span class="tag-skill__name">아트</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-50">50%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">beauty</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-78">78%</div>
-                                                                            <span class="tag-skill__num">666</span>
-                                                                            <span class="tag-skill__name">게임</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-65">65%</div>
-                                                                            <span class="tag-skill__num">37</span>
-                                                                            <span class="tag-skill__name">맥북</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">8</span>
-                                                                            <span class="tag-skill__name">여행</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">nature</span>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="g tag-skills tag-skills-st01">
+                                                            <ul class="r tag-skills__list">
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill style-01">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-95">95%</div>
+                                                                        <span class="tag-skill__num">12</span>
+                                                                        <span class="tag-skill__name">패션</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-85">85%</div>
+                                                                        <span class="tag-skill__num">82</span>
+                                                                        <span class="tag-skill__name">아트</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-50">50%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">beauty</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-78">78%</div>
+                                                                        <span class="tag-skill__num">666</span>
+                                                                        <span class="tag-skill__name">게임</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-65">65%</div>
+                                                                        <span class="tag-skill__num">37</span>
+                                                                        <span class="tag-skill__name">맥북</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">8</span>
+                                                                        <span class="tag-skill__name">여행</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">nature</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
 
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- 유저 프로필 덩어리 End -->
 
                             </div>
@@ -2805,109 +2795,107 @@
                         <div class="r">
                             <div class="c">
                                 <!-- 유저 프로필 덩어리 -->
-                                <a href="/pages/myroom.php">
-                                    <div class="g user-profile user-profile-top">
-                                        <div class="r">
-                                            <div class="c c-inner-width">
-                                                <div class="img-profile">
-                                                    <a href="/pages/myroom.php" class="img-profile__link">
-                                                        <div class="img-profile__outer">
-                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                <div class="g user-profile user-profile-top">
+                                    <div class="r">
+                                        <div class="c c-inner-width">
+                                            <div class="img-profile">
+                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                    <div class="img-profile__outer">
+                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                    </div>
+                                                </a>
                                             </div>
-                                            <div class="c">
-                                                <div class="g">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
-                                                                <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
-                                                                <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
-                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                        </div>
+                                        <div class="c">
+                                            <div class="g">
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsik</span></a>
+                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>
+                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                            </div>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="user-action-info-detail">
+                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
                                                         </div>
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill style-01">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-95">95%</div>
-                                                                            <span class="tag-skill__num">12</span>
-                                                                            <span class="tag-skill__name">패션</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-85">85%</div>
-                                                                            <span class="tag-skill__num">82</span>
-                                                                            <span class="tag-skill__name">아트</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-50">50%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">beauty</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-78">78%</div>
-                                                                            <span class="tag-skill__num">666</span>
-                                                                            <span class="tag-skill__name">게임</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-65">65%</div>
-                                                                            <span class="tag-skill__num">37</span>
-                                                                            <span class="tag-skill__name">맥북</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">8</span>
-                                                                            <span class="tag-skill__name">여행</span>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li class="c tag-skills__list__item">
-                                                                        <div class="tag-skill">
-                                                                            <div class="tag-skill__gauge-bg"></div>
-                                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                                            <span class="tag-skill__num">90</span>
-                                                                            <span class="tag-skill__name">nature</span>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
+                                                </div>
+                                                <div class="r">
+                                                    <div class="c">
+                                                        <div class="g tag-skills tag-skills-st01">
+                                                            <ul class="r tag-skills__list">
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill style-01">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-95">95%</div>
+                                                                        <span class="tag-skill__num">12</span>
+                                                                        <span class="tag-skill__name">패션</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-85">85%</div>
+                                                                        <span class="tag-skill__num">82</span>
+                                                                        <span class="tag-skill__name">아트</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-50">50%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">beauty</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-78">78%</div>
+                                                                        <span class="tag-skill__num">666</span>
+                                                                        <span class="tag-skill__name">게임</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-65">65%</div>
+                                                                        <span class="tag-skill__num">37</span>
+                                                                        <span class="tag-skill__name">맥북</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">8</span>
+                                                                        <span class="tag-skill__name">여행</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="c tag-skills__list__item">
+                                                                    <div class="tag-skill">
+                                                                        <div class="tag-skill__gauge-bg"></div>
+                                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                                        <span class="tag-skill__num">90</span>
+                                                                        <span class="tag-skill__name">nature</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
 
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- 유저 프로필 덩어리 End -->
 
                             </div>
