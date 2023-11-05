@@ -565,6 +565,767 @@
 	</div>
 	<!-- 사진 보기 End -->
 
+    <!-- 쇼케이스 진열 유무  -->
+    <div class="modal-dimmed" id="modalShowcaseSwitching" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+        <div class="modal">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>쇼케이스 진열</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="r showcase-in-select">
+                                <span class="forms">
+                                    <input type="radio" name="showcase-in" value="radio-showcase-in" id="radio-showcase-in" checked="checked">
+                                    <label for="radio-showcase-in">진열하기</label>
+                                </span>
+                                <span class="forms">
+                                    <input type="radio" name="showcase-in" value="showcase-out" id="radio-showcase-out">
+                                    <label for="radio-showcase-out">진열하지 않기</label>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <a href="/pages/myroom.php" class="btn btn-white">쇼케이스 보기</a>
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 쇼케이스 진열 유무  End -->
+
+
+
+    <!-- 쇼케이스 진열 유무  -->
+    <div class="modal-dimmed" id="modalSzPublic" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+        <div class="modal">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>공개유무</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="r sz-public-select">
+                                <span class="forms">
+                                    <input type="radio" name="sz-public" value="sz-public-1" id="sz-public-visible" checked="checked">
+                                    <label for="sz-public-visible">공개</label>
+                                </span>
+                                <span class="forms">
+                                    <input type="radio" name="sz-public" value="sz-public-0" id="sz-public-hidden">
+                                    <label for="sz-public-hidden">비공개</label>
+                                </span>
+                                <span class="forms">
+                                    <input type="radio" name="sz-public" value="sz-public-3" id="sz-public-link">
+                                    <label for="sz-public-link">링크있는사람만</label>
+                                </span>
+                            </div>
+                            <div class="modal-option-desc">
+                                <ul class="modal-option-desc__list">
+                                    <li class="modal-option-desc__list__item">
+                                        공개 : 모든 사람들이 볼 수 있습니다.
+                                    </li>
+                                    <li class="modal-option-desc__list__item">
+                                        비공개 : 나와 받은 사람만 볼 수 있습니다.
+                                    </li>
+                                    <li class="modal-option-desc__list__item">
+                                        링크있는사람만 : 링크 주소로 접속한 사람만 볼 수 있습니다.
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 쇼케이스 진열 유무  End -->
+
+
+    <!-- 답글 내역 팝업  -->
+    <div class="modal-dimmed" id="modalReplyHistory" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+        <div class="modal-full modal-height-max-full">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>답글 내역</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <ul class="comments__list">
+                                <li class="comments__list__item">
+                                    <div class="g lay-user-action-info">
+                                        <div class="r">
+                                            <div class="c">
+                                                <!-- 유저 프로필 덩어리 -->
+                                                <div class="g user-profile">
+                                                    <div class="r">
+                                                        <div class="c c-inner-width">
+                                                            <div class="img-profile">
+                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                    <div class="img-profile__outer">
+                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="c">
+                                                            <div class="g">
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <span class="user-id">twicetagram</span>
+                                                                            <!--                                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
+                                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                                            <span class="user-action-date">23.10.17 10 11</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <span class="user-comment">이래서 인생이 힘들어도 살아볼만하다는건가</span>
+                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 유저 프로필 덩어리 End -->
+                                            </div>
+                                        </div>
+                                        <div class="r">
+                                            <div class="c c-inner-width">
+                                                <div class="img-profile">
+                                                    <div class="img-profile__outer v-hidde">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c">
+                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+                                            </div>
+                                            <div class="c c-full-width center-right">
+                                                <div class="like">
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="c c-inner-width center-right">
+                                                <div class="btn-more-action">
+                                                    <div class="img-more">
+                                                        <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
+                                                            <div class="img-more__outer">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="comments__list__item">
+                                    <div class="g lay-user-action-info">
+                                        <div class="r">
+                                            <div class="c">
+                                                <!-- 유저 프로필 덩어리 -->
+                                                <div class="g user-profile">
+                                                    <div class="r">
+                                                        <div class="c c-inner-width">
+                                                            <div class="img-profile">
+                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                    <div class="img-profile__outer">
+                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="c">
+                                                            <div class="g">
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <a href="#;" class="reply-history-link MODAL-BTN" data-target="#modalReplyHistory">
+                                                                                <span class="user-id">twicetagram</span><span class="reply">에게 답글</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="c c-inner-width">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <span class="user-id">bongsik</span>
+                                                                            <!--                                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
+                                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                                            <span class="user-action-date">23.10.17 10 11</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <span class="user-comment">복 많이 받으세요~😁😁</span>
+                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 유저 프로필 덩어리 End -->
+                                            </div>
+                                        </div>
+                                        <div class="r">
+                                            <div class="c c-inner-width">
+                                                <div class="img-profile">
+                                                    <div class="img-profile__outer v-hidde">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c">
+                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+                                            </div>
+                                            <div class="c c-full-width center-right">
+                                                <div class="like">
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="c c-inner-width center-right">
+                                                <div class="btn-more-action">
+                                                    <div class="img-more">
+                                                        <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
+                                                            <div class="img-more__outer">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="comments__list__item">
+                                    <div class="g lay-user-action-info">
+                                        <div class="r">
+                                            <div class="c">
+                                                <!-- 유저 프로필 덩어리 -->
+                                                <div class="g user-profile">
+                                                    <div class="r">
+                                                        <div class="c c-inner-width">
+                                                            <div class="img-profile">
+                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                    <div class="img-profile__outer">
+                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="c">
+                                                            <div class="g">
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <a href="#;" class="reply-history-link MODAL-BTN" data-target="#modalReplyHistory">
+                                                                                <span class="user-id">bongsik</span><span class="reply">에게 답글</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="c c-inner-width">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <span class="user-id">twicetagram</span>
+                                                                            <!--                                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
+                                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                                            <span class="user-action-date">23.10.17 10 11</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <span class="user-comment">선행을 베푸시는분 행복하세요!</span>
+                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 유저 프로필 덩어리 End -->
+                                            </div>
+                                        </div>
+                                        <div class="r">
+                                            <div class="c c-inner-width">
+                                                <div class="img-profile">
+                                                    <div class="img-profile__outer v-hidde">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c">
+                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+                                            </div>
+                                            <div class="c c-full-width center-right">
+                                                <div class="like">
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="c c-inner-width center-right">
+                                                <div class="btn-more-action">
+                                                    <div class="img-more">
+                                                        <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
+                                                            <div class="img-more__outer">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="comments__list__item">
+                                    <div class="g lay-user-action-info">
+                                        <div class="r">
+                                            <div class="c">
+                                                <!-- 유저 프로필 덩어리 -->
+                                                <div class="g user-profile">
+                                                    <div class="r">
+                                                        <div class="c c-inner-width">
+                                                            <div class="img-profile">
+                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                    <div class="img-profile__outer">
+                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="c">
+                                                            <div class="g">
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <a href="#;" class="reply-history-link MODAL-BTN" data-target="#modalReplyHistory">
+                                                                                <span class="user-id">twicetagram</span><span class="reply">에게 답글</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="c c-inner-width">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <span class="user-id">bongsik</span>
+                                                                            <!--                                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
+                                                                            <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                                            <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                                            <span class="user-action-date">23.10.17 10 11</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="r">
+                                                                    <div class="c">
+                                                                        <div class="user-action-info-detail">
+                                                                            <span class="user-comment">건강하시고 행복하세요. ㅠㅠ</span>
+                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 유저 프로필 덩어리 End -->
+                                            </div>
+                                        </div>
+                                        <div class="r">
+                                            <div class="c c-inner-width">
+                                                <div class="img-profile">
+                                                    <div class="img-profile__outer v-hidde">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="c">
+                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+                                            </div>
+                                            <div class="c c-full-width center-right">
+                                                <div class="like">
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="c c-inner-width center-right">
+                                                <div class="btn-more-action">
+                                                    <div class="img-more">
+                                                        <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
+                                                            <div class="img-more__outer">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <!--                            <button class="btn">확인</button>-->
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 답글 내역 End -->
+
+
+    <!-- 답글 팝업  -->
+    <div class="modal-dimmed" id="modalWritingReply" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+        <div class="modal-full modal-height-max-full">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>답글 쓰기</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="g lay-user-action-info">
+                                <div class="r">
+                                    <div class="c">
+                                        <!-- 유저 프로필 덩어리 -->
+                                        <div class="g user-profile">
+                                            <div class="r">
+                                                <div class="c c-inner-width">
+                                                    <div class="img-profile">
+                                                        <a href="/pages/myroom.php" class="img-profile__link">
+                                                            <div class="img-profile__outer">
+                                                                <img class="img-profile__img" src="/assets/tempImg/profile/ah.jpg" alt="프로필 이미지">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="c">
+                                                    <div class="g">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <span class="user-id">imyour_joy</span>
+                                                                    <!--                                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
+                                                                    <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
+                                                                    <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                                    <span class="user-action-date">23.10.17 10 11</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <div class="user-action-info-detail">
+                                                                    <span class="user-comment">아직 살만한 세상이다 생각이듭니다 가족분 모두 힘내시길 멀리서 응원합니다.</span>
+                                                                    <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 유저 프로필 덩어리 End -->
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="r">
+                                    <div class="c c-inner-width">
+                                        <div class="img-profile">
+                                            <div class="img-profile__outer v-hidde">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="c">
+                                        <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+                                    </div>
+                                    <div class="c c-full-width center-right">
+                                        <div class="like">
+                                            <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit-on.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="c c-inner-width center-right">
+                                        <div class="btn-more-action">
+                                            <div class="img-more">
+                                                <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
+                                                    <div class="img-more__outer">
+                                                        <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>-->
+                            </div>
+                            <div class="g writing-input">
+                                <div class="r gap-hor-sm">
+                                    <div class="c c-inner-width">
+                                        <div class="img-profile">
+                                            <div class="img-profile__outer">
+                                                <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="c">
+                                    <span class="forms forms-full">
+                                        <input type="text" placeholder="댓글을 입력하세요." value="" id="inputKeyward" class="INPUT-RESET">
+                                    </span>
+                                    </div>
+                                    <div class="c c-inner-width">
+                                        <div class="writing-btn">
+                                        <span class="forms">
+                                            <button type="button" class="btn-writing-modal">작성</button>
+                                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <!--                            <button class="btn">확인</button>-->
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 답글 팝업 End -->
+
+    <!-- 포토 확대 보기 -->
+    <div class="modal-dimmed" id="modalPhotoFullView" tabindex="0">
+        <div class="modal-full modal-full-margin">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content modal-ani-target" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="swiper-container">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <div class="swiper-zoom-container">
+                                            <img src="/assets/tempImg/photo/food2.jpg">
+                                        </div>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="swiper-zoom-container">
+                                            <img src="/assets/tempImg/photo/meet2.jpg">
+                                        </div>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="swiper-zoom-container">
+                                            <img src="/assets/tempImg/photo/game.jpg">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination"></div>
+                                <!-- Add Navigation -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+
+
+                            <style>
+                                #2modalPhotoFullView .swiper-container {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                                #2modalPhotoFullView .swiper-slide {
+                                    text-align: center;
+                                    font-size: 18px;
+                                    background: #fff;
+
+                                    /* Center slide text vertically */
+                                    display: -webkit-box;
+                                    display: -ms-flexbox;
+                                    display: -webkit-flex;
+                                    display: flex;
+                                    -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                    -webkit-justify-content: center;
+                                    justify-content: center;
+                                    -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                    -webkit-align-items: center;
+                                    align-items: center;
+                                }
+
+                                #2modalPhotoFullView .swiper-zoom-container {
+                                    touch-action: none;
+                                }
+                            </style>
+                            <script>
+                                var myPlugin = {
+                                    name: 'debugger',
+                                    params: {
+                                        debugger: false,
+                                    },
+                                    on: {
+                                        init: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('init');
+                                        },
+                                        click: function (e) {
+                                            if (!this.params.debugger) return;
+                                            console.log('click');
+                                        },
+                                        tap: function (e) {
+                                            if (!this.params.debugger) return;
+                                            console.log('tap');
+                                        },
+                                        doubleTap: function (e) {
+                                            if (!this.params.debugger) return;
+                                            console.log('doubleTap');
+                                        },
+                                        sliderMove: function (e) {
+                                            if (!this.params.debugger) return;
+                                            console.log('sliderMove');
+                                        },
+                                        slideChange: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('slideChange', this.previousIndex, '->', this.activeIndex);
+                                        },
+                                        slideChangeTransitionStart: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('slideChangeTransitionStart');
+                                        },
+                                        slideChangeTransitionEnd: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('slideChangeTransitionEnd');
+                                        },
+                                        transitionStart: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('transitionStart');
+                                        },
+                                        transitionEnd: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('transitionEnd');
+                                        },
+                                        fromEdge: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('fromEdge');
+                                        },
+                                        reachBeginning: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('reachBeginning');
+                                        },
+                                        reachEnd: function () {
+                                            if (!this.params.debugger) return;
+                                            console.log('reachEnd');
+                                        },
+                                    },
+                                };
+                            </script>
+
+                            <script>
+                                function modalPhotoFullView(){
+                                    // Install Plugin To Swiper
+                                    Swiper.use(myPlugin);
+
+                                    // Init Swiper
+                                    var swiper = new Swiper('#modalPhotoFullView .swiper-container', {
+                                        zoom: true,
+                                        loop: true,
+                                        pagination: {
+                                            el: '.swiper-pagination',
+                                            clickable: true,
+                                        },
+                                        navigation: {
+                                            nextEl: '.swiper-button-next',
+                                            prevEl: '.swiper-button-prev',
+                                        },
+                                        // Enable debugger
+                                    });
+                                }
+
+                            </script>
+
+                        </div>
+                        <!-- 모달 바디 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 포토 확대 보기 End -->
+
     <!-- 스킬 보기 -->
     <div class="modal-dimmed" id="modalSkill">
         <div class="modal-full modal-height-full">

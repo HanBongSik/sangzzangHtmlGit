@@ -3,6 +3,20 @@
     <div class="__figure">
         <div class="__element __view_grid">
 
+            <div class="container-xs">
+                container-xs
+            </div>
+
+        </div>
+        <div class="__class" style="text-align:center;">.container-xs</div>
+    </div>
+    <!--</div>-->
+</div>
+<div class="__list_wrap">
+    <!--<div class="__list">-->
+    <div class="__figure">
+        <div class="__element __view_grid">
+
             <div class="container-sm">
                 container-sm
             </div>

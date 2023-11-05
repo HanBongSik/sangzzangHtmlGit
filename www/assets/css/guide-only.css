@@ -60,7 +60,7 @@ html body .__col-inner{position:relative;padding:15px;padding:15px;margin:20px !
 html body .__c-inner{position:relative;padding:15px;padding:15px;margin:20px !important;}
 html body .__col-inner:after{content:".c";position:absolute;left:0;top:0;transform:translate(0,-100%);color:#9b9797;font-weight:400;}
 html body .__c-inner:after{content:".c";position:absolute;left:0;top:0;transform:translate(0,-100%);color:#9b9797;font-weight:400;}
-.container,.container-sm,.container-full{border:1px solid #c8c8c8;}
+.container,.container-xs,.container-sm,.container-full{border:1px solid #c8c8c8;}
 
 
 .__form-grid .form-g{position:relative;border:1px solid #c8c8c8;padding:20px;}

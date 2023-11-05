@@ -488,7 +488,13 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 {background:var(--gray);border-color:var(--gray);color:#fff;}
 
 .btn-search, button.btn-search, input[type="button"].btn-search, input[type="submit"].btn-search
-{background: #9e9e9e;color: #fff;border-color: #8b8b8b;}
+{background: var(--black);color: #fff;border-color: var(--black);}
+
+.btn-writing, button.btn-writing, input[type="button"].btn-writing, input[type="submit"].btn-writing
+{background: var(--black);color: #fff;border-color: var(--black);}
+
+.btn-writing-modal, button.btn-writing-modal, input[type="button"].btn-writing-modal, input[type="submit"].btn-writing-modal
+{background:var(--primary);border-color:var(--primary);}
 
 .btn-excel , button.btn-excel, input[type="button"].btn-excel, input[type="submit"].btn-excel
 {background:url(/assets/img/guide/btn-excel.png) no-repeat 10px center !important;color:#000;border-color:#000;padding-left: 30px;}
@@ -1210,7 +1216,7 @@ table tr:hover td{background:#f8f8f8 !important;}
     {flex:none;background-color:#fff;}
 
     .modal-full .modal-header h2
-    {display:flex;align-items:center;justify-content:center;font-size:16px;}
+    {display:flex;align-items:center;justify-content:center;font-size:16px;max-width:100vw;}
 
     .modal-full .modal-body
     {flex:1;border-top:1px solid #e8e8e8;padding:10px 10px 0 10px;overflow:auto;overflow-y: scroll;}
@@ -1960,6 +1966,7 @@ html body .row.full > .c:nth-last-child(1){margin-right:0 !important;}
 .container{width:100%;max-width:1200px;margin:0 auto;}
 /*.container.container-sm{width:1000px;margin:0 auto;}*/
 .container-sm{width:100%;max-width:1000px;margin:0 auto;}
+.container-xs{width:100%;max-width:800px;margin:0 auto;}
 /*.container.container-full{width:100%;margin:0 auto;}*/
 .container-full{width:100%;max-width:100%;margin:0 auto;}
 /* 컨테이너 End */
@@ -2044,4 +2051,4 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type=
 /*.layout-flex .col.flexible-column{flex-grow:1;display:flex;flex-direction:column;align-items:flex-start;text-align:left;}*/
 
 
-
+.search-input,.writing-input{background:#f8f8f8;padding:10px 5px;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;}
