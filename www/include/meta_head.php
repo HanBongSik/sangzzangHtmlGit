@@ -1,7 +1,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />-->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 <meta name="HandheldFriendly" content="true">
 
 <!--
@@ -30,7 +31,6 @@
 <link href="/assets/css/guide_impreci.css?v=<?php echo $version ?>" rel="stylesheet">
 <link href="/assets/css/layout.css?v=<?php echo $version ?>" rel="stylesheet">
 <link href="/assets/css/pages.css?v=<?php echo $version ?>" rel="stylesheet">
-
 <!-- lib -->
     <!-- jquery -->
     <script src="/assets/lib/jquery-3.6.3.min.js?v=1"></script>
@@ -39,7 +39,8 @@
     <!-- jquery End -->
 
     <!-- swiper -->
-    <link rel="stylesheet" href="/assets/lib/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!--    <link rel="stylesheet" href="/assets/lib/swiper-bundle.min.css">-->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- swiper End -->
 

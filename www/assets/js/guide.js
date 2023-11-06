@@ -181,6 +181,9 @@ function styleHeader01Height(){
             szClone();
             onScreenShotClick();
         }
+        if(el == '#modalPhotoFullView'){
+            modalPhotoFullView();
+        }
     }
 
     function modalOff(el){

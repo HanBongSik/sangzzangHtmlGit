@@ -17,7 +17,146 @@
         </div>
         <!-- h1 End -->
         <!-- content -->
+        <!-- content -->
         <div class="content content-sz-view container-xs">
+            <style>
+
+                .content-sz-view .post__list > .r > .c{width:100%;max-width:none;}
+                .content-sz-view .post__list__outer{padding:0;margin:0;}
+                .content-sz-view .showcase-state{width:100%;text-align:center;padding:5px 0;margin:2px 0;}
+
+                .sz-design{display:block;width:100%;}
+                /* 상장 만들기 및 보여주기 비율 */
+                .sangzzang.sangzzang-origin{border:1px solid #e9e9e9;overflow:hidden;}
+                .sangzzang.sangzzang-view{margin-top:2px;}
+                .sz-ratio{position:relative;}
+                .sz-ratio textarea,
+                .sz-ratio input[type="text"]{/*border:2px solid #8caee5;*/}
+                .sz-write .sz-sticker,.sz-write .sz-stamp{position:relative;}
+                .sz-wrting{width:1000px;transform-origin:left top;}
+                .sz-ratio input, .sz-ratio textarea{border:none;outline:2px solid #c8c8c8;}
+                .sz-ratio textarea{padding:0;}
+
+                /* 상장 디자인 */
+                .sz-ratio .sz-ratio-img{width:100%;}
+
+                /* 상장 이름 */
+                .sz-ratio .sz-name{min-height:8%;position:absolute;left:0px;top:13%;width:100%;margin:0 auto;text-align:center;}
+                .sz-ratio .sz-name > *{display:block;margin:0 auto;width:70%;height:100%;font-size:90px;text-align:center;background:transparent;}
+                .sz-ratio .sz-name > *{font-size:64px;}
+
+                /* 상장 타이틀 */
+                .sz-ratio .sz-title{position:absolute;left:15%;top:27%;width:39%;min-height:6%;text-align:left;}
+                .sz-ratio .sz-title > *{width:100%;height:100%;text-align:left;}
+                .sz-ratio .sz-title > *{font-size:50px;}
+
+                /* 상장 받는 사람*/
+                .sz-ratio .sz-receiver{position:absolute;right:15%;top:27%;width:29%;min-height:6%;text-align:right;}
+                .sz-ratio .sz-receiver > *{width:100%;height:100%;text-align:right;}
+                .sz-ratio .sz-receiver > *{font-size:50px;}
+
+                /* 상장 보내는 사람*/
+                .sz-ratio .sz-sender{position:absolute;right:30%;top:77%;width:31%;min-height:10%;text-align:right;}
+                .sz-ratio .sz-sender > *{width:100%;height:100%;text-align:right;}
+                .sz-ratio .sz-sender > *{font-size:50px;}
+
+                /* 상장 내용 */
+                .sz-ratio .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;}
+                .sz-ratio .sz-word > *{width:100%;display:inline-block;height:100%;text-align:justify;letter-spacing:0;}
+                .sz-ratio .sz-word > *{font-size:44px;vertical-align:top;}
+
+                /* 상장 날짜 */
+                .sz-ratio .sz-date{position:absolute;right:15%;top:71%;width:46%;min-height:5%;text-align:right;}
+                .sz-ratio .sz-date > *{width:100%;height:100%;text-align:right;}
+                .sz-ratio .sz-date > *{font-size:40px;}
+
+                /* 상장 스티커 */
+                .sz-ratio .sz-sticker{position:absolute;z-index:500;left:15%;top:71%;width:23%;height:16%;margin:0 auto;text-align:center;}
+                .sz-write .sz-sticker .sz-sticker-img{display:inline-block;width:100%;}
+
+                /* 상장 도장 */
+                .sz-ratio .sz-stamp{position:absolute;z-index:500;right:15%;top:77%;width:14%;height:10%;margin:0 auto;text-align:center;}
+                .sz-ratio .sz-stamp > a > *{display:inline-block;width:100%;}
+                .sz-ratio .sz-sticking{position:absolute;left:0;top:0;transform:rotate(5deg);will-change:transform;}
+                .sz-ratio .sz-stamping{position:absolute;left:0;top:0;transform:translateY(5%);will-change:transform;}
+                .sz-ratio .sz-sticker > a > .sz-sticking{display:none;width:100%;left:9%;top:-5%;z-index:1;will-change:transform;}
+                .sz-ratio .sz-stamp .sz-stamping{display:none;width:150%;left:-25%;top:-30%;z-index:1;will-change:transform;}
+
+                /* 공통 */
+                .sz-ratio .sz-name > *,
+                .sz-ratio .sz-title > *,
+                .sz-ratio .sz-receiver > *,
+                .sz-ratio .sz-sender > *,
+                .sz-ratio .sz-date > *{color:#333;font-weight:bold;letter-spacing:0;word-break:break-all;white-space:normal;overflow:none;background:transparent;}
+                .sz-ratio .sz-word > *{color:#333;letter-spacing:-1px;word-break:break-all;white-space:normal;overflow:hidden;}
+
+                .sangzzang-copy{width:2480px}
+                .sangzzang-copy .sz-wrting{transform: scale(2.48);} /*여기에 width 주면 아이폰 아이패드에서 깨짐*/
+
+                .draw{position:absolute;left:0px;top:0px;height:30px;transition: all .1s;will-change:transform;}
+                .draw .sz-draw-img{display:block;height:100%;opacity:.6;will-change:transform;}
+
+                .sz-wrting{width:2480px;}
+                .sz-ratio .sz-name > *{font-size:180px;}
+                .sz-ratio .sz-title > *{font-size:124px;}
+                .sz-ratio .sz-receiver > *{font-size:124px;}
+                .sz-ratio .sz-word > *{font-size:110px;}
+                .sz-ratio .sz-date > *{font-size:90px;}
+                .sz-ratio .sz-sender > *{font-size:130px;}
+
+                .sangzzang-copy{position:absolute;left:-999999px;top:-999999px;}
+                .sz-download-modal-col canvas{width:100% !important;max-width:500px !important;height:auto !important;margin:0 auto;}
+
+                /* 상장 보기 */
+                .sz-function-btn{margin-top:5px;text-align:center;padding:10px;}
+                .sz-function{text-align:center;}
+                .sz-function.sz-function-01{margin-bottom:10px;padding:10px 0;margin:5px 0 0px 0;width:100%;}
+                .sz-function.sz-function-01 a{margin:0 10px;opacity:.8;}
+                .sz-function.sz-function-01 a:hover{opacity:1;}
+                .sz-function.sz-function-01 img{position:relative;top:-3px;height:24px;}
+                .sz-function.sz-function-01 span{line-height:20px;font-size:14px;}
+                .sz-function.sz-function-01 .sz-function-name{display:none;}
+                .sz-function.sz-function-02{display:flex;align-items:center;justify-content:c2enter;}
+
+                .sz-function.sz-function-03{margin-bottom:10px;padding:0px 0;margin:5px 0 0px 0;}
+                .sz-function.sz-function-03 a{margin:5px 5px;opacity:.8;}
+                .sz-function.sz-function-03 a:hover{opacity:1;}
+                .sz-function.sz-function-03 img{position:relative;top:-3px;height:20px;}
+                .sz-function.sz-function-03 span{line-height:20px;font-size:14px;}
+
+                .sz-function-btn span{display:fle1x;align-items:center;justify-content:center;margin:0 5px;height:24px;opacity:.8;}
+                .sz-function-btn span.love{opacity:1;}
+
+                .sz-function.sz-function-02 > a {display:flex;align-items:center;justify-content:center;}
+                @media (max-width:321px){
+                    .sz-function-btn span{margin-right:3px;}
+                }
+                .sz-function-btn span.last{margin-right:0;}
+                .sz-function-btn span a{vertical-align:top;}
+                .sz-function-btn span a span{vertical-align:top;}
+                .sz-function-btn img{vertical-align:top;height:22px;}
+                .sz-function-btn img.ico-comment,.sz-function-btn img.ico-photo{opacity:.7;}
+                .sz-function-btn .nums{font-size:14px;}
+
+                .sz-download-modal-col{position:relative;display:flex;align-items:center;justify-content:center;}
+                .sz-download-modal-col:after{content:'';display:block;padding-bottom: 142%;}
+                .sz-download-modal-col{
+                    -webkit-touch-callout: none;
+                    user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    -webkit-user-select: none;
+                }.sz-download-modal-col canvas{
+                     -webkit-touch-callout: none;
+                     user-select: none;
+                     -moz-user-select: none;
+                     -ms-user-select: none;
+                     -webkit-user-select: none;
+                 }
+                .showcase-in-select{padding:20px 0;gap:20px;text-align:center;justify-content:center;margin-bottom:20px;}
+                .sz-public-select{padding:20px 0 10px 0;gap:20px;text-align:center;justify-content:center;margin-bottom:10px;}
+                .modal-option-desc{padding-bottom:20px;}
+            </style>
             <div class="layout-two-one inner-scroll">
                 <div class="layout-two-one__layout-left">
                     <div class="g posts posts-full">
@@ -76,6 +215,7 @@
                                                         </div>
                                                     </div>
                                                     <!-- 유저 프로필 덩어리 End -->
+
                                                 </div>
 
                                                 <div class="c c-full center-right">
@@ -478,11 +618,60 @@
                             </li>
                             <!-- 리스트 End -->
                         </ul>
+
                     </div>
 
                 </div>
                 <div class="layout-two-one__layout-right">
                     <div class="photo">
+                        <div class="btn-photo-full-view"><a href="#;" class="btn-photo-full-view__link MODAL-BTN" data-target="#modalPhotoFullView"><img class="btn-photo-full-view__img" src="/assets/img/ico/ico-full-view.png"></a></div>
+                        <style>
+                            .photo{position:relative;}
+                            .btn-photo-full-view{position:absolute;right:15px;bottom:15px;z-index:10;background:#fff;opacity:0.5;border-radius:3px;overflow:hidden;}
+                            .btn-photo-full-view__img{display:block;height:30px;}
+                            html body .photo .swiper-slide{height:500px;}
+
+                            /* 사진 스와이퍼 */
+                            html body .photo .swiper-slide{height:500px;background: no-repeat center center;background-size:contain;}
+                            html body .photo .photo-list.swiper-container .swiper-slide{height:50px;background-color:#fff;}
+                            html body .photo .swiper-pagination-bullet-active{background:#da4f4d;}
+                            html body .photo .swiper-button-next,
+                            html body .photo .swiper-button-prev{width:30px;height:30px;color:#fff;font-weight:bold;background:#000;border-radius:50%;opacity:0.2;}
+                            html body .photo .swiper-button-next:after,
+                            html body .photo .swiper-button-prev:after{font-size: 20px;transform: scale(0.6);}
+                            html body .photo .swiper-button-prev{text-indent:-3px;}
+                            html body .photo .swiper-button-next{text-indent:3px;}
+                            /*html body .swiper-container-horizontal > .swiper-pagination-bullets,
+                            html body .swiper-pagination-custom,
+                            html body .swiper-pagination-fraction{bottom:auto;top:0;height:10px;text-align:right;}
+                            html body .swiper-container-horizontal> .swiper-pagination-bullets .swiper-pagination-bullet{position:relative;top:-5px;margin:0 2px;}
+                            */
+                            html body .swiper-pagination{bottom:0px;width:100%;}
+
+                            /* 사진 스와이퍼 End */
+                            html body .modal-photo .swiper-slide{height:100%;background-color:#000;}
+                            html body .modal-photo .close{overflow:hidden;position:absolute;right:10px;top:10px;z-index:10000;border-radius:5px;padding:0 10px;height:30px;text-align:center;background-color:#fff;color:#000;opacity:0.8;font-size:12px;line-height:28px;}
+                            html body .modal-photo .modal{background-color:rgba(0,0,0,1)}
+                            html body .modal-photo .swiper-container{height:100%;}
+                            html body .modal-dimmed.modal-photo{overflow:hidden;}
+                            html body .modal-photo .swiper-button-next,
+                            html body .modal-photo .swiper-button-prev{color:#000;background-color:#fff;}
+                            html body .modal-photo .swiper-container-horizontal > .swiper-pagination-bullets,
+                            html body .modal-photo .swiper-pagination-custom,
+                            html body .modal-photo .swiper-pagination-fraction{top:auto;bottom:20px;height:20px;text-align:center;}
+                            html body .modal-photo .swiper-container-horizontal> .swiper-pagination-bullets .swiper-pagination-bullet{background-color:#fff;}
+
+                            /* 댓글 */
+                            .comments__list__item{padding:5px 10px 5px 10px;border-bottom:1px solid #ececec;}
+                            .lay-user-action-info > .r{margin-bottom:5px;}
+
+                            .like{padding-right:20px;}
+                            .ico-like{margin-right:2px;}
+                            .ico-like__img{height:18px;}
+                            .ico-like-num{font-size:14px;}
+                            .writing-reply{padding-left:6px;}
+                            /* 댓글 End */
+                        </style>
                         <!-- Swiper -->
                         <div class="swiper-container">
                             <ul class="swiper-wrapper">
@@ -547,7 +736,8 @@
                             <div class="swiper-button-prev"></div>
                         </div>
                         <!-- Swiper End -->
-                        <div class="btn-photo-full-view"><a href="#;" class="btn-photo-full-view__link MODAL-BTN" data-target="#modalPhotoFullView"><img class="btn-photo-full-view__img" src="/assets/img/ico/ico-full-view.png"></a></div>
+
+
                         <!-- Swiper JS -->
                         <!-- Initialize Swiper -->
                         <script>
@@ -557,7 +747,7 @@
                                 loop: true,
                                 pagination: {
                                     el: '.swiper-pagination',
-                                    clickable: false,
+                                    clickable: true,
                                 },
                                 navigation: {
                                     nextEl: '.swiper-button-next',
@@ -615,7 +805,7 @@
                                                                     <div class="c">
                                                                         <div class="user-action-info-detail">
                                                                             <span class="user-id">imyour_joy</span>
-                                                                            <!--                                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
+<!--                                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
                                                                             <!--                                                            <span class="user-follow-state following"><a href="#;" class="user-follow-state__link">팔로잉</a></span>-->
                                                                             <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
                                                                             <span class="user-action-date">23.10.17 10 11</span>
@@ -1370,13 +1560,13 @@
                             </ul>
                         </div>
                     </div>
+
                 </div>
             </div>
+            <!-- content End -->
         </div>
-        <!-- content End -->
     </section>
     <!-- container End -->
-
     <!-- footer -->
     <?php include("$path/include/footer.php"); ?>
     <!-- footer End -->
@@ -1384,11 +1574,11 @@
     <!-- 모달 -->
     <?php include("$path/include/modal_common.php"); ?>
     <!-- 모달 End -->
-
     <!-- 상장 temp -->
-    <style>
-        .sangzzang-copy{position: absolute;left: -999999px;top: -999999px;}
-    </style>
+
+<style>
+    .sangzzang-copy{position: absolute;left: -999999px;top: -999999px;}
+</style>
     <div class="sangzzang sangzzang-copy">
         <!--
         <div class="sz-wrting sz-ratio sz-write clearfix">
@@ -1508,7 +1698,7 @@
         </div>
     </div>
     <!-- 스크랩 작성 팝업 End -->
-
+    
     <!-- 복사 후 작성 모달 팝업  -->
     <div class="modal-dimmed" id="modalCopyAndWrite" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
         <div class="modal">
@@ -1593,9 +1783,9 @@
                                         <input type="radio" name="download-size" value="radio-q03" id="radio-q03">
                                         <label for="radio-q03">A4용지</label>
                                     </span>
-                                    <!--                                    <a class="btn" id="imgDownload">다운로드(일반)</a>-->
-                                    <!--                                    <a class="btn" id="imgDownload3" onclick="alert('개발 중입니다.');return false;">다운로드 (포토카드)</a>-->
-                                    <!--                                    <a class="btn" id="imgDownload4" onclick="alert('개발 중입니다.');return false;">다운로드 (A4용지)</a>-->
+<!--                                    <a class="btn" id="imgDownload">다운로드(일반)</a>-->
+<!--                                    <a class="btn" id="imgDownload3" onclick="alert('개발 중입니다.');return false;">다운로드 (포토카드)</a>-->
+<!--                                    <a class="btn" id="imgDownload4" onclick="alert('개발 중입니다.');return false;">다운로드 (A4용지)</a>-->
                                 </div>
                                 <div class="r">
                                     <a class="btn" id="imgDownload">다운로드</a>
@@ -1610,81 +1800,81 @@
         </div>
     </div>
     <!-- 다운로드 팝업 End -->
-    <style>
-        /*.sangzzang-copy .sz-wrting{transform:scale(1);}*/
-        /*.sangzzang-copy{left:0 !important;top:0 !important;}*/
+<style>
+    /*.sangzzang-copy .sz-wrting{transform:scale(1);}*/
+    /*.sangzzang-copy{left:0 !important;top:0 !important;}*/
 
-    </style>
-    <script>
-        /* 상장 스크린샷 */
-        function szClone(){
-            let body = $('body');
-            let origin = $(".sangzzang.sangzzang-origin");
-            let copy = $(".sangzzang.sangzzang-copy");
+</style>
+<script>
+    /* 상장 스크린샷 */
+    function szClone(){
+        let body = $('body');
+        let origin = $(".sangzzang.sangzzang-origin");
+        let copy = $(".sangzzang.sangzzang-copy");
 
-            copy.remove();
-            body.append('<div class="sangzzang sangzzang-copy"></div>');
-            origin.find(" > .sz-wrting").clone().appendTo(".sangzzang.sangzzang-copy");
+        copy.remove();
+        body.append('<div class="sangzzang sangzzang-copy"></div>');
+        origin.find(" > .sz-wrting").clone().appendTo(".sangzzang.sangzzang-copy");
 
-            let copyWriting = $(".sangzzang.sangzzang-copy > .sz-wrting");
-            copyWriting.removeAttr('style').find('.sz-sticking, .sz-stamping').remove();
-            copyWriting.find(" > div ").each(function(index){
-                let text= $(this).find('textarea').val();
-                if($(this).find('textarea').length > 0){
-                    $(this).find('textarea').remove();
-                    $(this).append('<div>'+text+'</div>');
-                    $(this).find('.sz-sticking, .sz-stamping').remove();
-                }
-            });
-        }
+        let copyWriting = $(".sangzzang.sangzzang-copy > .sz-wrting");
+        copyWriting.removeAttr('style').find('.sz-sticking, .sz-stamping').remove();
+        copyWriting.find(" > div ").each(function(index){
+            let text= $(this).find('textarea').val();
+            if($(this).find('textarea').length > 0){
+                $(this).find('textarea').remove();
+                $(this).append('<div>'+text+'</div>');
+                $(this).find('.sz-sticking, .sz-stamping').remove();
+            }
+        });
+    }
 
-        function onScreenShotClick(ev){ //스크린샷 기능
-            /* 다운받을 때 A4 100% 크기 */
-            //2480
-            // 일반포토카드 55mm*85mm | 207.874px * 321.259px | 2.1:3.3" | 24장 4,200원[35%]
-            // 포토카드 큰 거 1240*1864
-            // 번외)좀 더 큰 포토카드 97mm*67mm 366.614px *253.228px
+    function onScreenShotClick(ev){ //스크린샷 기능
+        /* 다운받을 때 A4 100% 크기 */
+        //2480
+        // 일반포토카드 55mm*85mm | 207.874px * 321.259px | 2.1:3.3" | 24장 4,200원[35%]
+        // 포토카드 큰 거 1240*1864
+        // 번외)좀 더 큰 포토카드 97mm*67mm 366.614px *253.228px
+        /*
+        width = 2480; // A4 픽셀 //
+        scaleW = width*0.001;
+        scaleH = height*scaleW;
+        border = 3;
+        $('.sangzzang-copy .sz-wrting').css('transform','scale('+scaleW+')');
+        $('.sangzzang.sangzzang-copy').css('height',scaleH+border+"px");
+        */
+        let appendTargetEl = '#modalSzDownload .sz-download-modal-col';
+        $(appendTargetEl).empty();
+
+        /*
+            html2canvas(document.querySelector(".sangzzang-copy .CAPTUREAREA")).then(function(canvas)
+        */
+
+        html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA")).then(function(canvas) {
+            document.querySelector(appendTargetEl).appendChild(canvas);
+            let myImage = canvas.toDataURL();
+
+            let today = new Date();
+            let year = today.getFullYear();
+            let month = ('0' + (today.getMonth() + 1)).slice(-2);
+            let day = ('0' + today.getDate()).slice(-2);
+            let hours = ('0' + today.getHours()).slice(-2);
+            let minutes = ('0' + today.getMinutes()).slice(-2);
+            let seconds = ('0' + today.getSeconds()).slice(-2);
+
+            $('#imgDownload').attr('href', myImage);
+
+            let fileName = '상짱_' + year + '-' + month  + '-' + day + '-' + hours + minutes + seconds;
             /*
-            width = 2480; // A4 픽셀 //
-            scaleW = width*0.001;
-            scaleH = height*scaleW;
-            border = 3;
-            $('.sangzzang-copy .sz-wrting').css('transform','scale('+scaleW+')');
-            $('.sangzzang.sangzzang-copy').css('height',scaleH+border+"px");
-            */
-            let appendTargetEl = '#modalSzDownload .sz-download-modal-col';
-            $(appendTargetEl).empty();
+            if($('#saveTitle').val() == ''){
+                fileName = '상장_' + year + '-' + month  + '-' + day + '-' + hours + ':' + minutes  + ':' + seconds;
+            }else{
+                fileName = $('#saveTitle').val();
+            }*/
+            $('#imgDownload').attr('download', fileName+'.png');
+        });
+    }
 
-            /*
-                html2canvas(document.querySelector(".sangzzang-copy .CAPTUREAREA")).then(function(canvas)
-            */
-
-            html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA")).then(function(canvas) {
-                document.querySelector(appendTargetEl).appendChild(canvas);
-                let myImage = canvas.toDataURL();
-
-                let today = new Date();
-                let year = today.getFullYear();
-                let month = ('0' + (today.getMonth() + 1)).slice(-2);
-                let day = ('0' + today.getDate()).slice(-2);
-                let hours = ('0' + today.getHours()).slice(-2);
-                let minutes = ('0' + today.getMinutes()).slice(-2);
-                let seconds = ('0' + today.getSeconds()).slice(-2);
-
-                $('#imgDownload').attr('href', myImage);
-
-                let fileName = '상짱_' + year + '-' + month  + '-' + day + '-' + hours + minutes + seconds;
-                /*
-                if($('#saveTitle').val() == ''){
-                    fileName = '상장_' + year + '-' + month  + '-' + day + '-' + hours + ':' + minutes  + ':' + seconds;
-                }else{
-                    fileName = $('#saveTitle').val();
-                }*/
-                $('#imgDownload').attr('download', fileName+'.png');
-            });
-        }
-
-    </script>
+</script>
 
 </div>
 </body>
