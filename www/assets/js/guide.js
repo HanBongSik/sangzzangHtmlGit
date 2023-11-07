@@ -95,17 +95,23 @@ function styleFooterHeight(){
 /* 제목 높이 css 변수로 사용하기 위함 */
 function styleHeader01Height(){
     let target = document.querySelector('.header-01');
-    let header01HeightNum = target.clientHeight; //46px;
-    /* 기존 style이 있다면 삭제 */
-    if(document.getElementById('styleHeader01Height')){
-        document.getElementById('styleHeader01Height').remove();
+    let header01HeightNum = 0; //46px;
+    if(target === null){
+        header01HeightNum = 0;
+    }else{
+        let header01HeightNum = target.clientHeight; //46px;
+        /* 기존 style이 있다면 삭제 */
+        if(document.getElementById('styleHeader01Height')){
+            document.getElementById('styleHeader01Height').remove();
+        }
+        let styleEl = document.createElement('style');
+        styleEl.id = 'header01Height';
+        styleEl.innerHTML =`:root {
+            --header01-height: ${header01HeightNum}px;
+        }`;
+        document.head.appendChild(styleEl);
     }
-    let styleEl = document.createElement('style');
-    styleEl.id = 'header01Height';
-    styleEl.innerHTML =`:root {
-        --header01-height: ${header01HeightNum}px;
-    }`;
-    document.head.appendChild(styleEl);
+
 }
 /* 제목 높이 css 변수로 사용하기 위함 */
 

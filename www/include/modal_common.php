@@ -1378,23 +1378,23 @@
                                 <div class="swiper-button-next"></div>
                             </div>
                             <div class="btn-photo-minimize-view"><a href="#;" class="btn-photo-minimize-view__link MODAL-CLOSE"><img class="btn-photo-minimize-view__img" src="/assets/img/ico/ico-minimize-view.png"></a></div>
-                            <script>
+                            <script>// Init Swiper
+                                var fullPhotoSwiper = new Swiper('#modalPhotoFullView .swiper-container', {
+                                    zoom: true,
+                                    loop: true,
+                                    pagination: {
+                                        el: '.swiper-pagination',
+                                        clickable: false,
+                                    },
+                                    navigation: {
+                                        nextEl: '.swiper-button-next',
+                                        prevEl: '.swiper-button-prev',
+                                    },
+                                    // Enable debugger
+                                });
                                 function modalPhotoFullView(){
 
-                                    // Init Swiper
-                                    var swiper = new Swiper('#modalPhotoFullView .swiper-container', {
-                                        zoom: true,
-                                        loop: true,
-                                        pagination: {
-                                            el: '.swiper-pagination',
-                                            clickable: false,
-                                        },
-                                        navigation: {
-                                            nextEl: '.swiper-button-next',
-                                            prevEl: '.swiper-button-prev',
-                                        },
-                                        // Enable debugger
-                                    });
+
                                 }
 
                             </script>

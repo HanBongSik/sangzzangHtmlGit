@@ -9,6 +9,10 @@
 }
 
 .HIDDEN{visibility:hidden !important;}
+
+.OVERFLOW-HIDDEN{overflow:hidden;}
+.OVERSCROLL{overscroll-behavior: contain;}
+
 /* impreci End */
 
 /* 검색 */

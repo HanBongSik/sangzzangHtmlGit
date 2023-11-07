@@ -37,61 +37,64 @@
 
     </style>
 </head>
-<body style="overscroll-behavior-y: none;">
+<body>
 <div id="wrap">
     <!-- header -->
     <?php include("$path/include/header.php"); ?>
     <!-- header End -->
     <section id="container">
-        <div class='container--rea'>
-            <div class='cube cube--ani cube--color-red' id="my_cube">
-                <div class='face--one face--ani'><img src="https://hanbongsik.cafe24.com/tempImg/iu.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
+        <div class="content content-3d-card">
 
-                <div class='face--two face--ani'></div>
-                <!--
-                <div class='face--tree face--ani'><img src="https://hanbongsik.cafe24.com/tempImg/iu.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>-->
+            <div class='container--rea'>
+                <div class='cube cube--ani cube--color-red' id="my_cube">
+                    <div class='face--one face--ani'><img src="https://hanbongsik.cafe24.com/tempImg/iu.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
 
-                <div class='face--tree face--ani'><img src="/assets/img/temp_sz2.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
+                    <div class='face--two face--ani'></div>
+                    <!--
+                    <div class='face--tree face--ani'><img src="https://hanbongsik.cafe24.com/tempImg/iu.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>-->
 
-                <div class='face--four face--ani'></div>
-                <div class='face--five face--ani'></div>
-                <div class='face--six face--ani'></div>
+                    <div class='face--tree face--ani'><img src="/assets/img/temp_sz2.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
+
+                    <div class='face--four face--ani'></div>
+                    <div class='face--five face--ani'></div>
+                    <div class='face--six face--ani'></div>
+                </div>
             </div>
-        </div>
 
-        <div class="topbar" style="text-align:center;">
+            <div class="topbar" style="text-align:center;">
 				<span>
 					<button id="refreshPage" class="btn-black" onclick="location.reload();return false;">새로고침</button>
 					<button id="reset-3d">원위치로</button>
 					<button id="refreshPage" class="btn-secondary">상장 받기</button>
 				</span>
-            <!--
-            <span>
-                <button id="explose-3d">Explose</button>
-            </span>
-            <span>
-                <button id="implose-3d">Inplose</button>
-            </span>
-            <span>
-                <label for="size-cube">Size</label>
-                <select id="size-cube" value="12"/>
-                <option value="6">6em</option>
-                <option value="12" selected>12em</option>
-                <option value="24">24em</option>
-                </select>
-            </span>
-            <span>
-                <label for="theme-cube">Theme</label>
-                <select id="theme-cube" value="cube--dee"/>
-                <option value="cube--dee">Dée</option>
-                <option value="cube--color-red" selected>Rouge</option>
-                <option value="cube--color-gray">Gris</option>
-                <option value="cube--border">Border</option>
-                </select>
-            </span>
--->
-        </div>
+                <!--
+                <span>
+                    <button id="explose-3d">Explose</button>
+                </span>
+                <span>
+                    <button id="implose-3d">Inplose</button>
+                </span>
+                <span>
+                    <label for="size-cube">Size</label>
+                    <select id="size-cube" value="12"/>
+                    <option value="6">6em</option>
+                    <option value="12" selected>12em</option>
+                    <option value="24">24em</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="theme-cube">Theme</label>
+                    <select id="theme-cube" value="cube--dee"/>
+                    <option value="cube--dee">Dée</option>
+                    <option value="cube--color-red" selected>Rouge</option>
+                    <option value="cube--color-gray">Gris</option>
+                    <option value="cube--border">Border</option>
+                    </select>
+                </span>
+    -->
+            </div>
 
+        </div>
         <!-- partial -->
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <!--        <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.6/hammer.min.js'></script>-->
@@ -107,7 +110,6 @@
     <!-- 모달 -->
     <?php include("$path/include/modal_common.php"); ?>
     <!-- 모달 End -->
-
     <script>
         $(window).load(function(){
             /* 원본 이미지 */

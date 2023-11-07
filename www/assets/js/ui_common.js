@@ -1,5 +1,11 @@
 
 
+function noPullRefresh(){
+    if($('.content').hasClass('content-3d-card')){
+        $('body').addClass('OVERFLOW-HIDDEN')
+        $('#wrap').addClass('OVERSCROLL')
+    }
+}
 /** 해시 태그 봉스타그램 js에 자세히 사용된 것 있음   */
 function tagifyExe(el){
     if($('.tag-input').length > 0){
