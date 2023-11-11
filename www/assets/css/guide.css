@@ -1243,6 +1243,7 @@ table tr:hover td{background:#f8f8f8 !important;}
     }
     .modal-full.full .modal-body {
         padding:0;
+        overflow:hidden;
     }
 /* 모달 full-full */
 /* 모달 full-full End */

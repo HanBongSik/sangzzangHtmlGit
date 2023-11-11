@@ -5,6 +5,11 @@
     <?php include("$path/include/meta_head.php"); ?>
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTGM2WFN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <div id="wrap">
     <!-- header -->
     <?php include("$path/include/header.php"); ?>

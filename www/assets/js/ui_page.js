@@ -106,6 +106,6 @@ $(function(){
     /* 상장 작성 페이지 End */
 
     /* 3D 카드 */
-    noPullRefresh();
+    noPullRefreshOn();
     /* 3D 카드 End */
 });

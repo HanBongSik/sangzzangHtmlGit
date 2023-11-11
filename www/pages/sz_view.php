@@ -5,6 +5,11 @@
     <?php include("$path/include/meta_head.php"); ?>
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTGM2WFN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <div id="wrap">
     <!-- header -->
     <?php include("$path/include/header.php"); ?>
@@ -487,195 +492,193 @@
                         <div class="swiper-container">
                             <ul class="swiper-wrapper ">
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/friends.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/friends.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/food2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/food2.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/meet2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/meet2.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/game.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/game.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/game2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/game2.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/game3.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/game3.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/present-1.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/present-1.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/present-2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/present-2.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/present.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/present.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/hobby.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/hobby.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/animal-forest-card.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/animal-forest-card.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/birthday.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/birthday.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/cart1.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/cart1.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/cart2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/cart2.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/cart3.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/cart3.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/cat.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/cat.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/dog.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/dog.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/mom.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/mom.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/baby4.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/baby4.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/baby2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/baby2.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/baby3.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/baby3.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/baby5.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/baby5.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/sports3.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/sports3.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/sports6.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/sports6.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/sports4.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/sports4.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/sports5.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/sports5.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/singer0.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/singer0.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/singer2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/singer2.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/singer3.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/singer3.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/normal.jpg">
-                                    </div>
-                                </li>
-
-
-                                <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/nurse.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/normal.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/firefighter.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/nurse.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/chicken.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/firefighter.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/god.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/chicken.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/god2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/god.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/politics.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/god2.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/politics2.jpg">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/politics.jpg">
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="/assets/tempImg/photo/politics3.png">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/politics2.jpg">
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="swiper-zoom-container MODAL-BTN" data-target="#modalPhotoFullView">
+                                        <img class="img-photo" src="/assets/tempImg/photo/politics3.png">
                                     </div>
                                 </li>
 
@@ -687,7 +690,7 @@
                             <div class="swiper-button-next"></div>
                         </div>
                         <!-- Swiper End -->
-                        <div class="btn-photo-full-view"><a href="#;" class="btn-photo-full-view__link MODAL-BTN" data-target="#modalPhotoFullView"><img class="btn-photo-full-view__img" src="/assets/img/ico/ico-full-view.png"></a></div>
+<!--                        <div class="btn-photo-full-view"><a href="#;" class="btn-photo-full-view__link MODAL-BTN" data-target="#modalPhotoFullView"><img class="btn-photo-full-view__img" src="/assets/img/ico/ico-full-view.png"></a></div>-->
                         <!-- Swiper JS -->
                         <!-- Initialize Swiper -->
                         <style>
@@ -695,7 +698,7 @@
                         </style>
                         <script>
                             var photoSwiper = new Swiper('.photo .swiper-container', {
-                                zoom: true,
+                                zoom: false,
                                 slidesPerView: 1,
                                 loop: false,
                                 pagination: {
@@ -726,51 +729,51 @@
                                         console.log('zoomChange');
                                         $('html,body').addClass('OVERFLOW-HIDDEN');
                                         $('#wrap').addClass('OVERSCROLL');
-                                        $('.photo .swiper-container').addClass('LOCKED');
-                                        this.update();
-                                        // let target = $('.photo .swiper-slide-active');
-                                        // if(target.hasClass('swiper-slide-zoomed')){
-                                        //     $('html,body').addClass('OVERFLOW-HIDDEN');
-                                        //     $('#wrap').addClass('OVERSCROLL');
-                                        //     $('.photo .swiper-container').addClass('LOCKED');
-                                        //     this.update();
-                                        // }else{
-                                        //     $('body').removeClass('OVERFLOW-HIDDEN');
-                                        //     $('#wrap').removeClass('OVERSCROLL');
-                                        //     $('.photo .swiper-container').removeClass('LOCKED');
-                                        //     this.update();
-                                        // }
+                                        // $('.photo .swiper-container').addClass('LOCKED');
+                                        // this.update();
+                                        let target = $('.photo .swiper-slide-active');
+                                        if(target.hasClass('swiper-slide-zoomed')){
+                                            $('html,body').addClass('OVERFLOW-HIDDEN');
+                                            $('#wrap').addClass('OVERSCROLL');
+                                            // $('.photo .swiper-container').addClass('LOCKED');
+                                            // this.update();
+                                        }else{
+                                            $('body').removeClass('OVERFLOW-HIDDEN');
+                                            $('#wrap').removeClass('OVERSCROLL');
+                                            // $('.photo .swiper-container').removeClass('LOCKED');
+                                            // this.update();
+                                        }
                                     },
-                                    // touchStart : function(){
-                                    //     console.log('zoomChange');
-                                    //     let target = $('.photo .swiper-slide-active');
-                                    //     if(target.hasClass('swiper-slide-zoomed')){
-                                    //         $('html,body').addClass('OVERFLOW-HIDDEN');
-                                    //         $('#wrap').addClass('OVERSCROLL');
-                                    //         $('.photo .swiper-container').addClass('LOCKED');
-                                    //         this.update();
-                                    //     }else{
-                                    //         $('body').removeClass('OVERFLOW-HIDDEN');
-                                    //         $('#wrap').removeClass('OVERSCROLL');
-                                    //         $('.photo .swiper-container').removeClass('LOCKED');
-                                    //         this.update();
-                                    //     }
-                                    // },
-                                    // touchEnd : function(){
-                                    //     console.log('touchEnd');
-                                    //     let target = $('.photo .swiper-slide-active');
-                                    //     if(target.hasClass('swiper-slide-zoomed')){
-                                    //         $('html,body').addClass('OVERFLOW-HIDDEN');
-                                    //         $('#wrap').addClass('OVERSCROLL');
-                                    //         $('.photo .swiper-container').addClass('LOCKED');
-                                    //         this.update();
-                                    //     }else{
-                                    //         $('html,body').removeClass('OVERFLOW-HIDDEN')
-                                    //         $('#wrap').removeClass('OVERSCROLL')
-                                    //         $('.photo .swiper-container').removeClass('LOCKED');
-                                    //         this.update();
-                                    //     }
-                                    // },
+                                    touchStart : function(){
+                                        console.log('zoomChange');
+                                        let target = $('.photo .swiper-slide-active');
+                                        if(target.hasClass('swiper-slide-zoomed')){
+                                            $('html,body').addClass('OVERFLOW-HIDDEN');
+                                            $('#wrap').addClass('OVERSCROLL');
+                                            // $('.photo .swiper-container').addClass('LOCKED');
+                                            // this.update();
+                                        }else{
+                                            $('body').removeClass('OVERFLOW-HIDDEN');
+                                            $('#wrap').removeClass('OVERSCROLL');
+                                            // $('.photo .swiper-container').removeClass('LOCKED');
+                                            // this.update();
+                                        }
+                                    },
+                                    touchEnd : function(){
+                                        console.log('touchEnd');
+                                        let target = $('.photo .swiper-slide-active');
+                                        if(target.hasClass('swiper-slide-zoomed')){
+                                            $('html,body').addClass('OVERFLOW-HIDDEN');
+                                            $('#wrap').addClass('OVERSCROLL');
+                                            // $('.photo .swiper-container').addClass('LOCKED');
+                                            // this.update();
+                                        }else{
+                                            $('html,body').removeClass('OVERFLOW-HIDDEN')
+                                            $('#wrap').removeClass('OVERSCROLL')
+                                            // $('.photo .swiper-container').removeClass('LOCKED');
+                                            // this.update();
+                                        }
+                                    },
                                 },
 
                             });
@@ -1598,6 +1601,7 @@
     <!-- 상장 temp -->
     <style>
         .sangzzang-copy{position: absolute;left: -999999px;top: -999999px;}
+        .sangzzang-copy22{position:fixed !important;left: 0!important;;top: 0!important;}
     </style>
     <div class="sangzzang sangzzang-copy">
         <!--
@@ -1634,10 +1638,9 @@
                 </a>
             </div>
         </div>-->
-
-
     </div>
     <div class="capture"></div>
+    <div class="big-capture-source"></div>
 
     <!-- 공유하기 모달 팝업  -->
     <div class="modal-dimmed" id="modalShare" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
@@ -1792,16 +1795,16 @@
                             <div class="g btn-download-sz">
                                 <div class="r download-sz-size-select">
                                     <span class="forms">
-                                        <input type="radio" name="download-size" value="radio-q01" id="radio-q01" checked="checked">
-                                        <label for="radio-q01">일반</label>
+                                        <input type="radio" name="downloadSize" value="620" id="downloadSizeDevice" checked="checked">
+                                        <label for="downloadSizeDevice">일반</label>
                                     </span>
                                     <span class="forms">
-                                        <input type="radio" name="download-size" value="radio-q02" id="radio-q02">
-                                        <label for="radio-q02">포토카드</label>
+                                        <input type="radio" name="downloadSize" value="1240" id="downloadSizePhotoCard">
+                                        <label for="downloadSizePhotoCard">포토카드</label>
                                     </span>
                                     <span class="forms">
-                                        <input type="radio" name="download-size" value="radio-q03" id="radio-q03">
-                                        <label for="radio-q03">A4용지</label>
+                                        <input type="radio" name="downloadSize" value="2480" id="downloadSizeA4">
+                                        <label for="downloadSizeA4">A4용지</label>
                                     </span>
                                     <!--                                    <a class="btn" id="imgDownload">다운로드(일반)</a>-->
                                     <!--                                    <a class="btn" id="imgDownload3" onclick="alert('개발 중입니다.');return false;">다운로드 (포토카드)</a>-->
@@ -1823,7 +1826,6 @@
     <style>
         /*.sangzzang-copy .sz-wrting{transform:scale(1);}*/
         /*.sangzzang-copy{left:0 !important;top:0 !important;}*/
-
     </style>
     <script>
         /* 상장 스크린샷 */
@@ -1836,7 +1838,7 @@
             body.append('<div class="sangzzang sangzzang-copy"></div>');
             origin.find(" > .sz-wrting").clone().appendTo(".sangzzang.sangzzang-copy");
 
-            let copyWriting = $(".sangzzang.sangzzang-copy > .sz-wrting");
+            let copyWriting = $(".sangzzang.sangzzang-copy > .sz-wrting");//카피할 영역
             copyWriting.removeAttr('style').find('.sz-sticking, .sz-stamping').remove();
             copyWriting.find(" > div ").each(function(index){
                 let text= $(this).find('textarea').val();
@@ -1848,7 +1850,38 @@
             });
         }
 
+
+        var html2canvasScale = 1;
+        checkedDownloadSize();
+        function checkedDownloadSize(){
+            $("[name='downloadSize']").on('change',function(){
+                //alert('change');
+                // 체크한 데이터를 담을 변수 선언 https://nameybs.tistory.com/37
+                var downloadSize = "";
+                // Name이 downloadSize인 속성 취득
+                const szDownloadSize = document.getElementsByName("downloadSize");
+                // 취득한 속성 만큼 루프
+                for (let i = 0; i < szDownloadSize.length; i++) {
+                    // 속성중에 체크 된 항목이 있을 경우
+                    if (szDownloadSize[i].checked === true) {
+                        var checkedSize = Number(szDownloadSize[i].value);
+                    }
+                }
+                // 크기 계산기
+                if(checkedSize == 1){
+                    html2canvasScale = 1;
+                }else{
+                    let canvasVisibleWidth = $('.sz-download-modal-col').find('canvas').attr('width');
+                    html2canvasScale = (checkedSize / canvasVisibleWidth);
+                }
+                alert(html2canvasScale);
+                szClone();
+                onScreenShotClick();//다운로드 버튼을 누를 때 실행시켜야겠는데
+            });
+        }
+
         function onScreenShotClick(ev){ //스크린샷 기능
+            //alert(html2canvasScale);
             /* 다운받을 때 A4 100% 크기 */
             //2480
             // 일반포토카드 55mm*85mm | 207.874px * 321.259px | 2.1:3.3" | 24장 4,200원[35%]
@@ -1862,14 +1895,12 @@
             $('.sangzzang-copy .sz-wrting').css('transform','scale('+scaleW+')');
             $('.sangzzang.sangzzang-copy').css('height',scaleH+border+"px");
             */
-            let appendTargetEl = '#modalSzDownload .sz-download-modal-col';
+            let appendTargetEl = '#modalSzDownload .sz-download-modal-col'; //캡쳐 붙여넣을 곳
             $(appendTargetEl).empty();
-
             /*
                 html2canvas(document.querySelector(".sangzzang-copy .CAPTUREAREA")).then(function(canvas)
             */
-
-            html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA")).then(function(canvas) {
+            html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:html2canvasScale }).then(function(canvas) {
                 document.querySelector(appendTargetEl).appendChild(canvas);
                 let myImage = canvas.toDataURL();
 
@@ -1891,6 +1922,26 @@
                     fileName = $('#saveTitle').val();
                 }*/
                 $('#imgDownload').attr('download', fileName+'.png');
+            });
+        }
+
+        function onScreenShotClickDownload(ev){ //스크린샷 기능
+
+            let appendTargetEl = '.big-capture-source'; //캡쳐 붙여넣을 곳
+            $(appendTargetEl).empty();
+
+            /*
+                html2canvas(document.querySelector(".sangzzang-copy .CAPTUREAREA")).then(function(canvas)
+            */
+            // 사이즈에 맞는 곳으로 복사하여 붙여넣자
+            
+            html2canvas(document.querySelector(".big-capture-source"),{ scale:10 }).then(function(canvas) {//캡쳐할 곳
+                document.querySelector(appendTargetEl).appendChild(canvas); //캡쳐 붙여넣기
+                let myImage = canvas.toDataURL();let today = new Date();let year = today.getFullYear();let month = ('0' + (today.getMonth() + 1)).slice(-2);let day = ('0' + today.getDate()).slice(-2);let hours = ('0' + today.getHours()).slice(-2);let minutes = ('0' + today.getMinutes()).slice(-2);let seconds = ('0' + today.getSeconds()).slice(-2);
+                $('#imgDownload').attr('href', myImage);//캡쳐 base64소스
+
+                let fileName = '상짱_' + year + '-' + month  + '-' + day + '-' + hours + minutes + seconds;
+                $('#imgDownload').attr('download', fileName+'.png');//다운로드할 파일 이름 설정
             });
         }
 

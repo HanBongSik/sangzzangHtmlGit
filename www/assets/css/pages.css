@@ -562,10 +562,10 @@
 .btn-photo-minimize-view{position:absolute;right:15px;bottom:15px;z-index:10;background:#fff;opacity:0.5;border-radius:3px;overflow:hidden;z-index:11;border:1px solid #9e9e9e;}
 .btn-photo-full-view__img,
 .btn-photo-minimize-view__img{display:block;height:35px;}
-html body .photo .swiper-slide{height:500px;}
+html body .photo .swiper-slide{max-height:500px;height:auto;}
 
 /* 사진 스와이퍼 */
-html body .photo .swiper-slide{height:500px;background: no-repeat center center;background-size:contain;}
+html body .photo .swiper-slide{background: no-repeat center center;background-size:contain;}
 html body .photo .photo-list.swiper-container .swiper-slide{height:50px;background-color:#fff;}
 html body .swiper-container{overflow:hidden;}
 html body .swiper-pagination-bullet-active{background:#da4f4d;}
