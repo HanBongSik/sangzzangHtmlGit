@@ -1,6 +1,6 @@
 $(function(){
     /* 상장 작성 페이지 */
-    if($('.sz-wrting').length > 0){
+    if($('.SZ-WRITE').length > 0){
         /* 그리기 펜 연필 인터렉션 */
         // drawIcon();
         /* 최초 포커스 갔을 때*/
@@ -19,7 +19,7 @@ $(function(){
             };*/
         });
 
-        $('.sangzzang.sangzzang-origin').on('click',function(e){
+        $('.SZ-ORIGIN').on('click',function(e){
             $('.ELEMENT.TARGET').removeClass('TARGET');
             $('.edit-guide-wrapper').css('display','none');
             e.stopPropagation();
@@ -31,7 +31,7 @@ $(function(){
         });
 
         /* 이게 문제네 */
-        $('.sangzzang.sangzzang-origin33').on('focusout',function(e){
+        $('.SANGZZANG.sangzzang-origin33').on('focusout',function(e){
             $('.ELEMENT.TARGET').removeClass('TARGET');
             $('.edit-guide-wrapper').css('display','none');
             e.stopPropagation();
@@ -97,7 +97,7 @@ $(function(){
         /* 상장 디자인 수정 */
         $('#szDesignList .sz-design-img button').on('click',function(){
             let src = $(this).find('.sz-design').attr('src');
-            $('.sangzzang .sz-design').attr('src',src);
+            $('.SANGZZANG .sz-design').attr('src',src);
 
             $('.edit-guide-wrapper').css('display','none');
         });

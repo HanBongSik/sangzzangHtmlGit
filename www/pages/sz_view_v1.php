@@ -22,17 +22,6 @@
         </div>
         <!-- h1 End -->
         <!-- content -->
-        <style>
-            .photo .swiper-container.LOCKED .swiper-slide:not(.swiper-slide-active){display:none;}
-            /* 상장 다운로드 */
-            .AREA-SANGZZANG-COPY{position: absolute;left: -999999px;top: -999999px;}
-            #szDownloadSize{position: absolute;left: -999999px;top: -999999px;}
-            .sangzzang-copy22{position:fixed !important;left: 0!important;;top: 0!important;}
-            .btn-download-sz{}
-            .btn-download-sz > .r{gap:5px; justify-content:center;padding:5px 0;}
-            .btn-download-sz > .download-sz-size-select{gap:0 15px;margin-bottom:10px;}
-            /* 상장 다운로드 End */
-        </style>
         <div class="content content-sz-view container-xs">
             <div class="layout-two-one inner-scroll">
                 <div class="layout-two-one__layout-left">
@@ -173,8 +162,8 @@
 
                                     </div>
                                     <div class="r post__row">
-                                        <div class="SANGZZANG SZ-ORIGIN SANGZZANG-VIEW">
-                                            <div class="SZ-WRITE SZ-RATIO clearfix CAPTUREAREA">
+                                        <div class="sangzzang sangzzang-origin sangzzang-view">
+                                            <div class="sz-wrting sz-ratio sz-write clearfix CAPTUREAREA">
                                                 <img class="sz-design" src="/assets/img/design/sz_000004.png" alt="">
 
                                                 <div class="sz-name">
@@ -704,6 +693,9 @@
 <!--                        <div class="btn-photo-full-view"><a href="#;" class="btn-photo-full-view__link MODAL-BTN" data-target="#modalPhotoFullView"><img class="btn-photo-full-view__img" src="/assets/img/ico/ico-full-view.png"></a></div>-->
                         <!-- Swiper JS -->
                         <!-- Initialize Swiper -->
+                        <style>
+                            .photo .swiper-container.LOCKED .swiper-slide:not(.swiper-slide-active){display:none;}
+                        </style>
                         <script>
                             var photoSwiper = new Swiper('.photo .swiper-container', {
                                 zoom: false,
@@ -1607,9 +1599,13 @@
     <!-- 모달 End -->
 
     <!-- 상장 temp -->
-    <div class="sangzzang AREA-SANGZZANG-COPY">
+    <style>
+        .sangzzang-copy{position: absolute;left: -999999px;top: -999999px;}
+        .sangzzang-copy22{position:fixed !important;left: 0!important;;top: 0!important;}
+    </style>
+    <div class="sangzzang sangzzang-copy">
         <!--
-        <div class="sz-wrting SZ-RATIO sz-writing clearfix">
+        <div class="sz-wrting sz-ratio sz-write clearfix">
             <img class="sz-design" src="./assets/design/sz_000007.png" alt=""/>
             <div class="sz-name">
                 <div>상 장 COPY</div>
@@ -1644,7 +1640,7 @@
         </div>-->
     </div>
     <div class="capture"></div>
-    <div class="sangzzang AREA-SANGZZANG-COPY-DOWNLOAD"></div>
+    <div class="sangzzang sangzzang-copy-download"></div>
 
     <!-- 공유하기 모달 팝업  -->
     <div class="modal-dimmed" id="modalShare" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
@@ -1791,6 +1787,11 @@
 
                         <!-- 모달 푸터 -->
                         <div class="modal-footer">
+                            <style>
+                                .btn-download-sz{}
+                                .btn-download-sz > .r{gap:5px; justify-content:center;padding:5px 0;}
+                                .btn-download-sz > .download-sz-size-select{gap:0 15px;margin-bottom:10px;}
+                            </style>
                             <div class="g btn-download-sz">
                                 <div class="r download-sz-size-select">
                                     <span class="forms">
@@ -1805,13 +1806,13 @@
                                         <input type="radio" name="downloadSize" value="2480" id="downloadSizeA4">
                                         <label for="downloadSizeA4">A4용지</label>
                                     </span>
-                                    <!--                                    <a class="btn" id="szDownload">다운로드(일반)</a>-->
-                                    <!--                                    <a class="btn" id="szDownload3" onclick="alert('개발 중입니다.');return false;">다운로드 (포토카드)</a>-->
-                                    <!--                                    <a class="btn" id="szDownload4" onclick="alert('개발 중입니다.');return false;">다운로드 (A4용지)</a>-->
+                                    <!--                                    <a class="btn" id="imgDownload">다운로드(일반)</a>-->
+                                    <!--                                    <a class="btn" id="imgDownload3" onclick="alert('개발 중입니다.');return false;">다운로드 (포토카드)</a>-->
+                                    <!--                                    <a class="btn" id="imgDownload4" onclick="alert('개발 중입니다.');return false;">다운로드 (A4용지)</a>-->
                                 </div>
                                 <div class="r">
-                                    <a class="btn" id="szDownload">다운로드</a>
-                                    <a class="btn" id="szDownloadSize">다운로드 사이즈</a>
+                                    <a class="btn" id="imgDownload">다운로드</a>
+                                    <a class="btn" id="imgDownloadSize">다운로드 사이즈</a>
                                     <button class="btn btn-black MODAL-CLOSE">취소</button>
                                 </div>
                             </div>
@@ -1823,37 +1824,22 @@
         </div>
     </div>
     <!-- 다운로드 팝업 End -->
+    <style>
+        /*.sangzzang-copy .sz-wrting{transform:scale(1);}*/
+        /*.sangzzang-copy{left:0 !important;top:0 !important;}*/
+    </style>
     <script>
         /* 상장 스크린샷 */
-        var renderSzScale = 1;
-        var checkedSzDownloadSize = '';
-
-        //다운로드 버튼 누르면
-        $('#szDownload').on('click',function(){
-            if(checkedDownloadSize() == 2480){
-                console.log('AD 2480');
-            }else if(checkedDownloadSize() == 1240){
-                console.log('AD 1240');
-            }
-            captureSzDownload();//다운로드 버튼을 누를 때 실행시켜야겠는데
-        })
-
-        function bindCheckedDownloadSize(){
-            $("[name='downloadSize']").on('change',function(){
-                checkedDownloadSize()
-            });
-        }
-
-        function cloneSz(size){ //원하는 영역의 스크린샷을 찍어 원하는 곳으로 코드 복사한다.
+        function szClone(size){
             let body = $('body');
-            let origin = $(".SANGZZANG.SZ-ORIGIN");
-            let copy = $(".AREA-SANGZZANG-COPY");
+            let origin = $(".sangzzang.sangzzang-origin");
+            let copy = $(".sangzzang.sangzzang-copy");
             //다운로드 클릭
             copy.remove();
-            body.append('<div class="AREA-SANGZZANG-COPY"></div>');
-            origin.find(" > .SZ-WRITE").clone().appendTo(".AREA-SANGZZANG-COPY");
+            body.append('<div class="sangzzang sangzzang-copy"></div>');
+            origin.find(" > .sz-wrting").clone().appendTo(".sangzzang.sangzzang-copy");
 
-            let copyWriting = $(".AREA-SANGZZANG-COPY > .SZ-WRITE");//카피할 영역
+            let copyWriting = $(".sangzzang.sangzzang-copy > .sz-wrting");//카피할 영역
             copyWriting.removeAttr('style').find('.sz-sticking, .sz-stamping').remove();
             copyWriting.find(" > div ").each(function(index){
                 let text= $(this).find('textarea').val();
@@ -1864,27 +1850,48 @@
                 }
             });
         }
+        //다운로드 버튼 누르면
+        $('#imgDownload').on('click',function(){
+            onScreenShotClickDownload();//다운로드 버튼을 누를 때 실행시켜야겠는데
+        })
+
+        var html2canvasScale = 1;
+        var checkedSize = '';
+
+        function bindCheckedDownloadSize(){
+            $("[name='downloadSize']").on('change',function(){
+                checkedDownloadSize()
+            });
+        }
 
         function checkedDownloadSize(){
-            const szDownloadSize = document.getElementsByName("downloadSize");
+            //alert('change');
             // 체크한 데이터를 담을 변수 선언 https://nameybs.tistory.com/37
+            // Name이 downloadSize인 속성 취득
+            const szDownloadSize = document.getElementsByName("downloadSize");
+            // 취득한 속성 만큼 루프
             for (let i = 0; i < szDownloadSize.length; i++) {
                 // 속성중에 체크 된 항목이 있을 경우
                 if (szDownloadSize[i].checked === true) {
-                    checkedSzDownloadSize = Number(szDownloadSize[i].value);
+                    checkedSize = Number(szDownloadSize[i].value);
                 }
             }
-            let _checkedSzDownloadSize = checkedSzDownloadSize;// alert('checkedSzDownloadSize ' + checkedSzDownloadSize);
-
+            let _checkedSize = checkedSize;
+            // alert('checkedSize ' + checkedSize);
+            // alert('else');
             // 크기 계산기
             let canvasVisibleWidthStyle = document.querySelector(".sz-download-modal-col canvas").style.width;
             let canvasVisibleWidth = canvasVisibleWidthStyle.replace('px','');
-            renderSzScale = (_checkedSzDownloadSize / canvasVisibleWidth);//alert('\n_checkedSzDownloadSize : ' + _checkedSzDownloadSize + '  ' + '\ncanvasVisibleWidth : ' + canvasVisibleWidth + '\nrenderSzScale : '+ renderSzScale);
-            return checkedSzDownloadSize;
+            html2canvasScale = (_checkedSize / canvasVisibleWidth);
+            //alert('\n_checkedSize : ' + _checkedSize + '  ' + '\ncanvasVisibleWidth : ' + canvasVisibleWidth + '\nhtml2canvasScale : '+ html2canvasScale);
+
+            // alert(html2canvasScale);
+
+            //szClone();
         }
 
-        function captureSzInit(ev){ //뷰에서 다운로드 모달로 스크린샷 기능
-            //alert(renderSzScale);
+        function onScreenShotClick(ev){ //뷰에서 다운로드 모달로 스크린샷 기능
+            //alert(html2canvasScale);
             /* 다운받을 때 A4 100% 크기 */
             //2480
             // 일반포토카드 55mm*85mm | 207.874px * 321.259px | 2.1:3.3" | 24장 4,200원[35%]
@@ -1900,33 +1907,37 @@
             */
             let appendTargetEl = '#modalSzDownload .sz-download-modal-col'; //캡쳐 붙여넣을 곳
             $(appendTargetEl).empty();
-            html2canvas(document.querySelector(".SZ-ORIGIN .CAPTUREAREA"),{ scale:5 }).then(function(canvas) { //scale은 모바일에서 깨져보이지 않게 하기 위해
+            html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:5 }).then(function(canvas) {
                 document.querySelector(appendTargetEl).appendChild(canvas);
                 checkedDownloadSize();
-                captureSzDownload('init');
+                onScreenShotClickDownload('init');
             });
         }
 
-        function captureSzDownload(state){ //스크린샷 기능
-            let appendTargetEl = '.AREA-SANGZZANG-COPY-DOWNLOAD'; //캡쳐 붙여넣을 곳
+        function onScreenShotClickDownload(state){ //스크린샷 기능
+            let appendTargetEl = '.sangzzang-copy-download'; //캡쳐 붙여넣을 곳
             $(appendTargetEl).empty();
             // html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:1 }).then(function(canvas) {
 
             // 사이즈에 맞는 곳으로 복사하여 붙여넣자
-            //alert('다운받을 곳 스케일 : '+ renderSzScale);
-            html2canvas(document.querySelector(".SZ-ORIGIN .CAPTUREAREA"),{ scale:renderSzScale }).then(function(canvas) { //캡쳐할 곳
+            //alert('다운받을 곳 스케일 : '+ html2canvasScale);
+            html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:html2canvasScale }).then(function(canvas) {//캡쳐할 곳
                 document.querySelector(appendTargetEl).appendChild(canvas); //캡쳐 붙여넣기
                 let myImage = canvas.toDataURL();let today = new Date();let year = today.getFullYear();let month = ('0' + (today.getMonth() + 1)).slice(-2);let day = ('0' + today.getDate()).slice(-2);let hours = ('0' + today.getHours()).slice(-2);let minutes = ('0' + today.getMinutes()).slice(-2);let seconds = ('0' + today.getSeconds()).slice(-2);
 
-                $('#szDownloadSize').attr('href', myImage); //캡쳐 base64소스
+                $('#imgDownloadSize').attr('href', myImage);//캡쳐 base64소스
 
                 let fileName = '상짱_' + year + '-' + month  + '-' + day + '-' + hours + minutes + seconds;
-                $('#szDownloadSize').attr('download', fileName+'.png'); //다운로드할 파일 이름 설정
-                if(state !== 'init'){
-                    document.querySelector('#szDownloadSize').click();
+                $('#imgDownloadSize').attr('download', fileName+'.png');//다운로드할 파일 이름 설정
+                if(state == 'init'){
+
+                }else{
+                    document.querySelector('#imgDownloadSize').click();
                 }
+
             });
         }
+
     </script>
 
 </div>

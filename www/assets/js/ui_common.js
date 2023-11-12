@@ -96,7 +96,6 @@ function tagifyExe2(el){
     }
 }
 $(document).ready(function(){
-
     /* 해시태그 */
     tagifyExe();
     tagifyExe2();
@@ -106,24 +105,24 @@ $(document).ready(function(){
 
 /* 상장 비율 */
 function sangRatio(){
-    width = $('.sangzzang.sangzzang-origin').width();
+    width = $('.SANGZZANG.SZ-ORIGIN').width();
     scaleW = width/2480; //픽셀당 scale A4 너비
     scaleH = height*scaleW;
     border = 3;
     console.log('width'+" "+width);
     console.log('scaleW'+" "+scaleW);
     console.log('scaleH'+" "+scaleH);
-    $('.sangzzang.sangzzang-origin').css('height',scaleH+/*border+*/"px");
-    $('.sangzzang.sangzzang-origin .sz-wrting').css('transform','scale('+scaleW+')');
+    $('.SANGZZANG.SZ-ORIGIN').css('height',scaleH+/*border+*/"px");
+    $('.SANGZZANG.SZ-ORIGIN .SZ-WRITE').css('transform','scale('+scaleW+')');
 
     /* draw 비율*/
-    drawH = $('.sangzzang.sangzzang-origin').first().height()*0.04;
+    drawH = $('.SANGZZANG.SZ-ORIGIN').first().height()*0.04;
     $('.draw').css('height',drawH+'px');
 };
 
 $(window).on('load', function(){
-    if ($('.sangzzang.sangzzang-origin').length > 0){
-        height = $('.sangzzang.sangzzang-origin').height();
+    if ($('.SANGZZANG.SZ-ORIGIN').length > 0){
+        height = $('.SANGZZANG.SZ-ORIGIN').height();
         //한번 실행
         sangRatio();
         //리사이즈 때 한번 실행

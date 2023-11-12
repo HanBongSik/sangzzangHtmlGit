@@ -13,6 +13,7 @@
     <script src="/assets/js/3d-card.js?v=<?php echo $version ?>"></script>
     <!-- 3D 카드 End -->
     <style>
+        #my_cube{}
         .cube{width:330px;height:524px;margin-left:0;margin-top:0;margin-left:-165px;margin-top:-242px;}
 
         .cube--color-red .face{border:none !important;}
@@ -30,7 +31,7 @@
         .face--tree{display:block;}
         .face--tree .img{transform:rotateX(0deg) rotateY(-180deg) rotateZ(0deg);}
 
-        .cube--color-red .face, .cube--color-red .face--one, .cube--color-red .face--two, .cube--color-red .face--tree, .cube--color-red .face--four, .cube--color-red .face--five, .cube--color-red .face--six{border:none !important;background:transparent !important;border-radius:20px;overflow:hidden;}
+        .cube--color-red .face, .cube--color-red .face--one, .cube--color-red .face--two, .cube--color-red .face--tree, .cube--color-red .face--four, .cube--color-red .face--five, .cube--color-red .face--six{border:none !important;background:transparent !important;border-radius:0.1em;overflow:hidden;}
 
         #imgId{position:absolute;left:-9999999999px;top:-9999999999px;}
         .cube{position:static;box-sizing:border-box;height:calc(100vh - 222px);height:calc(var(--vh) - 200px);margin-left:0;margin-top:-50px;max-height:calc(var(--vh) - 200px)}
@@ -127,7 +128,10 @@
 
         });
         $(window).resize(function(){
-            imgSize()
+            setTimeout(function() {
+                imgSize();
+            },800);
+
         });
         function imgSize() {
             let img = document.getElementById('imgId');
@@ -139,7 +143,7 @@
             // alert("Original width=" + originalWidth + ", " + "Original height=" + originalHeight);
             console.log(ratio);
             let height = $('#my_cube').height();
-            $('#my_cube').css('width',height*ratio+'px');
+            $('#my_cube').css('width',height * ratio+'px');
         }
     </script>
 </div>

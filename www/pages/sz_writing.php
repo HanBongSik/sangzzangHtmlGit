@@ -23,7 +23,7 @@
         <!-- h1 End -->
         <!-- content -->
         <!-- content -->
-        <div class="content content-sz-writing">
+        <div class="content content-SZ-WRITE">
 
             <div class="layout-two-one">
                 <div class="layout-two-one__layout-left">
@@ -65,84 +65,84 @@
 <style>
     .sz-design{display:block;width:100%;}
     /* 상장 만들기 및 보여주기 비율 */
-    .sangzzang.sangzzang-origin{border:1px solid #e9e9e9;overflow:hidden;}
-    .sangzzang.sangzzang-view{margin-top:2px;}
-    .sz-ratio{position:relative;}
-    .sz-ratio textarea,
-    .sz-ratio input[type="text"]{/*border:2px solid #8caee5;*/}
-    .sz-write .sz-sticker,.sz-write .sz-stamp{position:relative;}
-    .sz-wrting{width:1000px;transform-origin:left top;}
-    .sz-ratio input, .sz-ratio textarea{border:none;outline:2px solid #c8c8c8;}
-    .sz-ratio textarea{padding:0;}
+    .SZ-ORIGIN{border:1px solid #e9e9e9;overflow:hidden;}
+    .SANGZZANG-VIEW{margin-top:2px;}
+    .SZ-RATIO{position:relative;}
+    .SZ-RATIO textarea,
+    .SZ-RATIO input[type="text"]{/*border:2px solid #8caee5;*/}
+    .SZ-WRITE .sz-sticker,.SZ-WRITE .sz-stamp{position:relative;}
+    .SZ-WRITE{width:1000px;transform-origin:left top;}
+    .SZ-RATIO input, .SZ-RATIO textarea{border:none;outline:2px solid #c8c8c8;}
+    .SZ-RATIO textarea{padding:0;}
 
     /* 상장 디자인 */
-    .sz-ratio .sz-ratio-img{width:100%;}
+    .SZ-RATIO .SZ-RATIO-img{width:100%;}
 
     /* 상장 이름 */
-    .sz-ratio .sz-name{min-height:8%;position:absolute;left:0px;top:13%;width:100%;margin:0 auto;text-align:center;}
-    .sz-ratio .sz-name > *{display:block;margin:0 auto;width:70%;height:100%;font-size:90px;text-align:center;background:transparent;}
-    .sz-ratio .sz-name > *{font-size:64px;}
+    .SZ-RATIO .sz-name{min-height:8%;position:absolute;left:0px;top:13%;width:100%;margin:0 auto;text-align:center;}
+    .SZ-RATIO .sz-name > *{display:block;margin:0 auto;width:70%;height:100%;font-size:90px;text-align:center;background:transparent;}
+    .SZ-RATIO .sz-name > *{font-size:64px;}
 
     /* 상장 타이틀 */
-    .sz-ratio .sz-title{position:absolute;left:15%;top:27%;width:39%;min-height:6%;text-align:left;}
-    .sz-ratio .sz-title > *{width:100%;height:100%;text-align:left;}
-    .sz-ratio .sz-title > *{font-size:50px;}
+    .SZ-RATIO .sz-title{position:absolute;left:15%;top:27%;width:39%;min-height:6%;text-align:left;}
+    .SZ-RATIO .sz-title > *{width:100%;height:100%;text-align:left;}
+    .SZ-RATIO .sz-title > *{font-size:50px;}
 
     /* 상장 받는 사람*/
-    .sz-ratio .sz-receiver{position:absolute;right:15%;top:27%;width:29%;min-height:6%;text-align:right;}
-    .sz-ratio .sz-receiver > *{width:100%;height:100%;text-align:right;}
-    .sz-ratio .sz-receiver > *{font-size:50px;}
+    .SZ-RATIO .sz-receiver{position:absolute;right:15%;top:27%;width:29%;min-height:6%;text-align:right;}
+    .SZ-RATIO .sz-receiver > *{width:100%;height:100%;text-align:right;}
+    .SZ-RATIO .sz-receiver > *{font-size:50px;}
 
     /* 상장 보내는 사람*/
-    .sz-ratio .sz-sender{position:absolute;right:30%;top:77%;width:31%;min-height:10%;text-align:right;}
-    .sz-ratio .sz-sender > *{width:100%;height:100%;text-align:right;}
-    .sz-ratio .sz-sender > *{font-size:50px;}
+    .SZ-RATIO .sz-sender{position:absolute;right:30%;top:77%;width:31%;min-height:10%;text-align:right;}
+    .SZ-RATIO .sz-sender > *{width:100%;height:100%;text-align:right;}
+    .SZ-RATIO .sz-sender > *{font-size:50px;}
 
     /* 상장 내용 */
-    .sz-ratio .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;}
-    .sz-ratio .sz-word > *{width:100%;display:inline-block;height:100%;text-align:justify;letter-spacing:0;}
-    .sz-ratio .sz-word > *{font-size:44px;vertical-align:top;}
+    .SZ-RATIO .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;}
+    .SZ-RATIO .sz-word > *{width:100%;display:inline-block;height:100%;text-align:justify;letter-spacing:0;}
+    .SZ-RATIO .sz-word > *{font-size:44px;vertical-align:top;}
 
     /* 상장 날짜 */
-    .sz-ratio .sz-date{position:absolute;right:15%;top:71%;width:46%;min-height:5%;text-align:right;}
-    .sz-ratio .sz-date > *{width:100%;height:100%;text-align:right;}
-    .sz-ratio .sz-date > *{font-size:40px;}
+    .SZ-RATIO .sz-date{position:absolute;right:15%;top:71%;width:46%;min-height:5%;text-align:right;}
+    .SZ-RATIO .sz-date > *{width:100%;height:100%;text-align:right;}
+    .SZ-RATIO .sz-date > *{font-size:40px;}
 
     /* 상장 스티커 */
-    .sz-ratio .sz-sticker{position:absolute;z-index:500;left:15%;top:71%;width:23%;height:16%;margin:0 auto;text-align:center;}
-    .sz-write .sz-sticker .sz-sticker-img{display:inline-block;width:100%;}
+    .SZ-RATIO .sz-sticker{position:absolute;z-index:500;left:15%;top:71%;width:23%;height:16%;margin:0 auto;text-align:center;}
+    .SZ-WRITE .sz-sticker .sz-sticker-img{display:inline-block;width:100%;}
 
     /* 상장 도장 */
-    .sz-ratio .sz-stamp{position:absolute;z-index:500;right:15%;top:77%;width:14%;height:10%;margin:0 auto;text-align:center;}
-    .sz-ratio .sz-stamp > a > *{display:inline-block;width:100%;}
-    .sz-ratio .sz-sticking{position:absolute;left:0;top:0;transform:rotate(5deg);will-change:transform;}
-    .sz-ratio .sz-stamping{position:absolute;left:0;top:0;transform:translateY(5%);will-change:transform;}
-    .sz-ratio .sz-sticker > a > .sz-sticking{display:none;width:100%;left:9%;top:-5%;z-index:1;will-change:transform;}
-    .sz-ratio .sz-stamp .sz-stamping{display:none;width:150%;left:-25%;top:-30%;z-index:1;will-change:transform;}
+    .SZ-RATIO .sz-stamp{position:absolute;z-index:500;right:15%;top:77%;width:14%;height:10%;margin:0 auto;text-align:center;}
+    .SZ-RATIO .sz-stamp > a > *{display:inline-block;width:100%;}
+    .SZ-RATIO .sz-sticking{position:absolute;left:0;top:0;transform:rotate(5deg);will-change:transform;}
+    .SZ-RATIO .sz-stamping{position:absolute;left:0;top:0;transform:translateY(5%);will-change:transform;}
+    .SZ-RATIO .sz-sticker > a > .sz-sticking{display:none;width:100%;left:9%;top:-5%;z-index:1;will-change:transform;}
+    .SZ-RATIO .sz-stamp .sz-stamping{display:none;width:150%;left:-25%;top:-30%;z-index:1;will-change:transform;}
 
     /* 공통 */
-    .sz-ratio .sz-name > *,
-    .sz-ratio .sz-title > *,
-    .sz-ratio .sz-receiver > *,
-    .sz-ratio .sz-sender > *,
-    .sz-ratio .sz-date > *{color:#333;font-weight:bold;letter-spacing:0;word-break:break-all;white-space:normal;overflow:none;background:transparent;}
-    .sz-ratio .sz-word > *{color:#333;letter-spacing:-1px;word-break:break-all;white-space:normal;overflow:hidden;}
+    .SZ-RATIO .sz-name > *,
+    .SZ-RATIO .sz-title > *,
+    .SZ-RATIO .sz-receiver > *,
+    .SZ-RATIO .sz-sender > *,
+    .SZ-RATIO .sz-date > *{color:#333;font-weight:bold;letter-spacing:0;word-break:break-all;white-space:normal;overflow:none;background:transparent;}
+    .SZ-RATIO .sz-word > *{color:#333;letter-spacing:-1px;word-break:break-all;white-space:normal;overflow:hidden;}
 
-    .sangzzang-copy{width:2480px}
-    .sangzzang-copy .sz-wrting{transform: scale(2.48);} /*여기에 width 주면 아이폰 아이패드에서 깨짐*/
+    .SANGZZANG-COPY{width:2480px}
+    .SANGZZANG-COPY .SZ-WRITE{transform: scale(2.48);} /*여기에 width 주면 아이폰 아이패드에서 깨짐*/
 
     .draw{position:absolute;left:0px;top:0px;height:30px;transition: all .1s;will-change:transform;}
     .draw .sz-draw-img{display:block;height:100%;opacity:.6;will-change:transform;}
 
-    .sz-wrting{width:2480px;}
-    .sz-ratio .sz-name > *{font-size:180px;}
-    .sz-ratio .sz-title > *{font-size:124px;}
-    .sz-ratio .sz-receiver > *{font-size:124px;}
-    .sz-ratio .sz-word > *{font-size:110px;}
-    .sz-ratio .sz-date > *{font-size:90px;}
-    .sz-ratio .sz-sender > *{font-size:130px;}
+    .SZ-WRITE{width:2480px;}
+    .SZ-RATIO .sz-name > *{font-size:180px;}
+    .SZ-RATIO .sz-title > *{font-size:124px;}
+    .SZ-RATIO .sz-receiver > *{font-size:124px;}
+    .SZ-RATIO .sz-word > *{font-size:110px;}
+    .SZ-RATIO .sz-date > *{font-size:90px;}
+    .SZ-RATIO .sz-sender > *{font-size:130px;}
 
-    .sangzzang-copy{p1osition:absolute;1eft:-999999px;1op:-999999px;}
+    .SANGZZANG-COPY{p1osition:absolute;1eft:-999999px;1op:-999999px;}
 
 
 
@@ -258,8 +258,8 @@
         }
     }
 </style>
-                        <div class="sangzzang sangzzang-origin">
-                            <div class="sz-wrting sz-ratio sz-write clearfix">
+                        <div class="SANGZZANG SZ-ORIGIN">
+                            <div class="SZ-WRITE SZ-RATIO clearfix">
                                 <img class="sz-design" src="/assets/img/design/sz_000004.png" alt=""/>
 
                                 <div class="sz-name ELEMENT">
@@ -390,12 +390,12 @@
 
                 </div>
                 <div class="layout-two-one__layout-right">
-                    <div class="sz-writing-detail">
+                    <div class="SZ-WRITE-detail">
                         <style>
-                            .sz-writing-detail h3{font-size: 14px;}
-                            .sz-writing-detail > .g{padding:10px;}
-                            .sz-writing-detail > .g > .r{margin-bottom:10px;}
-                            .sz-writing-detail > .g > .r > .c{flex:1;width:100%;}
+                            .SZ-WRITE-detail h3{font-size: 14px;}
+                            .SZ-WRITE-detail > .g{padding:10px;}
+                            .SZ-WRITE-detail > .g > .r{margin-bottom:10px;}
+                            .SZ-WRITE-detail > .g > .r > .c{flex:1;width:100%;}
                         </style>
                         <div class="g">
                             <div class="r">
@@ -406,16 +406,16 @@
                             <div class="r">
                                 <div class="c">
                                     <style>
-                                        .sz-writing-detail .story{width:100%;}
-                                        .sz-writing-detail .photo{width:100%;}
-                                        .sz-writing-detail .input-photo{width:100% !important;}
-                                        .sz-writing-detail .tag{width:100% !important;}
-                                        .sz-writing-detail .hashtag{width:100% !important;}
-                                        .sz-writing-detail .tag-checkbox{width:100% !important;}
-                                        .sz-writing-detail .movie{width:100% !important;}
-                                        .sz-writing-detail .movie-input{width:100% !important;}
-                                        .sz-writing-detail .source{width:100% !important;}
-                                        .sz-writing-detail .source-input{width:100% !important;}
+                                        .SZ-WRITE-detail .story{width:100%;}
+                                        .SZ-WRITE-detail .photo{width:100%;}
+                                        .SZ-WRITE-detail .input-photo{width:100% !important;}
+                                        .SZ-WRITE-detail .tag{width:100% !important;}
+                                        .SZ-WRITE-detail .hashtag{width:100% !important;}
+                                        .SZ-WRITE-detail .tag-checkbox{width:100% !important;}
+                                        .SZ-WRITE-detail .movie{width:100% !important;}
+                                        .SZ-WRITE-detail .movie-input{width:100% !important;}
+                                        .SZ-WRITE-detail .source{width:100% !important;}
+                                        .SZ-WRITE-detail .source-input{width:100% !important;}
 
 
                                         textarea.story{display:block;height:50px;padding:5px;border:1px solid #d3d3d3;width:100%;}
@@ -661,14 +661,14 @@
                 modalOff('#modalSticker');
                 let stickerSrc = $(this).find('img').attr('src') ;
                 setTimeout(function() {
-                    $('.sz-ratio .sz-sticker > a > .sz-sticker-img').attr('src', stickerSrc).addClass('select-sticker-ani-in');
-                    $('.sz-ratio .sz-sticking').css('display','inline-block').addClass('select-sticker-ani-in');
+                    $('.SZ-RATIO .sz-sticker > a > .sz-sticker-img').attr('src', stickerSrc).addClass('select-sticker-ani-in');
+                    $('.SZ-RATIO .sz-sticking').css('display','inline-block').addClass('select-sticker-ani-in');
                 },270);
                 setTimeout(function() {
-                    $('.sz-ratio .sz-sticker > a > .sz-sticker-img').removeClass('select-sticker-ani-in');
-                    $('.sz-ratio .sz-sticking').css('display','none');
-                    $('.sz-ratio .sz-sticking').removeClass('select-ani-in');
-                    $('.sz-ratio .sz-sticker > a > .sz-sticker-img').attr('src', stickerSrc);
+                    $('.SZ-RATIO .sz-sticker > a > .sz-sticker-img').removeClass('select-sticker-ani-in');
+                    $('.SZ-RATIO .sz-sticking').css('display','none');
+                    $('.SZ-RATIO .sz-sticking').removeClass('select-ani-in');
+                    $('.SZ-RATIO .sz-sticker > a > .sz-sticker-img').attr('src', stickerSrc);
                 },700);
 
             });
@@ -677,14 +677,14 @@
                 let stampSrc = $(this).find('img').attr('src') ;
                 $('.sz-stamp-img').attr('src',stampSrc);
                 setTimeout(function() {
-                    $('.sz-ratio .sz-stamp > a > .sz-stamp-img').attr('src', stampSrc).addClass('select-stamp-ani-in');
-                    $('.sz-ratio .sz-stamping').css('display','inline-block').addClass('select-stamp-ani-in');
+                    $('.SZ-RATIO .sz-stamp > a > .sz-stamp-img').attr('src', stampSrc).addClass('select-stamp-ani-in');
+                    $('.SZ-RATIO .sz-stamping').css('display','inline-block').addClass('select-stamp-ani-in');
                 },270);
                 setTimeout(function() {
-                    $('.sz-ratio .sz-stamp > a > .sz-stamp-img').removeClass('select-stamp-ani-in');
-                    $('.sz-ratio .sz-stamping').css('display','none');
-                    $('.sz-ratio .sz-stamping').removeClass('select-ani-in');
-                    $('.sz-ratio .sz-stamp > a > .sz-stamp-img').attr('src', stampSrc);
+                    $('.SZ-RATIO .sz-stamp > a > .sz-stamp-img').removeClass('select-stamp-ani-in');
+                    $('.SZ-RATIO .sz-stamping').css('display','none');
+                    $('.SZ-RATIO .sz-stamping').removeClass('select-ani-in');
+                    $('.SZ-RATIO .sz-stamp > a > .sz-stamp-img').attr('src', stampSrc);
                 },700);
             });
         })
@@ -731,9 +731,9 @@
         }
         drawIcon()
     </script>
-    <div class="sangzzang sangzzang-copy">
+    <div class="SANGZZANG SANGZZANG-COPY">
         <!--
-        <div class="sz-wrting sz-ratio sz-write clearfix">
+        <div class="sz-wrting SZ-RATIO SZ-WRITE clearfix">
             <img class="sz-design" src="./assets/design/sz_000007.png" alt=""/>
             <div class="sz-name">
                 <div>상 장 COPY</div>

@@ -185,8 +185,10 @@ function styleHeader01Height(){
     }
     function modalOnAfter(el){
         if(el == '#modalSzDownload'){
-            szClone();
-            onScreenShotClick();
+            // checkedDownloadSize();
+            bindCheckedDownloadSize();
+            cloneSz();
+            captureSzInit();
         }
         if(el == '#modalPhotoFullView'){
             let src = $('.swiper-slide-active .img-photo').eq(0).attr('src');
