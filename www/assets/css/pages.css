@@ -505,7 +505,7 @@
 .SZ-RATIO .sz-date > *{font-size:90px;}
 .SZ-RATIO .sz-sender > *{font-size:130px;}
 
-.SANGZZANG-COPY{position:absolute;left:-999999px;top:-999999px;}
+.AREA-SANGZZANG-COPY,.AREA-SANGZZANG-COPY-DOWNLOAD{position:absolute;left:-999999px;top:-999999px; }
 .sz-download-modal-col canvas{width:100% !important;max-width:500px !important;height:auto !important;margin:0 auto;}
 
 /* 상장 보기 */

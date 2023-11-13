@@ -1707,9 +1707,14 @@
 
                         <!-- 모달 바디 -->
                         <div class="modal-body">
-                            <ul class="modal-list">
-                                <li><a href="#;">스크랩하기</a></li>
-                            </ul>
+<!--                            <ul class="modal-list">-->
+<!--                                <li><a href="#;">스크랩하기</a></li>-->
+<!--                            </ul>-->
+                            <div>
+                                <span class="forms">
+                                    <input class="display-block w-100" type="text" value="" placeholder="스크랩 메모">
+                                </span>
+                            </div>
                         </div>
                         <!-- 모달 바디 End -->
 

@@ -23,45 +23,45 @@
         <!-- h1 End -->
         <!-- content -->
         <!-- content -->
-        <div class="content content-SZ-WRITE">
+        <div class="content content-SZ-WRITE container-xs">
 
-            <div class="layout-two-one">
-                <div class="layout-two-one__layout-left">
+            <div class="layout-two-one inner-scroll">
+                <div class="layout-two-one__layout-left self-top effect-none">
 
-                    <!-- 좌측 영역 -->
-                    <div class="LAYOUT-LEFT col-md-6">
-                        <!-- 상장 예문 1
-                        <div class="same-select col-visible lg-hidden">
-                            <h3 class="h3 hidden">예제</h3>
-                            <div class="samples">
-                                <div>
-                                    <a href="#;">지인<br class="lg-hidden">친구</a>
-                                    <a href="#;">이성<br class="lg-hidden">연애</a>
-                                    <a href="#;">자녀<br class="lg-hidden">부모님</a>
-                                    <a href="#;">스승<br class="lg-hidden">제자</a>
-                                    <a href="#;">직장<br class="lg-hidden">멘토</a>
-                                </div>
-                                <div>
-                                    <a href="#;">인플루언서</a>
-                                    <a href="#;">신앙</a>
-                                    <a href="#;">정치</a>
-                                    <a href="#;">연예<br class="lg-hidden">스포츠</a>
-                                    <a href="#;">상춘<br class="lg-hidden">문예</a>
-                                </div>
+                <!-- 좌측 영역 -->
+
+                    <!-- 상장 예문 1
+                    <div class="same-select col-visible lg-hidden">
+                        <h3 class="h3 hidden">예제</h3>
+                        <div class="samples">
+                            <div>
+                                <a href="#;">지인<br class="lg-hidden">친구</a>
+                                <a href="#;">이성<br class="lg-hidden">연애</a>
+                                <a href="#;">자녀<br class="lg-hidden">부모님</a>
+                                <a href="#;">스승<br class="lg-hidden">제자</a>
+                                <a href="#;">직장<br class="lg-hidden">멘토</a>
+                            </div>
+                            <div>
+                                <a href="#;">인플루언서</a>
+                                <a href="#;">신앙</a>
+                                <a href="#;">정치</a>
+                                <a href="#;">연예<br class="lg-hidden">스포츠</a>
+                                <a href="#;">상춘<br class="lg-hidden">문예</a>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- 텍스트 옵션 수정 -->
+                    <!-- 텍스트 옵션 수정 -->
 
-                        <!-- 텍스트 옵션 수정 End -->
+                    <!-- 텍스트 옵션 수정 End -->
 
-                        <!-- 상장 예문 1 End -->
+                    <!-- 상장 예문 1 End -->
 
-                        <!-- 상장 만들기 -->
-                        <!--
-                            https://html2canvas.hertzen.com/
-                            https://www.url2png.com/#testdrive
-                        -->
+                    <!-- 상장 만들기 -->
+                    <!--
+                        https://html2canvas.hertzen.com/
+                        https://www.url2png.com/#testdrive
+                    -->
 <style>
     .sz-design{display:block;width:100%;}
     /* 상장 만들기 및 보여주기 비율 */
@@ -258,137 +258,189 @@
         }
     }
 </style>
-                        <div class="SANGZZANG SZ-ORIGIN">
-                            <div class="SZ-WRITE SZ-RATIO clearfix">
-                                <img class="sz-design" src="/assets/img/design/sz_000004.png" alt=""/>
+                    <div class="SANGZZANG SZ-ORIGIN SZ-WRITING">
+                        <div class="SZ-WRITE SZ-RATIO clearfix">
+                            <img class="sz-design" src="/assets/img/design/sz_000004.png" alt=""/>
 
-                                <div class="sz-name ELEMENT">
+                            <div class="sz-name ELEMENT">
 
-                                    <div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
-                                    <div class="edit-guide-wrapper">
-                                        <div class="button-edit-wrapper">
-                                            <div class="button-edit">
-                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
-                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
-                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="sz-title ELEMENT">
-                                    <div id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>
-                                    <div class="edit-guide-wrapper">
-                                        <div class="button-edit-wrapper">
-                                            <div class="button-edit">
-                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
-                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
-                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
-                                            </div>
+                                <div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
+                                <div class="edit-guide-wrapper">
+                                    <div class="button-edit-wrapper">
+                                        <div class="button-edit">
+                                            <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
+                                            <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="sz-receiver ELEMENT">
-                                    <div id="sangReceiver" name="sangReceiver" class="CONTENTEDITABLE" contenteditable="true">정서윤</div>
-                                    <div class="edit-guide-wrapper">
-                                        <div class="button-edit-wrapper">
-                                            <div class="button-edit">
-                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
-                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
-                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sz-word ELEMENT">
-                                    <div id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">
-                                        위 사람은 제1회 한봉식배 닌텐도<br>
-                                        스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 <br>
-                                        이 상을 드립니다.<br>
-                                        <br>
-                                        다음에도 다시 챔피언이 될 수 있도록 하세요!
-                                    </div>
-                                    <div class="edit-guide-wrapper">
-                                        <div class="button-edit-wrapper">
-                                            <div class="button-edit">
-                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
-                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
-                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
-                                            </div>
-                                        </div>
-                                    </div>
 
-
-                                    <!--
-                                    <textarea id="sangText" name="sangText" data-once="on" placeholder="위 정은아는 평소 한봉식의 직장동료이며 한봉식이 알려주는 웹표준 코딩에 대한  상당히 습득력이 빠르고 뛰어나 한봉식이  보증하건데 아사달 퍼블리셔 외 최고 웹표준 코딩의 에이스일 것을 보증하며 에이스와 함께 이 상장을 드립니다.">
-위 사람은 제1회 한봉식배 닌텐도
-스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 이
-상을 드립니다.
-
-다음에도 다시 챔피언이 될 수 있도록 하세요!</textarea>-->
-                                </div>
-                                <div class="sz-date ELEMENT">
-                                    <div class="edit-guide-wrapper" style="position:absolute;left:0;top:10px;transform:translateY(-100%);">
-                                        <div class="button-edit-wrapper">
-                                            <div class="button-edit">
-                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
-                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
-                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="sangDate" name="sangDate" class="CONTENTEDITABLE" contenteditable="true">2021년 2월 24일</div>
-                                </div>
-                                <div class="sz-sticker">
-                                    <a href="#;" class="MODAL-BTN" data-target="#modalSticker">
-                                        <img class="sz-sticking" src="/assets/img/design/ico-hand.png" alt="스티커 찍는 손"/>
-                                        <img class="sz-sticker-img" src="/assets/img/design/stk/sz_stk_000007.png" alt=""/>
-                                    </a>
-                                </div>
-                                <div class="sz-sender ELEMENT">
-                                    <div id="sangSender" name="sangSender" class="CONTENTEDITABLE" contenteditable="true">한봉식</div>
-                                    <div class="edit-guide-wrapper">
-                                        <div class="button-edit-wrapper">
-                                            <div class="button-edit">
-                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
-                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
-                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sz-stamp">
-                                    <a href="#;" class="MODAL-BTN" data-target="#modalStamp">
-                                        <img class="sz-stamping" src="/assets/img/design/ico-hand2.png" alt="도장 찍는 손"/>
-                                        <img class="sz-stamp-img" src="/assets/img/design/stp/sz_stp_000002.png" alt=""/>
-                                    </a>
-                                </div>
                             </div>
-                        </div>
-                        <!-- 상장 만들기 End -->
-
-                        <!-- 상장 디자인 리스트 -->
-                        <div class="sz-design-select" style="display:none;">
-                            <h3 class="h3 hidden">상장 디자인</h3>
-                            <div class="sz-design-list">
-                                <div id="szDesignList">
-                                    <div class="sz-design-img">
-                                        <button type="button"><img class="sz-design" src="/assets/img/design/sz_000001.png" alt=""/></button>
-                                        <button type="button"><img class="sz-design" src="/assets/img/design/sz_000002.png" alt=""/></button>
-                                        <button type="button"><img class="sz-design" src="/assets/img/design/sz_000003.png" alt=""/></button>
-                                        <button type="button"><img class="sz-design" src="/assets/img/design/sz_000004.png" alt=""/></button>
-                                        <button type="button"><img class="sz-design" src="/assets/img/design/sz_000005.png" alt=""/></button>
-                                        <button type="button"><img class="sz-design" src="/assets/img/design/sz_000006.png" alt=""/></button>
-                                        <button type="button"><img class="sz-design" src="/assets/img/design/sz_000007.png" alt=""/></button>
+                            <div class="sz-title ELEMENT">
+                                <div id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>
+                                <div class="edit-guide-wrapper">
+                                    <div class="button-edit-wrapper">
+                                        <div class="button-edit">
+                                            <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
+                                            <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="sz-receiver ELEMENT">
+                                <div id="sangReceiver" name="sangReceiver" class="CONTENTEDITABLE" contenteditable="true">정서윤</div>
+                                <div class="edit-guide-wrapper">
+                                    <div class="button-edit-wrapper">
+                                        <div class="button-edit">
+                                            <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
+                                            <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sz-word ELEMENT">
+                                <div id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">
+                                    위 사람은 제1회 한봉식배 닌텐도<br>
+                                    스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 <br>
+                                    이 상을 드립니다.<br>
+                                    <br>
+                                    다음에도 다시 챔피언이 될 수 있도록 하세요!
+                                </div>
+                                <div class="edit-guide-wrapper">
+                                    <div class="button-edit-wrapper">
+                                        <div class="button-edit">
+                                            <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
+                                            <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!--
+                                <textarea id="sangText" name="sangText" data-once="on" placeholder="위 정은아는 평소 한봉식의 직장동료이며 한봉식이 알려주는 웹표준 코딩에 대한  상당히 습득력이 빠르고 뛰어나 한봉식이  보증하건데 아사달 퍼블리셔 외 최고 웹표준 코딩의 에이스일 것을 보증하며 에이스와 함께 이 상장을 드립니다.">
+    위 사람은 제1회 한봉식배 닌텐도
+    스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 이
+    상을 드립니다.
+
+    다음에도 다시 챔피언이 될 수 있도록 하세요!</textarea>-->
+                            </div>
+                            <div class="sz-date ELEMENT">
+                                <div class="edit-guide-wrapper" style="position:absolute;left:0;top:10px;transform:translateY(-100%);">
+                                    <div class="button-edit-wrapper">
+                                        <div class="button-edit">
+                                            <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
+                                            <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="sangDate" name="sangDate" class="CONTENTEDITABLE" contenteditable="true">2021년 2월 24일</div>
+                            </div>
+                            <div class="sz-sticker">
+                                <a href="#;" class="MODAL-BTN" data-target="#modalSticker">
+                                    <img class="sz-sticking" src="/assets/img/design/ico-hand.png" alt="스티커 찍는 손"/>
+                                    <img class="sz-sticker-img" src="/assets/img/design/stk/sz_stk_000007.png" alt=""/>
+                                </a>
+                            </div>
+                            <div class="sz-sender ELEMENT">
+                                <div id="sangSender" name="sangSender" class="CONTENTEDITABLE" contenteditable="true">한봉식</div>
+                                <div class="edit-guide-wrapper">
+                                    <div class="button-edit-wrapper">
+                                        <div class="button-edit">
+                                            <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
+                                            <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sz-stamp">
+                                <a href="#;" class="MODAL-BTN" data-target="#modalStamp">
+                                    <img class="sz-stamping" src="/assets/img/design/ico-hand2.png" alt="도장 찍는 손"/>
+                                    <img class="sz-stamp-img" src="/assets/img/design/stp/sz_stp_000002.png" alt=""/>
+                                </a>
+                            </div>
                         </div>
-                        <!-- 상장 디자인 리스트 End -->
                     </div>
-                    <!-- 좌측 영역 End -->
+                    <!-- 상장 만들기 End -->
 
+                    <!-- 상장 디자인 리스트 -->
+                    <div class="sz-design-select">
+                        <h3 class="h3 hidden">상장 디자인</h3>
+                        <div class="g sz-bg-lists">
+                            <style>
+                                .sz-bg-lists{margin-top:7px;margin-bottom:10px;width:100%;overflow:auto;white-space:nowrap;text-align:center;position: relative;
+                                    z-index: 10;
+                                    background: white;
+                                    }
+                                .sz-bg-lists__list__item{display:inline-block;}
+
+                                /* 상장 리스트 내 썸네일 이미지 */
+                                .photo-thumb{}
+                                .sz-bg-list__outer{height:60px;padding:2px;overflow:hidden;}
+                                .sz-design__img__link{display:block;height:100%;}
+                                .sz-design__img{display:block;height:100%;border-radius:5px;}
+                            </style>
+                            <ul id="r sz-bg-lists__list">
+                                <li class="c sz-bg-lists__list__item">
+                                    <div class="sz-bg-list">
+                                        <div class="sz-bg-list__outer">
+                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="c sz-bg-lists__list__item">
+                                    <div class="sz-bg-list">
+                                        <div class="sz-bg-list__outer">
+                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000002.png" alt=""/></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="c sz-bg-lists__list__item">
+                                    <div class="sz-bg-list">
+                                        <div class="sz-bg-list__outer">
+                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000003.png" alt=""/></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="c sz-bg-lists__list__item">
+                                    <div class="sz-bg-list">
+                                        <div class="sz-bg-list__outer">
+                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000004.png" alt=""/></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="c sz-bg-lists__list__item">
+                                    <div class="sz-bg-list">
+                                        <div class="sz-bg-list__outer">
+                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000005.png" alt=""/></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="c sz-bg-lists__list__item">
+                                    <div class="sz-bg-list">
+                                        <div class="sz-bg-list__outer">
+                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000006.png" alt=""/></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="c sz-bg-lists__list__item">
+                                    <div class="sz-bg-list">
+                                        <div class="sz-bg-list__outer">
+                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 상장 디자인 리스트 End -->
                 </div>
+                <!-- 좌측 영역 End -->
+
                 <div class="layout-two-one__layout-right">
                     <div class="SZ-WRITE-detail">
                         <style>
