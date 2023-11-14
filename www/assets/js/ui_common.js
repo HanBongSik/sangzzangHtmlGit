@@ -12,18 +12,7 @@ function noPullRefreshOn(){
 //         $('#wrap').removeClass('OVERSCROLL')
 //     }
 // }
-function noPullRefreshModalOn(el){
-    $('body').addClass('OVERFLOW-HIDDEN');
-    $('#wrap').addClass('OVERSCROLL');
-    $('body, #wrap').addClass('OVERFLOW-HIDDEN');
-    $(el).addClass('OVERSCROLL');
-}
-function noPullRefreshModalOff(el){
-    $('body').removeClass('OVERFLOW-HIDDEN');
-    $('#wrap').removeClass('OVERSCROLL');
-    $('body, #wrap').removeClass('OVERFLOW-HIDDEN');
-    $(el).removeClass('OVERSCROLL');
-}
+
 /** 해시 태그 봉스타그램 js에 자세히 사용된 것 있음   */
 function tagifyExe(el){
     if($('.tag-input').length > 0){

@@ -27,40 +27,36 @@ window.addEventListener('resize', () => {
 
         styleEl.id = 'modalAniTarget';
         styleEl.innerHTML = `@keyframes modal-ani-target{
-                            0%{
-                                transform:translate(${distanceX}px, ${distanceY}px) scale(0);
-                                opacity:0;
+                                0%{
+                                    transform:translate(${distanceX}px, ${distanceY}px) scale(0);
+                                    opacity:0;
+                                }
+                                100%{
+                                    transform:translate(0, 0)  scale(1);
+                                    opacity:1;
+                                }
                             }
-                            100%{
-                                transform:translate(0, 0)  scale(1);
-                                opacity:1;
+            
+                            @keyframes modal-ani-target-target{
+                                0%{
+                                    transform:translate(0, 0)  scale(1);
+                                    opacity:1;
+                                }
+                                100%{
+                                    transform:translate(${distanceX}px, ${distanceY}px) scale(0);
+                                    opacity:0;
+                                }
                             }
-                        }
-        
-                        @keyframes modal-ani-target-target{
-                            0%{
-                                transform:translate(0, 0)  scale(1);
-                                opacity:1;
-                            }
-                            100%{
-                                transform:translate(${distanceX}px, ${distanceY}px) scale(0);
-                                opacity:0;
-                            }
-                        }
                         `
         document.head.appendChild(styleEl);
         /* 모달 버튼 클릭 위치로 열리는 모달팝업을 위함 End */
     }
 
-
-
-
-
-
 /* 헤더 높이 css 변수로 사용하기 위함 */
 function styleHeaderHeight(){
     let target = document.querySelector('header.header');
-    let headerHeightNum = target.clientHeight; //46px;
+    //let headerHeightNum = target.clientHeight; //46px;
+    let headerHeightNum =  target ? target.clientHeight : 0; //46px;
     /* 기존 style이 있다면 삭제 */
     if(document.getElementById('styleHeaderHeight')){
         document.getElementById('styleHeaderHeight').remove();
@@ -73,12 +69,13 @@ function styleHeaderHeight(){
     }`;
     document.head.appendChild(styleEl);
 }
-/* 헤더 높이 css 변수로 사용하기 위함 */
+/* 헤더 높이 css 변수로 사용하기 위함 End */
 
 /* 푸터 높이 css 변수로 사용하기 위함 */
 function styleFooterHeight(){
     let target = document.querySelector('footer.footer');
-    let footerHeightNum = target.clientHeight; //46px;
+    //let footerHeightNum = target.clientHeight; //46px;
+    let footerHeightNum =  target ? target.clientHeight : 0; //46px;
     /* 기존 style이 있다면 삭제 */
     if(document.getElementById('styleHeaderHeight')){
         document.getElementById('styleHeaderHeight').remove();
@@ -113,8 +110,20 @@ function styleHeader01Height(){
     }
 
 }
-/* 제목 높이 css 변수로 사용하기 위함 */
+/* 제목 높이 css 변수로 사용하기 위함 End */
 
+function noPullRefreshModalOn(el){
+    $('body').addClass('OVERFLOW-HIDDEN');
+    $('#wrap').addClass('OVERSCROLL');
+    $('body, #wrap').addClass('OVERFLOW-HIDDEN');
+    $(el).addClass('OVERSCROLL');
+}
+function noPullRefreshModalOff(el){
+    $('body').removeClass('OVERFLOW-HIDDEN');
+    $('#wrap').removeClass('OVERSCROLL');
+    $('body, #wrap').removeClass('OVERFLOW-HIDDEN');
+    $(el).removeClass('OVERSCROLL');
+}
     function modalOn(from,el){
         let aniOn = $(el).data('ani-on');
         let aniOff = $(el).data('ani-off');

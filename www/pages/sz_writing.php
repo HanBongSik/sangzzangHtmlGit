@@ -144,12 +144,6 @@
 
     .SANGZZANG-COPY{p1osition:absolute;1eft:-999999px;1op:-999999px;}
 
-
-
-
-
-
-
     html body #container .CONTENTEDITABLE{position:relative;white-space:pre;}
     .TARGET .TEXT-EDIT::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;border:10px dashed #00dcf0 !important;box-sizing: border-box;}
     /*.CONTENTEDITABLE::after{content:'';width:100%;height:100%;position:absolute;left:0;top:0;border:5px dashed #C1C1C1 !IMPORTANT;box-sizing:border-box;}
@@ -171,10 +165,10 @@
     .FONT-DOWN{text-indent:-999999px;position:relative;}
     .FONT-DOWN::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%);display:inline-block;width:100px;height:15px;background:#000;border-radius:10px;}
 
-    .EDITOR-CLOSE{text-indent:-999999px;position:relative;}
-    .EDITOR-CLOSE::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(45deg);display:inline-block;width:100px;height:15px;background:#000;border-radius:10px;}
-    .EDITOR-CLOSE::after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(-45deg);display:inline-block;width:100px;height:15px;background:#000;border-radius:10px;}
-
+    .button-edit .EDITOR-CLOSE{text-indent:-999999px;position:relative;background:var(--black);}
+    .button-edit .EDITOR-CLOSE::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(45deg);display:inline-block;width:100px;height:15px;background:#fff;border-radius:10px;}
+    .button-edit .EDITOR-CLOSE::after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(-45deg);display:inline-block;width:100px;height:15px;background:#fff;border-radius:10px;}
+    .button-edit .EDITOR-EASY img{transform:scale(1.2);opacity:0.85;}
     .sticker-ani-in{
         animation-name: sticker-ani-in;
         animation-duration: 0.3s;
@@ -257,6 +251,15 @@
             transform:scale(1)
         }
     }
+
+    .sz-design.on{
+        animation-name: change-ani-sz-bg;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+
+    .sz-design__img__btn{border:2px solid transparent;}
+    .sz-design__img__btn.on{border-color:var(--primary);}
 </style>
                     <div class="SANGZZANG SZ-ORIGIN SZ-WRITING">
                         <div class="SZ-WRITE SZ-RATIO clearfix">
@@ -295,6 +298,7 @@
                                         <div class="button-edit">
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-SEARCH MODAL-BTN" data-target="#modalWritingUserSearch" title="검색하기"><img src="/assets/img/ico/ico-search.png" alt="검색"></button>
                                             <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
                                         </div>
                                     </div>
@@ -313,6 +317,7 @@
                                         <div class="button-edit">
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-EASY" title="easy" onclick="window.open('/pages/writing_ai.php', '', '_blank');"><img src="/assets/img/ico/ico-ai.png"></button>
                                             <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
                                         </div>
                                     </div>
@@ -333,6 +338,7 @@
                                         <div class="button-edit">
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
+                                            <button type="button" class="button EDITOR-CALENDAR MODAL-BTN" data-target="#modalDate" title="날짜선택"><img src="/assets/img/ico/ico-calendar.png"></button>
                                             <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
                                         </div>
                                     </div>
@@ -381,56 +387,56 @@
                                 /* 상장 리스트 내 썸네일 이미지 */
                                 .photo-thumb{}
                                 .sz-bg-list__outer{height:60px;padding:2px;overflow:hidden;}
-                                .sz-design__img__link{display:block;height:100%;}
+                                .sz-design__img__btn{display:block;height:100%;}
                                 .sz-design__img{display:block;height:100%;border-radius:5px;}
                             </style>
                             <ul id="r sz-bg-lists__list">
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
+                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000002.png" alt=""/></a>
+                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000002.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000003.png" alt=""/></a>
+                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000003.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000004.png" alt=""/></a>
+                                            <a href="#;" class="sz-design__img__btn on"><img class="sz-design__img" src="/assets/img/design/sz_000004.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000005.png" alt=""/></a>
+                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000005.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000006.png" alt=""/></a>
+                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000006.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__link"><img class="sz-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
+                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
@@ -709,6 +715,16 @@
     <!-- 상장 temp -->
     <script>
         $(document).ready(function(){
+            $('.sz-bg-lists .sz-design__img__btn').on( 'click' , function(e){
+                let szBgSrc = $(this).find('.sz-design__img').attr('src');
+                $('.sz-bg-lists .sz-design__img__btn').removeClass('on');
+                $(this).addClass('on');
+                $('.sz-design').removeClass('on').attr('src',szBgSrc).addClass('on');
+                setTimeout(function(){
+                    $('.sz-design').removeClass('on')
+                }, 1000);
+                e.preventDefault();
+            });
             $('#modalSticker .sticker-choice > ul > li a').on('click',function(){
                 modalOff('#modalSticker');
                 let stickerSrc = $(this).find('img').attr('src') ;
@@ -739,6 +755,7 @@
                     $('.SZ-RATIO .sz-stamp > a > .sz-stamp-img').attr('src', stampSrc);
                 },700);
             });
+            
         })
     </script>
     <script>
@@ -820,6 +837,37 @@
         </div>-->
 
 
+    </div>
+</div>
+<div class="modal-dimmed" id="modalDate" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+    <div class="modal-full modal-height-max-full modal-calendar">
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                    <div class="modal-close">
+                        <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                    </div>
+                    <!-- 모달 헤더 -->
+                    <div class="modal-header">
+                        <h2>달력</h2>
+                    </div>
+                    <!-- 모달 헤더 End -->
+
+                    <!-- 모달 바디 -->
+                    <div class="modal-body">
+                        <div class="datepicker"></div>
+                    </div>
+                    <!-- 모달 바디 End -->
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-footer">
+                        <button class="btn">확인</button>
+                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                    </div>
+                    <!-- 모달 푸터 End -->
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>

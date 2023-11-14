@@ -120,6 +120,113 @@
 
 
     <!-- 검색 -->
+    <div class="modal-dimmed" id="modalWritingUserSearch" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+        <div class="modal-full modal-height-full">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>검색</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="search-layer-body">
+
+
+
+
+                                <div class="search">
+                                    <div class="g search-input">
+                                        <div class="r gap-hor-sm">
+                                            <div class="c">
+                                                <span class="forms forms-full">
+                                                    <input type="text" placeholder="검색어를 입력하세요" value="" id="inputKeyward" class="INPUT-RESET">
+                                                    <button class="INPUT-RESET-BTN" data-target="#inputKeyward">×</button>
+                                                </span>
+                                            </div>
+                                            <div class="c c-inner-width">
+                                                <div class="search-btn">
+                                                    <span class="forms">
+                                                        <button type="button" class="btn-search">검색</button>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab search_tab">
+                                    <div class="tab__list fixed">
+                                        <ul>
+                                            <li class="active"><a href="#tabSearchAll" data-target="#tabSearchAll">전체</a></li>
+                                            <li><a href="#tabSearchUser" data-target="#tabSearchUser">회원</a></li>
+                                            <!--                                        <li><a href="#tabSearchTag">태그</a></li>-->
+                                            <li><a href="#tabSearchSkill" data-target="#tabSearchSkill">스킬</a></li>
+                                            <li><a href="#tabSearchSz" data-target="#tabSearchSz">상장</a></li>
+                                        </ul>
+                                    </div>
+
+
+
+                                    <!-- tabs End -->
+                                    <!-- panels -->
+                                    <div class="panels">
+                                        <div id="tabSearchAll" class="panel active" tabindex="0">
+                                            <!-- 전체 검색 -->
+                                            <?php include("$path/include/include_temp/inc_user_list_04.php"); ?>
+                                            <!-- 전체 검색 End -->
+                                        </div>
+                                        <div id="tabSearchUser" class="panel" tabindex="0">
+                                            <!-- 회원 검색 -->
+                                            <?php include("$path/include/include_temp/inc_user_list_02.php"); ?>
+                                            <!-- 회원 검색 End -->
+                                        </div>
+
+                                        <div id="tabSearchTag" class="panel" tabindex="0">
+                                            <!-- 태그 검색 -->
+                                            <?php /* include("include/include_temp/inc_search_02.php"); */ ?>
+                                            <!-- 태그 검색 End -->
+                                        </div>
+
+                                        <div id="tabSearchSkill" class="panel" tabindex="0">
+                                            <!-- 스킬 검색 -->
+                                            <?php include("$path/include/include_temp/inc_search_03.php"); ?>
+                                            <!-- 스킬 검색 End -->
+                                        </div>
+
+                                        <div id="tabSearchSz" class="panel" tabindex="0">
+                                            <!-- 상짱 검색 -->
+                                            <?php include("$path/include/sz_list_search.php"); ?>
+                                            <!-- 상짱 검색 End -->
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 검색 End -->
+
+    <!-- 검색 -->
     <div class="modal-dimmed" id="modalSearch">
         <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
@@ -459,7 +566,7 @@
     <!-- 함께 보낸 분 팝업 End -->
 
     <!-- 포스트 더보기 팝업  -->
-    <div class="modal-dimmed" id="modalMore">
+    <div class="modal-dimmed" id="modalMore" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
         <div class="modal">
             <div class="modal-wrapper">
                 <div class="modal-container">
@@ -745,7 +852,7 @@
                                                 </div>
                                             </div>
                                             <div class="c">
-                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+<!--                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>-->
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
@@ -829,7 +936,7 @@
                                                 </div>
                                             </div>
                                             <div class="c">
-                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+<!--                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>-->
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
@@ -913,7 +1020,7 @@
                                                 </div>
                                             </div>
                                             <div class="c">
-                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+<!--                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>-->
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
@@ -997,7 +1104,7 @@
                                                 </div>
                                             </div>
                                             <div class="c">
-                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>
+<!--                                                <a href="#;" class="MODAL-BTN" data-target="#modalWritingReply"><span class="writing-reply">답글쓰기</span></a>-->
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
@@ -1019,7 +1126,29 @@
                                     </div>
                                 </li>
                             </ul>
-
+                            <div class="g writing-input">
+                                <div class="r gap-hor-sm">
+                                    <div class="c c-inner-width">
+                                        <div class="img-profile">
+                                            <div class="img-profile__outer">
+                                                <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="c">
+                                    <span class="forms forms-full">
+                                        <input type="text" placeholder="댓글을 입력하세요." value="" id="inputKeyward" class="INPUT-RESET">
+                                    </span>
+                                    </div>
+                                    <div class="c c-inner-width">
+                                        <div class="writing-btn">
+                                        <span class="forms">
+                                            <button type="button" class="btn-writing">작성</button>
+                                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- 모달 바디 End -->
 

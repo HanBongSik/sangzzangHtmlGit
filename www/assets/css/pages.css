@@ -360,6 +360,17 @@
 }
 
 
+@keyframes change-ani-sz-bg {
+
+    0%{
+        opacity:0
+    }
+
+    100%{
+        opacity:1
+    }
+}
+
 .podium-top{position:relative;background-color:#000;height:333px;width:100%;}
 .podium-top .podium-top-bg{opacity:0;position:absolute;left:0;top:0;width:100%;height:100%;background:url(/assets/img/bg-podium.png) #000 no-repeat center top;}
 .podium-top.podium-top-sz .podium-top-bg{background-image:url(/assets/img/bg-podium-sz.png);}
@@ -547,7 +558,8 @@
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
-}.sz-download-modal-col canvas{
+}
+.sz-download-modal-col canvas{
      -webkit-touch-callout: none;
      user-select: none;
      -moz-user-select: none;
