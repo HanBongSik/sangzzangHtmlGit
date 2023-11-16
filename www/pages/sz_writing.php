@@ -482,40 +482,88 @@
                                             width: 100%;
                                             max-width: 700px;
                                             --tag-inset-shadow-size: 100em !important;
-                                            --tag-bg:#a4dfff !important;
+                                            --tag-bg:#282828 !important;
                                         }
+                                        .tagify__tag{
+                                            border-radius:6px;
+                                            overflow: hidden;
+                                        }
+                                        .tagify__tag-text{
+                                            color:#fff;
+                                        }
+                                        .tagify__tag__removeBtn{background:#6c6c6c;}
+                                        .tagify__tag__removeBtn::after{color:#fff;}
 
                                         .tags-look .tagify__dropdown__item{
                                             display: inline-block;
                                             border-radius: 3px;
                                             padding: .3em .5em;
                                             /*border: 1px solid #CCC;*/
-                                            background: #a4dfff;
+                                            background: #282828;
                                             margin: .2em;
                                             font-size: .85em;
-                                            color: black;
+                                            color: #fff;
                                             transition: 0s;
                                         }
 
                                         .tags-look .tagify__dropdown__item--active{
-                                            color: black;
+                                            transition:all 0.3s;
+                                            color: #fff;
+                                            opacity:0.8
                                         }
-
+                                        /* 드랍다운의 태그 */
                                         .tags-look .tagify__dropdown__item:hover{
-                                            background: #93d9ff;
-                                            border-color: #a4dfff;
+                                            background: #282828;
+                                            border-color: #282828;
+                                            color:#fff;
                                         }
+                                        .tagify__tag:focus div::before, .tagify__tag:hover:not([readonly]) div::before {
+                                             --tag-bg-inset: -2.5px;
+                                             --tag-bg: #282828;
+                                            opacity:0.8;
+                                         }
+                                        /* 삭제 버튼 호버 */
+                                        .tagify__tag__removeBtn:hover{
+                                            opacity: 1 !important;
+                                            background:var(--primary);
+
+                                        }
+                                        /* 삭제 버튼 호버 End */
+                                        /* 삭제 호버의 텍스트 */
+                                        .tagify__tag__removeBtn:hover+div>span {
+                                            opacity: 1 !important;
+                                            color:#fff;
+                                        }
+                                        /* 삭제 호버의 텍스트 End */
+
                                         .tags-look{z-index:999999 !important;}
-                                        .customLook{
-                                            --tag-bg                   : #a4dfff;
-                                            --tag-hover                : #a4dfff;
-                                            --tag-text-color           : #FFF;
+                                        html .tagify{
+
+                                            --tags-disabled-bg         : #F1F1F1;
                                             --tags-border-color        : silver;
+                                            --tags-hover-border-color  : #CCC;
+                                            --tags-focus-border-color  : #ff0000;
+                                            --tag-border-radius        : 6px;
+                                            --tag-bg                   : #282828;
+                                            --tag-hover                : #282828;
+                                            --tag-text-color           : #FFF;
                                             --tag-text-color--edit     : #111;
-                                            --tag-remove-bg            : var(--tag-hover);
-                                            --tag-pad                  : .6em 1em;
+                                            --tag-pad: 0.3em 0.5em;
                                             --tag-inset-shadow-size    : 0em;
+                                            --tag-invalid-color: red;
+                                            --tag-invalid-bg: rgba(211, 148, 148, 1);
+                                            --tag-remove-bg: #ff7171;
+                                            --tag-remove-btn-color: black;
+                                            --tag-remove-btn-bg: none;
                                             --tag-remove-btn-bg--hover : black;
+                                            --input-color: inherit;
+                                            --tag--min-width: 1ch;
+                                            --tag--max-width: auto;
+                                            --tag-hide-transition: 0.3s;
+                                            --placeholder-color: rgba(0, 0, 0, 0.4);
+                                            --placeholder-color-focus: rgba(0, 0, 0, 0.25);
+                                            --loader-size: .8em;
+                                            --readonly-striped: 1;
 
                                             display: inline-block;
                                             min-width: 0;
@@ -599,25 +647,14 @@
                             <div class="r">
                                 <div class="c">
                                     <div class="hashtag">
-                                        <h3 class="h3">해시태그</h3>
-                                        <hr class="hr-small">
-                                        <div class="tag box">
-                                            <div class="tag-checkbox">
-                                                <input type="text" name="tagInput" class="tag-input" placeholder="태그를 입력하세요." value="" autocomplete="off">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="r">
-                                <div class="c">
-                                    <div class="hashtag">
                                         <h3 class="h3">능력</h3>
                                         <hr class="hr-small">
                                         <div class="tag box">
                                             <div class="tag-checkbox">
-                                                <input type="text" name="tagInput" class="tag-input-2" placeholder="태그를 입력하세요." value="" autocomplete="off">
+                                                <a href="#;" class="MODAL-BTN" data-target="#modalAddAbility" id="addAbility">
+                                                    <input type="text" class="ability-input input-full" placeholder="태그를 입력하세요." value="">
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -870,6 +907,63 @@
         </div>
     </div>
 </div>
+
+
+<!-- 사용자 검색 -->
+<div class="modal-dimmed" id="modalAddAbility" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+    <div class="modal-full modal-height-full">
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                    <div class="modal-close">
+                        <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                    </div>
+                    <!-- 모달 헤더 -->
+                    <div class="modal-header">
+                        <h2>검색</h2>
+                    </div>
+                    <!-- 모달 헤더 End -->
+
+                    <!-- 모달 바디 -->
+                    <div class="modal-body">
+<!--                            <div class="search">-->
+<!--                                <div class="g search-input">-->
+<!--                                    <div class="r gap-hor-sm">-->
+<!--                                        <div class="c">-->
+<!--                                                <span class="forms forms-full">-->
+<!--                                                    <input type="text" placeholder="검색어를 입력하세요" value="" id="inputKeyward" class="INPUT-RESET">-->
+<!--                                                    <button class="INPUT-RESET-BTN" data-target="#inputKeyward">×</button>-->
+<!--                                                </span>-->
+<!--                                        </div>-->
+<!--                                        <div class="c c-inner-width">-->
+<!--                                            <div class="search-btn">-->
+<!--                                                    <span class="forms">-->
+<!--                                                        <button type="button" class="btn-search">검색</button>-->
+<!--                                                    </span>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+                        <div class="add-ability">
+                            <input type="text" name="tagInput" class="add-ability-input" placeholder="능력 입력하세요." value="" autocomplete="off" style="position:absolute;left:-99999999999px;top:-99999999999px;">
+                        </div>
+                    </div>
+                    <!-- 모달 바디 End -->
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-footer">
+                        <button class="btn">확인</button>
+                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                    </div>
+                    <!-- 모달 푸터 End -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 사용자 검색 End -->
 </body>
 
 

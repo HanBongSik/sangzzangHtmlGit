@@ -642,6 +642,9 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type=
 input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]).secondary
 {border-color:var(--secondary);}
 
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]).input-full
+{display:inline-block;width:100%;}
 /* datepicker 달력 */
 
 .datepicker{position:relative;background:url(/assets/img/guide/btn-calendar.png) no-repeat right 5px center !important;background-size:auto 70% !important;}
@@ -803,6 +806,8 @@ input[type="checkbox"].xxl:checked + label
 {background-size:var(--xxl-height);}
 input[type="checkbox"].xxl:disabled + label
 {background-size:var(--xxl-height);}
+
+
 
 /** 체크박스 - 디자인 추가 */
 input[type="checkbox"].secondary + label

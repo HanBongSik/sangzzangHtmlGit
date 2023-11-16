@@ -165,6 +165,11 @@
 .tag-skills.tag-skills-st01 .tag-skills__list__item .tag-skill__num{display:none;background:none;color:#fff;padding-left:0;}
 .tag-skills.tag-skills-st01 .tag-skills__list__item .tag-skill__value{}
 
+html .tagify+input, .tagify+textarea{
+    top:-99999em !important;
+    z-index:-1 !important;
+    opacity:0 !important;
+}
 .btn-grad:hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;

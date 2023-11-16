@@ -119,7 +119,7 @@
     <!-- 유저 팝업 End -->
 
 
-    <!-- 검색 -->
+    <!-- 사용자 검색 -->
     <div class="modal-dimmed" id="modalWritingUserSearch" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
         <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
@@ -224,7 +224,7 @@
             </div>
         </div>
     </div>
-    <!-- 검색 End -->
+    <!-- 사용자 검색 End -->
 
     <!-- 검색 -->
     <div class="modal-dimmed" id="modalSearch">
@@ -244,9 +244,6 @@
                         <!-- 모달 바디 -->
                         <div class="modal-body">
                             <div class="search-layer-body">
-
-
-
 
                                 <div class="search">
                                     <div class="g search-input">

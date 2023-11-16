@@ -15,7 +15,7 @@ function noPullRefreshOn(){
 
 /** 해시 태그 봉스타그램 js에 자세히 사용된 것 있음   */
 function tagifyExe(el){
-    if($('.tag-input').length > 0){
+    if($('.add-ability-input').length > 0){
         var input = document.querySelector('.post-list.TARGET input[name="tagInput"]');
         // let _whitelist = [];
         // $('.filter a').each(function(index){
@@ -51,43 +51,9 @@ function tagifyExe(el){
 /** 해시 태그 */
 
 
-function tagifyExe2(el){
-    if($('.tag-input-2').length > 0){
-        var input = document.querySelector('.post-list.TARGET input[name="tagInput"]');
-        // let _whitelist = [];
-        // $('.filter a').each(function(index){
-        // 	_whitelist.push($(this).text());
-        // });
-
-        // if(el == '#insertPostModal'){
-        // 	input = document.querySelector('#insertPostModal input[name="tagInput"]');
-        // }else{
-        // 	input = document.querySelector('input[name="tagInput"]');
-        // }
-        input = document.querySelector('.tag-input-2');
-        let whitelist = ["유머", "멘토", "아이디어", "디자인", "퍼블리싱", "요리", "패션", "뷰티", "헬스", "요리", "그림", "게이머", "영화", "리뷰", "개발", "게이머", "리더십", "마케팅", "인테리어", "진지", "외향", "내향", "감각", "직관", "사고", "감정", "판단", "인식"];
-        // let whitelist = _whitelist;
-        var tagify2 = new Tagify(input, {
-            whitelist:whitelist,
-            blacklist : ["requestman","전체","TOPS","ES6자료","프로그래밍자료"],
-            maxTags: 100,
-            dropdown: {
-                maxItems: 200,
-                classname: "tags-look",
-                enabled: 0,
-                closeOnSelect: false
-            }
-        });
-        /**
-         if(el == '#insertPostModal'){
-            tagify.removeAllTags();//자동 완성으로 기입되는 value를 삭제 시키기
-        }*/
-    }
-}
 $(document).ready(function(){
     /* 해시태그 */
     tagifyExe();
-    tagifyExe2();
     /* 해시태그 End */
     /* 상장 비율 End */
 });
