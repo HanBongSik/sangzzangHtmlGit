@@ -5,7 +5,7 @@
         <div class="__figure">
             <div class="__element">
                 <span class="forms">
-                    <input type="radio" name="radio-dd" value="radio-dd01" id="radio-dd01">
+                    <input type="radio" name="radio-dd" value="radio-dd01" id="radio-dd01" checked="checked">
                     <label for="radio-dd01">라디오-01</label>
                 </span>
             </div>
@@ -29,7 +29,7 @@
         <div class="__figure">
             <div class="__element">
                 <span class="forms">
-                    <input type="radio" class="tertiary" name="radio-dd" value="radio-dd03" id="radio-dd03" checked="checked">
+                    <input type="radio" class="tertiary" name="radio-dd" value="radio-dd03" id="radio-dd03">
                     <label for="radio-dd03">라디오-03</label>
                 </span>
             </div>

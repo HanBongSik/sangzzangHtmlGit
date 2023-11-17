@@ -312,7 +312,17 @@
                 </div>
                 <div class="__view __view2" title="radio-design">
                     <div class="__list_wrapper">
-                        <?php include("types/radio-design.tpl"); ?>
+                        <?php include("types/radio-style.tpl"); ?>
+                    </div>
+                </div>
+                <div class="__view" title="checkbox-design">
+                    <div class="__list_wrapper">
+                        <?php include("types/checkbox-btn-style.tpl"); ?>
+                    </div>
+                </div>
+                <div class="__view __view2" title="radio-design">
+                    <div class="__list_wrapper">
+                        <?php include("types/radio-btn-style.tpl"); ?>
                     </div>
                 </div>
             </div>

@@ -13,6 +13,13 @@
                 <ul class="nav-02-ul">
                     <li>
                         <div class="nav-02">
+                            <a class="nav-02-link" href="#COMMON-CHECKBOX-RADIO-STYLE">
+                                <div class="nav-02-txt">(2) checkbox, radio - 디자인 추가</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-02">
                             <a class="nav-02-link" href="#COMMON-MODAL">
                                 <div class="nav-02-txt">(0) 필수</div>
                             </a>

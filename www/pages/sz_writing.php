@@ -691,28 +691,51 @@
 
                             <div class="r">
                                 <div class="c">
-                                    <div class="private">
+                                    <div class="private" style="width:100%;">
                                         <h3 class="h3">공개</h3>
                                         <hr class="hr-small">
-                                        <div>
-                                            <span class="forms">
-                                                <label for="checkbox-sw02" class="switch">
-                                                    <input type="checkbox" name="checkbox-sw02" value="checkbox-sw02" id="checkbox-sw02" checked="checked">
-                                                    <span class="slider"></span>
-                                                </label>
-                                            </span>
-                                        </div>
+                                        <div style="overflow:auto;width:100%;padding-bottom:4px;">
+                                            <div style="white-space: nowrap;">
+                                                <!--                                            <span class="forms">-->
+                                                <!--                                                <label for="checkbox-sw02" class="switch">-->
+                                                <!--                                                    <input type="checkbox" name="checkbox-sw02" value="checkbox-sw02" id="checkbox-sw02" checked="checked">-->
+                                                <!--                                                    <span class="slider"></span>-->
+                                                <!--                                                </label>-->
+                                                <!--                                            </span>-->
 
-<!--                                        <div class="forms">-->
-<!--                                            <label for="for-select1" class="hidden">공개</label>-->
-<!--                                            <select id="for-select1">-->
-<!--                                                <option value="">전체공개</option>-->
-<!--                                                <option value="">친구만</option>-->
-<!--                                                <option value="">링크가있는 사람만</option>-->
-<!--                                                <option value="">나만</option>-->
-<!--                                                <option value="">제외할 친구</option>-->
-<!--                                            </select>-->
-<!--                                        </div>-->
+                                                <span class="forms btn-radio">
+                                                <input type="radio" name="radio-ddd" value="radio-ddd01" id="radio-ddd01" checked="checked">
+                                                <label for="radio-ddd01">전체공개</label>
+                                                <span class="radio-ico"></span>
+                                            </span>
+                                                <span class="forms btn-radio">
+                                                <input type="radio" name="radio-ddd" value="radio-ddd02" id="radio-ddd02">
+                                                <label for="radio-ddd02">비공개</label>
+                                                <span class="radio-ico"></span>
+                                            </span>
+                                                <span class="forms btn-radio">
+                                                <input type="radio" name="radio-ddd" value="radio-ddd03" id="radio-ddd03">
+                                                <label for="radio-ddd03">일부공개</label>
+                                                <span class="radio-ico"></span>
+                                            </span>
+                                                <span class="forms btn-radio">
+                                                <input type="radio" name="radio-ddd" value="radio-ddd04" id="radio-ddd04">
+                                                <label for="radio-ddd04">팔로우만 공개</label>
+                                                <span class="radio-ico"></span>
+                                            </span>
+                                            </div>
+
+                                            <!--                                        <div class="forms">-->
+                                            <!--                                            <label for="for-select1" class="hidden">공개</label>-->
+                                            <!--                                            <select id="for-select1">-->
+                                            <!--                                                <option value="">전체공개</option>-->
+                                            <!--                                                <option value="">친구만</option>-->
+                                            <!--                                                <option value="">링크가있는 사람만</option>-->
+                                            <!--                                                <option value="">나만</option>-->
+                                            <!--                                                <option value="">제외할 친구</option>-->
+                                            <!--                                            </select>-->
+                                            <!--                                        </div>-->
+                                            </div>
                                     </div>
                                 </div>
                             </div>

@@ -31,7 +31,7 @@
     --gray-dark: #263238;
     --gray-light: #f8f8f8;
     --gray-light-border: #e6e6e6;
-    --input-border: #666;
+    --input-border: #c0c0c0;
     --input-disabled-color: #b2b2b2;
     --input-disabled-bg: #f8f8f8;
     --input-disabled-border-color: #e6e6e6;
@@ -762,7 +762,7 @@ input[type="checkbox"], input[type="checkbox"].md
 
 input[type="checkbox"] + label,
 input[type="checkbox"].md + label
-{display:inline-flex;height:var(--md-height);align-items:center;padding-left:calc(var(--md-height) + 5px);background:url(/assets/img/guide/checkbox.png) no-repeat 0 center;background-size:var(--sm-height);cursor:pointer;}
+{display:inline-flex;height:var(--md-height);align-items:center;padding-left:calc(var(--md-height) + 2px);background:url(/assets/img/guide/checkbox.png) no-repeat 0 center;background-size:var(--sm-height);cursor:pointer;}
 
 input[type="checkbox"]:checked + label
 {background:url(/assets/img/guide/checkbox-checked.png) no-repeat 0 center;background-size:var(--sm-height);}
@@ -823,6 +823,10 @@ input[type="checkbox"].tertiary:checked + label
 {background:url(/assets/img/guide/checkbox-checked-03.png) no-repeat 0 center;background-size: var(--sm-height);}
 input[type="checkbox"].tertiary:disabled + label
 {background:url(/assets/img/guide/checkbox-disabled-03.png) no-repeat 0 center;background-size: var(--sm-height);}
+
+
+
+
 
 /** 글자 없음 */
 input[type="checkbox"].text-less + label
@@ -897,6 +901,57 @@ input[type="radio"].tertiary:checked + label
 {background:url(/assets/img/guide/radio-checked-03.png) no-repeat 0 center;background-size: var(--sm-height);}
 input[type="radio"].tertiary:disabled + label
 {background:url(/assets/img/guide/radio-disabled-03.png) no-repeat 0 center;background-size: var(--sm-height);}
+
+/* 체크박스 버튼 버전 */
+.btn-checkbox,.btn-radio{display:inline-flex;}
+.btn-checkbox .checkbox-ico,
+.btn-radio .radio-ico
+{display:inline-block;position:absolute;left:9px;top:6px;width:20px;height:20px;border-radius:50%;overflow:hidden;background:#fff;}
+.btn-checkbox .checkbox-ico:before,
+.btn-radio .radio-ico:before
+{content: "";position: absolute;left: calc(50% - 1px);top: calc(50% - 0px);width: 3px;height: 7px;background:#fff;transform: rotate(315deg) translate(-50%, -50%);transform-origin: center center;}
+.btn-checkbox .checkbox-ico:after,
+.btn-radio .radio-ico:after
+{content: "";position: absolute;left: calc(50% - 3px);top: calc(50% - 0px);width: 3px;height: 11px;background:#fff;transform: rotate(45deg) translate(-50%, -50%);transform-origin: center center;}
+
+.btn-checkbox input[type="checkbox"] + label,
+.btn-radio input[type="radio"] + label
+{background:none;position:relative;border-radius:6px;border-radius: 20px;overflow:hidden;justify-content: center;padding-right:10px;border:1px solid var(--input-border);font-size:var(--xs-font-size);}
+.btn-checkbox input[type="checkbox"]:checked + label,
+.btn-radio input[type="radio"]:checked + label
+{background:none;background:var(--secondary);color:#fff;}
+.btn-checkbox input[type="checkbox"]:disabled + label,
+.btn-radio input[type="radio"]:disabled + label
+{background:var(--input-disabled-bg);color:var(--input-disabled-color);}
+
+    /* 체크박스 체크 아이콘 */
+    .btn-checkbox input[type="checkbox"] + label + .checkbox-ico,
+    .btn-radio input[type="radio"] + label + .radio-ico
+    {background:none;position:absolute;overflow:hidden;justify-content: center;padding-right:10px;border:1px solid var(--input-border);border-radius:50%;}
+    .btn-checkbox input[type="checkbox"]:checked + label + .checkbox-ico,
+    .btn-radio input[type="radio"]:checked + label + .radio-ico
+    {background:#fff;border:1px solid transparent;}
+    .btn-checkbox input[type="checkbox"]:disabled + label + .checkbox-ico,
+    .btn-radio input[type="radio"]:disabled + label + .radio-ico
+    {border-color:var(--input-disabled-color);}
+
+        /* 체크박스 before after */
+        .btn-checkbox input[type="checkbox"]:checked + label + .checkbox-ico:before,
+        .btn-radio input[type="radio"]:checked + label + .radio-ico:before
+        {background: var(--secondary);}
+        .btn-checkbox input[type="checkbox"]:checked + label + .checkbox-ico:after,
+        .btn-radio input[type="radio"]:checked + label + .radio-ico:after
+        {background: var(--secondary);}
+        .btn-checkbox input[type="checkbox"]:disabled + label + .checkbox-ico:before,
+        .btn-radio input[type="radio"]:disabled + label + .radio-ico:before
+        {display:none;}
+        .btn-checkbox input[type="checkbox"]:disabled + label + .checkbox-ico:after,
+        .btn-radio input[type="radio"]:disabled + label + .radio-ico:after
+        {display:none;}
+        /* 체크박스 before after End */
+    /* 체크박스 아이콘 End */
+/* 체크박스 버튼 버전 End */
+
 
 /** 글자 없음 */
 input[type="radio"].text-less + label,
