@@ -7,12 +7,16 @@
     --wrap-padding-bottom-padding: 10px;
     --wrap-padding-bottom: calc(var(--footer-height) + var(--wrap-padding-bottom-padding));
 }
+input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"])
+{width:var(--input-md-width);height:var(--xl-height);line-height:var(--md-line-height);padding:var(--input-md-padding);font-size:var(--md-font-size);font-weight:var(--btn-md-font-weight);background:#fff;}
 
+.INPUT-RESET{height:var(--md-height) !important;}
 .HIDDEN{visibility:hidden !important;}
 
 .OVERFLOW-HIDDEN{overflow:hidden;}
 .OVERSCROLL{overscroll-behavior: contain;}
 
+.ico-help{display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;border:1px solid var(--input-border);border-radius:50%;font-weight:400;font-size: 10px;}
 /* impreci End */
 
 /* 검색 */
@@ -134,7 +138,7 @@
 .tag-skill__gauge{width:0;z-index:1;background:#f900cc;background:none;overflow:hidden;text-indent:-9999999px;}
 .tag-skill__num{position:relative;z-index:1;background:#ababab;background:#f2a83b;font-size:12px;color:#fff;padding:2px 6px;}
 .tag-skill__up{display:inline-block;font-size: 10px;transform: scale(0.5);position:absolute;top:0;right:0;}
-.tag-skill__name{position:relative;z-index:1;color:#000;font-size:12px;padding:2px 4px;line-height:1.2;}
+.tag-skill__name{position:relative;z-index:1;color:#000;font-size:12px;padding:4px 6px;line-height:1.2;}
 
 .tag-skills.tag-skills-st01 {}
 .tag-skills.tag-skills-st01 .tag-skills__list{overflow:auto;justify-content: flex-start;flex-wrap:nowrap;padding-bottom:4px;}
@@ -527,7 +531,7 @@ html .tagify+input, .tagify+textarea{
 /* 상장 보기 */
 .sz-function-btn{margin-top:5px;text-align:center;padding:10px;}
 .sz-function{text-align:center;}
-.sz-function.sz-function-01{margin-bottom:10px;padding:10px 0;margin:5px 0 0px 0;width:100%;}
+.sz-function.sz-function-01{margin-bottom:10px;padding:10px 0;margin:5px 0 0px 0;width:100%;border:1px solid #e9e9e9;}
 .sz-function.sz-function-01 a{margin:0 10px;opacity:.8;}
 .sz-function.sz-function-01 a:hover{opacity:1;}
 .sz-function.sz-function-01 img{position:relative;top:-3px;height:24px;}

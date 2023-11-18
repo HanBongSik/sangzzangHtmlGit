@@ -25,7 +25,8 @@
     /** 색상 */
     --primary: #da4f4d;
     --secondary: #f06b00;
-    --gray: #dfdfdf;
+    --gray: #f8f8f8;
+    --gray-border-color: #e6e6e6;
     --white: #fff;
     --black: #404047;
     --gray-dark: #263238;
@@ -443,6 +444,9 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 .btn, button, input[type="button"], input[type="submit"]
 {appearance:none;display:inline-block;background:var(--primary);min-width:var(--btn-md-min-width);height:var(--md-height);line-height:var(--md-line-height);color:#fff;border-radius:var(--radius);border:1px solid var(--primary);cursor:pointer;transition:all var(--transition-time);vertical-align:middle;white-space:nowrap;}
 
+.btn-badge, button.btn-badge, input[type="button"].btn-badge, input[type="submit"].btn-badge
+{border-radius:10px !important;}
+
 .btn:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover
 {opacity:0.8;}
 
@@ -460,7 +464,7 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 {background:var(--white);color:#000;border-color:#000;}
 
 .btn-gray, button.btn-gray, input[type="button"].btn-gray, input[type="submit"].btn-gray
-{background:var(--gray);border-color:var(--gray);color:var(--black);}
+{background:var(--gray);border-color:var(--gray-border-color);color:var(--black);}
 
 .btn-disabled, button.btn-disabled, input[type="button"].btn-disabled, input[type="submit"].btn-disabled
 {background:var(--gray);border-color:var(--gray);}
@@ -560,8 +564,8 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 
 /* 폼 인풋 셀렉트 */
 /** input - 필수 */
-input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"])
-{display:inline-block;opacity:1;border:1px solid var(--input-border);transition:all var(--transition-time);border-radius:var(--radius);background-color:#fff;}
+input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]),textarea
+{display:inline-block;opacity:1;border:1px solid var(--input-border);transition:all var(--transition-time);border-radius:var(--radius);background-color:#fff;resize: none;}
 
 input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]):hover
 {opacity:1;}
@@ -909,28 +913,32 @@ input[type="radio"].tertiary:disabled + label
 {display:inline-block;position:absolute;left:9px;top:6px;width:20px;height:20px;border-radius:50%;overflow:hidden;background:#fff;}
 .btn-checkbox .checkbox-ico:before,
 .btn-radio .radio-ico:before
-{content: "";position: absolute;left: calc(50% - 1px);top: calc(50% - 0px);width: 3px;height: 7px;background:#fff;transform: rotate(315deg) translate(-50%, -50%);transform-origin: center center;}
+{content: "";position: absolute;left: calc(50% - 1px);top: calc(50% - 0px);width: 3px;height: 7px;background:#e6e6e6;transform: rotate(315deg) translate(-50%, -50%);transform-origin: center center;}
 .btn-checkbox .checkbox-ico:after,
 .btn-radio .radio-ico:after
-{content: "";position: absolute;left: calc(50% - 3px);top: calc(50% - 0px);width: 3px;height: 11px;background:#fff;transform: rotate(45deg) translate(-50%, -50%);transform-origin: center center;}
+{content: "";position: absolute;left: calc(50% - 3px);top: calc(50% - 0px);width: 3px;height: 11px;background:#e6e6e6;transform: rotate(45deg) translate(-50%, -50%);transform-origin: center center;}
 
 .btn-checkbox input[type="checkbox"] + label,
 .btn-radio input[type="radio"] + label
-{background:none;position:relative;border-radius:6px;border-radius: 20px;overflow:hidden;justify-content: center;padding-right:10px;border:1px solid var(--input-border);font-size:var(--xs-font-size);}
+{background:var(--input-disabled-bg);position:relative;border-radius:6px;border-radius: 20px;overflow:hidden;justify-content: center;padding-right:10px;border:1px solid var(--input-border);border:1px solid transparent;font-size:var(--xs-font-size);}
+
 .btn-checkbox input[type="checkbox"]:checked + label,
 .btn-radio input[type="radio"]:checked + label
-{background:none;background:var(--secondary);color:#fff;}
+{border:1px solid var(--primary);color: var(--primary);background:#fff;}
+
 .btn-checkbox input[type="checkbox"]:disabled + label,
 .btn-radio input[type="radio"]:disabled + label
 {background:var(--input-disabled-bg);color:var(--input-disabled-color);}
 
-    /* 체크박스 체크 아이콘 */
+    /* 체크박스 checked icon */
     .btn-checkbox input[type="checkbox"] + label + .checkbox-ico,
     .btn-radio input[type="radio"] + label + .radio-ico
-    {background:none;position:absolute;overflow:hidden;justify-content: center;padding-right:10px;border:1px solid var(--input-border);border-radius:50%;}
+    {border:1px solid #d6d6d6;border:1px solid transparent;background:none;position:absolute;overflow:hidden;justify-content: center;padding-right:10px;border-radius:50%;}
+        /* checked - icon */
     .btn-checkbox input[type="checkbox"]:checked + label + .checkbox-ico,
     .btn-radio input[type="radio"]:checked + label + .radio-ico
-    {background:#fff;border:1px solid transparent;}
+    {background:#fff;background:var(--primary);}
+        /* disabled - icon */
     .btn-checkbox input[type="checkbox"]:disabled + label + .checkbox-ico,
     .btn-radio input[type="radio"]:disabled + label + .radio-ico
     {border-color:var(--input-disabled-color);}
@@ -938,10 +946,13 @@ input[type="radio"].tertiary:disabled + label
         /* 체크박스 before after */
         .btn-checkbox input[type="checkbox"]:checked + label + .checkbox-ico:before,
         .btn-radio input[type="radio"]:checked + label + .radio-ico:before
-        {background: var(--secondary);}
+        {background: #fff;}
+
         .btn-checkbox input[type="checkbox"]:checked + label + .checkbox-ico:after,
         .btn-radio input[type="radio"]:checked + label + .radio-ico:after
-        {background: var(--secondary);}
+        {background: #fff;}
+
+            /* disabled - before after */
         .btn-checkbox input[type="checkbox"]:disabled + label + .checkbox-ico:before,
         .btn-radio input[type="radio"]:disabled + label + .radio-ico:before
         {display:none;}

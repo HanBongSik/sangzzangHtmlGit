@@ -119,6 +119,43 @@
     <!-- 유저 팝업 End -->
 
 
+    <!-- 가이드 모달 팝업  -->
+    <div class="modal-dimmed" id="modalGuide" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+        <div class="modal">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>설명</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="modal-guide">
+                                상세한 설명란
+                            </div>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 가이드 팝업 End -->
+
+
     <!-- 사용자 검색 -->
     <div class="modal-dimmed" id="modalWritingUserSearch" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
         <div class="modal-full modal-height-full">
@@ -130,7 +167,7 @@
                         </div>
                         <!-- 모달 헤더 -->
                         <div class="modal-header">
-                            <h2>검색</h2>
+                            <h2>유저 검색</h2>
                         </div>
                         <!-- 모달 헤더 End -->
 
@@ -225,6 +262,240 @@
         </div>
     </div>
     <!-- 사용자 검색 End -->
+
+    <!-- 예제 검색 -->
+    <div class="modal-dimmed" id="modalExSearch">
+        <div class="modal-full modal-height-full">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-down" data-ani-off="modal-ani-down-up">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>예제 검색</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="search-layer-body">
+
+                                <div class="search">
+                                    <div class="g search-input">
+                                        <div class="r gap-hor-sm">
+                                            <div class="c">
+                                                <span class="forms forms-full">
+                                                    <input type="text" placeholder="검색어를 입력하세요" value="" id="inputKeyward" class="INPUT-RESET">
+                                                    <button class="INPUT-RESET-BTN" data-target="#inputKeyward">×</button>
+                                                </span>
+                                            </div>
+                                            <div class="c c-inner-width">
+                                                <div class="search-btn">
+                                                    <span class="forms">
+                                                        <button type="button" class="btn-search">검색</button>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+<style>
+    .ex-words{width:100%;padding:10px 0;}
+    .ex-words .tab__list{border:none;}
+    .ex-words .btn-badge{background: var(--gray);border-color: var(--gray-border-color);color: var(--black);}
+    .ex-words .btn-badge.active{background: var(--primary);color: #fff;}
+    .ex-words__outer{display:flex;flex-direction:column;gap:5px;padding-bottom:5px;white-space:nowrap;width:100%;overflow:auto;}
+    .ex-words__list{text-align:center;}
+</style>
+                                <div class="ex-words" style="display:n1one;width:100%;">
+                                    <h3 class="h3 hidden"><!--class="hidden"-->예제</h3>
+                                    <div class="tab ex-words__outer">
+                                        <div class="tab__list">
+                                            <div class="ex-words__outer">
+                                                <div class="ex-words__list">
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN active" data-target="#tabExThankyou">😊고맙다</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExFun">😝즐거웠다</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExCheerUp">🤯힘내라</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExEffort">😍수고했다</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExClassicAppreciation">감사장</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExClassicRecognition">표창장</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExClassicAppointment">임명장</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExClassicCertificates">수료증</button>
+                                                </div>
+                                                <div class="ex-words__list">
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabExScquaintance">지인</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabFriend">친구</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabDifferentGender">이성</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabDating">연애</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabParents">부모님</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabChildren">자녀</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabWorkshop">직장</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabMentor">멘토</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabInfluencer">인플루언서</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabReligion">신앙</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabPolitics">정치</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabEntertainments">연예</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabSports">스포츠</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabGoodWords">상춘문예</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="panels">
+                                            <div id="tabExThankyou" class="panel active" tabindex="0">
+                                                <!-- 고맙다 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 고맙다 검색 End -->
+                                            </div>
+                                            <div id="tabExFun" class="panel" tabindex="0">
+                                                <!-- 즐거웠다 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 즐거웠다 검색 End -->
+                                            </div>
+
+                                            <div id="tabExCheerUp" class="panel" tabindex="0">
+                                                <!-- 힘내라 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 힘내라 검색 End -->
+                                            </div>
+
+                                            <div id="tabExEffort" class="panel" tabindex="0">
+                                                <!-- 수고했다 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 수고했다 검색 End -->
+                                            </div>
+
+                                            <div id="tabExClassicAppreciation" class="panel" tabindex="0">
+                                                <!-- 감사장 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 감사장 검색 End -->
+                                            </div>
+
+                                            <div id="tabExClassicRecognition" class="panel" tabindex="0">
+                                                <!-- 표창장 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 표창장 검색 End -->
+                                            </div>
+
+                                            <div id="tabExClassicAppointment" class="panel" tabindex="0">
+                                                <!-- 임명장 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 임명장 검색 -->
+                                            </div>
+
+                                            <div id="tabExClassicCertificates" class="panel" tabindex="0">
+                                                <!-- 수료증 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 수료증 검색 End -->
+                                            </div>
+
+
+                                            <div id="tabExScquaintance" class="panel" tabindex="0">
+                                                <!-- 지인 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 지인 검색 End -->
+                                            </div>
+                                            <div id="tabFriend" class="panel" tabindex="0">
+                                                <!-- 친구 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 친구 검색 End -->
+                                            </div>
+
+                                            <div id="tabDifferentGender" class="panel" tabindex="0">
+                                                <!-- 이성 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 이성 검색 End -->
+                                            </div>
+
+                                            <div id="tabDating" class="panel" tabindex="0">
+                                                <!-- 연애 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 연애 검색 End -->
+                                            </div>
+
+                                            <div id="tabParents" class="panel" tabindex="0">
+                                                <!-- 부모님 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 부모님 검색 End -->
+                                            </div>
+
+                                            <div id="tabChildren" class="panel" tabindex="0">
+                                                <!-- 자녀 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 자녀 검색 End -->
+                                            </div>
+
+                                            <div id="tabWorkshop" class="panel" tabindex="0">
+                                                <!-- 직장 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 직장 검색 End -->
+                                            </div>
+
+                                            <div id="tabMentor" class="panel" tabindex="0">
+                                                <!-- 멘토 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 멘토 검색 End -->
+                                            </div>
+
+                                            <div id="tabInfluencer" class="panel" tabindex="0">
+                                                <!-- 인플루언서 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 인플루언서 검색 End -->
+                                            </div>
+
+                                            <div id="tabReligion" class="panel" tabindex="0">
+                                                <!-- 신앙 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 신앙 검색 End -->
+                                            </div>
+
+                                            <div id="tabPolitics" class="panel" tabindex="0">
+                                                <!-- 정치 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 정치 검색 End -->
+                                            </div>
+
+                                            <div id="tabEntertainments" class="panel" tabindex="0">
+                                                <!-- 연예 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 연예 검색 End -->
+                                            </div>
+
+                                            <div id="tabSports" class="panel" tabindex="0">
+                                                <!-- 스포츠 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
+                                                <!-- 스포츠 검색 End -->
+                                            </div>
+
+                                            <div id="tabGoodWords" class="panel" tabindex="0">
+                                                <!-- 상춘문예 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
+                                                <!-- 상춘문예 검색 End -->
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 예제 검색 End -->
 
     <!-- 검색 -->
     <div class="modal-dimmed" id="modalSearch">

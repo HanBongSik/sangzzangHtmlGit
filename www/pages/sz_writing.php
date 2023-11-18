@@ -26,7 +26,7 @@
         <div class="content content-SZ-WRITE container-xs">
 
             <div class="layout-two-one inner-scroll">
-                <div class="layout-two-one__layout-left self-top effect-none">
+                <div class="layout-two-one__layout-left self-top">
 
                 <!-- 좌측 영역 -->
 
@@ -378,9 +378,10 @@
                         <h3 class="h3 hidden">상장 디자인</h3>
                         <div class="g sz-bg-lists">
                             <style>
-                                .sz-bg-lists{margin-top:7px;margin-bottom:10px;width:100%;overflow:auto;white-space:nowrap;text-align:center;position: relative;
+                                .sz-bg-lists{margin-top:7px;width:100%;overflow:auto;white-space:nowrap;text-align:center;position: relative;
                                     z-index: 10;
                                     background: white;
+                                    border:1px solid #e9e9e9;
                                     }
                                 .sz-bg-lists__list__item{display:inline-block;}
 
@@ -447,20 +448,14 @@
                 </div>
                 <!-- 좌측 영역 End -->
 
-                <div class="layout-two-one__layout-right">
+                <div class="layout-two-one__layout-right self-top">
                     <div class="SZ-WRITE-detail">
-                        <style>
-                            .SZ-WRITE-detail h3{font-size: 14px;}
-                            .SZ-WRITE-detail > .g{padding:10px;}
-                            .SZ-WRITE-detail > .g > .r{margin-bottom:10px;}
-                            .SZ-WRITE-detail > .g > .r > .c{flex:1;width:100%;}
-                        </style>
                         <div class="g">
-                            <div class="r">
-                                <div class="c">
-                                    <h3 class="h3">AI 작성 <a href="/pages/writing_ai.php" target="_blank"><img class="concept" src="/assets/img/sample/concept-01.png" alt=""></a></h3>
-                                </div>
-                            </div>
+<!--                            <div class="r">-->
+<!--                                <div class="c">-->
+<!--                                    <h3 class="h3">AI 작성 <a href="/pages/writing_ai.php" target="_blank"><img class="concept" src="/assets/img/sample/concept-01.png" alt=""></a></h3>-->
+<!--                                </div>-->
+<!--                            </div>-->
                             <div class="r">
                                 <div class="c">
                                     <style>
@@ -468,7 +463,7 @@
                                         .SZ-WRITE-detail .photo{width:100%;}
                                         .SZ-WRITE-detail .input-photo{width:100% !important;}
                                         .SZ-WRITE-detail .tag{width:100% !important;}
-                                        .SZ-WRITE-detail .hashtag{width:100% !important;}
+                                        .SZ-WRITE-detail .ability{width:100% !important;}
                                         .SZ-WRITE-detail .tag-checkbox{width:100% !important;}
                                         .SZ-WRITE-detail .movie{width:100% !important;}
                                         .SZ-WRITE-detail .movie-input{width:100% !important;}
@@ -569,46 +564,53 @@
                                             min-width: 0;
                                             border: none;
                                         }
-                                        .samples{display:table;margin-bottom:10px;width:100%;border-collapse:collapse;table-layout:fixed;background-color:#fff;}
-                                        .samples > div{display:table-row;}
-                                        .samples > div > a{display:table-cell;border:1px solid #e8e8e8;padding: 13px 10px 14px;color:#222;font-size:12px;line-height:1.2;text-align:center;text-align:center;vertical-align:middle;}
-                                        .samples > div > a.on{background-color:#404047;color:#fff;}
-                                        .samples > ul{display:table-row;}
-                                        .samples > ul > li{display:table-cell;border:1px solid #e8e8e8;color:#222;font-size:12px;line-height:1.2;text-align:center;text-align:center;vertical-align:middle;}
-                                        .samples > ul > li a{display:block;padding: 13px 10px 14px;}
-                                        .samples > ul > li.active{background-color:#404047;}
-                                        .samples > ul > li.active a{color:#fff;}
-                                        .sample-layer{will-change:transform;}
-                                        .sample-layer-body .title{font-size:14px;}
-                                        .sample-layer-body .body{font-size:13px;}
-                                        .sample-select{display:non1e;}
-                                        .sample-layer{display:none;flex-direction:column;overflow:hidden;position:fixed;left:0;top:0;z-index:100;width:100%;height:100%;padding-bottom:40px;background-color:#fff;}
-                                        .sample-layer .sample-layer-body{margin:0 auto;max-width:740px;}
-                                        .sample-layer .sample-layer-body ul.sample-list{padding:0 10px;}
-                                        .sample-layer .sample-layer-body ul.sample-list > li{display:flex;overflow:hidden;border-bottom:1px solid #e8e8e8;padding:5px;font-size:12px;}
-                                        .sample-layer .sample-layer-body ul.sample-list > li .title{font-size:13px;font-weight:bold;}
-                                        .sample-layer .sample-layer-body ul.sample-list > li .link{display:block;flex:1;}
-                                        .sample-layer .sample-layer-body ul.sample-list > li .copy{width:80px;}
-                                        .sample-layer .sample-layer-body ul.sample-list > li .copy a{display:flex;align-items:center;justify-content:center;background-color:yellow;width:100%;height:100%;background-color:#ed4046;color:#fff;}
-                                        .sample-layer-footer{position:fixed;left:0;bottom:0;z-index:101;width:100%;height:40px;font-size:12px;text-align:center;background-color:#fafafa;}
-
                                     </style>
-                                    <div class="sample-select lg-visible">
-                                        <h3 class="h3"><!--class="hidden"-->예제</h3>
-                                        <div class="samples mb0">
-                                            <div>
-                                                <a href="#;">지인<br>친구</a>
-                                                <a href="#;">이성<br>연애</a>
-                                                <a href="#;">자녀<br>부모님</a>
-                                                <a href="#;">스승<br>제자</a>
-                                                <a href="#;">직장<br>멘토</a>
-                                            </div>
-                                            <div>
-                                                <a href="#;">인플루언서</a>
-                                                <a href="#;">신앙</a>
-                                                <a href="#;">정치</a>
-                                                <a href="#;">연예<br>스포츠</a>
-                                                <a href="#;">상춘<br>문예 <!-- 세상의 재밌는 표현들 !! --></a>
+
+                                    <style>
+                                        .ico-required{position:relative;top:3px;vertical-align:top;}
+                                        .SZ-WRITE-detail .h3{}
+                                        .h3{font-size:12px;padding-bottom:4px;padding-top:1px;}
+                                        .SZ-WRITE-detail h3{display:inline-block;font-size:14px;font-weight:400;}
+
+                                        .SZ-WRITE-detail > .g{padding:10px;}
+                                        .SZ-WRITE-detail > .g > .r{margin-bottom:10px;}
+                                        .SZ-WRITE-detail > .g > .r > .c{flex:1;width:100%;}
+                                    </style>
+                                    <div class="ex-words">
+                                        <div class="h3">
+                                            <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>예제 <span class="ico-help">i</span></h3></a>
+                                        </div>
+
+                                        <div class="tab ex-words__outer">
+                                            <div class="tab__list">
+                                                <div class="ex-words__outer">
+                                                    <div class="ex-words__list">
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">😊고맙다</button>
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">😝즐거웠다</button>
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">🤯힘내라</button>
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">😍수고했다</button>
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">감사장</button>
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">표창장</button>
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">임명장</button>
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">수료증</button>
+                                                    </div>
+                                                    <div class="ex-words__list">
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">지인</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">친구</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">이성</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">연애</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">부모님</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">자녀</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">직장</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">멘토</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">인플루언서</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">신앙</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">정치</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">연예</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">스포츠</button>
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">상춘문예</button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -618,36 +620,10 @@
 
                             <div class="r">
                                 <div class="c">
-                                    <div class="story">
-                                        <h3 class="h3">스토리</h3>
-                                        <hr class="hr-small">
-                                        <div class="forms">
-                                            <label for="story" class="hidden">스토리</label>
-                                            <textarea id="story" class="story"></textarea>
+                                    <div class="ability">
+                                        <div class="h3">
+                                            <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3><span class="ico-required">*</span>능력 <span class="ico-help">i</span></h3></a>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="r">
-                                <div class="c">
-
-                                    <div class="photo">
-                                        <h3 class="h3">사진</h3>
-                                        <hr class="hr-small">
-                                        <form enctype=“multipart/form-data”>
-                                            <input type="file" value="파일첨부" accept="image/*" class="input-photo"/>
-                                        </form>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="r">
-                                <div class="c">
-                                    <div class="hashtag">
-                                        <h3 class="h3">능력</h3>
                                         <hr class="hr-small">
                                         <div class="tag box">
                                             <div class="tag-checkbox">
@@ -663,9 +639,57 @@
 
                             <div class="r">
                                 <div class="c">
+                                    <div class="story">
+                                        <div class="h3">
+                                            <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>받는 사람 <span class="ico-help">i</span></h3></a>
+                                        </div>
+                                        <hr class="hr-small">
+                                        <a href="#;" class="MODAL-BTN" data-target="#modalWritingUserSearch" id="receiver">
+                                            <input type="text" class="receiver-input input-full" placeholder="" value="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="r">
+                                <div class="c">
+                                    <div class="story">
+                                        <div class="h3">
+                                            <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>스토리 <span class="ico-help">i</span></h3></a>
+                                        </div>
+                                        <hr class="hr-small">
+                                        <div class="forms">
+                                            <label for="story" class="hidden">스토리</label>
+                                            <textarea id="story" class="story"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="r">
+                                <div class="c">
+
+                                    <div class="photo">
+                                        <div class="h3">
+                                            <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>사진 <span class="ico-help">i</span></h3></a>
+                                        </div>
+                                        <hr class="hr-small">
+                                        <form enctype=“multipart/form-data”>
+                                            <input type="file" value="파일첨부" accept="image/*" class="input-photo"/>
+                                        </form>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="r">
+                                <div class="c">
 
                                     <div class="movie">
-                                        <h3 class="h3">동영상</h3>
+                                        <div class="h3">
+                                            <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>동영상 <span class="ico-help">i</span></h3></a>
+                                        </div>
                                         <hr class="hr-small">
                                         <div class="forms">
                                             <label for="hashTag" class="hidden">동영상</label>
@@ -679,10 +703,12 @@
                             <div class="r">
                                 <div class="c">
                                     <div class="source">
-                                        <h3 class="h3">출처</h3>
+                                        <div class="h3">
+                                            <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>링크 <span class="ico-help">i</span></h3></a>
+                                        </div>
                                         <hr class="hr-small">
                                         <div class="forms">
-                                            <label for="source" class="hidden">출처</label>
+                                            <label for="source" class="hidden">링크</label>
                                             <input type="text" id="source" placeholder="https://www.google.com" class="source-input">
                                         </div>
                                     </div>
@@ -692,7 +718,7 @@
                             <div class="r">
                                 <div class="c">
                                     <div class="private" style="width:100%;">
-                                        <h3 class="h3">공개</h3>
+                                        <a href="#;" class="MODAL-BTN" data-target="#modalGuide"><h3 class="h3">공개 <span class="ico-help">i</span></h3></a>
                                         <hr class="hr-small">
                                         <div style="overflow:auto;width:100%;padding-bottom:4px;">
                                             <div style="white-space: nowrap;">
@@ -704,23 +730,23 @@
                                                 <!--                                            </span>-->
 
                                                 <span class="forms btn-radio">
-                                                <input type="radio" name="radio-ddd" value="radio-ddd01" id="radio-ddd01" checked="checked">
-                                                <label for="radio-ddd01">전체공개</label>
+                                                <input type="radio" name="private-type" value="private-all" id="privateAll" checked="checked">
+                                                <label for="privateAll">전체공개</label>
                                                 <span class="radio-ico"></span>
                                             </span>
                                                 <span class="forms btn-radio">
-                                                <input type="radio" name="radio-ddd" value="radio-ddd02" id="radio-ddd02">
-                                                <label for="radio-ddd02">비공개</label>
+                                                <input type="radio" name="private-type" value="private-secret" id="privateSecret">
+                                                <label for="privateSecret">비공개</label>
                                                 <span class="radio-ico"></span>
                                             </span>
                                                 <span class="forms btn-radio">
-                                                <input type="radio" name="radio-ddd" value="radio-ddd03" id="radio-ddd03">
-                                                <label for="radio-ddd03">일부공개</label>
+                                                <input type="radio" name="private-type" value="private-link" id="privateLink">
+                                                <label for="privateLink">일부공개</label>
                                                 <span class="radio-ico"></span>
                                             </span>
                                                 <span class="forms btn-radio">
-                                                <input type="radio" name="radio-ddd" value="radio-ddd04" id="radio-ddd04">
-                                                <label for="radio-ddd04">팔로우만 공개</label>
+                                                <input type="radio" name="private-type" value="private-follow" id="privateFollow">
+                                                <label for="privateFollow">팔로우만 공개</label>
                                                 <span class="radio-ico"></span>
                                             </span>
                                             </div>
@@ -743,7 +769,7 @@
                             <div class="r">
                                 <div class="c">
                                     <div class="guide">
-                                        <p>✔ 프린트는 작성완료 후 가능합니다.</p>
+                                        <p>💌 프린트는 작성완료 후 가능합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -943,7 +969,7 @@
                     </div>
                     <!-- 모달 헤더 -->
                     <div class="modal-header">
-                        <h2>검색</h2>
+                        <h2>능력</h2>
                     </div>
                     <!-- 모달 헤더 End -->
 

@@ -275,6 +275,28 @@ function modalOffAfter(el){
 /* 모달 팝업 End */
 
 /** 탭 */
+
+    function bindSingleBtnTabs() {
+        $('.TAB-BTN').each(function(index, item){
+            $(this).on('click',function(e){
+                let $tab = $(e.currentTarget),
+                    targetID = $tab.data('target'),
+                    isTarget = $(targetID).length,
+                    isChild = $tab.next().length;
+                $tab.parents('.tab__list').find('.TAB-BTN').removeClass('active');
+                $tab.addClass('active');
+
+                if (isTarget) {
+                    $(targetID).addClass('active').siblings().removeClass('active');
+                }
+
+                if (isTarget || isChild) {
+                    e.preventDefault();
+                }
+            });
+        });
+    }
+
     function bindTabs() {
         $('.tab__list a').on('click', function(e){
             let $tab = $(e.currentTarget),
@@ -336,7 +358,7 @@ function modalOffAfter(el){
         });
     }
 
-    function bindbuttonTabs() {
+    function bindButtonTabs() {
         $('.tab__list.button-tabs a').on('click', function(e) {
             let $tab = $(e.currentTarget);
 
@@ -346,11 +368,12 @@ function modalOffAfter(el){
         });
     }
     function tabs() {
+        bindSingleBtnTabs();
         bindTabs();
         //bindProdTabs();
         bindMultiTabs();
         bindNavTabs();
-        bindbuttonTabs();
+        bindButtonTabs();
     }
 /** 탭 End */
 

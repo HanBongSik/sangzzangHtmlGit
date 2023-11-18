@@ -83,6 +83,15 @@
                         <?php include("types/button-color.tpl"); ?>
                     </div>
                 </div>
+            </div><div class="__h2" id="COMMON-BUTTON-COLOR">
+                (1) 뱃지
+            </div>
+            <div class="__preview">
+                <div class="__view" title="button-badge">
+                    <div class="__list_wrapper">
+                        <?php include("types/button-badge.tpl"); ?>
+                    </div>
+                </div>
             </div>
 
             <div class="__h2" id="COMMON-BUTTON-USAGE">
