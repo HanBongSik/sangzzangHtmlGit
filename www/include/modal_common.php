@@ -302,7 +302,8 @@
                                     </div>
                                 </div>
 <style>
-    .ex-words{width:100%;padding:10px 0;}
+    .ex-words{width:100%;padding:0px 0;}
+    .modal-dimmed .ex-words{width:100%;padding:10px 0;}
     .ex-words .tab__list{border:none;}
     .ex-words .btn-badge{background: var(--gray);border-color: var(--gray-border-color);color: var(--black);}
     .ex-words .btn-badge.active{background: var(--primary);color: #fff;}
@@ -315,6 +316,7 @@
                                         <div class="tab__list">
                                             <div class="ex-words__outer">
                                                 <div class="ex-words__list">
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExWords">전체</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN active" data-target="#tabExThankyou">😊고맙다</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExFun">😝즐거웠다</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExCheerUp">🤯힘내라</button>
@@ -1812,6 +1814,281 @@
     </div>
     <!-- 포토 확대 보기 End -->
 
+    <!-- 상장 만들기 -->
+        <!-- 공유하기 모달 팝업  -->
+        <div class="modal-dimmed" id="modalShare" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+            <div class="modal">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
+                        <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                            <div class="modal-close">
+                                <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                            </div>
+                            <!-- 모달 헤더 -->
+                            <div class="modal-header">
+                                <h2>공유하기</h2>
+                            </div>
+                            <!-- 모달 헤더 End -->
+
+                            <!-- 모달 바디 -->
+                            <div class="modal-body">
+                                <style>
+                                    .modal-list.sns{}
+                                    .modal-list.sns img{display:inline-block;height:20px}
+                                </style>
+                                <ul class="modal-list sns">
+                                    <li><a href="#;"><img src="/assets/img/naver.png" alt="네이버"> 네이버</a></li>
+                                    <li><a href="#;"><img src="/assets/img/kakao.png" alt="카카오톡"> 카카오톡</a></li>
+                                    <li><a href="#;"><img src="/assets/img/google.png" alt="구글"> 구글</a></li>
+                                    <li><a href="#;"><img src="/assets/img/facebook.png" alt="페이스북"> 페이스북</a></li>
+                                    <li><a href="#;"><img src="/assets/img/instagram.png" alt="인스타그램"> 인스타그램</a></li>
+                                </ul>
+                            </div>
+                            <!-- 모달 바디 End -->
+
+                            <!-- 모달 푸터 -->
+                            <div class="modal-footer">
+                                <button class="btn">확인</button>
+                                <button class="btn btn-black MODAL-CLOSE">취소</button>
+                            </div>
+                            <!-- 모달 푸터 End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 공유하기 팝업 End -->
+
+        <!-- 스크랩 모달 팝업  -->
+        <div class="modal-dimmed" id="modalScrap" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+            <div class="modal">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
+                        <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                            <div class="modal-close">
+                                <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                            </div>
+                            <!-- 모달 헤더 -->
+                            <div class="modal-header">
+                                <h2>스크랩하기</h2>
+                            </div>
+                            <!-- 모달 헤더 End -->
+
+                            <!-- 모달 바디 -->
+                            <div class="modal-body">
+                                <!--                            <ul class="modal-list">-->
+                                <!--                                <li><a href="#;">스크랩하기</a></li>-->
+                                <!--                            </ul>-->
+                                <div>
+                                    <span class="forms">
+                                        <input class="display-block w-100" type="text" value="" placeholder="스크랩 메모">
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- 모달 바디 End -->
+
+                            <!-- 모달 푸터 -->
+                            <div class="modal-footer">
+                                <button class="btn">확인</button>
+                                <button class="btn btn-black MODAL-CLOSE">취소</button>
+                            </div>
+                            <!-- 모달 푸터 End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 스크랩 작성 팝업 End -->
+
+        <!-- 복사 후 작성 모달 팝업  -->
+        <div class="modal-dimmed" id="modalCopyAndWrite" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+            <div class="modal">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
+                        <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                            <div class="modal-close">
+                                <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                            </div>
+                            <!-- 모달 헤더 -->
+                            <div class="modal-header">
+                                <h2>복사 후 작성 하기</h2>
+                            </div>
+                            <!-- 모달 헤더 End -->
+
+                            <!-- 모달 바디 -->
+                            <div class="modal-body">
+                                <ul class="modal-list">
+                                    <li><a href="#;"> 복사 후 작성 하기</a></li>
+                                </ul>
+                            </div>
+                            <!-- 모달 바디 End -->
+
+                            <!-- 모달 푸터 -->
+                            <div class="modal-footer">
+                                <button class="btn">확인</button>
+                                <button class="btn btn-black MODAL-CLOSE">취소</button>
+                            </div>
+                            <!-- 모달 푸터 End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 복사 후 작성 팝업 End -->
+
+        <!-- 다운로드 모달 팝업  -->
+        <div class="modal-dimmed" id="modalSzDownload" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+            <div class="modal-full modal-height-max-full">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
+                        <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                            <div class="modal-close">
+                                <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                            </div>
+                            <!-- 모달 헤더 -->
+                            <div class="modal-header">
+                                <h2>상장 다운로드</h2>
+                            </div>
+                            <!-- 모달 헤더 End -->
+
+                            <!-- 모달 바디 -->
+                            <div class="modal-body">
+                                <div class="g sz-download-modal">
+                                    <div class="r sz-download-modal-row">
+                                        <div class="c sz-download-modal-col">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 모달 바디 End -->
+
+                            <!-- 모달 푸터 -->
+                            <div class="modal-footer">
+                                <div class="g btn-download-sz">
+                                    <div class="r download-sz-size-select">
+                                        <span class="forms">
+                                            <input type="radio" name="downloadSize" value="620" id="downloadSizeDevice" checked="checked">
+                                            <label for="downloadSizeDevice">일반</label>
+                                        </span>
+                                        <span class="forms">
+                                            <input type="radio" name="downloadSize" value="1240" id="downloadSizePhotoCard">
+                                            <label for="downloadSizePhotoCard">포토카드</label>
+                                        </span>
+                                        <span class="forms">
+                                            <input type="radio" name="downloadSize" value="2480" id="downloadSizeA4">
+                                            <label for="downloadSizeA4">A4용지</label>
+                                        </span>
+                                        <!--                                    <a class="btn" id="szDownload">다운로드(일반)</a>-->
+                                        <!--                                    <a class="btn" id="szDownload3" onclick="alert('개발 중입니다.');return false;">다운로드 (포토카드)</a>-->
+                                        <!--                                    <a class="btn" id="szDownload4" onclick="alert('개발 중입니다.');return false;">다운로드 (A4용지)</a>-->
+                                    </div>
+                                    <div class="r">
+                                        <a class="btn" id="szDownload">다운로드</a>
+                                        <a class="btn" id="szDownloadSize">다운로드 사이즈</a>
+                                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 모달 푸터 End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 다운로드 팝업 End -->
+    <!-- 상장 만들기 End -->
+
+    <!-- 상장 보기 -->
+        <div class="modal-dimmed" id="modalDate" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+            <div class="modal-full modal-height-max-full modal-calendar">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
+                        <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                            <div class="modal-close">
+                                <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                            </div>
+                            <!-- 모달 헤더 -->
+                            <div class="modal-header">
+                                <h2>달력</h2>
+                            </div>
+                            <!-- 모달 헤더 End -->
+
+                            <!-- 모달 바디 -->
+                            <div class="modal-body">
+                                <div class="datepicker"></div>
+                            </div>
+                            <!-- 모달 바디 End -->
+
+                            <!-- 모달 푸터 -->
+                            <div class="modal-footer">
+                                <button class="btn">확인</button>
+                                <button class="btn btn-black MODAL-CLOSE">취소</button>
+                            </div>
+                            <!-- 모달 푸터 End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 사용자 검색 -->
+        <div class="modal-dimmed" id="modalAddAbility" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+            <div class="modal-full modal-height-full">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
+                        <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                            <div class="modal-close">
+                                <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                            </div>
+                            <!-- 모달 헤더 -->
+                            <div class="modal-header">
+                                <h2>능력</h2>
+                            </div>
+                            <!-- 모달 헤더 End -->
+
+                            <!-- 모달 바디 -->
+                            <div class="modal-body">
+                                <!--                            <div class="search">-->
+                                <!--                                <div class="g search-input">-->
+                                <!--                                    <div class="r gap-hor-sm">-->
+                                <!--                                        <div class="c">-->
+                                <!--                                                <span class="forms forms-full">-->
+                                <!--                                                    <input type="text" placeholder="검색어를 입력하세요" value="" id="inputKeyward" class="INPUT-RESET">-->
+                                <!--                                                    <button class="INPUT-RESET-BTN" data-target="#inputKeyward">×</button>-->
+                                <!--                                                </span>-->
+                                <!--                                        </div>-->
+                                <!--                                        <div class="c c-inner-width">-->
+                                <!--                                            <div class="search-btn">-->
+                                <!--                                                    <span class="forms">-->
+                                <!--                                                        <button type="button" class="btn-search">검색</button>-->
+                                <!--                                                    </span>-->
+                                <!--                                            </div>-->
+                                <!--                                        </div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                            </div>-->
+
+                                <div class="add-ability">
+                                    <input type="text" name="tagInput" class="add-ability-input" placeholder="능력 입력하세요." value="" autocomplete="off" style="position:absolute;left:-99999999999px;top:-99999999999px;">
+                                </div>
+                            </div>
+                            <!-- 모달 바디 End -->
+
+                            <!-- 모달 푸터 -->
+                            <div class="modal-footer">
+                                <button class="btn">확인</button>
+                                <button class="btn btn-black MODAL-CLOSE">취소</button>
+                            </div>
+                            <!-- 모달 푸터 End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 사용자 검색 End -->
+    <!-- 상장 보기 End -->
     <!-- 스킬 보기 -->
     <div class="modal-dimmed" id="modalSkill">
         <div class="modal-full modal-height-full">

@@ -24,7 +24,7 @@
 
     /** 색상 */
     --primary: #da4f4d;
-    --secondary: #f06b00;
+    --secondary: #ff8b2e;
     --gray: #f8f8f8;
     --gray-border-color: #e6e6e6;
     --white: #fff;
@@ -32,7 +32,7 @@
     --gray-dark: #263238;
     --gray-light: #f8f8f8;
     --gray-light-border: #e6e6e6;
-    --input-border: #c0c0c0;
+    --input-border: #e6e6e6;
     --input-disabled-color: #b2b2b2;
     --input-disabled-bg: #f8f8f8;
     --input-disabled-border-color: #e6e6e6;
@@ -564,17 +564,24 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 
 /* 폼 인풋 셀렉트 */
 /** input - 필수 */
+input:focus,textarea:focus{outline:none;}
+
 input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]),textarea
 {display:inline-block;opacity:1;border:1px solid var(--input-border);transition:all var(--transition-time);border-radius:var(--radius);background-color:#fff;resize: none;}
+textarea{white-space:pre-wrap;}
+/* 스타일2
+input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]),textarea
+{display:inline-block;opacity:1;border:none;border:1px solid #e8e8e8;transition:all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
+/* 스타일2 End */
 
 input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]):hover
 {opacity:1;}
 
 input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]):focus
-{opacity:1;}
+{opacity:1;border-color:var(--black);}
 
 input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]):active
-{opacity:1;border-color:var(--primary);}
+{opacity:1;}
 
 input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]):disabled
 {background:var(--input-disabled-bg);border:1px solid var(--input-disabled-border-color);opacity:1;cursor:not-allowed;color:var(--input-disabled-color);}
@@ -583,13 +590,24 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type=
 {background:var(--input-disabled-bg);border:1px solid var(--input-disabled-border-color);opacity:1;}
 
 
-label.switch{position:relative;display:inline-block;width:60px;height:var(--md-height);}
+label.switch{position:relative;display:inline-block;width:52px;height:26px;}
 label.switch input{opacity:0;width:0;height:0;}
 label.switch .slider {position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.2s;transition:.2s;border-radius:34px;}
-label.switch .slider:before {position:absolute;content: "";height:calc(var(--md-height) / 2 + 6px);width:calc(var(--md-height) / 2 + 6px);left:7px;bottom:5px;background-color:white;-webkit-transition:.2s;transition: .2s;border-radius:50%;}
+label.switch .slider:before {
+    position: absolute;
+    content: "";
+    height: calc(var(--md-height) / 2 + 2px);
+    width: calc(var(--md-height) / 2 + 2px);
+    left: 6px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+    border-radius: 50%;
+}
 label.switch input:checked + .slider {background-color:var(--primary);}
 label.switch input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
-label.switch input:checked + .slider:before {-webkit-transform: translateX(calc(var(--md-height) / 2 + 6px));-ms-transform: translateX(calc(var(--md-height) / 2 + 10px));transform: translateX(calc(var(--md-height) / 2 + 8px));}
+label.switch input:checked + .slider:before {-webkit-transform: translateX(calc(var(--md-height) / 2 + 6px));-ms-transform: translateX(calc(var(--md-height) / 2 + 10px));transform: translateX(calc(var(--md-height) / 2 + 6px));}
 
 label.switch input:disabled + .slider {background-color:var(--input-disabled-bg);}
 label.switch input:disabled + .slider:before {-webkit-transform: translateX(calc(var(--md-height) / 2 + 6px));-ms-transform: translateX(calc(var(--md-height) / 2 + 10px));transform: translateX(calc(var(--md-height) / 2 + 8px));}
@@ -711,7 +729,7 @@ select:hover
 select:focus
 {opacity:1;}
 select:active
-{opacity:1;border-color:var(--primary);}
+{opacity:1;}
 select:disabled
 {background:var(--input-disabled-bg);border:1px solid var(--input-disabled-border-color);opacity:1;cursor:not-allowed;color:var(--input-disabled-color);}
 /*.select:read-only,.select:read-only:hover{background:var(--input-disabled-bg);border:1px solid var(--input-disabled-border-color);opacity:1;}*/
@@ -759,7 +777,7 @@ select.secondary
     .forms{display:inline-block;position:relative;}*/
 
 /** 체크박스 - 필수 */
-input[type="checkbox"]:focus + label{outline:1px solid #000 !important;border-radius: var(--radius);}
+input[type="checkbox"]:focus + label{outline:1px solid var(--black) !important;outline:0 !important;border-radius: var(--radius);}
 
 input[type="checkbox"], input[type="checkbox"].md
 {position:absolute;left:0;top:0;overflow:hidden;clip:rect(0 0 0 0);margin:0;padding:0;width:1px;height:1px;}
@@ -1741,6 +1759,8 @@ table.align-bottom, table .align-bottom{vertical-align:bottom !important;}
 {outline:0;}
 .panels.bordered
 {position:relative;margin-top:-21px;padding:30px 21px;padding-top:1px;border:1px solid #8d8075;border-top-width:0;}
+
+.TOGGLE-PANEL{display:none;}
 
 /* 툴팁 */
 

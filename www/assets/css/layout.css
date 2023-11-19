@@ -104,4 +104,14 @@ section#container .content{margin-top:20px;}
 
 .btn:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover
 {opacity:1;}
+
+
+/** input - 디자인 추가 */
+input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]).primary,textarea.primary
+{display:inline-block;opacity:1;border:none;border:1px solid #e8e8e8;transition:all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
+input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]).secondary
+{border-color:var(--secondary);}
+
+.btn-group{text-align:center;width:100%;margin-top:20px;}
+.btn-group .btn{margin:0 2px;}
 /* 가이드의 impreci 전용 End */

@@ -195,6 +195,7 @@ function noPullRefreshModalOff(el){
     function modalOnAfter(el){
         if(el == '#modalSzDownload'){
             // checkedDownloadSize();
+            renderDiv2Textarea();
             bindCheckedDownloadSize();
             cloneSz();
             captureSzInit();
@@ -242,6 +243,7 @@ function noPullRefreshModalOff(el){
 function modalOffAfter(el){
     if(el == '#modalSzDownload'){
         $('#modalSzDownload .sz-download-modal-col').empty();
+        renderDiv2TextareaReset();
     }
     if(el == '#modalPhotoFullView'){
         $('#modalPhotoFullView').find('.swiper-wrapper').empty();
@@ -275,6 +277,26 @@ function modalOffAfter(el){
 /* 모달 팝업 End */
 
 /** 탭 */
+
+    function bindToggle() {
+        $('.TOGGLE-BTN').each(function(index, item){
+            $(this).on('click',function(e){
+                let $tab = $(e.currentTarget),
+                    targetID = $tab.data('target'),
+                    isTarget = $(targetID).length,
+                    tabIco = $tab.find('.toggle-ico');
+
+                if (isTarget) {
+                    $(tabIco).toggleClass('ACTIVE')
+                    $(targetID).toggleClass('ACTIVE');
+                }
+
+                if (isTarget || isChild) {
+                    e.preventDefault();
+                }
+            });
+        });
+    }
 
     function bindSingleBtnTabs() {
         $('.TAB-BTN').each(function(index, item){
@@ -368,6 +390,7 @@ function modalOffAfter(el){
         });
     }
     function tabs() {
+        bindToggle();
         bindSingleBtnTabs();
         bindTabs();
         //bindProdTabs();

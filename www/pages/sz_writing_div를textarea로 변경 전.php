@@ -99,7 +99,7 @@
     .SZ-RATIO .sz-sender > *{font-size:50px;}
 
     /* 상장 내용 */
-    .SZ-RATIO .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;display: flex;flex-direction: column;align-items: stretch;}
+    .SZ-RATIO .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;}
     .SZ-RATIO .sz-word > *{width:100%;display:inline-block;height:100%;text-align:justify;letter-spacing:0;}
     .SZ-RATIO .sz-word > *{font-size:44px;vertical-align:top;}
 
@@ -128,6 +128,9 @@
     .SZ-RATIO .sz-date > *{color:#333;font-weight:bold;letter-spacing:0;word-break:break-all;white-space:normal;overflow:none;background:transparent;}
     .SZ-RATIO .sz-word > *{color:#333;letter-spacing:-1px;word-break:break-all;white-space:normal;overflow:hidden;}
 
+    .SANGZZANG-COPY{width:2480px}
+    .SANGZZANG-COPY .SZ-WRITE{transform: scale(2.48);} /*여기에 width 주면 아이폰 아이패드에서 깨짐*/
+
     .draw{position:absolute;left:0px;top:0px;height:30px;transition: all .1s;will-change:transform;}
     .draw .sz-draw-img{display:block;height:100%;opacity:.6;will-change:transform;}
 
@@ -139,19 +142,14 @@
     .SZ-RATIO .sz-date > *{font-size:90px;}
     .SZ-RATIO .sz-sender > *{font-size:130px;}
 
+    .SANGZZANG-COPY{p1osition:absolute;1eft:-999999px;1op:-999999px;}
+
     html body #container .CONTENTEDITABLE{position:relative;white-space:pre;}
     .TARGET .TEXT-EDIT::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;border:10px dashed var(--secondary) !important;box-sizing: border-box;}
-
-    html body #container div.CONTENTEDITABLE#sangText,
-    html body #container div.CONTENTEDITABLE#sangTextDiv{white-space:normal;}
-    html body #container textarea.CONTENTEDITABLE#sangText{flex:1;white-space:pre-wrap;}
-
-    /* 캡쳐일 때 RENDERED 상태값에 따른 요소 제거 */
-    html body #container .SZ-ORIGIN.RENDERED #sangText{display:none;}
-    html body #container .SZ-ORIGIN.RENDERED #sangTextDiv{display:flex;}
-    html body #container .SZ-ORIGIN.RENDERED .TEXT-EDIT::after{display:none;}
-    html body #container .SZ-ORIGIN.RENDERED .edit-guide-wrapper{display:none !important;}
-    /* 캡쳐일 때 RENDERED 상태값에 따른 요소 제거 End */
+    /*.CONTENTEDITABLE::after{content:'';width:100%;height:100%;position:absolute;left:0;top:0;border:5px dashed #C1C1C1 !IMPORTANT;box-sizing:border-box;}
+    .TEXT-EDIT::after{border:10px dashed #00dcf0 !IMPORTANT;}
+    */
+    html body #container .CONTENTEDITABLE#sangText{white-space:normal;}
 
     .TARGET{z-index:1000;}
 
@@ -262,23 +260,14 @@
 
     .sz-design__img__btn{border:2px solid transparent;}
     .sz-design__img__btn.on{border-color:var(--primary);}
-
-    /*textarea{*/
-    /*    caret-shape: auto;*/
-    /*    caret-shape: bar;*/
-    /*    caret-shape: block;*/
-    /*    caret-shape: underscore;*/
-    /*}*/
-
 </style>
                     <div class="SANGZZANG SZ-ORIGIN SZ-WRITING">
-                        <div class="SZ-WRITE SZ-RATIO clearfix CAPTUREAREA">
+                        <div class="SZ-WRITE SZ-RATIO clearfix">
                             <img class="sz-design" src="/assets/img/design/sz_000004.png" alt=""/>
 
                             <div class="sz-name ELEMENT">
 
-<!--                                <div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>-->
-<div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
+                                <div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
@@ -291,8 +280,7 @@
 
                             </div>
                             <div class="sz-title ELEMENT">
-<!--                                <textarea id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</textarea>-->
-<div id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>
+                                <div id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
@@ -316,35 +304,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <style>
-                                #sangTitle,
-                                #sangText{outline:0 !important;}
-                                #sangTitle:focus,
-                                #sangTitle:focus
-                                {outline:0 !important;border:none !important;}
-                                #sangTitle:hover,
-                                #sangTitle:hover
-                                {outline:0 !important;border:none !important;}
-
-
-                                #sangText{outline:0;border:0;}
-                            </style>
                             <div class="sz-word ELEMENT">
-                                <textarea id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">위 사람은 제1회 한봉식배 닌텐도
-스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로
-이 상을 드립니다.
-
-다음에도 다시 챔피언이 될 수 있도록 하세요!
-                                </textarea>
-<!--                                <div id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">-->
-<!--                                    위 사람은 제1회 한봉식배 닌텐도<br>-->
-<!--                                    스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 <br>-->
-<!--                                    이 상을 드립니다.<br>-->
-<!--                                    <br>-->
-<!--                                    다음에도 다시 챔피언이 될 수 있도록 하세요!-->
-<!--                                </div>-->
-                                <div id="sangTextDiv" class="CONTENTEDITABLE"></div>
-
+                                <div id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">
+                                    위 사람은 제1회 한봉식배 닌텐도<br>
+                                    스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 <br>
+                                    이 상을 드립니다.<br>
+                                    <br>
+                                    다음에도 다시 챔피언이 될 수 있도록 하세요!
+                                </div>
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
@@ -404,49 +371,7 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- 상장 만들기 End -->
-
-
-
-
-
-                    <div class="r post__row">
-                        <div class="sz-function sz-function-01 shadow">
-                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare">
-                                <span class="share">
-                                    <img src="/assets/img/ico-share.png" alt=""> <span class="sz-function-name">공유</span>
-                                </span>
-                            </a>
-                            <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap">
-                                <span class="scrap">
-                                    <img src="/assets/img/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
-                                </span>
-                            </a>
-                            <!--
-                            <a href="#;" id="print">
-                                <span  class="print">
-                                    <img src="./assets/img/ico-print.png" alt=""/> <span>프린트</span>
-                                </span>
-                            </a>
-                            -->
-                            <a href="#;" id="copy" class="MODAL-BTN" data-target="#modalCopyAndWrite">
-                                <span class="copy last">
-                                    <img src="/assets/img/ico-copy.png" alt=""> <span class="sz-function-name">복사</span>
-                                </span>
-                            </a>
-                            <a href="#;" id="download" class="MODAL-BTN" data-target="#modalSzDownload">
-                                <span class="copy last">
-                                    <img src="/assets/img/ico-download.png" alt=""> <span class="sz-function-name">다운로드</span>
-                                </span>
-                            </a>
-                            <a href="/pages/3d-card.php">
-                                <span class="copy last">
-                                    <img src="/assets/img/ico-360.png" alt=""> <span class="sz-function-name">3D카드</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
 
                     <!-- 상장 디자인 리스트 -->
                     <div class="sz-design-select">
@@ -979,138 +904,140 @@
             $(window).resize(function() {
                 $('.draw').css('display','none');
             });
-        }
+        };
         /* 링크 */
         function go(path){
             location.href=path;
         }
-        //drawIcon();
+        drawIcon()
     </script>
+    <div class="SANGZZANG SANGZZANG-COPY">
+        <!--
+        <div class="sz-wrting SZ-RATIO SZ-WRITE clearfix">
+            <img class="sz-design" src="./assets/design/sz_000007.png" alt=""/>
+            <div class="sz-name">
+                <div>상 장 COPY</div>
+            </div>
+            <div class="sz-title">
+                <div>타이틀</div>
+            </div>
+            <div class="sz-receiver">
+                <div>받는 분</div>
+            </div>
+            <div class="sz-word">
+                <div type="text" id="sangText" name="sangText" placeholder="&#13;&#10 위 정은아는 평소 한봉식의 직장동료이며 한봉식이 알려주는 웹표준 코딩에 대한  상당히 습득력이 빠르고 뛰어나 한봉식이  보증하건데 아사달 퍼블리셔 외 최고 웹표준 코딩의 에이스일 것을 보증하며 에이스와 함께 이 상장을 드립니다." >위 정은아는 평소 한봉식의 직장동료이며 한봉식이 알려주는 웹표준 코딩에 대한  상당히 습득력이 빠르고 뛰어나 한봉식이  보증하건데 아사달 퍼블리셔 외 최고 웹표준 코딩의 에이스일 것을 보증하며 에이스와 함께 이 상장을 드립니다.</div>
+            </div>
+            <div class="sz-date">
+                <div>2019년 11월 4일</div>
+            </div>
+            <div class="sz-sender">
+                <div>보내는 분</div>
+            </div>
+            <div class="sz-sticker">
+                <a href="#;">
+                    <img class="sz-sticking" src="./assets/design/ico-hand.png" alt=""/>
+                    <img class="sz-sticker-img" src="./assets/design/stk/sz_stk_000002.png" alt=""/>
+                </a>
+            </div>
+            <div class="sz-stamp">
+                <a href="#;">
+                    <img class="sz-stamping" src="./assets/design/ico-hand2.png" alt=""/>
+                    <img class="sz-stamp-img" src="./assets/design/stp/sz_stp_000002.png" alt=""/>
+                </a>
+            </div>
+        </div>-->
+
+
+    </div>
+</div>
+<div class="modal-dimmed" id="modalDate" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+    <div class="modal-full modal-height-max-full modal-calendar">
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                    <div class="modal-close">
+                        <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                    </div>
+                    <!-- 모달 헤더 -->
+                    <div class="modal-header">
+                        <h2>달력</h2>
+                    </div>
+                    <!-- 모달 헤더 End -->
+
+                    <!-- 모달 바디 -->
+                    <div class="modal-body">
+                        <div class="datepicker"></div>
+                    </div>
+                    <!-- 모달 바디 End -->
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-footer">
+                        <button class="btn">확인</button>
+                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                    </div>
+                    <!-- 모달 푸터 End -->
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
-<!-- 상장 temp -->
-<div class="sangzzang AREA-SANGZZANG-COPY">
+<!-- 사용자 검색 -->
+<div class="modal-dimmed" id="modalAddAbility" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+    <div class="modal-full modal-height-full">
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                    <div class="modal-close">
+                        <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                    </div>
+                    <!-- 모달 헤더 -->
+                    <div class="modal-header">
+                        <h2>능력</h2>
+                    </div>
+                    <!-- 모달 헤더 End -->
+
+                    <!-- 모달 바디 -->
+                    <div class="modal-body">
+<!--                            <div class="search">-->
+<!--                                <div class="g search-input">-->
+<!--                                    <div class="r gap-hor-sm">-->
+<!--                                        <div class="c">-->
+<!--                                                <span class="forms forms-full">-->
+<!--                                                    <input type="text" placeholder="검색어를 입력하세요" value="" id="inputKeyward" class="INPUT-RESET">-->
+<!--                                                    <button class="INPUT-RESET-BTN" data-target="#inputKeyward">×</button>-->
+<!--                                                </span>-->
+<!--                                        </div>-->
+<!--                                        <div class="c c-inner-width">-->
+<!--                                            <div class="search-btn">-->
+<!--                                                    <span class="forms">-->
+<!--                                                        <button type="button" class="btn-search">검색</button>-->
+<!--                                                    </span>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+                        <div class="add-ability">
+                            <input type="text" name="tagInput" class="add-ability-input" placeholder="능력 입력하세요." value="" autocomplete="off" style="position:absolute;left:-99999999999px;top:-99999999999px;">
+                        </div>
+                    </div>
+                    <!-- 모달 바디 End -->
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-footer">
+                        <button class="btn">확인</button>
+                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                    </div>
+                    <!-- 모달 푸터 End -->
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="capture"></div>
-<div class="sangzzang AREA-SANGZZANG-COPY-DOWNLOAD"></div>
-
-<script>
-    function renderDiv2Textarea(){
-        let text = document.getElementById("sangText").value;
-        text = text.replace(/(?:\r\n|\r|\n)/g, '<br>');
-        $('#sangTextDiv').html(text);
-        $('.SZ-ORIGIN').addClass('RENDERED');
-    }
-    function renderDiv2TextareaReset(){
-        $('#sangTextDiv').empty();
-        $('.SZ-ORIGIN').removeClass('RENDERED');
-    }
-    
-    /* 상장 스크린샷 */
-    var renderSzScale = 1;
-    var checkedSzDownloadSize = '';
-
-    //다운로드 버튼 누르면
-    $('#szDownload').on('click',function(){
-        if(checkedDownloadSize() == 2480){
-            console.log('AD 2480');
-        }else if(checkedDownloadSize() == 1240){
-            console.log('AD 1240');
-        }
-        captureSzDownload();//다운로드 버튼을 누를 때 실행시켜야겠는데
-    })
-
-    function bindCheckedDownloadSize(){
-        $("[name='downloadSize']").on('change',function(){
-            checkedDownloadSize();
-        });
-    }
-
-    function cloneSz(size){ //원하는 영역의 스크린샷을 찍어 원하는 곳으로 코드 복사한다.
-        let body = $('body');
-        let origin = $(".SANGZZANG.SZ-ORIGIN");
-        let copy = $(".AREA-SANGZZANG-COPY");
-        //다운로드 클릭
-        copy.remove();
-        body.append('<div class="AREA-SANGZZANG-COPY"></div>');
-        origin.find(" > .SZ-WRITE").clone().appendTo(".AREA-SANGZZANG-COPY");
-
-        let copyWriting = $(".AREA-SANGZZANG-COPY > .SZ-WRITE");//카피할 영역
-        copyWriting.removeAttr('style').find('.sz-sticking, .sz-stamping').remove();
-        copyWriting.find(" > div ").each(function(index){
-            let text= $(this).find('textarea').val();
-            if($(this).find('textarea').length > 0){
-                $(this).find('textarea').remove();
-                $(this).append('<div>'+text+'</div>');
-                $(this).find('.sz-sticking, .sz-stamping').remove();
-            }
-        });
-    }
-
-    function checkedDownloadSize(){
-        const szDownloadSize = document.getElementsByName("downloadSize");
-        // 체크한 데이터를 담을 변수 선언 https://nameybs.tistory.com/37
-        for (let i = 0; i < szDownloadSize.length; i++) {
-            // 속성중에 체크 된 항목이 있을 경우
-            if (szDownloadSize[i].checked === true) {
-                checkedSzDownloadSize = Number(szDownloadSize[i].value);
-            }
-        }
-        let _checkedSzDownloadSize = checkedSzDownloadSize;// alert('checkedSzDownloadSize ' + checkedSzDownloadSize);
-
-        // 크기 계산기
-        let canvasVisibleWidthStyle = document.querySelector(".sz-download-modal-col canvas").style.width;
-        let canvasVisibleWidth = canvasVisibleWidthStyle.replace('px','');
-        renderSzScale = (_checkedSzDownloadSize / canvasVisibleWidth);//alert('\n_checkedSzDownloadSize : ' + _checkedSzDownloadSize + '  ' + '\ncanvasVisibleWidth : ' + canvasVisibleWidth + '\nrenderSzScale : '+ renderSzScale);
-        return checkedSzDownloadSize;
-    }
-
-    function captureSzInit(ev){ //뷰에서 다운로드 모달로 스크린샷 기능
-        //alert(renderSzScale);
-        /* 다운받을 때 A4 100% 크기 */
-        //2480
-        // 일반포토카드 55mm*85mm | 207.874px * 321.259px | 2.1:3.3" | 24장 4,200원[35%]
-        // 포토카드 큰 거 1240*1864
-        // 번외)좀 더 큰 포토카드 97mm*67mm 366.614px *253.228px
-        /*
-        width = 2480; // A4 픽셀 //
-        scaleW = width*0.001;
-        scaleH = height*scaleW;
-        border = 3;
-        $('.sangzzang-copy .sz-wrting').css('transform','scale('+scaleW+')');
-        $('.sangzzang.sangzzang-copy').css('height',scaleH+border+"px");
-        */
-        let appendTargetEl = '#modalSzDownload .sz-download-modal-col'; //캡쳐 붙여넣을 곳
-        $(appendTargetEl).empty();
-        html2canvas(document.querySelector(".SZ-ORIGIN .CAPTUREAREA"),{ scale:5 }).then(function(canvas) { //scale은 모바일에서 깨져보이지 않게 하기 위해
-            document.querySelector(appendTargetEl).appendChild(canvas);
-            checkedDownloadSize();
-            captureSzDownload('init');
-        });
-    }
-
-    function captureSzDownload(state){ //스크린샷 기능
-        let appendTargetEl = '.AREA-SANGZZANG-COPY-DOWNLOAD'; //캡쳐 붙여넣을 곳
-        $(appendTargetEl).empty();
-        // html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:1 }).then(function(canvas) {
-
-        // 사이즈에 맞는 곳으로 복사하여 붙여넣자
-        //alert('다운받을 곳 스케일 : '+ renderSzScale);
-        html2canvas(document.querySelector(".SZ-ORIGIN .CAPTUREAREA"),{ scale:renderSzScale }).then(function(canvas) { //캡쳐할 곳
-            document.querySelector(appendTargetEl).appendChild(canvas); //캡쳐 붙여넣기
-            let myImage = canvas.toDataURL();let today = new Date();let year = today.getFullYear();let month = ('0' + (today.getMonth() + 1)).slice(-2);let day = ('0' + today.getDate()).slice(-2);let hours = ('0' + today.getHours()).slice(-2);let minutes = ('0' + today.getMinutes()).slice(-2);let seconds = ('0' + today.getSeconds()).slice(-2);
-
-            $('#szDownloadSize').attr('href', myImage); //캡쳐 base64소스
-
-            let fileName = '상짱_' + year + '-' + month  + '-' + day + '-' + hours + minutes + seconds;
-            $('#szDownloadSize').attr('download', fileName+'.png'); //다운로드할 파일 이름 설정
-            if(state !== 'init'){
-                document.querySelector('#szDownloadSize').click();
-            }
-        });
-    }
-</script>
+<!-- 사용자 검색 End -->
 </body>
 
 

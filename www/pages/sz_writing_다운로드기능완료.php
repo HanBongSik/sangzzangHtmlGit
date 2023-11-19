@@ -99,7 +99,7 @@
     .SZ-RATIO .sz-sender > *{font-size:50px;}
 
     /* 상장 내용 */
-    .SZ-RATIO .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;display: flex;flex-direction: column;align-items: stretch;}
+    .SZ-RATIO .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;}
     .SZ-RATIO .sz-word > *{width:100%;display:inline-block;height:100%;text-align:justify;letter-spacing:0;}
     .SZ-RATIO .sz-word > *{font-size:44px;vertical-align:top;}
 
@@ -128,6 +128,9 @@
     .SZ-RATIO .sz-date > *{color:#333;font-weight:bold;letter-spacing:0;word-break:break-all;white-space:normal;overflow:none;background:transparent;}
     .SZ-RATIO .sz-word > *{color:#333;letter-spacing:-1px;word-break:break-all;white-space:normal;overflow:hidden;}
 
+    .SANGZZANG-COPY{width:2480px}
+    .SANGZZANG-COPY .SZ-WRITE{transform: scale(2.48);} /*여기에 width 주면 아이폰 아이패드에서 깨짐*/
+
     .draw{position:absolute;left:0px;top:0px;height:30px;transition: all .1s;will-change:transform;}
     .draw .sz-draw-img{display:block;height:100%;opacity:.6;will-change:transform;}
 
@@ -139,19 +142,14 @@
     .SZ-RATIO .sz-date > *{font-size:90px;}
     .SZ-RATIO .sz-sender > *{font-size:130px;}
 
+    .SANGZZANG-COPY{p1osition:absolute;1eft:-999999px;1op:-999999px;}
+
     html body #container .CONTENTEDITABLE{position:relative;white-space:pre;}
     .TARGET .TEXT-EDIT::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;border:10px dashed var(--secondary) !important;box-sizing: border-box;}
-
-    html body #container div.CONTENTEDITABLE#sangText,
-    html body #container div.CONTENTEDITABLE#sangTextDiv{white-space:normal;}
-    html body #container textarea.CONTENTEDITABLE#sangText{flex:1;white-space:pre-wrap;}
-
-    /* 캡쳐일 때 RENDERED 상태값에 따른 요소 제거 */
-    html body #container .SZ-ORIGIN.RENDERED #sangText{display:none;}
-    html body #container .SZ-ORIGIN.RENDERED #sangTextDiv{display:flex;}
-    html body #container .SZ-ORIGIN.RENDERED .TEXT-EDIT::after{display:none;}
-    html body #container .SZ-ORIGIN.RENDERED .edit-guide-wrapper{display:none !important;}
-    /* 캡쳐일 때 RENDERED 상태값에 따른 요소 제거 End */
+    /*.CONTENTEDITABLE::after{content:'';width:100%;height:100%;position:absolute;left:0;top:0;border:5px dashed #C1C1C1 !IMPORTANT;box-sizing:border-box;}
+    .TEXT-EDIT::after{border:10px dashed #00dcf0 !IMPORTANT;}
+    */
+    html body #container .CONTENTEDITABLE#sangText{white-space:normal;}
 
     .TARGET{z-index:1000;}
 
@@ -262,14 +260,6 @@
 
     .sz-design__img__btn{border:2px solid transparent;}
     .sz-design__img__btn.on{border-color:var(--primary);}
-
-    /*textarea{*/
-    /*    caret-shape: auto;*/
-    /*    caret-shape: bar;*/
-    /*    caret-shape: block;*/
-    /*    caret-shape: underscore;*/
-    /*}*/
-
 </style>
                     <div class="SANGZZANG SZ-ORIGIN SZ-WRITING">
                         <div class="SZ-WRITE SZ-RATIO clearfix CAPTUREAREA">
@@ -277,8 +267,7 @@
 
                             <div class="sz-name ELEMENT">
 
-<!--                                <div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>-->
-<div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
+                                <div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
@@ -291,8 +280,8 @@
 
                             </div>
                             <div class="sz-title ELEMENT">
-<!--                                <textarea id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</textarea>-->
-<div id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>
+                                <div id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>
+<!--                                <div id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>-->
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
@@ -316,35 +305,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <style>
-                                #sangTitle,
-                                #sangText{outline:0 !important;}
-                                #sangTitle:focus,
-                                #sangTitle:focus
-                                {outline:0 !important;border:none !important;}
-                                #sangTitle:hover,
-                                #sangTitle:hover
-                                {outline:0 !important;border:none !important;}
-
-
-                                #sangText{outline:0;border:0;}
-                            </style>
                             <div class="sz-word ELEMENT">
-                                <textarea id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">위 사람은 제1회 한봉식배 닌텐도
-스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로
-이 상을 드립니다.
-
-다음에도 다시 챔피언이 될 수 있도록 하세요!
-                                </textarea>
-<!--                                <div id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">-->
-<!--                                    위 사람은 제1회 한봉식배 닌텐도<br>-->
-<!--                                    스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 <br>-->
-<!--                                    이 상을 드립니다.<br>-->
-<!--                                    <br>-->
-<!--                                    다음에도 다시 챔피언이 될 수 있도록 하세요!-->
-<!--                                </div>-->
-                                <div id="sangTextDiv" class="CONTENTEDITABLE"></div>
-
+                                <div id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">
+                                    위 사람은 제1회 한봉식배 닌텐도<br>
+                                    스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 <br>
+                                    이 상을 드립니다.<br>
+                                    <br>
+                                    다음에도 다시 챔피언이 될 수 있도록 하세요!
+                                </div>
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
@@ -404,7 +372,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- 상장 만들기 End -->
 
 
@@ -979,12 +946,12 @@
             $(window).resize(function() {
                 $('.draw').css('display','none');
             });
-        }
+        };
         /* 링크 */
         function go(path){
             location.href=path;
         }
-        //drawIcon();
+        drawIcon()
     </script>
 </div>
 
@@ -996,17 +963,6 @@
 <div class="sangzzang AREA-SANGZZANG-COPY-DOWNLOAD"></div>
 
 <script>
-    function renderDiv2Textarea(){
-        let text = document.getElementById("sangText").value;
-        text = text.replace(/(?:\r\n|\r|\n)/g, '<br>');
-        $('#sangTextDiv').html(text);
-        $('.SZ-ORIGIN').addClass('RENDERED');
-    }
-    function renderDiv2TextareaReset(){
-        $('#sangTextDiv').empty();
-        $('.SZ-ORIGIN').removeClass('RENDERED');
-    }
-    
     /* 상장 스크린샷 */
     var renderSzScale = 1;
     var checkedSzDownloadSize = '';
@@ -1023,7 +979,7 @@
 
     function bindCheckedDownloadSize(){
         $("[name='downloadSize']").on('change',function(){
-            checkedDownloadSize();
+            checkedDownloadSize()
         });
     }
 
