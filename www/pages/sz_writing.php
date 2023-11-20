@@ -94,14 +94,15 @@
     .SZ-RATIO .sz-receiver > *{font-size:50px;}
 
     /* 상장 보내는 사람*/
-    .SZ-RATIO .sz-sender{position:absolute;right:30%;top:77%;width:31%;min-height:10%;text-align:right;}
+    .SZ-RATIO .sz-sender{position:absolute;right:30%;top:77%;width:31%;min-height:0%;text-align:right;}
     .SZ-RATIO .sz-sender > *{width:100%;height:100%;text-align:right;}
     .SZ-RATIO .sz-sender > *{font-size:50px;}
 
     /* 상장 내용 */
-    .SZ-RATIO .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;display: flex;flex-direction: column;align-items: stretch;}
+    .SZ-RATIO .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;display: flex;flex-direction: column;align-items:stretch;}
     .SZ-RATIO .sz-word > *{width:100%;display:inline-block;height:100%;text-align:justify;letter-spacing:0;}
     .SZ-RATIO .sz-word > *{font-size:44px;vertical-align:top;}
+
 
     /* 상장 날짜 */
     .SZ-RATIO .sz-date{position:absolute;right:15%;top:71%;width:46%;min-height:5%;text-align:right;}
@@ -140,11 +141,38 @@
     .SZ-RATIO .sz-sender > *{font-size:130px;}
 
     html body #container .CONTENTEDITABLE{position:relative;white-space:pre;}
-    .TARGET .TEXT-EDIT::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;border:10px dashed var(--secondary) !important;box-sizing: border-box;}
+    .TARGET .TEXT-EDIT{outline:7px dashed #49b2ff;}
+    /*.TARGET .TEXT-EDIT::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;border:7px dashed #49b2ff !important;box-sizing: border-box;}*/
 
-    html body #container div.CONTENTEDITABLE#sangText,
-    html body #container div.CONTENTEDITABLE#sangTextDiv{white-space:normal;}
-    html body #container textarea.CONTENTEDITABLE#sangText{flex:1;white-space:pre-wrap;}
+
+
+    /*#sangTitle,*/
+    /*#sangText{outline:0 !important;}*/
+    /*#sangTitle:focus,*/
+    /*#sangTitle:focus*/
+    /*{outline:0 !important;border:none !important;}*/
+    /*#sangTitle:hover,*/
+    /*#sangTitle:hover*/
+    /*{outline:0 !important;border:none !important;}*/
+    /*#sangText{outline:0;border:0;}*/
+
+
+    html body #container #sangTextDiv{white-space:normal;}
+    html body #container textarea.CONTENTEDITABLE#sangText{flex:1;white-space:pre-wrap;border:none;outline:0;}
+
+    html body #container textarea.CONTENTEDITABLE#sangText:focus{outline:7px dashed #49b2ff;}
+    .SZ-ORIGIN .ELEMENT{display:flex;flex-direction:column;}
+    #sangName,
+    #sangTitle,
+    #sangReceiver,
+    #sangDate{display:block;resize:horizontal !important;background:transparent !important;}
+
+    #sangText{display:block;background:transparent !important;}
+    #sangNameDiv,
+    #sangTitleDiv,
+    #sangReceiverDiv,
+    #sangTextDiv,
+    #sangDateDiv{display:none;}
 
     /* 캡쳐일 때 RENDERED 상태값에 따른 요소 제거 */
     html body #container .SZ-ORIGIN.RENDERED #sangText{display:none;}
@@ -155,7 +183,15 @@
 
     .TARGET{z-index:1000;}
 
-    html body #wrap #container .edit-guide-wrapper{display:none;width:900px;height:280px !important;margin-top:-1px;box-shadow:0 2px 30px 0 rgb(0 0 0 / 26%);border-radius:35px;overflow:hidden;}
+    html body #wrap #container .edit-guide-wrapper{display:none;position:absolute;right:0;bottom:20px;transform:translate(0, 100%);width:1050px;height:280px !important;margin-top:-1px;box-shadow:0 2px 30px 0 rgb(0 0 0 / 26%);border-radius:35px;overflow:hidden;}
+    html body #wrap #container .sz-name .edit-guide-wrapper{left:50%;right:auto;bottom:10px;transform:translate(-50%, 100%);}
+    html body #wrap #container .sz-receiver .edit-guide-wrapper{width:1300px;}
+    html body #wrap #container .sz-word .edit-guide-wrapper{right:-50px;top:0;transform:translate(100%, 0);width:270px !important;height:1270px !important;}
+    html body #wrap #container .sz-date .edit-guide-wrapper{left:auto;right:0;transform:translateY(-60%);width:1300px;z-index:1;}
+    html body #wrap #container .sz-sender .edit-guide-wrapper{bottom:-15px;}
+    html body #wrap #container .sz-word .edit-guide-wrapper .button-edit{flex-direction:column;}
+    html body #wrap #container .sz-word .edit-guide-wrapper .button-edit .button{width:100%;}
+
     .button-edit-wrapper{height:100%;}
     .button-edit{display:flex;height:100%;}
     .button-edit .button{width:50%;height:100%;font-size:96px;background:#fff;border:2px solid #afafaf;}
@@ -167,9 +203,10 @@
     .FONT-DOWN{text-indent:-999999px;position:relative;}
     .FONT-DOWN::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%);display:inline-block;width:100px;height:15px;background:#000;border-radius:10px;}
 
-    .button-edit .EDITOR-CLOSE{text-indent:-999999px;position:relative;background:var(--black);}
-    .button-edit .EDITOR-CLOSE::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(45deg);display:inline-block;width:100px;height:15px;background:#fff;border-radius:10px;}
-    .button-edit .EDITOR-CLOSE::after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(-45deg);display:inline-block;width:100px;height:15px;background:#fff;border-radius:10px;}
+    .button-edit .EDITOR-CLOSE{text-indent:-999999px;position:relative;background:#fff;}
+    .button-edit .EDITOR-CLOSE::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(45deg);display:inline-block;width:100px;height:15px;background:var(--primary);border-radius:10px;}
+    .button-edit .EDITOR-CLOSE::after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(-45deg);display:inline-block;width:100px;height:15px;background:var(--primary);border-radius:10px;}
+    .button-edit .SELECT-ALL img{transform:scale(1.2);opacity:0.75;}
     .button-edit .EDITOR-EASY img{transform:scale(1.2);opacity:0.85;}
     .sticker-ani-in{
         animation-name: sticker-ani-in;
@@ -276,12 +313,11 @@
                             <img class="sz-design" src="/assets/img/design/sz_000004.png" alt=""/>
 
                             <div class="sz-name ELEMENT">
-
-<!--                                <div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>-->
-<div id="sangName" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
+                                <div id="sangName" rows="1" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
+                                            <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
                                             <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
@@ -291,11 +327,12 @@
 
                             </div>
                             <div class="sz-title ELEMENT">
-<!--                                <textarea id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</textarea>-->
-<div id="sangTitle" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>
+
+                                <div id="sangTitle" rows="1" name="sangTitle" class="CONTENTEDITABLE" contenteditable="true">마리오 파티 우승</div>
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
+                                            <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
                                             <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
@@ -304,10 +341,11 @@
                                 </div>
                             </div>
                             <div class="sz-receiver ELEMENT">
-                                <div id="sangReceiver" name="sangReceiver" class="CONTENTEDITABLE" contenteditable="true">정서윤</div>
+                                <div id="sangReceiver" rows="1" name="sangReceiver" class="CONTENTEDITABLE" contenteditable="true">정서윤</div>
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
+                                            <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
                                             <button type="button" class="button EDITOR-SEARCH MODAL-BTN" data-target="#modalWritingUserSearch" title="검색하기"><img src="/assets/img/ico/ico-search.png" alt="검색"></button>
@@ -316,38 +354,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <style>
-                                #sangTitle,
-                                #sangText{outline:0 !important;}
-                                #sangTitle:focus,
-                                #sangTitle:focus
-                                {outline:0 !important;border:none !important;}
-                                #sangTitle:hover,
-                                #sangTitle:hover
-                                {outline:0 !important;border:none !important;}
-
-
-                                #sangText{outline:0;border:0;}
-                            </style>
                             <div class="sz-word ELEMENT">
                                 <textarea id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">위 사람은 제1회 한봉식배 닌텐도
 스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로
 이 상을 드립니다.
 
-다음에도 다시 챔피언이 될 수 있도록 하세요!
-                                </textarea>
-<!--                                <div id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="true">-->
-<!--                                    위 사람은 제1회 한봉식배 닌텐도<br>-->
-<!--                                    스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 <br>-->
-<!--                                    이 상을 드립니다.<br>-->
-<!--                                    <br>-->
-<!--                                    다음에도 다시 챔피언이 될 수 있도록 하세요!-->
-<!--                                </div>-->
-                                <div id="sangTextDiv" class="CONTENTEDITABLE"></div>
+다음에도 다시 챔피언이 될 수 있도록 하세요!</textarea>
+                                <div id="sangTextDiv"></div>
 
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
+                                            <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
                                             <button type="button" class="button EDITOR-EASY" title="easy" onclick="window.open('/pages/writing_ai.php', '', '_blank');"><img src="/assets/img/ico/ico-ai.png"></button>
@@ -355,20 +373,12 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-                                <!--
-                                <textarea id="sangText" name="sangText" data-once="on" placeholder="위 정은아는 평소 한봉식의 직장동료이며 한봉식이 알려주는 웹표준 코딩에 대한  상당히 습득력이 빠르고 뛰어나 한봉식이  보증하건데 아사달 퍼블리셔 외 최고 웹표준 코딩의 에이스일 것을 보증하며 에이스와 함께 이 상장을 드립니다.">
-    위 사람은 제1회 한봉식배 닌텐도
-    스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 이
-    상을 드립니다.
-
-    다음에도 다시 챔피언이 될 수 있도록 하세요!</textarea>-->
                             </div>
                             <div class="sz-date ELEMENT">
-                                <div class="edit-guide-wrapper" style="position:absolute;left:0;top:10px;transform:translateY(-100%);">
+                                <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
+                                            <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
                                             <button type="button" class="button EDITOR-CALENDAR MODAL-BTN" data-target="#modalDate" title="날짜선택"><img src="/assets/img/ico/ico-calendar.png"></button>
@@ -389,6 +399,7 @@
                                 <div class="edit-guide-wrapper">
                                     <div class="button-edit-wrapper">
                                         <div class="button-edit">
+                                            <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
                                             <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
@@ -413,11 +424,6 @@
 
                     <div class="r post__row">
                         <div class="sz-function sz-function-01 shadow">
-                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare">
-                                <span class="share">
-                                    <img src="/assets/img/ico-share.png" alt=""> <span class="sz-function-name">공유</span>
-                                </span>
-                            </a>
                             <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap">
                                 <span class="scrap">
                                     <img src="/assets/img/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
@@ -432,17 +438,22 @@
                             -->
                             <a href="#;" id="copy" class="MODAL-BTN" data-target="#modalCopyAndWrite">
                                 <span class="copy last">
-                                    <img src="/assets/img/ico-copy.png" alt=""> <span class="sz-function-name">복사</span>
+                                    <img src="/assets/img/ico/ico-copy.png" alt=""> <span class="sz-function-name">복사</span>
                                 </span>
                             </a>
                             <a href="#;" id="download" class="MODAL-BTN" data-target="#modalSzDownload">
                                 <span class="copy last">
-                                    <img src="/assets/img/ico-download.png" alt=""> <span class="sz-function-name">다운로드</span>
+                                    <img src="/assets/img/ico/ico-download.png" alt=""> <span class="sz-function-name">다운로드</span>
                                 </span>
                             </a>
                             <a href="/pages/3d-card.php">
                                 <span class="copy last">
-                                    <img src="/assets/img/ico-360.png" alt=""> <span class="sz-function-name">3D카드</span>
+                                    <img src="/assets/img/ico/ico-360.png" alt=""> <span class="sz-function-name">3D카드</span>
+                                </span>
+                            </a>
+                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare">
+                                <span class="share">
+                                    <img src="/assets/img/ico/ico-share.png" alt=""> <span class="sz-function-name">공유</span>
                                 </span>
                             </a>
                         </div>
@@ -1006,7 +1017,7 @@
         $('#sangTextDiv').empty();
         $('.SZ-ORIGIN').removeClass('RENDERED');
     }
-    
+
     /* 상장 스크린샷 */
     var renderSzScale = 1;
     var checkedSzDownloadSize = '';

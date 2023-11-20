@@ -40,43 +40,73 @@ $(function(){
         $('.CONTENTEDITABLE222').on('focusout',function(){
             $('.CONTENTEDITABLE').removeClass('TEXT-EDIT');
             $('.edit-guide-wrapper').css('display','none');
-            /*
-            if($(this).val().length == 0){
-                var id =  $(this).attr('id');
-                console.log(id);
-                setTimeout(function() {
-                    $('#'+id).removeAttr('style');
-                },1);
-
-            };
-            $(this).css('outline-color','#fff');
-            */
         });
 
+
+        $('.SELECT-ALL').on('click',function(e){
+            let target = $(this).parents('.ELEMENT').find('.CONTENTEDITABLE');
+            let targetId = $(this).parents('.ELEMENT').find('.CONTENTEDITABLE').attr('id');
+
+            function selectElementContents(el) {
+                var range = document.createRange();
+                range.selectNodeContents(el);
+                var sel = window.getSelection();
+                sel.removeAllRanges();
+                sel.addRange(range);
+            }
+            if(target.prop('tagName') !== 'TEXTAREA'){
+                let el = document.getElementById(targetId);
+                selectElementContents(el);
+            }else{
+                target.select();
+            }
+
+            e.stopPropagation();
+        });
+
+        let fontUpDownTiming = 1;
         $('.FONT-UP').on('click',function(e){
-            let target = $(this).parents('.ELEMENT').find('.CONTENTEDITABLE');
-            let str = target.css('fontSize');
-            let regex = /[^0-9]/g;
-            let result = str.replace(regex, "");
-            let resultUp = result*1 + 5;
-            target.css('fontSize',resultUp+'px');
-            e.stopPropagation();
+            if( fontUpDownTiming === 1){
+                fontUpDownTiming = 0;
+                let target = $(this).parents('.ELEMENT').find('.CONTENTEDITABLE');
+                let str = target.css('fontSize');
+                let regex = /[^0-9]/g;
+                let result = str.replace(regex, "");
+                let resultUp = result*1 + 5;
+                target.css('fontSize',resultUp+'px');
 
+                /* textarea는 빨리 클릭하면 계산 잘못 됨 transition 때문인듯 그래서 텀을 둠*/
+                if(target.prop('tagName') !== 'TEXTAREA'){
+                    fontUpDownTiming = 1;
+                }else{
+                    setTimeout( function () {
+                        fontUpDownTiming = 1;
+                    }, 400);
+                }
+                e.stopPropagation();
+            }else{
+                e.stopPropagation();
+            }
         });
+
         $('.FONT-DOWN').on('click',function(e){
-            let target = $(this).parents('.ELEMENT').find('.CONTENTEDITABLE');
-            let str = target.css('fontSize');
-            let regex = /[^0-9]/g;
-            let result = str.replace(regex, "");
-            let resultDown = result*1 - 5;
-            target.css('fontSize',resultDown+'px');
-            e.stopPropagation();
+            if( fontUpDownTiming === 1){
+                fontUpDownTiming = 0;
+                let target = $(this).parents('.ELEMENT').find('.CONTENTEDITABLE');
+                let str = target.css('fontSize');
+                let regex = /[^0-9]/g;
+                let result = str.replace(regex, "");
+                let resultUp = result*1 - 5;
+                target.css('fontSize',resultUp+'px');
+                setTimeout( function () {
+                    fontUpDownTiming = 1;
+                }, 400);
+                e.stopPropagation();
+            }else{
+                e.stopPropagation();
+            }
         });
-        $('.EDITOR-CLOSE').on('click',function(e){
-            $('.ELEMENT.TARGET').removeClass('TARGET');
-            $('.edit-guide-wrapper').css('display','none');
-            e.stopPropagation();
-        });
+
 
         /* 예제 레이어
         bindSampleLayer();

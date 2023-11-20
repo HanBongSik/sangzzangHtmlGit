@@ -531,8 +531,8 @@ html .tagify+input, .tagify+textarea{
 /* 상장 보기 */
 .sz-function-btn{margin-top:5px;text-align:center;padding:10px;}
 .sz-function{text-align:center;}
-.sz-function.sz-function-01{margin-bottom:10px;padding:10px 0;margin:5px 0 0px 0;width:100%;border:1px solid #e9e9e9;}
-.sz-function.sz-function-01 a{margin:0 10px;opacity:.8;}
+.sz-function.sz-function-01{margin-bottom:10px;padding:12px 0 8px 0;margin:5px 0 0px 0;width:100%;border:1px solid #e9e9e9;}
+.sz-function.sz-function-01 a{margin:0 10px;opacity:.9;}
 .sz-function.sz-function-01 a:hover{opacity:1;}
 .sz-function.sz-function-01 img{position:relative;top:-3px;height:24px;}
 .sz-function.sz-function-01 span{line-height:20px;font-size:14px;}

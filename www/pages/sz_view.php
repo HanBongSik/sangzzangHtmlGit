@@ -167,7 +167,6 @@
                                                 <img class="sz-design" src="/assets/img/design/sz_000004.png" alt="">
 
                                                 <div class="sz-name">
-
                                                     <div>상 장</div></div>
                                                 <div class="sz-title">
 
@@ -205,11 +204,6 @@
                                     </div>
                                     <div class="r post__row">
                                         <div class="sz-function sz-function-01 shadow">
-                                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare">
-                                                <span class="share">
-                                                    <img src="/assets/img/ico-share.png" alt=""> <span class="sz-function-name">공유</span>
-                                                </span>
-                                            </a>
                                             <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap">
                                                 <span class="scrap">
                                                     <img src="/assets/img/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
@@ -235,6 +229,11 @@
                                             <a href="/pages/3d-card.php">
                                                 <span class="copy last">
                                                     <img src="/assets/img/ico-360.png" alt=""> <span class="sz-function-name">3D카드</span>
+                                                </span>
+                                            </a>
+                                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare">
+                                                <span class="share">
+                                                    <img src="/assets/img/ico-share.png" alt=""> <span class="sz-function-name">공유</span>
                                                 </span>
                                             </a>
                                         </div>
