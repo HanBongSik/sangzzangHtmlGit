@@ -114,7 +114,7 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type=
 .lay-user-action-info.lay-user-action-top > .r > .c{align-items:flex-start;}
 /* 아이템들의 layout End */
 
-.user-profile{}
+.user-profile{position:relative;}
 .user-profile > .r{gap:6px;}
 .user-profile > .r > .c{}
 .user-profile-top{}

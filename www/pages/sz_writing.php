@@ -710,14 +710,60 @@
                                         <div class="h3">
                                             <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3><span class="ico-required">*</span>능력 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>
                                         </div>
-                                        <div class="tag box">
-                                            <div class="tag-checkbox">
-                                                <a href="#;" class="MODAL-BTN" data-target="#modalAddAbility" id="addAbility">
-                                                    <input type="text" class="primary ability-input input-full" placeholder="필수" value="">
-                                                </a>
+                                        <div class="sz-writing-ability">
+                                            <div class="g tag-skills">
+                                                <ul class="r tag-skills__list">
+                                                    <li class="c tag-skills__list__item">
+                                                        <div class="tag-skill">
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">12</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">패션</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-skills__list__item">
+                                                        <div class="tag-skill">
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">82</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">아트</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-skills__list__item">
+                                                        <div class="tag-skill">
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">90</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">beauty</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-skills__list__item">
+                                                        <div class="tag-skill">
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">666</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">게임</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-skills__list__item">
+                                                        <div class="tag-skill">
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">37</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">맥북</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-skills__list__item">
+                                                        <div class="tag-skill">
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">8</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">여행</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-skills__list__item">
+                                                        <div class="tag-skill">
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">90</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">nature</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
 
                                             </div>
+
                                         </div>
+                                        <!--                                                <input type="text" class="primary ability-input input-full" placeholder="필수" value="">-->
+<!--                                        <a href="#;" class="MODAL-BTN sz-writing-modify" data-target="#modalAddAbility" id="addAbility">-->
+
+                                        <a href="#;" class="MODAL-BTN sz-writing-modify" data-target="#modalAddAbility" id="addAbility">수정하기</a>
                                     </div>
                                 </div>
                             </div>
@@ -728,9 +774,513 @@
                                         <div class="h3">
                                             <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>받는사람 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>
                                         </div>
-                                        <a href="#;" class="MODAL-BTN" data-target="#modalWritingUserSearch" id="receiver">
-                                            <input type="text" class="primary receiver-input input-full" placeholder="" value="">
-                                        </a>
+                                        <style>
+                                            .sz-writing-ability {padding:10px 10px;min-height:40px;border: 1px solid #e8e8e8;transition: all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
+                                            .sz-writing-receiver{display:block;opacity:1;width:100%;overflow:auto;padding:0 0px;min-height:40px;border: 1px solid #e8e8e8;transition: all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
+                                            .sz-writing-receiver .users__list{display:flex;white-space:nowrap;gap:0 15px;}
+                                            .sz-writing-receiver .users__list__item:nth-of-type(1){padding-left:10px;}
+                                            .sz-writing-receiver .users__list__item:nth-last-of-type(1){padding-right:10px;}
+                                            .sz-writing-receiver.with-remove .users__list__item:nth-last-of-type(1){padding-right:40px;}
+                                            .sz-writing-receiver .users__list__item{display:inline-flex;flex-wrap:nowrap;padding:8px 5px 4px 5px;}
+
+                                            .users__list.sm{font-size:13px;}
+                                            .sz-writing-modify{display:block;width:100%;text-align:center;border:1px solid #e8e8e8;margin-top:0px;padding:5px 0;border-bottom-left-radius:var(--radius);border-bottom-right-radius:var(--radius);}
+
+                                            .with-remove .users__list__item{padding-right:35px;}
+                                            .user-profile .remove-user{position: absolute;right:-30px;top: 0;z-index: 10;color: #fff;font-weight: 600;display: inline-block;width: 25px;height: 25px;line-height: 25px;background: var(--primary);border-radius: 50%;}
+
+                                            .sz-writing-receiver.with-remove{box-shadow: 6px -2px 10px rgb(0 0 0 / 10%);}
+                                            .modal-body.with-receiver-list{padding-bottom:60px;}
+                                            .modal-body.with-receiver-list .modal-body__bottom{position:fixed;width:100%;margin:0 -10px;bottom:60px;}
+                                        </style>
+                                        <div class="sz-writing-receiver">
+                                            <ul class="users__list sm">
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/an.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">dlwlrma</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">이종석</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+                                                            <!--                                                                <div class="c c-full center-right">-->
+                                                            <!--                                                                    <span class="forms">-->
+                                                            <!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+                                                            <!--                                                                    </span>-->
+                                                            <!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/i.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">jennierubyjane</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">카이</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+                                                            <!--                                                                <div class="c c-full center-right">-->
+                                                            <!--                                                                    <span class="forms">-->
+                                                            <!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+                                                            <!--                                                                    </span>-->
+                                                            <!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/z.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">itzy.all.in.us</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">황인엽</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+                                                            <!--                                                                <div class="c c-full center-right">-->
+                                                            <!--                                                                    <span class="forms">-->
+                                                            <!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+                                                            <!--                                                                    </span>-->
+                                                            <!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/c.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">hi_high_hiy</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">정호연</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+                                                            <!--                                                                <div class="c c-full center-right">-->
+                                                            <!--                                                                    <span class="forms">-->
+                                                            <!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+                                                            <!--                                                                    </span>-->
+                                                            <!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">__youngbae__</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">조이</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+                                                            <!--                                                                <div class="c c-full center-right">-->
+                                                            <!--                                                                    <span class="forms">-->
+                                                            <!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+                                                            <!--                                                                    </span>-->
+                                                            <!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/r.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">blackpinkofficial</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">TWICE</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+                                                            <!--                                                                <div class="c c-full center-right">-->
+                                                            <!--                                                                    <span class="forms">-->
+                                                            <!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+                                                            <!--                                                                    </span>-->
+                                                            <!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/ar.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">yoona__lim</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">지수</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+                                                            <!--                                                                <div class="c c-full center-right">-->
+                                                            <!--                                                                    <span class="forms">-->
+                                                            <!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+                                                            <!--                                                                    </span>-->
+                                                            <!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/f.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">imyour_joy</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">찬열</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+
+                                                            <!--                                                                <div class="c c-full center-right">-->
+                                                            <!--                                                                    <span class="forms">-->
+                                                            <!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+                                                            <!--                                                                    </span>-->
+                                                            <!--                                                                </div>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/b.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">leedongwook_official</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">차은우</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+<!--                                                                <div class="c c-full center-right">-->
+<!--                                                                    <span class="forms">-->
+<!--                                                                        <button type="button" class="btn-follow-ing">팔로잉</button>-->
+<!--                                                                    </span>-->
+<!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="users__list__item">
+                                                    <div class="g lay-user-action-info">
+                                                        <div class="r">
+                                                            <div class="c">
+                                                                <!-- 유저 프로필 덩어리 -->
+
+                                                                <div class="g user-profile">
+                                                                    <div class="r">
+                                                                        <div class="c c-inner-width">
+                                                                            <div class="img-profile">
+                                                                                <a href="/pages/myroom.php" class="img-profile__link">
+                                                                                    <div class="img-profile__outer">
+                                                                                        <img class="img-profile__img" src="/assets/tempImg/profile/m.jpg" alt="프로필 이미지">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c">
+                                                                            <div class="g">
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">yawnzzn</span></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="r">
+                                                                                    <div class="c">
+                                                                                        <div class="user-action-info-detail">
+                                                                                            <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">지창욱</span></a>
+                                                                                            <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 유저 프로필 덩어리 End -->
+                                                            </div>
+<!--                                                                <div class="c c-full center-right">-->
+<!--                                                                    <span class="forms">-->
+<!--                                                                        <button type="button" class="btn-follow">팔로우</button>-->
+<!--                                                                    </span>-->
+<!--                                                                </div>-->
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <a href="#;" class="MODAL-BTN sz-writing-modify" data-target="#modalWritingUserSearch" id="receiver">수정하기</a>
+<!--                                            <input type="text" class="primary receiver-input input-full" placeholder="" value="">-->
+
                                     </div>
                                 </div>
                             </div>
