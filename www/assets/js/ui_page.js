@@ -1,3 +1,15 @@
+
+function renderDiv2Textarea(){
+    let text = document.getElementById("sangText").value;
+    text = text.replace(/(?:\r\n|\r|\n)/g, '<br>');
+    $('#sangTextDiv').html(text);
+    $('.SZ-ORIGIN').addClass('RENDERED');
+}
+function renderDiv2TextareaReset(){
+    $('#sangTextDiv').empty();
+    $('.SZ-ORIGIN').removeClass('RENDERED');
+}
+
 $(function(){
     /* 상장 작성 페이지 */
     if($('.SZ-WRITE').length > 0){
@@ -131,7 +143,6 @@ $(function(){
 
             $('.edit-guide-wrapper').css('display','none');
         });
-
     }
     /* 상장 작성 페이지 End */
 

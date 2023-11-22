@@ -204,36 +204,29 @@
                                     </div>
                                     <div class="r post__row">
                                         <div class="sz-function sz-function-01 shadow">
-                                            <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap">
+                                            <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap" title="스크랩">
                                                 <span class="scrap">
                                                     <img src="/assets/img/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
                                                 </span>
                                             </a>
-                                            <!--
-                                            <a href="#;" id="print">
-                                                <span  class="print">
-                                                    <img src="./assets/img/ico-print.png" alt=""/> <span>프린트</span>
-                                                </span>
-                                            </a>
-                                            -->
-                                            <a href="#;" id="copy" class="MODAL-BTN" data-target="#modalCopyAndWrite">
+                                            <a href="#;" id="copy" class="MODAL-BTN" data-target="#modalCopyAndWrite" title="복사">
                                                 <span class="copy last">
-                                                    <img src="/assets/img/ico-copy.png" alt=""> <span class="sz-function-name">복사</span>
+                                                    <img src="/assets/img/ico/ico-copy.png" alt=""> <span class="sz-function-name">복사</span>
                                                 </span>
                                             </a>
-                                            <a href="#;" id="download" class="MODAL-BTN" data-target="#modalSzDownload">
-                                                <span class="copy last">
-                                                    <img src="/assets/img/ico-download.png" alt=""> <span class="sz-function-name">다운로드</span>
+                                            <a href="#;" id="download" class="MODAL-BTN" data-target="#modalSzDownload" title="다운로드">
+                                                <span class="download last">
+                                                    <img src="/assets/img/ico/ico-download.png" alt=""> <span class="sz-function-name">다운로드</span>
                                                 </span>
                                             </a>
-                                            <a href="/pages/3d-card.php">
-                                                <span class="copy last">
-                                                    <img src="/assets/img/ico-360.png" alt=""> <span class="sz-function-name">3D카드</span>
+                                            <a href="/pages/3d-card.php" title="3D카드">
+                                                <span class="d360 last">
+                                                    <img src="/assets/img/ico/ico-360.png" alt=""> <span class="sz-function-name">3D카드</span>
                                                 </span>
                                             </a>
-                                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare">
+                                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare" title="공유">
                                                 <span class="share">
-                                                    <img src="/assets/img/ico-share.png" alt=""> <span class="sz-function-name">공유</span>
+                                                    <img src="/assets/img/ico/ico-share.png" alt=""> <span class="sz-function-name">공유</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -1634,7 +1627,6 @@
     <div class="capture"></div>
     <div class="sangzzang AREA-SANGZZANG-COPY-DOWNLOAD"></div>
 
-
     <script>
         /* 상장 스크린샷 */
         var renderSzScale = 1;
@@ -1742,6 +1734,328 @@
     </script>
 
 </div>
+
+<!-- 상장보기 전용 모달 -->
+    <!-- 사진 보기 -->
+    <div class="modal-dimmed modal-photo" tabindex="0">
+        <a href="#modal" class="modal-close close">닫기<span class="hidden">닫기</span></a>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <ul class="swiper-wrapper">
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/friends.jpg)"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/food2.jpg)"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/meet2.jpg)"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/game.jpg)"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/game2.jpg)"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/game3.jpg)"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/present-1.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/present-2.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/present.jpg)"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/hobby.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/animal-forest-card.jpg);"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/birthday.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/cart1.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/cart2.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/cart3.jpg);"></li>
+
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/cat.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/dog.jpg);"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/mom.jpg)"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/baby4.jpg)"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/baby2.jpg)"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/baby3.jpg)"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/baby5.jpg)"></li>
+
+                <!-- <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/mom2.jpg);"></li> -->
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/sports3.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/sports6.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/sports4.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/sports5.jpg);"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/singer0.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/singer2.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/singer3.jpg);"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/normal.jpg)"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/nurse.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/firefighter.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/chicken.jpg);"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/god.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/god2.jpg);"></li>
+
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/politics.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/politics2.jpg);"></li>
+                <li class="swiper-slide" style="background-image:url(assets/tempImg/photo/politics3.png);"></li>
+            </ul>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <!-- Swiper End -->
+    </div>
+    <!-- 사진 보기 End -->
+    <!-- 포토 확대 보기 -->
+    <div class="modal-dimmed" id="modalPhotoFullView" tabindex="0" data-ani-on="modal-ani-big" data-ani-off="modal-ani-big-small">
+        <div class="modal-full full">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
+                            <div class="swiper-container">
+                                <ul class="swiper-wrapper">
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/friends.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/food2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/meet2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/game.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/game2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/game3.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/present-1.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/present-2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/present.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/hobby.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/animal-forest-card.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/birthday.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/cart1.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/cart2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/cart3.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/cat.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/dog.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/mom.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/baby4.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/baby2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/baby3.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/baby5.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/sports3.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/sports6.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/sports4.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/sports5.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/singer0.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/singer2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/singer3.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/normal.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!---->
+                                    <!---->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/nurse.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/firefighter.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/chicken.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/god.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/god2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/politics.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/politics2.jpg">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li class="swiper-slide">-->
+                                    <!--                                        <div class="swiper-zoom-container">-->
+                                    <!--                                            <img src="/assets/tempImg/photo/politics3.png">-->
+                                    <!--                                        </div>-->
+                                    <!--                                    </li>-->
+
+                                </ul>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination"></div>
+                                <!-- Add Navigation -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                            <div class="btn-photo-minimize-view"><a href="#;" class="btn-photo-minimize-view__link MODAL-CLOSE"><img class="btn-photo-minimize-view__img" src="/assets/img/ico/ico-minimize-view.png"></a></div>
+                            <script>// Init Swiper
+                                function modalPhotoFullView(src){
+                                    $('#modalPhotoFullView').find('.swiper-wrapper').empty();
+                                    $('#modalPhotoFullView').find('.swiper-wrapper').html(`
+                                            <li class="swiper-slide">
+                                                <div class="swiper-zoom-container">
+                                                    <img src="${src}">
+                                                </div>
+                                            </li>
+                                        `);
+                                    let fullPhotoSwiper = new Swiper('#modalPhotoFullView .swiper-container', {
+                                        zoom: true,
+                                        loop: true,
+                                        pagination: {
+                                            el: '.swiper-pagination',
+                                            clickable: false,
+                                        },
+                                        navigation: {
+                                            nextEl: '.swiper-button-next',
+                                            prevEl: '.swiper-button-prev',
+                                        },
+                                        // Enable debugger
+                                    });
+                                }
+                            </script>
+
+                        </div>
+                        <!-- 모달 바디 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 포토 확대 보기 End -->
+<!-- 상장보기 전용 모달 End -->
 </body>
 
 

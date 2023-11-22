@@ -62,252 +62,7 @@
                         https://html2canvas.hertzen.com/
                         https://www.url2png.com/#testdrive
                     -->
-<style>
-    .sz-design{display:block;width:100%;}
-    /* 상장 만들기 및 보여주기 비율 */
-    .SZ-ORIGIN{border:1px solid #e9e9e9;overflow:hidden;}
-    .SANGZZANG-VIEW{margin-top:2px;}
-    .SZ-RATIO{position:relative;}
-    .SZ-RATIO textarea,
-    .SZ-RATIO input[type="text"]{/*border:2px solid #8caee5;*/}
-    .SZ-WRITE .sz-sticker,.SZ-WRITE .sz-stamp{position:relative;}
-    .SZ-WRITE{width:1000px;transform-origin:left top;}
-    .SZ-RATIO input, .SZ-RATIO textarea{border:none;outline:2px solid #c8c8c8;}
-    .SZ-RATIO textarea{padding:0;}
 
-    /* 상장 디자인 */
-    .SZ-RATIO .SZ-RATIO-img{width:100%;}
-
-    /* 상장 이름 */
-    .SZ-RATIO .sz-name{min-height:8%;position:absolute;left:0px;top:13%;width:100%;margin:0 auto;text-align:center;}
-    .SZ-RATIO .sz-name > *{display:block;margin:0 auto;width:70%;height:100%;font-size:90px;text-align:center;background:transparent;}
-    .SZ-RATIO .sz-name > *{font-size:64px;}
-
-    /* 상장 타이틀 */
-    .SZ-RATIO .sz-title{position:absolute;left:15%;top:27%;width:39%;min-height:6%;text-align:left;}
-    .SZ-RATIO .sz-title > *{width:100%;height:100%;text-align:left;}
-    .SZ-RATIO .sz-title > *{font-size:50px;}
-
-    /* 상장 받는 사람*/
-    .SZ-RATIO .sz-receiver{position:absolute;right:15%;top:27%;width:29%;min-height:6%;text-align:right;}
-    .SZ-RATIO .sz-receiver > *{width:100%;height:100%;text-align:right;}
-    .SZ-RATIO .sz-receiver > *{font-size:50px;}
-
-    /* 상장 보내는 사람*/
-    .SZ-RATIO .sz-sender{position:absolute;right:30%;top:77%;width:31%;min-height:0%;text-align:right;}
-    .SZ-RATIO .sz-sender > *{width:100%;height:100%;text-align:right;}
-    .SZ-RATIO .sz-sender > *{font-size:50px;}
-
-    /* 상장 내용 */
-    .SZ-RATIO .sz-word{position:absolute;left:15%;top:34%;width:70%;min-height:37%;margin:0 auto;text-align:center;display: flex;flex-direction: column;align-items:stretch;}
-    .SZ-RATIO .sz-word > *{width:100%;display:inline-block;height:100%;text-align:justify;letter-spacing:0;}
-    .SZ-RATIO .sz-word > *{font-size:44px;vertical-align:top;}
-
-
-    /* 상장 날짜 */
-    .SZ-RATIO .sz-date{position:absolute;right:15%;top:71%;width:46%;min-height:5%;text-align:right;}
-    .SZ-RATIO .sz-date > *{width:100%;height:100%;text-align:right;}
-    .SZ-RATIO .sz-date > *{font-size:40px;}
-
-    /* 상장 스티커 */
-    .SZ-RATIO .sz-sticker{position:absolute;z-index:500;left:15%;top:71%;width:23%;height:16%;margin:0 auto;text-align:center;}
-    .SZ-WRITE .sz-sticker .sz-sticker-img{display:inline-block;width:100%;}
-
-    /* 상장 도장 */
-    .SZ-RATIO .sz-stamp{position:absolute;z-index:500;right:15%;top:77%;width:14%;height:10%;margin:0 auto;text-align:center;}
-    .SZ-RATIO .sz-stamp > a > *{display:inline-block;width:100%;}
-    .SZ-RATIO .sz-sticking{position:absolute;left:0;top:0;transform:rotate(5deg);will-change:transform;}
-    .SZ-RATIO .sz-stamping{position:absolute;left:0;top:0;transform:translateY(5%);will-change:transform;}
-    .SZ-RATIO .sz-sticker > a > .sz-sticking{display:none;width:100%;left:9%;top:-5%;z-index:1;will-change:transform;}
-    .SZ-RATIO .sz-stamp .sz-stamping{display:none;width:150%;left:-25%;top:-30%;z-index:1;will-change:transform;}
-
-    /* 공통 */
-    .SZ-RATIO .sz-name > *,
-    .SZ-RATIO .sz-title > *,
-    .SZ-RATIO .sz-receiver > *,
-    .SZ-RATIO .sz-sender > *,
-    .SZ-RATIO .sz-date > *{color:#333;font-weight:bold;letter-spacing:0;word-break:break-all;white-space:normal;overflow:none;background:transparent;}
-    .SZ-RATIO .sz-word > *{color:#333;letter-spacing:-1px;word-break:break-all;white-space:normal;overflow:hidden;}
-
-    .draw{position:absolute;left:0px;top:0px;height:30px;transition: all .1s;will-change:transform;}
-    .draw .sz-draw-img{display:block;height:100%;opacity:.6;will-change:transform;}
-
-    .SZ-WRITE{width:2480px;}
-    .SZ-RATIO .sz-name > *{font-size:180px;}
-    .SZ-RATIO .sz-title > *{font-size:124px;}
-    .SZ-RATIO .sz-receiver > *{font-size:124px;}
-    .SZ-RATIO .sz-word > *{font-size:110px;}
-    .SZ-RATIO .sz-date > *{font-size:90px;}
-    .SZ-RATIO .sz-sender > *{font-size:130px;}
-
-    html body #container .CONTENTEDITABLE{position:relative;white-space:pre;}
-    .TARGET .TEXT-EDIT{outline:7px dashed #49b2ff;}
-    /*.TARGET .TEXT-EDIT::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;border:7px dashed #49b2ff !important;box-sizing: border-box;}*/
-
-
-
-    /*#sangTitle,*/
-    /*#sangText{outline:0 !important;}*/
-    /*#sangTitle:focus,*/
-    /*#sangTitle:focus*/
-    /*{outline:0 !important;border:none !important;}*/
-    /*#sangTitle:hover,*/
-    /*#sangTitle:hover*/
-    /*{outline:0 !important;border:none !important;}*/
-    /*#sangText{outline:0;border:0;}*/
-
-
-    html body #container #sangTextDiv{white-space:normal;}
-    html body #container textarea.CONTENTEDITABLE#sangText{flex:1;white-space:pre-wrap;border:none;outline:0;}
-
-    html body #container textarea.CONTENTEDITABLE#sangText:focus{outline:7px dashed #49b2ff;}
-    .SZ-ORIGIN .ELEMENT{display:flex;flex-direction:column;}
-    #sangName,
-    #sangTitle,
-    #sangReceiver,
-    #sangDate{display:block;resize:horizontal !important;background:transparent !important;}
-
-    #sangText{display:block;background:transparent !important;}
-    #sangNameDiv,
-    #sangTitleDiv,
-    #sangReceiverDiv,
-    #sangTextDiv,
-    #sangDateDiv{display:none;}
-
-    /* 캡쳐일 때 RENDERED 상태값에 따른 요소 제거 */
-    html body #container .SZ-ORIGIN.RENDERED #sangText{display:none;}
-    html body #container .SZ-ORIGIN.RENDERED #sangTextDiv{display:flex;}
-    html body #container .SZ-ORIGIN.RENDERED .TEXT-EDIT::after{display:none;}
-    html body #container .SZ-ORIGIN.RENDERED .edit-guide-wrapper{display:none !important;}
-    /* 캡쳐일 때 RENDERED 상태값에 따른 요소 제거 End */
-
-    .TARGET{z-index:1000;}
-
-    html body #wrap #container .edit-guide-wrapper{display:none;position:absolute;right:0;bottom:20px;transform:translate(0, 100%);width:1050px;height:280px !important;margin-top:-1px;box-shadow:0 2px 30px 0 rgb(0 0 0 / 26%);border-radius:35px;overflow:hidden;}
-    html body #wrap #container .sz-name .edit-guide-wrapper{left:50%;right:auto;bottom:10px;transform:translate(-50%, 100%);}
-    html body #wrap #container .sz-receiver .edit-guide-wrapper{width:1300px;}
-    html body #wrap #container .sz-word .edit-guide-wrapper{right:-50px;top:0;transform:translate(100%, 0);width:270px !important;height:1270px !important;}
-    html body #wrap #container .sz-date .edit-guide-wrapper{left:auto;right:0;transform:translateY(-60%);width:1300px;z-index:1;}
-    html body #wrap #container .sz-sender .edit-guide-wrapper{bottom:-15px;}
-    html body #wrap #container .sz-word .edit-guide-wrapper .button-edit{flex-direction:column;}
-    html body #wrap #container .sz-word .edit-guide-wrapper .button-edit .button{width:100%;}
-
-    .button-edit-wrapper{height:100%;}
-    .button-edit{display:flex;height:100%;}
-    .button-edit .button{width:50%;height:100%;font-size:96px;background:#fff;border:2px solid #afafaf;}
-
-    .FONT-UP{text-indent:-999999px;position:relative;}
-    .FONT-UP::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%);display:inline-block;width:100px;height:15px;background:#000;border-radius:10px;}
-    .FONT-UP::after{content:'';position:absolute;left:50%;top:33%;transform:translate(-50%);display:inline-block;width:15px;height:100px;background:#000;border-radius:10px;}
-
-    .FONT-DOWN{text-indent:-999999px;position:relative;}
-    .FONT-DOWN::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%);display:inline-block;width:100px;height:15px;background:#000;border-radius:10px;}
-
-    .button-edit .EDITOR-CLOSE{text-indent:-999999px;position:relative;background:#fff;}
-    .button-edit .EDITOR-CLOSE::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(45deg);display:inline-block;width:100px;height:15px;background:var(--primary);border-radius:10px;}
-    .button-edit .EDITOR-CLOSE::after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%) rotate(-45deg);display:inline-block;width:100px;height:15px;background:var(--primary);border-radius:10px;}
-    .button-edit .SELECT-ALL img{transform:scale(1.2);opacity:0.75;}
-    .button-edit .EDITOR-EASY img{transform:scale(1.2);opacity:0.85;}
-    .sticker-ani-in{
-        animation-name: sticker-ani-in;
-        animation-duration: 0.3s;
-        animation-delay: 0s;
-    }
-    @keyframes sticker-ani-in {
-        0%{
-            transform:translateX(-100%)
-        }
-        100%{
-            transform:translateX(0%)
-        }
-    }
-
-    .sticker-ani-out{
-        animation-name: sticker-ani-out;
-        animation-duration: 0.3s;
-        animation-delay: 0s;
-    }
-    @keyframes sticker-ani-out {
-        0%{
-            transform:translateX(0)
-        }
-        100%{
-            transform:translateX(-200%)
-        }
-    }
-
-    .stamp-ani-in{
-        animation-name: stamp-ani-in;
-        animation-duration: 0.3s;
-        animation-delay: 0s;
-    }
-    @keyframes stamp-ani-in {
-        0%{
-            transform:translateX(200%)
-        }
-        100%{
-            transform:translateX(0%)
-        }
-    }
-
-    .stamp-ani-out{
-        animation-name: stamp-ani-out;
-        animation-duration: 0.3s;
-        animation-delay: 0s;
-    }
-    @keyframes stamp-ani-out {
-        0%{
-            transform:translateX(0)
-        }
-        100%{
-            transform:translateX(100%)
-        }
-    }
-
-    .select-sticker-ani-in{
-        animation-name: select-sticker-ani-in;
-        animation-duration: 0.2s;
-        animation-delay: 0s;
-    }
-    @keyframes select-sticker-ani-in {
-        0%{
-            transform:scale(1.3)
-        }
-        100%{
-            transform:scale(1)
-        }
-    }
-    .select-stamp-ani-in{
-        animation-name: select-stamp-ani-in;
-        animation-duration: 0.2s;
-        animation-delay: 0s;
-    }
-    @keyframes select-stamp-ani-in {
-        0%{
-            transform:scale(1.3)
-        }
-        100%{
-            transform:scale(1)
-        }
-    }
-
-    .sz-design.on{
-        animation-name: change-ani-sz-bg;
-        animation-duration: 1s;
-        animation-iteration-count: 1;
-    }
-
-    .sz-design__img__btn{border:2px solid transparent;}
-    .sz-design__img__btn.on{border-color:var(--primary);}
-
-    /*textarea{*/
-    /*    caret-shape: auto;*/
-    /*    caret-shape: bar;*/
-    /*    caret-shape: block;*/
-    /*    caret-shape: underscore;*/
-    /*}*/
-
-</style>
                     <div class="SANGZZANG SZ-ORIGIN SZ-WRITING">
                         <div class="SZ-WRITE SZ-RATIO clearfix CAPTUREAREA">
                             <img class="sz-design" src="/assets/img/design/sz_000004.png" alt=""/>
@@ -415,43 +170,31 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- 상장 만들기 End -->
-
-
-
-
 
                     <div class="r post__row">
                         <div class="sz-function sz-function-01 shadow">
-                            <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap">
+                            <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap" title="스크랩">
                                 <span class="scrap">
                                     <img src="/assets/img/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
                                 </span>
                             </a>
-                            <!--
-                            <a href="#;" id="print">
-                                <span  class="print">
-                                    <img src="./assets/img/ico-print.png" alt=""/> <span>프린트</span>
-                                </span>
-                            </a>
-                            -->
-                            <a href="#;" id="copy" class="MODAL-BTN" data-target="#modalCopyAndWrite">
+                            <a href="#;" id="copy" class="MODAL-BTN" data-target="#modalCopyAndWrite" title="복사">
                                 <span class="copy last">
                                     <img src="/assets/img/ico/ico-copy.png" alt=""> <span class="sz-function-name">복사</span>
                                 </span>
                             </a>
-                            <a href="#;" id="download" class="MODAL-BTN" data-target="#modalSzDownload">
-                                <span class="copy last">
+                            <a href="#;" id="download" class="MODAL-BTN" data-target="#modalSzDownload" title="다운로드">
+                                <span class="download last">
                                     <img src="/assets/img/ico/ico-download.png" alt=""> <span class="sz-function-name">다운로드</span>
                                 </span>
                             </a>
-                            <a href="/pages/3d-card.php">
-                                <span class="copy last">
+                            <a href="/pages/3d-card.php" title="3D카드">
+                                <span class="d360 last">
                                     <img src="/assets/img/ico/ico-360.png" alt=""> <span class="sz-function-name">3D카드</span>
                                 </span>
                             </a>
-                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare">
+                            <a href="#;" id="share" class="MODAL-BTN" data-target="#modalShare" title="공유">
                                 <span class="share">
                                     <img src="/assets/img/ico/ico-share.png" alt=""> <span class="sz-function-name">공유</span>
                                 </span>
@@ -463,20 +206,6 @@
                     <div class="sz-design-select">
                         <h3 class="h3 hidden">상장 디자인</h3>
                         <div class="g sz-bg-lists">
-                            <style>
-                                .sz-bg-lists{margin-top:7px;width:100%;overflow:auto;white-space:nowrap;text-align:center;position: relative;
-                                    z-index: 10;
-                                    background: white;
-                                    border:1px solid #e9e9e9;
-                                    }
-                                .sz-bg-lists__list__item{display:inline-block;}
-
-                                /* 상장 리스트 내 썸네일 이미지 */
-                                .photo-thumb{}
-                                .sz-bg-list__outer{height:60px;padding:2px;overflow:hidden;}
-                                .sz-design__img__btn{display:block;height:100%;}
-                                .sz-design__img{display:block;height:100%;border-radius:5px;}
-                            </style>
                             <ul id="r sz-bg-lists__list">
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
@@ -534,124 +263,6 @@
                 </div>
                 <!-- 좌측 영역 End -->
 
-                <style>
-                    .SZ-WRITE-detail .story{width:100%;}
-                    .SZ-WRITE-detail .photo{width:100%;}
-                    .SZ-WRITE-detail .input-photo{width:100% !important;}
-                    .SZ-WRITE-detail .tag{width:100% !important;}
-                    .SZ-WRITE-detail .ability{width:100% !important;}
-                    .SZ-WRITE-detail .tag-checkbox{width:100% !important;}
-                    .SZ-WRITE-detail .movie{width:100% !important;}
-                    .SZ-WRITE-detail .movie-input{width:100% !important;}
-                    .SZ-WRITE-detail .source{width:100% !important;}
-                    .SZ-WRITE-detail .source-input{width:100% !important;}
-
-
-                    textarea.story{display:block;height:50px;padding:5px;width:100%;}
-                    input.source{color:#f0af00}
-                    .tagify{
-                        width: 100%;
-                        max-width: 700px;
-                        --tag-inset-shadow-size: 100em !important;
-                        --tag-bg:#282828 !important;
-                    }
-                    .tagify__tag{
-                        border-radius:6px;
-                        overflow: hidden;
-                    }
-                    .tagify__tag-text{
-                        color:#fff;
-                    }
-                    .tagify__tag__removeBtn{background:#6c6c6c;}
-                    .tagify__tag__removeBtn::after{color:#fff;}
-
-                    .tags-look .tagify__dropdown__item{
-                        display: inline-block;
-                        border-radius: 3px;
-                        padding: .3em .5em;
-                        /*border: 1px solid #CCC;*/
-                        background: #282828;
-                        margin: .2em;
-                        font-size: .85em;
-                        color: #fff;
-                        transition: 0s;
-                    }
-
-                    .tags-look .tagify__dropdown__item--active{
-                        transition:all 0.3s;
-                        color: #fff;
-                        opacity:0.8
-                    }
-                    /* 드랍다운의 태그 */
-                    .tags-look .tagify__dropdown__item:hover{
-                        background: #282828;
-                        border-color: #282828;
-                        color:#fff;
-                    }
-                    .tagify__tag:focus div::before, .tagify__tag:hover:not([readonly]) div::before {
-                        --tag-bg-inset: -2.5px;
-                        --tag-bg: #282828;
-                        opacity:0.8;
-                    }
-                    /* 삭제 버튼 호버 */
-                    .tagify__tag__removeBtn:hover{
-                        opacity: 1 !important;
-                        background:var(--primary);
-
-                    }
-                    /* 삭제 버튼 호버 End */
-                    /* 삭제 호버의 텍스트 */
-                    .tagify__tag__removeBtn:hover+div>span {
-                        opacity: 1 !important;
-                        color:#fff;
-                    }
-                    /* 삭제 호버의 텍스트 End */
-
-                    .tags-look{z-index:999999 !important;}
-                    html .tagify{
-
-                        --tags-disabled-bg         : #F1F1F1;
-                        --tags-border-color        : silver;
-                        --tags-hover-border-color  : #CCC;
-                        --tags-focus-border-color  : #ff0000;
-                        --tag-border-radius        : 6px;
-                        --tag-bg                   : #282828;
-                        --tag-hover                : #282828;
-                        --tag-text-color           : #FFF;
-                        --tag-text-color--edit     : #111;
-                        --tag-pad: 0.3em 0.5em;
-                        --tag-inset-shadow-size    : 0em;
-                        --tag-invalid-color: red;
-                        --tag-invalid-bg: rgba(211, 148, 148, 1);
-                        --tag-remove-bg: #ff7171;
-                        --tag-remove-btn-color: black;
-                        --tag-remove-btn-bg: none;
-                        --tag-remove-btn-bg--hover : black;
-                        --input-color: inherit;
-                        --tag--min-width: 1ch;
-                        --tag--max-width: auto;
-                        --tag-hide-transition: 0.3s;
-                        --placeholder-color: rgba(0, 0, 0, 0.4);
-                        --placeholder-color-focus: rgba(0, 0, 0, 0.25);
-                        --loader-size: .8em;
-                        --readonly-striped: 1;
-
-                        display: inline-block;
-                        min-width: 0;
-                        border: none;
-                    }
-
-                    .SZ-WRITE-detail > .g{padding:10px;}
-                    .SZ-WRITE-detail > .g > .r > .c{flex:1;width:100%;}
-                    .SZ-WRITE-detail__row{margin-bottom:10px;}
-
-                    .SZ-WRITE-detail__row .private{width:100%;}
-                    .SZ-WRITE-detail__row .private__outer{overflow:auto;width:100%;padding-bottom:4px;}
-                    .SZ-WRITE-detail__row .private__inner{white-space:nowrap;}
-                    .SZ-WRITE-detail__row .addInfo{font-weight:500;}
-
-
-                </style>
                 <div class="layout-two-one__layout-right self-top">
                     <div class="SZ-WRITE-detail">
                         <div class="g">
@@ -1557,16 +1168,6 @@
 <div class="sangzzang AREA-SANGZZANG-COPY-DOWNLOAD"></div>
 
 <script>
-    function renderDiv2Textarea(){
-        let text = document.getElementById("sangText").value;
-        text = text.replace(/(?:\r\n|\r|\n)/g, '<br>');
-        $('#sangTextDiv').html(text);
-        $('.SZ-ORIGIN').addClass('RENDERED');
-    }
-    function renderDiv2TextareaReset(){
-        $('#sangTextDiv').empty();
-        $('.SZ-ORIGIN').removeClass('RENDERED');
-    }
 
     /* 상장 스크린샷 */
     var renderSzScale = 1;

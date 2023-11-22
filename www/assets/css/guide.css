@@ -1526,11 +1526,6 @@ table tr:hover td{background:#f8f8f8 !important;}
     }
 }
 
-
-
-
-
-
 .modal-ani-target{
     animation-name: modal-ani-target;
     animation-duration: 0.3s;
@@ -1565,8 +1560,6 @@ table tr:hover td{background:#f8f8f8 !important;}
         opacity:0;
     }
 }
-
-
 
 /* 팝업 애니메이션 End */
 /* 팝업 모달 End */
