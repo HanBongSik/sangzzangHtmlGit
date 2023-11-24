@@ -27,51 +27,51 @@
             <div class="g">
                 <div class="r">
                     <style>
-                        .sz-design-choice{width:100%;flex:1;padding:10px;}
-                        .sz-design-choice > ul{display:flex;flex-wrap:wrap;margin:0 -10px;width:calc(100% + 20px);}
-                        .sz-design-choice__li{overflow:hidden;margin:15px 10px;width:calc((100% / 4) - 20px);}
-                        .sz-design-choice__li:hover{transition:all 0.2s;transform:translate(0, -5px);}
-                        .sz-design-choice__li__link{display:block;width:100%;overflow:hidden;}
-                        .sz-design-choice__li__link__img{width:100%;display:block;}
+                        .sz-bg-design-choice{width:100%;flex:1;padding:10px;}
+                        .sz-bg-design-choice > ul{display:flex;flex-wrap:wrap;margin:0 -10px;width:calc(100% + 20px);}
+                        .sz-bg-design-choice__li{overflow:hidden;margin:15px 10px;width:calc((100% / 4) - 20px);}
+                        .sz-bg-design-choice__li:hover{transition:all 0.2s;transform:translate(0, -5px);}
+                        .sz-bg-design-choice__li__link{display:block;width:100%;overflow:hidden;}
+                        .sz-bg-design-choice__li__link__img{width:100%;display:block;}
 
                         @media (max-width: 1000px) {
-                            .sz-design-choice__li{width:calc((100% / 3) - 20px);}
+                            .sz-bg-design-choice__li{width:calc((100% / 3) - 20px);}
                         }
                         @media (max-width: 500px) {
-                            .sz-design-choice__li{width:calc((100% / 2) - 20px);}
+                            .sz-bg-design-choice__li{width:calc((100% / 2) - 20px);}
                         }
 
                     </style>
-                    <div class="c sz-design-choice">
+                    <div class="c sz-bg-design-choice">
                         <ul>
-                            <li class="sz-design-choice__li"> <!-- col-6 col-md-4 col-lg-3 -->
-                                <a href="./sz_writing.php" class="sz-design-choice__li__link">
-                                    <img class="sz-design-choice__li__link__img" src="/assets/img/design/sz_000001.png" alt="">
+                            <li class="sz-bg-design-choice__li"> <!-- col-6 col-md-4 col-lg-3 -->
+                                <a href="./sz_writing.php" class="sz-bg-design-choice__li__link">
+                                    <img class="sz-bg-design-choice__li__link__img" src="/assets/img/design/sz_000001.png" alt="">
                                 </a>
                             </li>
-                            <li class="sz-design-choice__li">
-                                <a href="./sz_writing.php" class="sz-design-choice__li__link">
-                                    <img class="sz-design-choice__li__link__img" src="/assets/img/design/sz_000002.png" alt="">
+                            <li class="sz-bg-design-choice__li">
+                                <a href="./sz_writing.php" class="sz-bg-design-choice__li__link">
+                                    <img class="sz-bg-design-choice__li__link__img" src="/assets/img/design/sz_000002.png" alt="">
                                 </a>
                             </li>
-                            <li class="sz-design-choice__li">
-                                <a href="./sz_writing.php" class="sz-design-choice__li__link">
-                                    <img class="sz-design-choice__li__link__img" src="/assets/img/design/sz_000003.png" alt="">
+                            <li class="sz-bg-design-choice__li">
+                                <a href="./sz_writing.php" class="sz-bg-design-choice__li__link">
+                                    <img class="sz-bg-design-choice__li__link__img" src="/assets/img/design/sz_000003.png" alt="">
                                 </a>
                             </li>
-                            <li class="sz-design-choice__li">
-                                <a href="./sz_writing.php" class="sz-design-choice__li__link">
-                                    <img class="sz-design-choice__li__link__img" src="/assets/img/design/sz_000004.png" alt="">
+                            <li class="sz-bg-design-choice__li">
+                                <a href="./sz_writing.php" class="sz-bg-design-choice__li__link">
+                                    <img class="sz-bg-design-choice__li__link__img" src="/assets/img/design/sz_000004.png" alt="">
                                 </a>
                             </li>
-                            <li class="sz-design-choice__li">
-                                <a href="./sz_writing.php" class="sz-design-choice__li__link">
-                                    <img class="sz-design-choice__li__link__img" src="/assets/img/design/sz_000005.png" alt="">
+                            <li class="sz-bg-design-choice__li">
+                                <a href="./sz_writing.php" class="sz-bg-design-choice__li__link">
+                                    <img class="sz-bg-design-choice__li__link__img" src="/assets/img/design/sz_000005.png" alt="">
                                 </a>
                             </li>
-                            <li class="sz-design-choice__li">
-                                <a href="./sz_writing.php" class="sz-design-choice__li__link">
-                                    <img class="sz-design-choice__li__link__img" src="/assets/img/design/sz_000006.png" alt="">
+                            <li class="sz-bg-design-choice__li">
+                                <a href="./sz_writing.php" class="sz-bg-design-choice__li__link">
+                                    <img class="sz-bg-design-choice__li__link__img" src="/assets/img/design/sz_000006.png" alt="">
                                 </a>
                             </li>
                         </ul>

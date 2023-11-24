@@ -186,7 +186,7 @@
                                             <div class="c c-inner-width">
                                                 <div class="search-btn">
                                                     <span class="forms">
-                                                        <button type="button" class="btn-search">받는 사람</button>
+                                                        <button type="button" class="btn-search">검색</button>
                                                     </span>
                                                 </div>
                                             </div>
@@ -197,9 +197,9 @@
                                 <div class="tab search_tab">
                                     <div class="tab__list fixed">
                                         <ul>
-                                            <li class="active"><a href="#tabSearchAll" data-target="#tabSearchAll">전체</a></li>
+                                            <li class="active"><a href="#tabSearchReceiverAll" data-target="#tabSearchReceiverAll">전체</a></li>
                                             <!--                                        <li><a href="#tabSearchTag">태그</a></li>-->
-                                            <li><a href="#tabSearchSkill" data-target="#tabSearchSkill">팔로우</a></li>
+                                            <li><a href="#tabSearchReceiverSkill" data-target="#tabSearchReceiverSkill">팔로우</a></li>
                                         </ul>
                                     </div>
 
@@ -208,30 +208,30 @@
                                     <!-- tabs End -->
                                     <!-- panels -->
                                     <div class="panels">
-                                        <div id="tabSearchAll" class="panel active" tabindex="0">
+                                        <div id="tabSearchReceiverAll" class="panel active" tabindex="0">
                                             <!-- 전체 검색 -->
                                             <?php include("$path/include/include_temp/inc_user_list.php"); ?>
                                             <!-- 전체 검색 End -->
                                         </div>
-                                        <div id="tabSearchUser" class="panel" tabindex="0">
+                                        <div id="tabSearchReceiverUser" class="panel" tabindex="0">
                                             <!-- 회원 검색 -->
                                             <?php include("$path/include/include_temp/inc_user_list_02.php"); ?>
                                             <!-- 회원 검색 End -->
                                         </div>
 
-                                        <div id="tabSearchTag" class="panel" tabindex="0">
+                                        <div id="tabSearchReceiverTag" class="panel" tabindex="0">
                                             <!-- 태그 검색 -->
                                             <?php /* include("include/include_temp/inc_search_02.php"); */ ?>
                                             <!-- 태그 검색 End -->
                                         </div>
 
-                                        <div id="tabSearchSkill" class="panel" tabindex="0">
+                                        <div id="tabSearchReceiverSkill" class="panel" tabindex="0">
                                             <!-- 회원 검색 -->
                                             <?php include("$path/include/include_temp/inc_user_list_03.php"); ?>
                                             <!-- 회원 검색 End -->
                                         </div>
 
-                                        <div id="tabSearchSz" class="panel" tabindex="0">
+                                        <div id="tabSearchReceiverSz" class="panel" tabindex="0">
                                             <!-- 상짱 검색 -->
                                             <?php include("$path/include/sz_list_search.php"); ?>
                                             <!-- 상짱 검색 End -->
@@ -793,15 +793,6 @@
                                         </div>
                                     </div>
                                 </div>
-<style>
-    .ex-words{width:100%;padding:0px 0;}
-    .modal-dimmed .ex-words{width:100%;padding:10px 0;}
-    .ex-words .tab__list{border:none;}
-    .ex-words .btn-badge{background: var(--gray);border-color: var(--gray-border-color);color: var(--black);}
-    .ex-words .btn-badge.active{background: var(--primary);color: #fff;}
-    .ex-words__outer{display:flex;flex-direction:column;gap:5px;padding-bottom:5px;white-space:nowrap;width:100%;overflow:auto;}
-    .ex-words__list{text-align:center;}
-</style>
                                 <div class="ex-words" style="display:n1one;width:100%;">
                                     <h3 class="h3 hidden"><!--class="hidden"-->예제</h3>
                                     <div class="tab ex-words__outer">
@@ -1065,7 +1056,7 @@
 
                                         <div id="tabSearchSkill" class="panel" tabindex="0">
                                             <!-- 스킬 검색 -->
-                                            <?php include("$path/include/include_temp/inc_search_03.php"); ?>
+                                            <?php include("$path/include/include_temp/inc_user_list_03.php"); ?>
                                             <!-- 스킬 검색 End -->
                                         </div>
 

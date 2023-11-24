@@ -27,45 +27,14 @@
 
             <div class="layout-two-one inner-scroll">
                 <div class="layout-two-one__layout-left self-top">
-
-                <!-- 좌측 영역 -->
-
-                    <!-- 상장 예문 1
-                    <div class="same-select col-visible lg-hidden">
-                        <h3 class="h3 hidden">예제</h3>
-                        <div class="samples">
-                            <div>
-                                <a href="#;">지인<br class="lg-hidden">친구</a>
-                                <a href="#;">이성<br class="lg-hidden">연애</a>
-                                <a href="#;">자녀<br class="lg-hidden">부모님</a>
-                                <a href="#;">스승<br class="lg-hidden">제자</a>
-                                <a href="#;">직장<br class="lg-hidden">멘토</a>
-                            </div>
-                            <div>
-                                <a href="#;">인플루언서</a>
-                                <a href="#;">신앙</a>
-                                <a href="#;">정치</a>
-                                <a href="#;">연예<br class="lg-hidden">스포츠</a>
-                                <a href="#;">상춘<br class="lg-hidden">문예</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 텍스트 옵션 수정 -->
-
-                    <!-- 텍스트 옵션 수정 End -->
-
-                    <!-- 상장 예문 1 End -->
-
                     <!-- 상장 만들기 -->
                     <!--
                         https://html2canvas.hertzen.com/
                         https://www.url2png.com/#testdrive
                     -->
-
-                    <div class="SANGZZANG SZ-ORIGIN SZ-WRITING">
-                        <div class="SZ-WRITE SZ-RATIO clearfix CAPTUREAREA">
-                            <img class="sz-design" src="/assets/img/design/sz_000004.png" alt=""/>
+                    <div class="SANGZZANG SZ-ORIGIN SZ-WRITING"> <!-- 보기 페이지 : SANGZZANG SZ-ORIGIN SZ-VIEW -->
+                        <div class="SZ-WRITE SZ-RATIO clearfix CAPTURE-AREA">
+                            <img class="sz-bg-design" src="/assets/img/design/sz_000004.png" alt=""/>
 
                             <div class="sz-name ELEMENT">
                                 <div id="sangName" rows="1" name="sangName" class="CONTENTEDITABLE" contenteditable="true">상 장</div>
@@ -172,7 +141,7 @@
                     </div>
                     <!-- 상장 만들기 End -->
 
-                    <div class="r post__row">
+                    <div class="r post__row" style="display:none;">
                         <div class="sz-function sz-function-01 shadow">
                             <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap" title="스크랩">
                                 <span class="scrap">
@@ -203,56 +172,56 @@
                     </div>
 
                     <!-- 상장 디자인 리스트 -->
-                    <div class="sz-design-select">
+                    <div class="sz-bg-design-select">
                         <h3 class="h3 hidden">상장 디자인</h3>
                         <div class="g sz-bg-lists">
                             <ul id="r sz-bg-lists__list">
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
+                                            <a href="#;" class="sz-bg-design__img__btn"><img class="sz-bg-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000002.png" alt=""/></a>
+                                            <a href="#;" class="sz-bg-design__img__btn"><img class="sz-bg-design__img" src="/assets/img/design/sz_000002.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000003.png" alt=""/></a>
+                                            <a href="#;" class="sz-bg-design__img__btn"><img class="sz-bg-design__img" src="/assets/img/design/sz_000003.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__btn on"><img class="sz-design__img" src="/assets/img/design/sz_000004.png" alt=""/></a>
+                                            <a href="#;" class="sz-bg-design__img__btn on"><img class="sz-bg-design__img" src="/assets/img/design/sz_000004.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000005.png" alt=""/></a>
+                                            <a href="#;" class="sz-bg-design__img__btn"><img class="sz-bg-design__img" src="/assets/img/design/sz_000005.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000006.png" alt=""/></a>
+                                            <a href="#;" class="sz-bg-design__img__btn"><img class="sz-bg-design__img" src="/assets/img/design/sz_000006.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="c sz-bg-lists__list__item">
                                     <div class="sz-bg-list">
                                         <div class="sz-bg-list__outer">
-                                            <a href="#;" class="sz-design__img__btn"><img class="sz-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
+                                            <a href="#;" class="sz-bg-design__img__btn"><img class="sz-bg-design__img" src="/assets/img/design/sz_000001.png" alt=""/></a>
                                         </div>
                                     </div>
                                 </li>
@@ -385,25 +354,6 @@
                                         <div class="h3">
                                             <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>받는사람 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>
                                         </div>
-                                        <style>
-                                            .sz-writing-ability {padding:10px 10px;min-height:40px;border: 1px solid #e8e8e8;transition: all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
-                                            .sz-writing-receiver{display:block;opacity:1;width:100%;overflow:auto;padding:0 0px;min-height:40px;border: 1px solid #e8e8e8;transition: all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
-                                            .sz-writing-receiver .users__list{display:flex;white-space:nowrap;gap:0 15px;}
-                                            .sz-writing-receiver .users__list__item:nth-of-type(1){padding-left:10px;}
-                                            .sz-writing-receiver .users__list__item:nth-last-of-type(1){padding-right:10px;}
-                                            .sz-writing-receiver.with-remove .users__list__item:nth-last-of-type(1){padding-right:40px;}
-                                            .sz-writing-receiver .users__list__item{display:inline-flex;flex-wrap:nowrap;padding:8px 5px 4px 5px;}
-
-                                            .users__list.sm{font-size:13px;}
-                                            .sz-writing-modify{display:block;width:100%;text-align:center;border:1px solid #e8e8e8;margin-top:0px;padding:5px 0;border-bottom-left-radius:var(--radius);border-bottom-right-radius:var(--radius);}
-
-                                            .with-remove .users__list__item{padding-right:35px;}
-                                            .user-profile .remove-user{position: absolute;right:-30px;top: 0;z-index: 10;color: #fff;font-weight: 600;display: inline-block;width: 25px;height: 25px;line-height: 25px;background: var(--primary);border-radius: 50%;}
-
-                                            .sz-writing-receiver.with-remove{box-shadow: 6px -2px 10px rgb(0 0 0 / 10%);}
-                                            .modal-body.with-receiver-list{padding-bottom:60px;}
-                                            .modal-body.with-receiver-list .modal-body__bottom{position:fixed;width:100%;margin:0 -10px;bottom:60px;}
-                                        </style>
                                         <div class="sz-writing-receiver">
                                             <ul class="users__list sm">
                                                 <li class="users__list__item">
@@ -911,7 +861,7 @@
                             </div>
                             <div class="r SZ-WRITE-detail__row">
                                 <div class="c">
-                                    <a href="javascript:void(0);" class="TOGGLE-BTN addInfo" data-target="#toggleWritingAddInfo">추가정보 입력 (사진,동영상,링크,이름가리기) <span class="toggle-ico"></span></a>
+                                    <a href="javascript:void(0);" class="TOGGLE-BTN addInfo" data-target="#toggleWritingAddInfo">추가정보 입력 (사진, 링크, 이름가리기) <span class="toggle-ico"></span></a>
                                 </div>
                             </div>
                             <div class="r SZ-WRITE-detail__row TOGGLE-PANEL" id="toggleWritingAddInfo">
@@ -933,21 +883,21 @@
                                             </div>
                                         </div>
 
-                                        <div class="r SZ-WRITE-detail__row">
-                                            <div class="c">
-
-                                                <div class="movie">
-                                                    <div class="h3">
-                                                        <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>동영상 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>
-                                                    </div>
-                                                    <div class="forms">
-                                                        <label for="hashTag" class="hidden">동영상</label>
-                                                        <input type="text" id="hashTag" placeholder="유튜브 동영상 링크" class="primary movie-input">
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
+<!--                                        <div class="r SZ-WRITE-detail__row">-->
+<!--                                            <div class="c">-->
+<!---->
+<!--                                                <div class="movie">-->
+<!--                                                    <div class="h3">-->
+<!--                                                        <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>동영상 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>-->
+<!--                                                    </div>-->
+<!--                                                    <div class="forms">-->
+<!--                                                        <label for="hashTag" class="hidden">동영상</label>-->
+<!--                                                        <input type="text" id="hashTag" placeholder="유튜브 동영상 링크" class="primary movie-input">-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!---->
+<!--                                            </div>-->
+<!--                                        </div>-->
 
                                         <div class="r SZ-WRITE-detail__row">
                                             <div class="c">
@@ -1047,9 +997,9 @@
                             <div class="r SZ-WRITE-detail__row">
                                 <div class="c">
                                     <div class="btn-group">
+                                        <button type="button" id="SAVE" class="btn btn-white btn-lg" >미리보기</button>
                                         <button type="button" id="SAVE" class="btn btn-primary btn-lg" onclick="go('./sz_view.php')">작성완료</button>
-                                        <button type="button" id="SAVE" class="btn btn-secondary btn-lg" >미리보기</button>
-                                        <button type="button" class="btn btn-black btn-lg">초기화</button>
+                                        <button type="button" class="btn btn-black btn-lg" onclick="confirm('정말 초기화하시겠습니까?')">초기화</button>
                                     </div>
                                 </div>
                             </div>
@@ -1073,13 +1023,13 @@
     <!-- 상장 temp -->
     <script>
         $(document).ready(function(){
-            $('.sz-bg-lists .sz-design__img__btn').on( 'click' , function(e){
-                let szBgSrc = $(this).find('.sz-design__img').attr('src');
-                $('.sz-bg-lists .sz-design__img__btn').removeClass('on');
+            $('.sz-bg-lists .sz-bg-design__img__btn').on( 'click' , function(e){
+                let szBgSrc = $(this).find('.sz-bg-design__img').attr('src');
+                $('.sz-bg-lists .sz-bg-design__img__btn').removeClass('on');
                 $(this).addClass('on');
-                $('.sz-design').removeClass('on').attr('src',szBgSrc).addClass('on');
+                $('.sz-bg-design').removeClass('on').attr('src',szBgSrc).addClass('on');
                 setTimeout(function(){
-                    $('.sz-design').removeClass('on')
+                    $('.sz-bg-design').removeClass('on')
                 }, 1000);
                 e.preventDefault();
             });
@@ -1169,109 +1119,6 @@
 
 <script>
 
-    /* 상장 스크린샷 */
-    var renderSzScale = 1;
-    var checkedSzDownloadSize = '';
-
-    //다운로드 버튼 누르면
-    $('#szDownload').on('click',function(){
-        if(checkedDownloadSize() == 2480){
-            console.log('AD 2480');
-        }else if(checkedDownloadSize() == 1240){
-            console.log('AD 1240');
-        }
-        captureSzDownload();//다운로드 버튼을 누를 때 실행시켜야겠는데
-    })
-
-    function bindCheckedDownloadSize(){
-        $("[name='downloadSize']").on('change',function(){
-            checkedDownloadSize();
-        });
-    }
-
-    function cloneSz(size){ //원하는 영역의 스크린샷을 찍어 원하는 곳으로 코드 복사한다.
-        let body = $('body');
-        let origin = $(".SANGZZANG.SZ-ORIGIN");
-        let copy = $(".AREA-SANGZZANG-COPY");
-        //다운로드 클릭
-        copy.remove();
-        body.append('<div class="AREA-SANGZZANG-COPY"></div>');
-        origin.find(" > .SZ-WRITE").clone().appendTo(".AREA-SANGZZANG-COPY");
-
-        let copyWriting = $(".AREA-SANGZZANG-COPY > .SZ-WRITE");//카피할 영역
-        copyWriting.removeAttr('style').find('.sz-sticking, .sz-stamping').remove();
-        copyWriting.find(" > div ").each(function(index){
-            let text= $(this).find('textarea').val();
-            if($(this).find('textarea').length > 0){
-                $(this).find('textarea').remove();
-                $(this).append('<div>'+text+'</div>');
-                $(this).find('.sz-sticking, .sz-stamping').remove();
-            }
-        });
-    }
-
-    function checkedDownloadSize(){
-        const szDownloadSize = document.getElementsByName("downloadSize");
-        // 체크한 데이터를 담을 변수 선언 https://nameybs.tistory.com/37
-        for (let i = 0; i < szDownloadSize.length; i++) {
-            // 속성중에 체크 된 항목이 있을 경우
-            if (szDownloadSize[i].checked === true) {
-                checkedSzDownloadSize = Number(szDownloadSize[i].value);
-            }
-        }
-        let _checkedSzDownloadSize = checkedSzDownloadSize;// alert('checkedSzDownloadSize ' + checkedSzDownloadSize);
-
-        // 크기 계산기
-        let canvasVisibleWidthStyle = document.querySelector(".sz-download-modal-col canvas").style.width;
-        let canvasVisibleWidth = canvasVisibleWidthStyle.replace('px','');
-        renderSzScale = (_checkedSzDownloadSize / canvasVisibleWidth);//alert('\n_checkedSzDownloadSize : ' + _checkedSzDownloadSize + '  ' + '\ncanvasVisibleWidth : ' + canvasVisibleWidth + '\nrenderSzScale : '+ renderSzScale);
-        return checkedSzDownloadSize;
-    }
-
-    function captureSzInit(ev){ //뷰에서 다운로드 모달로 스크린샷 기능
-        //alert(renderSzScale);
-        /* 다운받을 때 A4 100% 크기 */
-        //2480
-        // 일반포토카드 55mm*85mm | 207.874px * 321.259px | 2.1:3.3" | 24장 4,200원[35%]
-        // 포토카드 큰 거 1240*1864
-        // 번외)좀 더 큰 포토카드 97mm*67mm 366.614px *253.228px
-        /*
-        width = 2480; // A4 픽셀 //
-        scaleW = width*0.001;
-        scaleH = height*scaleW;
-        border = 3;
-        $('.sangzzang-copy .sz-wrting').css('transform','scale('+scaleW+')');
-        $('.sangzzang.sangzzang-copy').css('height',scaleH+border+"px");
-        */
-        let appendTargetEl = '#modalSzDownload .sz-download-modal-col'; //캡쳐 붙여넣을 곳
-        $(appendTargetEl).empty();
-        html2canvas(document.querySelector(".SZ-ORIGIN .CAPTUREAREA"),{ scale:5 }).then(function(canvas) { //scale은 모바일에서 깨져보이지 않게 하기 위해
-            document.querySelector(appendTargetEl).appendChild(canvas);
-            checkedDownloadSize();
-            captureSzDownload('init');
-        });
-    }
-
-    function captureSzDownload(state){ //스크린샷 기능
-        let appendTargetEl = '.AREA-SANGZZANG-COPY-DOWNLOAD'; //캡쳐 붙여넣을 곳
-        $(appendTargetEl).empty();
-        // html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:1 }).then(function(canvas) {
-
-        // 사이즈에 맞는 곳으로 복사하여 붙여넣자
-        //alert('다운받을 곳 스케일 : '+ renderSzScale);
-        html2canvas(document.querySelector(".SZ-ORIGIN .CAPTUREAREA"),{ scale:renderSzScale }).then(function(canvas) { //캡쳐할 곳
-            document.querySelector(appendTargetEl).appendChild(canvas); //캡쳐 붙여넣기
-            let myImage = canvas.toDataURL();let today = new Date();let year = today.getFullYear();let month = ('0' + (today.getMonth() + 1)).slice(-2);let day = ('0' + today.getDate()).slice(-2);let hours = ('0' + today.getHours()).slice(-2);let minutes = ('0' + today.getMinutes()).slice(-2);let seconds = ('0' + today.getSeconds()).slice(-2);
-
-            $('#szDownloadSize').attr('href', myImage); //캡쳐 base64소스
-
-            let fileName = '상짱_' + year + '-' + month  + '-' + day + '-' + hours + minutes + seconds;
-            $('#szDownloadSize').attr('download', fileName+'.png'); //다운로드할 파일 이름 설정
-            if(state !== 'init'){
-                document.querySelector('#szDownloadSize').click();
-            }
-        });
-    }
 </script>
 </body>
 

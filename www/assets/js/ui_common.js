@@ -55,7 +55,6 @@ $(document).ready(function(){
     /* 해시태그 */
     tagifyExe();
     /* 해시태그 End */
-    /* 상장 비율 End */
 });
 
 /* 상장 비율 */
@@ -86,3 +85,148 @@ $(window).on('load', function(){
         });
     }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 상장 스크린샷 */
+var renderSzScale = 1;
+var checkedSzDownloadSize = '';
+
+//다운로드 버튼 누르면
+$('#szDownload').on('click',function(){
+    if(checkedDownloadSize() == 2480){
+        console.log('AD 2480');
+    }else if(checkedDownloadSize() == 1240){
+        console.log('AD 1240');
+    }
+    captureSzDownload();//다운로드 버튼을 누를 때 실행시켜야겠는데
+})
+
+function bindCheckedDownloadSize(){
+    $("[name='downloadSize']").on('change',function(){
+        checkedDownloadSize();
+    });
+}
+
+function cloneSz(size){ //원하는 영역의 스크린샷을 찍어 원하는 곳으로 코드 복사한다.
+    let body = $('body');
+    let origin = $(".SANGZZANG.SZ-ORIGIN");
+    let copy = $(".AREA-SANGZZANG-COPY");
+    //다운로드 클릭
+    copy.remove();
+    body.append('<div class="AREA-SANGZZANG-COPY"></div>');
+    origin.find(" > .SZ-WRITE").clone().appendTo(".AREA-SANGZZANG-COPY");
+
+    let copyWriting = $(".AREA-SANGZZANG-COPY > .SZ-WRITE");//카피할 영역
+    copyWriting.removeAttr('style').find('.sz-sticking, .sz-stamping').remove();
+    copyWriting.find(" > div ").each(function(index){
+        let text= $(this).find('textarea').val();
+        if($(this).find('textarea').length > 0){
+            $(this).find('textarea').remove();
+            $(this).append('<div>'+text+'</div>');
+            $(this).find('.sz-sticking, .sz-stamping').remove();
+        }
+    });
+}
+
+function checkedDownloadSize(){
+    const szDownloadSize = document.getElementsByName("downloadSize");
+    // 체크한 데이터를 담을 변수 선언 https://nameybs.tistory.com/37
+    for (let i = 0; i < szDownloadSize.length; i++) {
+        // 속성중에 체크 된 항목이 있을 경우
+        if (szDownloadSize[i].checked === true) {
+            checkedSzDownloadSize = Number(szDownloadSize[i].value);
+        }
+    }
+    let _checkedSzDownloadSize = checkedSzDownloadSize;// alert('checkedSzDownloadSize ' + checkedSzDownloadSize);
+
+    // 크기 계산기
+    let canvasVisibleWidthStyle = document.querySelector(".sz-download-modal-col canvas").style.width;
+    let canvasVisibleWidth = canvasVisibleWidthStyle.replace('px','');
+    renderSzScale = (_checkedSzDownloadSize / canvasVisibleWidth);//alert('\n_checkedSzDownloadSize : ' + _checkedSzDownloadSize + '  ' + '\ncanvasVisibleWidth : ' + canvasVisibleWidth + '\nrenderSzScale : '+ renderSzScale);
+    return checkedSzDownloadSize;
+}
+
+function captureSzInit(ev){ //뷰에서 다운로드 모달로 스크린샷 기능
+    //alert(renderSzScale);
+    /* 다운받을 때 A4 100% 크기 */
+    //2480
+    // 일반포토카드 55mm*85mm | 207.874px * 321.259px | 2.1:3.3" | 24장 4,200원[35%]
+    // 포토카드 큰 거 1240*1864
+    // 번외)좀 더 큰 포토카드 97mm*67mm 366.614px *253.228px
+    /*
+    width = 2480; // A4 픽셀 //
+    scaleW = width*0.001;
+    scaleH = height*scaleW;
+    border = 3;
+    $('.sangzzang-copy .sz-wrting').css('transform','scale('+scaleW+')');
+    $('.sangzzang.sangzzang-copy').css('height',scaleH+border+"px");
+    */
+    let appendTargetEl = '#modalSzDownload .sz-download-modal-col'; //캡쳐 붙여넣을 곳
+    $(appendTargetEl).empty();
+    html2canvas(document.querySelector(".SZ-ORIGIN .CAPTURE-AREA"),{ scale:5 }).then(function(canvas) { //scale은 모바일에서 깨져보이지 않게 하기 위해
+        document.querySelector(appendTargetEl).appendChild(canvas);
+        checkedDownloadSize();
+        captureSzDownload('init');
+    });
+}
+
+function captureSzDownload(state){ //스크린샷 기능
+    let appendTargetEl = '.AREA-SANGZZANG-COPY-DOWNLOAD'; //캡쳐 붙여넣을 곳
+    $(appendTargetEl).empty();
+    // html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:1 }).then(function(canvas) {
+
+    // 사이즈에 맞는 곳으로 복사하여 붙여넣자
+    //alert('다운받을 곳 스케일 : '+ renderSzScale);
+    html2canvas(document.querySelector(".SZ-ORIGIN .CAPTURE-AREA"),{ scale:renderSzScale }).then(function(canvas) { //캡쳐할 곳
+        document.querySelector(appendTargetEl).appendChild(canvas); //캡쳐 붙여넣기
+        let myImage = canvas.toDataURL();let today = new Date();let year = today.getFullYear();let month = ('0' + (today.getMonth() + 1)).slice(-2);let day = ('0' + today.getDate()).slice(-2);let hours = ('0' + today.getHours()).slice(-2);let minutes = ('0' + today.getMinutes()).slice(-2);let seconds = ('0' + today.getSeconds()).slice(-2);
+
+        $('#szDownloadSize').attr('href', myImage); //캡쳐 base64소스
+
+        let fileName = '상짱_' + year + '-' + month  + '-' + day + '-' + hours + minutes + seconds;
+        $('#szDownloadSize').attr('download', fileName+'.png'); //다운로드할 파일 이름 설정
+        if(state !== 'init'){
+            document.querySelector('#szDownloadSize').click();
+        }
+    });
+}
+
+function modalPhotoFullView(src){
+    $('#modalPhotoFullView').find('.swiper-wrapper').empty();
+    $('#modalPhotoFullView').find('.swiper-wrapper').html(`
+                                            <li class="swiper-slide">
+                                                <div class="swiper-zoom-container">
+                                                    <img src="${src}">
+                                                </div>
+                                            </li>
+                                        `);
+    let fullPhotoSwiper = new Swiper('#modalPhotoFullView .swiper-container', {
+        zoom: true,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        // Enable debugger
+    });
+}

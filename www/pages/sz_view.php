@@ -162,45 +162,118 @@
 
                                     </div>
                                     <div class="r post__row">
-                                        <div class="SANGZZANG SZ-ORIGIN SANGZZANG-VIEW">
-                                            <div class="SZ-WRITE SZ-RATIO clearfix CAPTUREAREA">
-                                                <img class="sz-design" src="/assets/img/design/sz_000004.png" alt="">
+                                        <!-- 상장 만들기 보기 -->
+                                        <!--
+                                            https://html2canvas.hertzen.com/
+                                            https://www.url2png.com/#testdrive
+                                        -->
+                                        <div class="SANGZZANG SZ-ORIGIN SZ-VIEW"> <!-- 만들기 페이지 : SANGZZANG SZ-ORIGIN SZ-WRITING -->
+                                            <div class="SZ-WRITE SZ-RATIO clearfix CAPTURE-AREA">
+                                                <img class="sz-bg-design" src="/assets/img/design/sz_000004.png" alt=""/>
 
-                                                <div class="sz-name">
-                                                    <div>상 장</div></div>
-                                                <div class="sz-title">
-
-                                                    <div>마리오 파티 우승</div></div>
-                                                <div class="sz-receiver">
-
-                                                    <div>정서윤</div></div>
-                                                <div class="sz-word">
-                                                    <div>
-                                                        위 사람은 제1회 한봉식배 닌텐도<br>
-                                                        스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로 <br>
-                                                        이 상을 드립니다.<br>
-                                                        <br>
-                                                        다음에도 다시 챔피언이 될 수 있도록 하세요!</div>
+                                                <div class="sz-name ELEMENT">
+                                                    <div id="sangName" rows="1" name="sangName" class="CONTENTEDITABLE" contenteditable="false">상 장</div> <!-- 만들기 contenteditable="true" -->
+<!--                                                    <div class="edit-guide-wrapper">-->
+<!--                                                        <div class="button-edit-wrapper">-->
+<!--                                                            <div class="button-edit">-->
+<!--                                                                <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>-->
+<!--                                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>-->
+<!--                                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>-->
+<!--                                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
                                                 </div>
-                                                <div class="sz-date">
+                                                <div class="sz-title ELEMENT">
+                                                    <div id="sangTitle" rows="1" name="sangTitle" class="CONTENTEDITABLE" contenteditable="false">마리오 파티 우승</div><!-- 만들기 contenteditable="true" -->
+<!--                                                    <div class="edit-guide-wrapper">-->
+<!--                                                        <div class="button-edit-wrapper">-->
+<!--                                                            <div class="button-edit">-->
+<!--                                                                <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>-->
+<!--                                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>-->
+<!--                                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>-->
+<!--                                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+                                                </div>
+                                                <div class="sz-receiver ELEMENT">
+                                                    <div id="sangReceiver" rows="1" name="sangReceiver" class="CONTENTEDITABLE" contenteditable="false">정서윤</div><!-- 만들기 contenteditable="true" -->
+<!--                                                    <div class="edit-guide-wrapper">-->
+<!--                                                        <div class="button-edit-wrapper">-->
+<!--                                                            <div class="button-edit">-->
+<!--                                                                <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>-->
+<!--                                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>-->
+<!--                                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>-->
+<!--                                                                <button type="button" class="button EDITOR-SEARCH MODAL-BTN" data-target="#modalWritingUserSearch" title="검색하기"><img src="/assets/img/ico/ico-search.png" alt="검색"></button>-->
+<!--                                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+                                                </div>
+                                                <div class="sz-word ELEMENT">
+                                <textarea id="sangText" name="sangText" class="CONTENTEDITABLE" contenteditable="false" readonly="readonly">위 사람은 제1회 한봉식배 닌텐도
+스위치 마리오 파티 게임에서 무수한 경쟁자를 제치고 챔피언이 되었으므로
+이 상을 드립니다.
 
-                                                    <div>2021년 2월 24일</div></div>
+다음에도 다시 챔피언이 될 수 있도록 하세요!</textarea><!-- 만들기 contenteditable="true" -->
+                                                    <div id="sangTextDiv"></div>
+
+<!--                                                    <div class="edit-guide-wrapper">-->
+<!--                                                        <div class="button-edit-wrapper">-->
+<!--                                                            <div class="button-edit">-->
+<!--                                                                <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>-->
+<!--                                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>-->
+<!--                                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>-->
+<!--                                                                <button type="button" class="button EDITOR-EASY" title="easy" onclick="window.open('/pages/writing_ai.php', '', '_blank');"><img src="/assets/img/ico/ico-ai.png"></button>-->
+<!--                                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+                                                </div>
+                                                <div class="sz-date ELEMENT">
+<!--                                                    <div class="edit-guide-wrapper">-->
+<!--                                                        <div class="button-edit-wrapper">-->
+<!--                                                            <div class="button-edit">-->
+<!--                                                                <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>-->
+<!--                                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>-->
+<!--                                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>-->
+<!--                                                                <button type="button" class="button EDITOR-CALENDAR MODAL-BTN" data-target="#modalDate" title="날짜선택"><img src="/assets/img/ico/ico-calendar.png"></button>-->
+<!--                                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+                                                    <div id="sangDate" name="sangDate" class="CONTENTEDITABLE" contenteditable="false">2021년 2월 24일</div><!-- 만들기 contenteditable="true" -->
+                                                </div>
                                                 <div class="sz-sticker">
-                                                    <a href="#;">
-                                                        <img class="sz-sticker-img" src="/assets/img/design/stk/sz_stk_000007.png" alt="">
+                                                    <a href="#;" class="MODAL-BTN" data-target="#modalSticker">
+<!--                                                        <img class="sz-sticking" src="/assets/img/design/ico-hand.png" alt="스티커 찍는 손"/>-->
+                                                        <img class="sz-sticker-img" src="/assets/img/design/stk/sz_stk_000007.png" alt=""/>
                                                     </a>
                                                 </div>
-                                                <div class="sz-sender">
-
-                                                    <div>한봉식</div></div>
+                                                <div class="sz-sender ELEMENT">
+                                                    <div id="sangSender" name="sangSender" class="CONTENTEDITABLE" contenteditable="false">한봉식</div><!-- 만들기 contenteditable="true" -->
+<!--                                                    <div class="edit-guide-wrapper">-->
+<!--                                                        <div class="button-edit-wrapper">-->
+<!--                                                            <div class="button-edit">-->
+<!--                                                                <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>-->
+<!--                                                                <button type="button" class="button FONT-UP" title="폰트 크게">+</button>-->
+<!--                                                                <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>-->
+<!--                                                                <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+                                                </div>
                                                 <div class="sz-stamp">
-                                                    <a href="#;">
-                                                        <img class="sz-stamp-img" src="/assets/img/design/stp/sz_stp_000002.png" alt="">
+                                                    <a href="#;" class="MODAL-BTN" data-target="#modalStamp">
+<!--                                                        <img class="sz-stamping" src="/assets/img/design/ico-hand2.png" alt="도장 찍는 손"/>-->
+                                                        <img class="sz-stamp-img" src="/assets/img/design/stp/sz_stp_000002.png" alt=""/>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- 상장 만들기 End -->
+                                        <!-- 상장 만들기 보기 End -->
+
                                     </div>
                                     <div class="r post__row">
                                         <div class="sz-function sz-function-01 shadow">
@@ -292,6 +365,13 @@
                                             디자이너지만 퍼블리싱에도 관심이 많은 정은아 대리님!
                                         </div>
                                     </div>
+
+                                    <div class="r post__row">
+                                        <div class="g link">
+                                            <a href="http://www.google.com" target="_blank">http://www.google.com</a>
+                                        </div>
+                                    </div>
+
                                     <div class="r post__row">
                                         <div class="g">
                                             <div class="r">
@@ -1626,113 +1706,6 @@
     </div>
     <div class="capture"></div>
     <div class="sangzzang AREA-SANGZZANG-COPY-DOWNLOAD"></div>
-
-    <script>
-        /* 상장 스크린샷 */
-        var renderSzScale = 1;
-        var checkedSzDownloadSize = '';
-
-        //다운로드 버튼 누르면
-        $('#szDownload').on('click',function(){
-            if(checkedDownloadSize() == 2480){
-                console.log('AD 2480');
-            }else if(checkedDownloadSize() == 1240){
-                console.log('AD 1240');
-            }
-            captureSzDownload();//다운로드 버튼을 누를 때 실행시켜야겠는데
-        })
-
-        function bindCheckedDownloadSize(){
-            $("[name='downloadSize']").on('change',function(){
-                checkedDownloadSize()
-            });
-        }
-
-        function cloneSz(size){ //원하는 영역의 스크린샷을 찍어 원하는 곳으로 코드 복사한다.
-            let body = $('body');
-            let origin = $(".SANGZZANG.SZ-ORIGIN");
-            let copy = $(".AREA-SANGZZANG-COPY");
-            //다운로드 클릭
-            copy.remove();
-            body.append('<div class="AREA-SANGZZANG-COPY"></div>');
-            origin.find(" > .SZ-WRITE").clone().appendTo(".AREA-SANGZZANG-COPY");
-
-            let copyWriting = $(".AREA-SANGZZANG-COPY > .SZ-WRITE");//카피할 영역
-            copyWriting.removeAttr('style').find('.sz-sticking, .sz-stamping').remove();
-            copyWriting.find(" > div ").each(function(index){
-                let text= $(this).find('textarea').val();
-                if($(this).find('textarea').length > 0){
-                    $(this).find('textarea').remove();
-                    $(this).append('<div>'+text+'</div>');
-                    $(this).find('.sz-sticking, .sz-stamping').remove();
-                }
-            });
-        }
-
-        function checkedDownloadSize(){
-            const szDownloadSize = document.getElementsByName("downloadSize");
-            // 체크한 데이터를 담을 변수 선언 https://nameybs.tistory.com/37
-            for (let i = 0; i < szDownloadSize.length; i++) {
-                // 속성중에 체크 된 항목이 있을 경우
-                if (szDownloadSize[i].checked === true) {
-                    checkedSzDownloadSize = Number(szDownloadSize[i].value);
-                }
-            }
-            let _checkedSzDownloadSize = checkedSzDownloadSize;// alert('checkedSzDownloadSize ' + checkedSzDownloadSize);
-
-            // 크기 계산기
-            let canvasVisibleWidthStyle = document.querySelector(".sz-download-modal-col canvas").style.width;
-            let canvasVisibleWidth = canvasVisibleWidthStyle.replace('px','');
-            renderSzScale = (_checkedSzDownloadSize / canvasVisibleWidth);//alert('\n_checkedSzDownloadSize : ' + _checkedSzDownloadSize + '  ' + '\ncanvasVisibleWidth : ' + canvasVisibleWidth + '\nrenderSzScale : '+ renderSzScale);
-            return checkedSzDownloadSize;
-        }
-
-        function captureSzInit(ev){ //뷰에서 다운로드 모달로 스크린샷 기능
-            //alert(renderSzScale);
-            /* 다운받을 때 A4 100% 크기 */
-            //2480
-            // 일반포토카드 55mm*85mm | 207.874px * 321.259px | 2.1:3.3" | 24장 4,200원[35%]
-            // 포토카드 큰 거 1240*1864
-            // 번외)좀 더 큰 포토카드 97mm*67mm 366.614px *253.228px
-            /*
-            width = 2480; // A4 픽셀 //
-            scaleW = width*0.001;
-            scaleH = height*scaleW;
-            border = 3;
-            $('.sangzzang-copy .sz-wrting').css('transform','scale('+scaleW+')');
-            $('.sangzzang.sangzzang-copy').css('height',scaleH+border+"px");
-            */
-            let appendTargetEl = '#modalSzDownload .sz-download-modal-col'; //캡쳐 붙여넣을 곳
-            $(appendTargetEl).empty();
-            html2canvas(document.querySelector(".SZ-ORIGIN .CAPTUREAREA"),{ scale:5 }).then(function(canvas) { //scale은 모바일에서 깨져보이지 않게 하기 위해
-                document.querySelector(appendTargetEl).appendChild(canvas);
-                checkedDownloadSize();
-                captureSzDownload('init');
-            });
-        }
-
-        function captureSzDownload(state){ //스크린샷 기능
-            let appendTargetEl = '.AREA-SANGZZANG-COPY-DOWNLOAD'; //캡쳐 붙여넣을 곳
-            $(appendTargetEl).empty();
-            // html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:1 }).then(function(canvas) {
-
-            // 사이즈에 맞는 곳으로 복사하여 붙여넣자
-            //alert('다운받을 곳 스케일 : '+ renderSzScale);
-            html2canvas(document.querySelector(".SZ-ORIGIN .CAPTUREAREA"),{ scale:renderSzScale }).then(function(canvas) { //캡쳐할 곳
-                document.querySelector(appendTargetEl).appendChild(canvas); //캡쳐 붙여넣기
-                let myImage = canvas.toDataURL();let today = new Date();let year = today.getFullYear();let month = ('0' + (today.getMonth() + 1)).slice(-2);let day = ('0' + today.getDate()).slice(-2);let hours = ('0' + today.getHours()).slice(-2);let minutes = ('0' + today.getMinutes()).slice(-2);let seconds = ('0' + today.getSeconds()).slice(-2);
-
-                $('#szDownloadSize').attr('href', myImage); //캡쳐 base64소스
-
-                let fileName = '상짱_' + year + '-' + month  + '-' + day + '-' + hours + minutes + seconds;
-                $('#szDownloadSize').attr('download', fileName+'.png'); //다운로드할 파일 이름 설정
-                if(state !== 'init'){
-                    document.querySelector('#szDownloadSize').click();
-                }
-            });
-        }
-    </script>
-
 </div>
 
 <!-- 상장보기 전용 모달 -->
@@ -2021,31 +1994,6 @@
                                 <div class="swiper-button-next"></div>
                             </div>
                             <div class="btn-photo-minimize-view"><a href="#;" class="btn-photo-minimize-view__link MODAL-CLOSE"><img class="btn-photo-minimize-view__img" src="/assets/img/ico/ico-minimize-view.png"></a></div>
-                            <script>// Init Swiper
-                                function modalPhotoFullView(src){
-                                    $('#modalPhotoFullView').find('.swiper-wrapper').empty();
-                                    $('#modalPhotoFullView').find('.swiper-wrapper').html(`
-                                            <li class="swiper-slide">
-                                                <div class="swiper-zoom-container">
-                                                    <img src="${src}">
-                                                </div>
-                                            </li>
-                                        `);
-                                    let fullPhotoSwiper = new Swiper('#modalPhotoFullView .swiper-container', {
-                                        zoom: true,
-                                        loop: true,
-                                        pagination: {
-                                            el: '.swiper-pagination',
-                                            clickable: false,
-                                        },
-                                        navigation: {
-                                            nextEl: '.swiper-button-next',
-                                            prevEl: '.swiper-button-prev',
-                                        },
-                                        // Enable debugger
-                                    });
-                                }
-                            </script>
 
                         </div>
                         <!-- 모달 바디 End -->
