@@ -26,22 +26,6 @@
         <div class="content content-sz-choice">
             <div class="g">
                 <div class="r">
-                    <style>
-                        .sz-bg-design-choice{width:100%;flex:1;padding:10px;}
-                        .sz-bg-design-choice > ul{display:flex;flex-wrap:wrap;margin:0 -10px;width:calc(100% + 20px);}
-                        .sz-bg-design-choice__li{overflow:hidden;margin:15px 10px;width:calc((100% / 4) - 20px);}
-                        .sz-bg-design-choice__li:hover{transition:all 0.2s;transform:translate(0, -5px);}
-                        .sz-bg-design-choice__li__link{display:block;width:100%;overflow:hidden;}
-                        .sz-bg-design-choice__li__link__img{width:100%;display:block;}
-
-                        @media (max-width: 1000px) {
-                            .sz-bg-design-choice__li{width:calc((100% / 3) - 20px);}
-                        }
-                        @media (max-width: 500px) {
-                            .sz-bg-design-choice__li{width:calc((100% / 2) - 20px);}
-                        }
-
-                    </style>
                     <div class="c sz-bg-design-choice">
                         <ul>
                             <li class="sz-bg-design-choice__li"> <!-- col-6 col-md-4 col-lg-3 -->

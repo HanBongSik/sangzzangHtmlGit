@@ -41,21 +41,13 @@
                                         <a href="member_join.php">회원가입</a>
                                     </div>
                                 </div>
-                                <style>
-                                    .login > .r{margin-bottom:10px;}
-                                    .login > .r:nth-last-of-type(1){margin-bottom:0;}
-                                    .login__login-lnk{width:100%;text-align:center;}
-                                    .login-sns{display:block;width:100%;}
-                                    .login-sns__outer{display:inline-block;text-align:center;}
-                                    .login-sns__img{display:block;width:100%;max-height:40px;}
-                                </style>
                                 <div class="r">
                                     <div class="login-sns">
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/naver.png" alt="네이버"></a>
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/kakao.png" alt="카카오톡"></a>
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/google.png" alt="구글"></a>
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/facebook.png" alt="페이스북"></a>
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/instagram.png" alt="인스타그램"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-naver.png" alt="네이버"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-kakao.png" alt="카카오톡"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-google.png" alt="구글"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-facebook.png" alt="페이스북"></a>
+                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-instagram.png" alt="인스타그램"></a>
                                         <!--
                                         <a href="#;"><img src="./assets/img/kakaostory.png" alt="카카오스토리"></a>
                                         -->
@@ -1087,12 +1079,6 @@
     <!-- 검색 End -->
 
     <!-- 스티커 선택 -->
-    <style>
-        #modalSticker .modal-content{max-width:500px !important;width:100% !important;float:left !important;height:calc(var(--vh) - 0px) !important;max-height:calc(var(--vh) - 0px) !important;}
-        #modalSticker .sticker-choice{}
-        #modalSticker .sticker-choice li {float:left;width:33%;text-align:center;padding:10px;}
-        #modalSticker .sticker-choice li img{display:block;width:100%;}
-    </style>
     <div class="modal-dimmed" id="modalSticker">
         <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
@@ -1165,12 +1151,6 @@
 	<!-- 스티커 선택 End -->
 
     <!-- 도장 선택 -->
-    <style>
-        #modalStamp .modal-content{max-width:500px !important;width:100% !important;float:right !important;height:calc(var(--vh) - 0px) !important;max-height:calc(var(--vh) - 0px) !important;}
-        #modalStamp .stamp-choice{}
-        #modalStamp .stamp-choice li {float:left;width:33%;text-align:center;padding:10px;}
-        #modalStamp .stamp-choice li img{display:block;width:100%;}
-    </style>
     <div class="modal-dimmed" id="modalStamp">
         <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
@@ -1539,7 +1519,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1547,7 +1527,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1623,7 +1603,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1631,7 +1611,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1707,7 +1687,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1715,7 +1695,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1791,7 +1771,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1799,7 +1779,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1922,7 +1902,7 @@
                                     </div>
                                     <div class="c c-full-width center-right">
                                         <div class="like">
-                                            <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit-on.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                            <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit-on.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                         </div>
                                     </div>
                                     <div class="c c-inner-width center-right">
@@ -1930,7 +1910,7 @@
                                             <div class="img-more">
                                                 <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                     <div class="img-more__outer">
-                                                        <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                        <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                     </div>
                                                 </a>
                                             </div>
@@ -1996,16 +1976,12 @@
 
                             <!-- 모달 바디 -->
                             <div class="modal-body">
-                                <style>
-                                    .modal-list.sns{}
-                                    .modal-list.sns img{display:inline-block;height:20px}
-                                </style>
                                 <ul class="modal-list sns">
-                                    <li><a href="#;"><img src="/assets/img/naver.png" alt="네이버"> 네이버</a></li>
-                                    <li><a href="#;"><img src="/assets/img/kakao.png" alt="카카오톡"> 카카오톡</a></li>
-                                    <li><a href="#;"><img src="/assets/img/google.png" alt="구글"> 구글</a></li>
-                                    <li><a href="#;"><img src="/assets/img/facebook.png" alt="페이스북"> 페이스북</a></li>
-                                    <li><a href="#;"><img src="/assets/img/instagram.png" alt="인스타그램"> 인스타그램</a></li>
+                                    <li><a href="#;"><img src="/assets/img/ico/sns-naver.png" alt="네이버"> 네이버</a></li>
+                                    <li><a href="#;"><img src="/assets/img/ico/sns-kakao.png" alt="카카오톡"> 카카오톡</a></li>
+                                    <li><a href="#;"><img src="/assets/img/ico/sns-google.png" alt="구글"> 구글</a></li>
+                                    <li><a href="#;"><img src="/assets/img/ico/sns-facebook.png" alt="페이스북"> 페이스북</a></li>
+                                    <li><a href="#;"><img src="/assets/img/ico/sns-instagram.png" alt="인스타그램"> 인스타그램</a></li>
                                 </ul>
                             </div>
                             <!-- 모달 바디 End -->
@@ -2319,32 +2295,19 @@
 
 <!--                                        <div class="btn-more-action">-->
 <!--                                            <div class="img-more">-->
-<!--                                                <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>-->
+<!--                                                <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>-->
 <!--                                            </div>-->
 <!--                                        </div>-->
                                     </div>
                                 </div>
-
                             </div>
 
-                            <div class="user-skill-grp" style="margin:0 auto;width:278px;height:300px;">
-                            </div>
+                            <div class="user-skill-grp"></div>
+
                             <div class="user-skill-detail-grp">
                                 <div class="user-skill-detail-header">
                                     어빌리티
                                 </div>
-                                <style>
-                                    .user-skill-detail-header{font-weight:600;}
-                                    .user-skill-detail-body{margin-top:10px;}
-                                    .user-skill-detail-layout{}
-                                    .user-skill-detail-layout ul{overflow:hidden;}
-                                    .user-skill-detail-layout li{float:left;width:50%;display:flex;padding:5px 0;}
-                                    .user-skill-detail-layout .user-skill-detail-title{float:left;width:50%;font-size:14px;display:flex;align-items:center;justify-content:center;font-weight:600;overflow:auto;word-break:keep-all;}
-                                    .user-skill-detail-layout .user-skill-detail-title span{display:inline-block;padding:0 5px;}
-                                    .user-skill-detail-layout .user-skill-detail-value{float:left;width:50%;font-size:12px;display:flex;align-items:center;justify-content:center;}
-                                    .user-skill-detail-layout .user-skill-detail-value span{display:inline-block;padding-right:5px;}
-                                    .user-skill-detail-layout .user-skill-detail-value span:nth-last-of-type(1){padding-right:0px;}
-                                </style>
                                 <div class="user-skill-detail-body">
                                     <div class="user-skill-detail-layout">
                                         <ul>

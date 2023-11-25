@@ -61,7 +61,7 @@
                                                 <div class="img-more">
                                                     <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                         <div class="img-more__outer">
-                                                            <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                            <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                         </div>
                                                     </a>
                                                 </div>
@@ -162,7 +162,7 @@
                                                                 <div class="g comments-num">
                                                                     <div class="r">
                                                                         <div class="c">
-                                                                            <img src="/assets/img/ico-comment.png" class="comments-num__img" alt="충전완료">
+                                                                            <img src="/assets/img/ico/ico-comment.png" class="comments-num__img" alt="충전완료">
                                                                         </div>
                                                                         <div class="c">
                                                                             <div class="comment-num">
@@ -178,7 +178,7 @@
                                                         <div class="r action-btn">
                                                             <a href="#;" class="btn-action__link " data-target="#modalShare">
                                                                 <div class="img-charge">
-                                                                    <img src="/assets/img/ico-charge.png" class="btn-action__img" alt="충전">
+                                                                    <img src="/assets/img/ico/ico-charge.png" class="btn-action__img" alt="충전">
                                                                 </div>
                                                             </a>
                                                         </div>
@@ -223,14 +223,14 @@
                                             <!--                                        <li class="c action-btn__list__item">-->
                                             <!--                                            <div class="r action-btn">-->
                                             <!--                                                <a href="#;" class="MODAL-BTN btn-action__link" id="btnCharge" data-target="#modalShare">-->
-                                            <!--                                                    <img src="/assets/img/ico-charge.png" class="btn-action__img" alt="충전">-->
+                                            <!--                                                    <img src="/assets/img/ico/ico-charge.png" class="btn-action__img" alt="충전">-->
                                             <!--                                                </a>-->
                                             <!--                                            </div>-->
                                             <!--                                        </li>-->
                                             <!--                                        <li class="c action-btn__list__item">-->
                                             <!--                                            <div class="r action-btn">-->
                                             <!--                                                <a href="#;" class="MODAL-BTN btn-action__link" id="share" data-target="#modalShare">-->
-                                            <!--                                                    <img src="/assets/img/ico-comment.png" class="btn-action__img" alt="충전완료">-->
+                                            <!--                                                    <img src="/assets/img/ico/ico-comment.png" class="btn-action__img" alt="충전완료">-->
                                             <!--                                                </a>-->
                                             <!--                                            </div>-->
                                             <!--                                        </li>-->
@@ -403,7 +403,7 @@
                                                 <div class="img-more">
                                                     <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                         <div class="img-more__outer">
-                                                            <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                            <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                         </div>
                                                     </a>
                                                 </div>
@@ -555,7 +555,7 @@
                                                                 <div class="g comments-num">
                                                                     <div class="r">
                                                                         <div class="c">
-                                                                            <img src="/assets/img/ico-comment.png" class="comments-num__img" alt="충전완료">
+                                                                            <img src="/assets/img/ico/ico-comment.png" class="comments-num__img" alt="충전완료">
                                                                         </div>
                                                                         <div class="c">
                                                                             <div class="comment-num">
@@ -571,7 +571,7 @@
                                                         <div class="r action-btn">
                                                             <a href="#;" class="btn-action__link " data-target="#modalShare">
                                                                 <div class="img-charge">
-                                                                    <img src="/assets/img/ico-charge-on.png" class="btn-action__img" alt="충전">
+                                                                    <img src="/assets/img/ico/ico-charge-on.png" class="btn-action__img" alt="충전">
                                                                 </div>
                                                             </a>
                                                         </div>

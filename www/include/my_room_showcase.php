@@ -1,14 +1,5 @@
 
     <h2 class="blind">쇼케이스</h2>
-    <style>
-        #showcase .post__list > .r > .c{
-        position: relative;
-        margin-bottom: 30px;
-        padding-bottom: 20px;
-        background: url(/assets/img/bg_showcase_seperate.png) left bottom repeat-x;
-        background-size: 100% 25px;}
-        #showcase .post__list__outer{background:#fff;}
-    </style>
     <div class="g post__list">
         <ul class="r">
 

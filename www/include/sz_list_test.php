@@ -78,7 +78,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -267,7 +267,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -453,7 +453,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -643,7 +643,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -829,7 +829,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -1015,7 +1015,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -1200,7 +1200,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -1385,7 +1385,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -1570,7 +1570,7 @@
 
                                 <div class="btn-more-action">
                                     <div class="img-more">
-                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                        <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>

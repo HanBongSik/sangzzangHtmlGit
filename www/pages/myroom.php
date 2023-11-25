@@ -98,7 +98,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>

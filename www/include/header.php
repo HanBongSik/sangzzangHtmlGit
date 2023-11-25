@@ -14,8 +14,8 @@
                 </span>
                 <nav class="c header__top-nav">
 <!--                    <a href="#;" id="header-search"><img class="header__top-nav__ico-search" src="/assets/img/search.png" alt="검색"></a>-->
-                    <a href="#;" id="user" class="MODAL-BTN" data-target="#modalLogin"><img class="header__top-nav__ico-user" src="/assets/img/ico-user.png" alt="회원"></a>
-                    <a href="#;" id="user" class="MODAL-BTN" data-target="#modalUser"><img class="header__top-nav__ico-user" src="/assets/img/ico-user.png" alt="회원"></a>
+                    <a href="#;" id="user" class="MODAL-BTN" data-target="#modalLogin"><img class="header__top-nav__ico-user" src="/assets/img/ico/ico-user.png" alt="회원"></a>
+                    <a href="#;" id="user" class="MODAL-BTN" data-target="#modalUser"><img class="header__top-nav__ico-user" src="/assets/img/ico/ico-user.png" alt="회원"></a>
                 </nav>
             </div>
 

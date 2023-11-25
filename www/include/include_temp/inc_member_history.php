@@ -27,7 +27,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -54,12 +54,12 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="./assets/img/ico/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="./assets/img/ico/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
@@ -147,7 +147,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -174,12 +174,12 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="./assets/img/ico/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="./assets/img/ico/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
@@ -267,7 +267,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -294,12 +294,12 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="./assets/img/ico/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="./assets/img/ico/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
@@ -387,7 +387,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -414,12 +414,12 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="./assets/img/ico/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="./assets/img/ico/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
@@ -507,7 +507,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -534,12 +534,12 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="./assets/img/ico/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="./assets/img/ico/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
@@ -627,7 +627,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -654,12 +654,12 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="./assets/img/ico/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="./assets/img/ico/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">
@@ -747,7 +747,7 @@
 														</div>
 														<div class="user-more">
 															<div class="tooltip small right bottom">
-																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico-more.png" alt=""></a>
+																<a href="#;" class="trigger"><img class="ico-more" src="./assets/img/ico/ico-more.png" alt=""></a>
 																<div class="layer">
 																	<ul>
 																		<li><a href="#;">수정</a></li>
@@ -774,12 +774,12 @@
 															<div class="sz-function sz-function-02">
 																<a href="#;">
 																	<span class="love">
-																		<img class="ico-love" src="./assets/img/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
+																		<img class="ico-love" src="./assets/img/ico/ico-loveit-on.png" alt="love it!"> <span class="nums">7,198</span>
 																	</span>
 																</a>
 																<a href="#communication">
 																	<span class="commucation">
-																		<img class="ico-comment" src="./assets/img/ico-comment.png" alt="reply"> <span class="nums">624</span>
+																		<img class="ico-comment" src="./assets/img/ico/ico-comment.png" alt="reply"> <span class="nums">624</span>
 																	</span>
 																</a>
 																<a href="#photo">

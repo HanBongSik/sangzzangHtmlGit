@@ -3,19 +3,19 @@
 			<div class="r container">
 				<div class="c footer__list">
 					<a href="/pages/list.php">
-						<div class="footer__list__ico"><img src="/assets/img/folder.png" alt=""/></div>
+						<div class="footer__list__ico"><img src="/assets/img/ico/footer-nav-list.png" alt=""/></div>
 						<p class="footer__list__name">상짱</p>
 					</a>
 				</div>
 				<div class="c footer__list">
 					<a href="/pages/myroom.php">
-						<div class="footer__list__ico"><img src="/assets/img/diploma.png" alt=""/></div>
+						<div class="footer__list__ico"><img src="/assets/img/ico/footer-nav-my-room.png" alt=""/></div>
 						<p class="menu-name">내상짱</p>
 					</a>
 				</div>
 				<div class="c footer__list">
 					<a href="/pages/sz_choice.php">
-						<div class="footer__list__ico"><img src="/assets/img/love-letter.png" alt=""/></div>
+						<div class="footer__list__ico"><img src="/assets/img/ico/footer-nav-writing.png" alt=""/></div>
 						<p class="menu-name">만들기</p>
 					</a>
 				</div>
@@ -29,7 +29,7 @@
 				-->
 				<div class="c footer__list">
 					<a href="/pages/podium.php">
-						<div class="footer__list__ico"><img src="/assets/img/podium22.png" alt=""/></div>
+						<div class="footer__list__ico"><img src="/assets/img/ico/footer-nav-podium.png" alt=""/></div>
 						<p class="menu-name">포디움</p>
 					</a>
 				</div>
@@ -37,7 +37,7 @@
 
                 <div class="c footer__list">
                     <a href="#;" class="MODAL-BTN" data-target="#modalSearch" id="search">
-                        <div class="footer__list__ico"><img src="/assets/img/search.png" alt=""/></div>
+                        <div class="footer__list__ico"><img src="/assets/img/ico/footer-nav-search.png" alt=""/></div>
                         <p class="menu-name">검색</p>
                     </a>
                 </div>
@@ -46,7 +46,7 @@
 					<a href="#;" class="MODAL-BTN" data-target="#modalAlarm" id="alarm">
 						<div class="footer__list__ico">
 							<span class="alarm">
-								<img src="/assets/img/notification.png" alt=""/>
+								<img src="/assets/img/ico/footer-nav-notification.png" alt=""/>
 								<span class="alarm-new">New</span>
 							</span>
 						</div>

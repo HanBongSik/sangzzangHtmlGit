@@ -145,7 +145,7 @@
                         <div class="sz-function sz-function-01 shadow">
                             <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap" title="스크랩">
                                 <span class="scrap">
-                                    <img src="/assets/img/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
+                                    <img src="/assets/img/ico/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
                                 </span>
                             </a>
                             <a href="#;" id="copy" class="MODAL-BTN" data-target="#modalCopyAndWrite" title="복사">
@@ -955,21 +955,21 @@
                                                     <label for="privateAll">전체공개</label>
                                                     <span class="radio-ico"></span>
                                                 </span>
-                                                    <span class="forms btn-radio">
-                                                    <input type="radio" name="private-type" value="private-secret" id="privateSecret">
-                                                    <label for="privateSecret">비공개</label>
-                                                    <span class="radio-ico"></span>
-                                                </span>
-                                                    <span class="forms btn-radio">
-                                                    <input type="radio" name="private-type" value="private-link" id="privateLink">
-                                                    <label for="privateLink">일부공개</label>
-                                                    <span class="radio-ico"></span>
-                                                </span>
-                                                    <span class="forms btn-radio">
-                                                    <input type="radio" name="private-type" value="private-follow" id="privateFollow">
-                                                    <label for="privateFollow">팔로우만 공개</label>
-                                                    <span class="radio-ico"></span>
-                                                </span>
+<!--                                                <span class="forms btn-radio">-->
+<!--                                                    <input type="radio" name="private-type" value="private-secret" id="privateSecret">-->
+<!--                                                    <label for="privateSecret">비공개</label>-->
+<!--                                                    <span class="radio-ico"></span>-->
+<!--                                                </span>-->
+<!--                                                <span class="forms btn-radio">-->
+<!--                                                    <input type="radio" name="private-type" value="private-link" id="privateLink">-->
+<!--                                                    <label for="privateLink">일부공개</label>-->
+<!--                                                    <span class="radio-ico"></span>-->
+<!--                                                </span>-->
+<!--                                                <span class="forms btn-radio">-->
+<!--                                                    <input type="radio" name="private-type" value="private-follow" id="privateFollow">-->
+<!--                                                    <label for="privateFollow">팔로우만 공개</label>-->
+<!--                                                    <span class="radio-ico"></span>-->
+<!--                                                </span>-->
                                             </div>
 
                                             <!--                                        <div class="forms">-->
@@ -997,7 +997,7 @@
                             <div class="r SZ-WRITE-detail__row">
                                 <div class="c">
                                     <div class="btn-group">
-                                        <button type="button" id="SAVE" class="btn btn-white btn-lg" >미리보기</button>
+<!--                                        <button type="button" id="SAVE" class="btn btn-white btn-lg" >미리보기</button>-->
                                         <button type="button" id="SAVE" class="btn btn-primary btn-lg" onclick="go('./sz_view.php')">작성완료</button>
                                         <button type="button" class="btn btn-black btn-lg" onclick="confirm('정말 초기화하시겠습니까?')">초기화</button>
                                     </div>

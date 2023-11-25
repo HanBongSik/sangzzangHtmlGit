@@ -88,7 +88,7 @@
                                                         <div class="img-more">
                                                             <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                                 <div class="img-more__outer">
-                                                                    <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                    <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                                 </div>
                                                             </a>
                                                         </div>
@@ -279,7 +279,7 @@
                                         <div class="sz-function sz-function-01 shadow">
                                             <a href="#;" id="scrap" class="MODAL-BTN" data-target="#modalScrap" title="스크랩">
                                                 <span class="scrap">
-                                                    <img src="/assets/img/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
+                                                    <img src="/assets/img/ico/ico-scrap.png" alt=""> <span class="sz-function-name">스크랩</span>
                                                 </span>
                                             </a>
                                             <a href="#;" id="copy" class="MODAL-BTN" data-target="#modalCopyAndWrite" title="복사">
@@ -385,7 +385,7 @@
                                                                         <div class="g comments-num">
                                                                             <div class="r">
                                                                                 <div class="c">
-                                                                                    <img src="/assets/img/ico-comment.png" class="comments-num__img" alt="충전완료">
+                                                                                    <img src="/assets/img/ico/ico-comment.png" class="comments-num__img" alt="충전완료">
                                                                                 </div>
                                                                                 <div class="c">
                                                                                     <div class="comment-num">
@@ -401,7 +401,7 @@
                                                                 <div class="r action-btn">
                                                                     <a href="#;" class="btn-action__link " data-target="#modalShare">
                                                                         <div class="img-charge">
-                                                                            <img src="/assets/img/ico-charge-on.png" class="btn-action__img" alt="충전">
+                                                                            <img src="/assets/img/ico/ico-charge-on.png" class="btn-action__img" alt="충전">
                                                                         </div>
                                                                     </a>
                                                                 </div>
@@ -931,7 +931,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit-on.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit-on.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -939,7 +939,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1015,7 +1015,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1023,7 +1023,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1088,7 +1088,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit-on.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit-on.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1096,7 +1096,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1161,7 +1161,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1169,7 +1169,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1234,7 +1234,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1242,7 +1242,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1307,7 +1307,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1315,7 +1315,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1391,7 +1391,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1399,7 +1399,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1464,7 +1464,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1472,7 +1472,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1548,7 +1548,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1556,7 +1556,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1632,7 +1632,7 @@
                                             </div>
                                             <div class="c c-full-width center-right">
                                                 <div class="like">
-                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
+                                                    <a href="#;"><span class="ico-like"><img class="ico-like__img" src="/assets/img/ico/ico-loveit.png" alt="좋아요"></span><span class="ico-like-num">20</span></a>
                                                 </div>
                                             </div>
                                             <div class="c c-inner-width center-right">
@@ -1640,7 +1640,7 @@
                                                     <div class="img-more">
                                                         <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
                                                             <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico-more.png" alt="">
+                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
                                                             </div>
                                                         </a>
                                                     </div>

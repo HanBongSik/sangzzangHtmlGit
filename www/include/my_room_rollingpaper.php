@@ -1,6 +1,6 @@
 
     <div class="rollingpaper-banner">
-        <img class="rollingpaper-banner__img" src="/assets/img/test-channels4_banner.gif" alt=""/>
+        <img class="rollingpaper-banner__img" src="/assets/tempImg/test-channels4_banner.gif" alt=""/>
 <!--        <div class="modify">-->
 <!--            <button type="button" class="button medium extend button-square">수정</button>-->
 <!--        </div>-->
@@ -13,7 +13,7 @@
 
     <h3 class="h3 _bold"></h3>
     <div class="post-state">
-        <img class="ico-comment" src="/assets/img/ico-comment.png" alt="커뮤니케이션"> <span class="nums">16개</span>
+        <img class="ico-comment" src="/assets/img/ico/ico-comment.png" alt="커뮤니케이션"> <span class="nums">16개</span>
     </div>
     <div>
         <a href="/assets/img/sample/sample-07.png" target="_blank"><img class="concept" src="/assets/img/sample/concept-01.png" alt=""></a>
@@ -27,7 +27,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -102,7 +102,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -179,7 +179,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option on">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -255,7 +255,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option on">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -332,7 +332,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option on">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -412,7 +412,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -487,7 +487,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option on">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -564,7 +564,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option on">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -640,7 +640,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option on">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>
@@ -717,7 +717,7 @@
                     <div class="postit__header">
                         <div class="postit__header__option on">
                             <div class="postit__header__option__setting">
-                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico-more.png" alt=""></a>
+                                <a href="javascript:void(0);" class="trigger"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>
                             </div>
                             <div class="postit__header__option__list">
                                 <a href="javascript:void(0);" class="postit__header__option__list__link"><div class="color yellow"></div></a>

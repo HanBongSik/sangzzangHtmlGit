@@ -21,7 +21,7 @@
         <br></br>
         <div style="text-align:center;border-radius:20px;overflow:hidden;">
             <a href="http://requestman.cafe24.com/golden/" class="golden-saying-wrapper-a">
-                <img src="/assets/img/golden_saying_front.jpg" style="text-align:center;border-radius:20px;overflow:hidden;">
+                <img src="/assets/tempImg/golden_saying_front.jpg" style="text-align:center;border-radius:20px;overflow:hidden;">
             </a>
         </div>
 

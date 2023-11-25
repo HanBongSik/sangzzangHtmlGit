@@ -942,6 +942,14 @@ input[type="radio"].tertiary:disabled + label
 
 .btn-checkbox input[type="checkbox"]:checked + label,
 .btn-radio input[type="radio"]:checked + label
+{border:1px solid var(--black);color: var(--black);background:#fff;}
+
+.btn-checkbox input[type="checkbox"]:disabled + label,
+.btn-radio input[type="radio"]:disabled + label
+{background:var(--input-disabled-bg);color:var(--input-disabled-color);}
+
+.btn-checkbox input[type="checkbox"]:checked.primary + label,
+.btn-radio input[type="radio"]:checked.primary + label
 {border:1px solid var(--primary);color: var(--primary);background:#fff;}
 
 .btn-checkbox input[type="checkbox"]:disabled + label,
