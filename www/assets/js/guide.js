@@ -186,6 +186,7 @@ function noPullRefreshModalOff(el){
             $(el).css('overflow','hidden');
         }
         noPullRefreshModalOn(el);
+        modalOnAfterImmediately(el);
         setTimeout(function(e) {
             modalOnAfter(el);
             // e.preventDefault();
@@ -204,6 +205,13 @@ function noPullRefreshModalOff(el){
             let src = $('.swiper-slide-active .img-photo').eq(0).attr('src');
             modalPhotoFullView(src);
         }
+        if(el == '#modalAddAbility'){
+            setTimeout(function(e) {
+                document.querySelector("#modalAddAbility .tagify__input").click();
+            },timeOutNum);
+        }
+    }
+    function modalOnAfterImmediately(el){
     }
 
     function modalOff(el){
@@ -232,6 +240,7 @@ function noPullRefreshModalOff(el){
         }
 
         noPullRefreshModalOff(el);
+        modalOffAfterImmediately(el);
         setTimeout(function(e) {
             modalOffAfter(el);
             // e.preventDefault();
@@ -240,6 +249,13 @@ function noPullRefreshModalOff(el){
         // alert(aniOff && aniOff.length > 0)
         // alert(aniOffInner && aniOffInner.length > 0)
     }
+function modalOffAfterImmediately(el){
+    if(el == '#modalAddAbility'){
+        if(document.querySelectorAll(".tagify__dropdown").length > 0){
+            document.querySelector(".tagify__dropdown").style.display = "none";
+        }
+    }
+}
 function modalOffAfter(el){
     if(el == '#modalSzDownload'){
         $('#modalSzDownload .sz-download-modal-col').empty();
@@ -273,7 +289,6 @@ function modalOffAfter(el){
             });
         });
     }
-
 /* 모달 팝업 End */
 
 /** 탭 */

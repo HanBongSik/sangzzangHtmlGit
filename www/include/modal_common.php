@@ -763,9 +763,8 @@
                         <!-- 모달 헤더 End -->
 
                         <!-- 모달 바디 -->
-                        <div class="modal-body">
-                            <div class="search-layer-body">
-
+                        <div class="modal-body no-scroll">
+                            <div class="exword-layer-body">
                                 <div class="search">
                                     <div class="g search-input">
                                         <div class="r gap-hor-sm">
@@ -791,8 +790,8 @@
                                         <div class="tab__list">
                                             <div class="ex-words__outer">
                                                 <div class="ex-words__list">
-                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExWords">전체</button>
-                                                    <button type="button" class="words__list__item btn-badge TAB-BTN active" data-target="#tabExThankyou">😊고맙다</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN active" data-target="#tabExWords">전체</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExThankyou">😊고맙다</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExFun">😝즐거웠다</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExCheerUp">🤯힘내라</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExEffort">😍수고했다</button>
@@ -802,6 +801,7 @@
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExClassicCertificates">수료증</button>
                                                 </div>
                                                 <div class="ex-words__list">
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabKeyword">키워드로 작성</button>
                                                     <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabExScquaintance">지인</button>
                                                     <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabFriend">친구</button>
                                                     <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabDifferentGender">이성</button>
@@ -826,6 +826,7 @@
                                                 <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
                                                 <!-- 고맙다 검색 End -->
                                             </div>
+
                                             <div id="tabExFun" class="panel" tabindex="0">
                                                 <!-- 즐거웠다 검색 -->
                                                 <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
@@ -868,6 +869,11 @@
                                                 <!-- 수료증 검색 End -->
                                             </div>
 
+                                            <div id="tabKeyword" class="panel" tabindex="0">
+                                                <!-- 키워드로 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_keyword.php"); ?>
+                                                <!-- 키워드로 End -->
+                                            </div>
 
                                             <div id="tabExScquaintance" class="panel" tabindex="0">
                                                 <!-- 지인 검색 -->
@@ -1400,6 +1406,91 @@
 
                         <!-- 모달 바디 -->
                         <div class="modal-body">
+                            <div class="private">
+<!--                                <a href="#;" class="MODAL-BTN" data-target="#modalGuide"><h3 class="h3">공개 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>-->
+
+                                <div class="private__outer">
+                                    <div class="private__inner">
+                                        <span class="forms btn-radio">
+                                            <input type="radio" name="modal-private-type" value="private-all" id="modalPrivateAll" checked="checked">
+                                            <label for="modalPrivateAll">전체공개</label>
+                                            <span class="radio-ico"></span>
+                                        </span>
+                                        <span class="forms btn-radio">
+                                            <input type="radio" name="modal-private-type" value="private-secret" id="modalPrivateSecret">
+                                            <label for="modalPrivateSecret">비공개</label>
+                                            <span class="radio-ico"></span>
+                                        </span>
+                                        <span class="forms btn-radio">
+                                            <input type="radio" name="modal-private-type" value="private-link" id="modalPrivateLink">
+                                            <label for="modalPrivateLink">일부공개</label>
+                                            <span class="radio-ico"></span>
+                                        </span>
+                                        <span class="forms btn-radio">
+                                            <input type="radio" name="modal-private-type" value="private-follow" id="modalPrivateFollow">
+                                            <label for="modalPrivateFollow">팔로우만 공개</label>
+                                            <span class="radio-ico"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="modal-option-desc">
+                                    <div class="g search-input">
+                                        <div class="r gap-hor-sm">
+                                            <div class="c">
+                                                <span class="forms forms-full">
+                                                    <input type="text" placeholder="링크를 입력하세요." value="" id="privateLinkInput" class="INPUT-RESET">
+                                                    <button class="INPUT-RESET-BTN" data-target="#privateLinkInput">×</button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="modal-option-desc__list">
+                                        <li class="modal-option-desc__list__item">
+                                            공개 : 모든 사람들이 볼 수 있습니다.
+                                        </li>
+                                        <li class="modal-option-desc__list__item">
+                                            비공개 : 나와 받은 사람만 볼 수 있습니다.
+                                        </li>
+                                        <li class="modal-option-desc__list__item">
+                                            일부공개 : 링크 주소로 접속한  사람만 볼 수 있습니다.
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 모달 바디 End -->
+
+                        <!-- 모달 푸터 -->
+                        <div class="modal-footer">
+                            <button class="btn">확인</button>
+                            <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        </div>
+                        <!-- 모달 푸터 End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 쇼케이스 진열 유무  End -->
+
+    <!-- 쇼케이스 진열 유무  -->
+    <div class="modal-dimmed" id="modalSzPublic2" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
+        <div class="modal">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
+                        <div class="modal-close">
+                            <a href="#modal" class="MODAL-CLOSE">×<span class="hidden">닫기</span></a>
+                        </div>
+                        <!-- 모달 헤더 -->
+                        <div class="modal-header">
+                            <h2>공개유무</h2>
+                        </div>
+                        <!-- 모달 헤더 End -->
+
+                        <!-- 모달 바디 -->
+                        <div class="modal-body">
                             <div class="r sz-public-select">
                                 <span class="forms">
                                     <input type="radio" name="sz-public" value="sz-public-1" id="sz-public-visible" checked="checked">
@@ -1443,7 +1534,6 @@
         </div>
     </div>
     <!-- 쇼케이스 진열 유무  End -->
-
 
     <!-- 답글 내역 팝업  -->
     <div class="modal-dimmed" id="modalReplyHistory" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
@@ -2211,7 +2301,7 @@
                                 <!--                            </div>-->
 
                                 <div class="add-ability">
-                                    <input type="text" name="tagInput" class="add-ability-input" placeholder="능력 입력하세요." value="" autocomplete="off" style="position:absolute;left:-99999999999px;top:-99999999999px;">
+                                    <input type="text" name="tagInput" class="add-ability-input" id="input-ability" placeholder="능력 입력하세요." value="" autocomplete="off" style="position:absolute;left:-99999999999px;top:-99999999999px;">
                                 </div>
                             </div>
                             <!-- 모달 바디 End -->

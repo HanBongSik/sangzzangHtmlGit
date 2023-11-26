@@ -92,7 +92,7 @@
                                             <button type="button" class="button SELECT-ALL" title="전체선택"><img src="/assets/img/ico/ico-select-all.png"></button>
                                             <button type="button" class="button FONT-UP" title="폰트 크게">+</button>
                                             <button type="button" class="button FONT-DOWN" title="폰트 작게">ㅡ</button>
-                                            <button type="button" class="button EDITOR-EASY" title="easy" onclick="window.open('/pages/writing_ai.php', '', '_blank');"><img src="/assets/img/ico/ico-ai.png"></button>
+                                            <button type="button" class="button EDITOR-KEYWORD" title="키워드로 작성" onclick="window.open('/pages/writing_ai.php', '', '_blank');"><img src="/assets/img/ico/ico-ai.png"></button>
                                             <button type="button" class="button EDITOR-CLOSE" title="에디터 닫기">x</button>
                                         </div>
                                     </div>
@@ -251,6 +251,7 @@
                                             <div class="tab__list">
                                                 <div class="ex-words__outer">
                                                     <div class="ex-words__list">
+                                                        <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">전체</button>
                                                         <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">😊고맙다</button>
                                                         <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">😝즐거웠다</button>
                                                         <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">🤯힘내라</button>
@@ -261,6 +262,7 @@
                                                         <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">수료증</button>
                                                     </div>
                                                     <div class="ex-words__list">
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">키워드로 작성</button>
                                                         <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">지인</button>
                                                         <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">친구</button>
                                                         <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">이성</button>
@@ -291,48 +293,36 @@
                                             <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3><span class="ico-required">*</span>능력 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>
                                         </div>
                                         <div class="sz-writing-ability">
-                                            <div class="g tag-skills">
-                                                <ul class="r tag-skills__list">
-                                                    <li class="c tag-skills__list__item">
+                                            <div class="g tag-ability">
+                                                <ul class="r tag-ability__list">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
-                                                            <span class="tag-skill__num"><span class="tag-skill__value">12</span><span class="tag-skill__up">↑</span></span>
-                                                            <span class="tag-skill__name">패션</span>
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">뷰티</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
-                                                            <span class="tag-skill__num"><span class="tag-skill__value">82</span><span class="tag-skill__up">↑</span></span>
-                                                            <span class="tag-skill__name">아트</span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="c tag-skills__list__item">
-                                                        <div class="tag-skill">
-                                                            <span class="tag-skill__num"><span class="tag-skill__value">90</span><span class="tag-skill__up">↑</span></span>
-                                                            <span class="tag-skill__name">beauty</span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="c tag-skills__list__item">
-                                                        <div class="tag-skill">
-                                                            <span class="tag-skill__num"><span class="tag-skill__value">666</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
                                                             <span class="tag-skill__name">게임</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
-                                                            <span class="tag-skill__num"><span class="tag-skill__value">37</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
                                                             <span class="tag-skill__name">맥북</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
-                                                            <span class="tag-skill__num"><span class="tag-skill__value">8</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
                                                             <span class="tag-skill__name">여행</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
-                                                            <span class="tag-skill__num"><span class="tag-skill__value">90</span><span class="tag-skill__up">↑</span></span>
-                                                            <span class="tag-skill__name">nature</span>
+                                                            <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
+                                                            <span class="tag-skill__name">자연</span>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -905,9 +895,18 @@
                                                     <div class="h3">
                                                         <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>링크 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>
                                                     </div>
+
                                                     <div class="forms">
-                                                        <label for="source" class="hidden">링크</label>
-                                                        <input type="text" id="source" placeholder="" class="primary source-input">
+                                                        <div class="g link-input">
+                                                            <div class="r gap-hor-sm">
+                                                                <div class="c">
+                                                                    <span class="forms forms-full">
+                                                                        <input type="text" placeholder="링크를 입력하세요." value="" id="privateLinkInput" class="INPUT-RESET">
+                                                                        <button class="INPUT-RESET-BTN" data-target="#privateLinkInput">×</button>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -950,7 +949,7 @@
                                                 <!--                                                </label>-->
                                                 <!--                                            </span>-->
 
-                                                <span class="forms btn-radio">
+                                                <span class="forms btn-radio MODAL-BTN" data-target="#modalSzPublic">
                                                     <input type="radio" name="private-type" value="private-all" id="privateAll" checked="checked">
                                                     <label for="privateAll">전체공개</label>
                                                     <span class="radio-ico"></span>
@@ -990,7 +989,7 @@
                             <div class="r SZ-WRITE-detail__row">
                                 <div class="c">
                                     <div class="guide">
-                                        <p><img class="ico-info" src="/assets/img/ico/ico-info.png" alt="?"> 프린트는 작성완료 후 가능합니다.</p>
+                                        <p><img class="ico-info" src="/assets/img/ico/ico-info.png" alt="?"> 프린트(이미지 저장)는 작성완료 후 가능합니다.</p>
                                     </div>
                                 </div>
                             </div>

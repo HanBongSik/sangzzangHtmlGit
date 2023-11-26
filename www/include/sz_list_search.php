@@ -90,45 +90,45 @@
                     </div>
                 </div>
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num"><span class="tag-skill__value">12</span><span class="tag-skill__up">↑</span></span>
                                     <span class="tag-skill__name">패션</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num"><span class="tag-skill__value">82</span><span class="tag-skill__up">↑</span></span>
                                     <span class="tag-skill__name">아트</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num"><span class="tag-skill__value">90</span><span class="tag-skill__up">↑</span></span>
                                     <span class="tag-skill__name">beauty</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num"><span class="tag-skill__value">666</span><span class="tag-skill__up">↑</span></span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num"><span class="tag-skill__value">37</span><span class="tag-skill__up">↑</span></span>
                                     <span class="tag-skill__name">맥북</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num"><span class="tag-skill__value">8</span><span class="tag-skill__up">↑</span></span>
                                     <span class="tag-skill__name">여행</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num"><span class="tag-skill__value">90</span><span class="tag-skill__up">↑</span></span>
                                     <span class="tag-skill__name">nature</span>
@@ -275,9 +275,9 @@
                                                     </div>
                                                     <div class="r">
                                                         <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
+                                                            <div class="g tag-ability tag-ability-st01">
+                                                                <ul class="r tag-ability__list">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill style-01">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-95">95%</div>
@@ -285,7 +285,7 @@
                                                                             <span class="tag-skill__name">패션</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-85">85%</div>
@@ -293,7 +293,7 @@
                                                                             <span class="tag-skill__name">아트</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-50">50%</div>
@@ -301,7 +301,7 @@
                                                                             <span class="tag-skill__name">beauty</span>
                                                                         </div>
                                                                     </li>
-<!--                                                                    <li class="c tag-skills__list__item">-->
+<!--                                                                    <li class="c tag-ability__list__item">-->
 <!--                                                                        <div class="tag-skill">-->
 <!--                                                                            <div class="tag-skill__gauge-bg"></div>-->
 <!--                                                                            <div class="tag-skill__gauge w-78">78%</div>-->
@@ -309,7 +309,7 @@
 <!--                                                                            <span class="tag-skill__name">게임</span>-->
 <!--                                                                        </div>-->
 <!--                                                                    </li>-->
-<!--                                                                    <li class="c tag-skills__list__item">-->
+<!--                                                                    <li class="c tag-ability__list__item">-->
 <!--                                                                        <div class="tag-skill">-->
 <!--                                                                            <div class="tag-skill__gauge-bg"></div>-->
 <!--                                                                            <div class="tag-skill__gauge w-65">65%</div>-->
@@ -317,7 +317,7 @@
 <!--                                                                            <span class="tag-skill__name">맥북</span>-->
 <!--                                                                        </div>-->
 <!--                                                                    </li>-->
-<!--                                                                    <li class="c tag-skills__list__item">-->
+<!--                                                                    <li class="c tag-ability__list__item">-->
 <!--                                                                        <div class="tag-skill">-->
 <!--                                                                            <div class="tag-skill__gauge-bg"></div>-->
 <!--                                                                            <div class="tag-skill__gauge w-15">15%</div>-->
@@ -325,7 +325,7 @@
 <!--                                                                            <span class="tag-skill__name">여행</span>-->
 <!--                                                                        </div>-->
 <!--                                                                    </li>-->
-<!--                                                                    <li class="c tag-skills__list__item">-->
+<!--                                                                    <li class="c tag-ability__list__item">-->
 <!--                                                                        <div class="tag-skill">-->
 <!--                                                                            <div class="tag-skill__gauge-bg"></div>-->
 <!--                                                                            <div class="tag-skill__gauge w-15">15%</div>-->
@@ -456,27 +456,27 @@
                 </div>
 
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">82</span>
                                     <span class="tag-skill__name">아트</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">beauty</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">666</span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">nature</span>
@@ -611,9 +611,9 @@
                                                     </div>
                                                     <div class="r">
                                                         <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
+                                                            <div class="g tag-ability tag-ability-st01">
+                                                                <ul class="r tag-ability__list">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-78">78%</div>
@@ -621,7 +621,7 @@
                                                                             <span class="tag-skill__name">게임</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-65">65%</div>
@@ -629,7 +629,7 @@
                                                                             <span class="tag-skill__name">맥북</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -637,7 +637,7 @@
                                                                             <span class="tag-skill__name">여행</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -773,21 +773,21 @@
                 </div>
 
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">12</span>
                                     <span class="tag-skill__name">패션</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">666</span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">37</span>
                                     <span class="tag-skill__name">맥북</span>
@@ -919,9 +919,9 @@
                                                     </div>
                                                     <div class="r">
                                                         <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
+                                                            <div class="g tag-ability tag-ability-st01">
+                                                                <ul class="r tag-ability__list">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill style-01">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-95">95%</div>
@@ -929,7 +929,7 @@
                                                                             <span class="tag-skill__name">패션</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-85">85%</div>
@@ -937,7 +937,7 @@
                                                                             <span class="tag-skill__name">아트</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-50">50%</div>
@@ -945,7 +945,7 @@
                                                                             <span class="tag-skill__name">beauty</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-78">78%</div>
@@ -953,7 +953,7 @@
                                                                             <span class="tag-skill__name">게임</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-65">65%</div>
@@ -961,7 +961,7 @@
                                                                             <span class="tag-skill__name">맥북</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -969,7 +969,7 @@
                                                                             <span class="tag-skill__name">여행</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -1144,45 +1144,45 @@
                 </div>
 
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">12</span>
                                     <span class="tag-skill__name">패션</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">82</span>
                                     <span class="tag-skill__name">아트</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">beauty</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">666</span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">37</span>
                                     <span class="tag-skill__name">맥북</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">8</span>
                                     <span class="tag-skill__name">여행</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">nature</span>
@@ -1313,9 +1313,9 @@
                                     </div>
                                     <div class="r">
                                         <div class="c">
-                                            <div class="g tag-skills tag-skills-st01">
-                                                <ul class="r tag-skills__list">
-                                                    <li class="c tag-skills__list__item">
+                                            <div class="g tag-ability tag-ability-st01">
+                                                <ul class="r tag-ability__list">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill style-01">
                                                             <div class="tag-skill__gauge-bg"></div>
                                                             <div class="tag-skill__gauge w-95">95%</div>
@@ -1323,7 +1323,7 @@
                                                             <span class="tag-skill__name">패션</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
                                                             <div class="tag-skill__gauge-bg"></div>
                                                             <div class="tag-skill__gauge w-85">85%</div>
@@ -1331,7 +1331,7 @@
                                                             <span class="tag-skill__name">아트</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
                                                             <div class="tag-skill__gauge-bg"></div>
                                                             <div class="tag-skill__gauge w-50">50%</div>
@@ -1339,7 +1339,7 @@
                                                             <span class="tag-skill__name">beauty</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
                                                             <div class="tag-skill__gauge-bg"></div>
                                                             <div class="tag-skill__gauge w-78">78%</div>
@@ -1347,7 +1347,7 @@
                                                             <span class="tag-skill__name">게임</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
                                                             <div class="tag-skill__gauge-bg"></div>
                                                             <div class="tag-skill__gauge w-65">65%</div>
@@ -1355,7 +1355,7 @@
                                                             <span class="tag-skill__name">맥북</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
                                                             <div class="tag-skill__gauge-bg"></div>
                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -1363,7 +1363,7 @@
                                                             <span class="tag-skill__name">여행</span>
                                                         </div>
                                                     </li>
-                                                    <li class="c tag-skills__list__item">
+                                                    <li class="c tag-ability__list__item">
                                                         <div class="tag-skill">
                                                             <div class="tag-skill__gauge-bg"></div>
                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -1524,45 +1524,45 @@
                 </div>
 
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">12</span>
                                     <span class="tag-skill__name">패션</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">82</span>
                                     <span class="tag-skill__name">아트</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">beauty</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">666</span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">37</span>
                                     <span class="tag-skill__name">맥북</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">8</span>
                                     <span class="tag-skill__name">여행</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">nature</span>
@@ -1693,9 +1693,9 @@
                                                     </div>
                                                     <div class="r">
                                                         <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
+                                                            <div class="g tag-ability tag-ability-st01">
+                                                                <ul class="r tag-ability__list">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill style-01">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-95">95%</div>
@@ -1703,7 +1703,7 @@
                                                                             <span class="tag-skill__name">패션</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-85">85%</div>
@@ -1711,7 +1711,7 @@
                                                                             <span class="tag-skill__name">아트</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-50">50%</div>
@@ -1719,7 +1719,7 @@
                                                                             <span class="tag-skill__name">beauty</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-78">78%</div>
@@ -1727,7 +1727,7 @@
                                                                             <span class="tag-skill__name">게임</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-65">65%</div>
@@ -1735,7 +1735,7 @@
                                                                             <span class="tag-skill__name">맥북</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -1743,7 +1743,7 @@
                                                                             <span class="tag-skill__name">여행</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -1923,45 +1923,45 @@
                 </div>
 
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">12</span>
                                     <span class="tag-skill__name">패션</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">82</span>
                                     <span class="tag-skill__name">아트</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">beauty</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">666</span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">37</span>
                                     <span class="tag-skill__name">맥북</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">8</span>
                                     <span class="tag-skill__name">여행</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">nature</span>
@@ -2091,9 +2091,9 @@
                                                     </div>
                                                     <div class="r">
                                                         <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
+                                                            <div class="g tag-ability tag-ability-st01">
+                                                                <ul class="r tag-ability__list">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill style-01">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-95">95%</div>
@@ -2101,7 +2101,7 @@
                                                                             <span class="tag-skill__name">패션</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-85">85%</div>
@@ -2109,7 +2109,7 @@
                                                                             <span class="tag-skill__name">아트</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-50">50%</div>
@@ -2117,7 +2117,7 @@
                                                                             <span class="tag-skill__name">beauty</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-78">78%</div>
@@ -2125,7 +2125,7 @@
                                                                             <span class="tag-skill__name">게임</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-65">65%</div>
@@ -2133,7 +2133,7 @@
                                                                             <span class="tag-skill__name">맥북</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -2141,7 +2141,7 @@
                                                                             <span class="tag-skill__name">여행</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -2312,45 +2312,45 @@
                 </div>
 
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">12</span>
                                     <span class="tag-skill__name">패션</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">82</span>
                                     <span class="tag-skill__name">아트</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">beauty</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">666</span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">37</span>
                                     <span class="tag-skill__name">맥북</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">8</span>
                                     <span class="tag-skill__name">여행</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">nature</span>
@@ -2480,9 +2480,9 @@
                                                     </div>
                                                     <div class="r">
                                                         <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
+                                                            <div class="g tag-ability tag-ability-st01">
+                                                                <ul class="r tag-ability__list">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill style-01">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-95">95%</div>
@@ -2490,7 +2490,7 @@
                                                                             <span class="tag-skill__name">패션</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-85">85%</div>
@@ -2498,7 +2498,7 @@
                                                                             <span class="tag-skill__name">아트</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-50">50%</div>
@@ -2506,7 +2506,7 @@
                                                                             <span class="tag-skill__name">beauty</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-78">78%</div>
@@ -2514,7 +2514,7 @@
                                                                             <span class="tag-skill__name">게임</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-65">65%</div>
@@ -2522,7 +2522,7 @@
                                                                             <span class="tag-skill__name">맥북</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -2530,7 +2530,7 @@
                                                                             <span class="tag-skill__name">여행</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -2701,45 +2701,45 @@
                 </div>
 
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">12</span>
                                     <span class="tag-skill__name">패션</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">82</span>
                                     <span class="tag-skill__name">아트</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">beauty</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">666</span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">37</span>
                                     <span class="tag-skill__name">맥북</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">8</span>
                                     <span class="tag-skill__name">여행</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">nature</span>
@@ -2870,9 +2870,9 @@
                                                     </div>
                                                     <div class="r">
                                                         <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
+                                                            <div class="g tag-ability tag-ability-st01">
+                                                                <ul class="r tag-ability__list">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill style-01">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-95">95%</div>
@@ -2880,7 +2880,7 @@
                                                                             <span class="tag-skill__name">패션</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-85">85%</div>
@@ -2888,7 +2888,7 @@
                                                                             <span class="tag-skill__name">아트</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-50">50%</div>
@@ -2896,7 +2896,7 @@
                                                                             <span class="tag-skill__name">beauty</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-78">78%</div>
@@ -2904,7 +2904,7 @@
                                                                             <span class="tag-skill__name">게임</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-65">65%</div>
@@ -2912,7 +2912,7 @@
                                                                             <span class="tag-skill__name">맥북</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -2920,7 +2920,7 @@
                                                                             <span class="tag-skill__name">여행</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -3092,45 +3092,45 @@
                 </div>
 
                 <div class="r post__row">
-                    <div class="g tag-skills">
-                        <ul class="r tag-skills__list">
-                            <li class="c tag-skills__list__item">
+                    <div class="g tag-ability">
+                        <ul class="r tag-ability__list">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">12</span>
                                     <span class="tag-skill__name">패션</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">82</span>
                                     <span class="tag-skill__name">아트</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">beauty</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">666</span>
                                     <span class="tag-skill__name">게임</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">37</span>
                                     <span class="tag-skill__name">맥북</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">8</span>
                                     <span class="tag-skill__name">여행</span>
                                 </div>
                             </li>
-                            <li class="c tag-skills__list__item">
+                            <li class="c tag-ability__list__item">
                                 <div class="tag-skill">
                                     <span class="tag-skill__num">90</span>
                                     <span class="tag-skill__name">nature</span>
@@ -3260,9 +3260,9 @@
                                                     </div>
                                                     <div class="r">
                                                         <div class="c">
-                                                            <div class="g tag-skills tag-skills-st01">
-                                                                <ul class="r tag-skills__list">
-                                                                    <li class="c tag-skills__list__item">
+                                                            <div class="g tag-ability tag-ability-st01">
+                                                                <ul class="r tag-ability__list">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill style-01">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-95">95%</div>
@@ -3270,7 +3270,7 @@
                                                                             <span class="tag-skill__name">패션</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-85">85%</div>
@@ -3278,7 +3278,7 @@
                                                                             <span class="tag-skill__name">아트</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-50">50%</div>
@@ -3286,7 +3286,7 @@
                                                                             <span class="tag-skill__name">beauty</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-78">78%</div>
@@ -3294,7 +3294,7 @@
                                                                             <span class="tag-skill__name">게임</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-65">65%</div>
@@ -3302,7 +3302,7 @@
                                                                             <span class="tag-skill__name">맥북</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
@@ -3310,7 +3310,7 @@
                                                                             <span class="tag-skill__name">여행</span>
                                                                         </div>
                                                                     </li>
-                                                                    <li class="c tag-skills__list__item">
+                                                                    <li class="c tag-ability__list__item">
                                                                         <div class="tag-skill">
                                                                             <div class="tag-skill__gauge-bg"></div>
                                                                             <div class="tag-skill__gauge w-15">15%</div>
