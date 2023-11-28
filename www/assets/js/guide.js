@@ -207,7 +207,7 @@ function noPullRefreshModalOff(el){
         }
         if(el == '#modalAddAbility'){
             setTimeout(function(e) {
-                document.querySelector("#modalAddAbility .tagify__input").click();
+                // document.querySelector("#modalAddAbility .tagify__input").click();
             },timeOutNum);
         }
     }

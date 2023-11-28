@@ -2303,6 +2303,92 @@
                                 <div class="add-ability">
                                     <input type="text" name="tagInput" class="add-ability-input" id="input-ability" placeholder="능력 입력하세요." value="" autocomplete="off" style="position:absolute;left:-99999999999px;top:-99999999999px;">
                                 </div>
+                                <div class="add-ability-counting">
+                                    <div class="add-ability-counting__header">
+                                        <h4 class="add-ability-counting__header__title">남은 점수</h4>
+                                        <div class="add-ability-counting__header__remain">
+                                            <div class="add-ability-counting__header__remain_num">3</div>
+<!--                                            <div class="g add-ability-counting__header__remain__lists">-->
+<!--                                                <ul class="r add-ability-counting__header__remain__list">-->
+<!--                                                    <li class="c add-ability-counting__header__remain__list__item">-->
+<!--                                                        <a href="javascript:void(0);" class="counting-number"><span>1</span></a>-->
+<!--                                                    </li>-->
+<!--                                                    <li class="c add-ability-counting__header__remain__list__item">-->
+<!--                                                        <a href="javascript:void(0);" class="counting-number"><span>2</span></a>-->
+<!--                                                    </li>-->
+<!--                                                    <li class="c add-ability-counting__header__remain__list__item">-->
+<!--                                                        <a href="javascript:void(0);" class="counting-number"><span>3</span></a>-->
+<!--                                                    </li>-->
+<!--                                                    <li class="c add-ability-counting__header__remain__list__item">-->
+<!--                                                        <a href="javascript:void(0);" class="counting-number"><span>4</span></a>-->
+<!--                                                    </li>-->
+<!--                                                    <li class="c add-ability-counting__header__remain__list__item">-->
+<!--                                                        <a href="javascript:void(0);" class="counting-number off"><span>5</span></a>-->
+<!--                                                    </li>-->
+<!--                                                </ul>-->
+<!--                                            </div>-->
+
+                                        </div>
+                                    </div>
+                                    <div class="g add-ability-counting__body">
+                                        <div class="add-ability-counting__body__guide">점수를 선택하세요.</div>
+                                        <div class="add-ability-counting__body__lists">
+                                            <ul class="add-ability-counting__body__list">
+                                                <li class="add-ability-counting__body__list__item">
+                                                    <div class="add-ability-counting__body__list__item__title">뷰티뷰티</div>
+                                                    <div class="add-ability-counting__body__list__item__value">
+                                                        <a href="javascript:void(0);" class="counting-number sm"><span>1</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>2</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>3</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>4</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>5</span></a>
+                                                    </div>
+                                                </li>
+                                                <li class="add-ability-counting__body__list__item">
+                                                    <div class="add-ability-counting__body__list__item__title">게임</div>
+                                                    <div class="add-ability-counting__body__list__item__value">
+                                                        <a href="javascript:void(0);" class="counting-number sm"><span>1</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm"><span>2</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>3</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>4</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>5</span></a>
+                                                    </div>
+                                                </li>
+                                                <li class="add-ability-counting__body__list__item">
+                                                    <div class="add-ability-counting__body__list__item__title">맥북맥북맥북맥북</div>
+                                                    <div class="add-ability-counting__body__list__item__value">
+                                                        <a href="javascript:void(0);" class="counting-number sm"><span>1</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>2</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>3</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>4</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>5</span></a>
+                                                    </div>
+                                                </li>
+                                                <li class="add-ability-counting__body__list__item">
+                                                    <div class="add-ability-counting__body__list__item__title">여행</div>
+                                                    <div class="add-ability-counting__body__list__item__value">
+                                                        <a href="javascript:void(0);" class="counting-number sm"><span>1</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>2</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>3</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>4</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>5</span></a>
+                                                    </div>
+                                                </li>
+                                                <li class="add-ability-counting__body__list__item">
+                                                    <div class="add-ability-counting__body__list__item__title">자연</div>
+                                                    <div class="add-ability-counting__body__list__item__value">
+                                                        <a href="javascript:void(0);" class="counting-number sm"><span>1</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>2</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>3</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>4</span></a>
+                                                        <a href="javascript:void(0);" class="counting-number sm off"><span>5</span></a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <!-- 모달 바디 End -->
 

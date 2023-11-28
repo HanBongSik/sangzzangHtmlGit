@@ -637,8 +637,7 @@
             html .answer-function a{display:inline-block;padding:6px 0 6px 0;text-align:center;color:var(--black);font-weight:600;}
             html .ai-loading{display:inline-block;padding:5px 0;}
         /*** ai 작성 */
-/** 상장 예제 모달 End */
-
+    /** 상장 예제 모달 End */
 
     /** 만들기 - 능력 */
         .sz-writing-ability {padding:10px 10px;min-height:40px;border: 1px solid #e8e8e8;transition: all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
@@ -743,3 +742,22 @@
         #modalPhotoFullView .swiper-slide{height:var(--vh);}
     /** 포토 확대보기 모달 End */
 /* 상장보기 End */
+
+/* 능력 점수 선택 모달 */
+    .add-ability-counting{margin-top:0px;}
+    .add-ability-counting__header{background:#f4f4f4;background:#fff;border:1px solid #ccc;box-shadow:6px 1px 10px rgb(0 0 0 / 10%);}
+    .add-ability-counting__header__title{font-size:20px;font-weight:bold;padding-top:10px;}
+    /*.add-ability-counting__header__remain__list{display:inline-flex;margin-top:10px;gap:0 10px;}*/
+    .counting-number{border:1px solid #d68000;background:#f2a83b;color:#fff;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;}
+    .counting-number.sm{width:40px;height:40px;font-size:14px;}
+    .counting-number.off{background:#fff;color:var(--black);border-color:#d4d4d4;}
+    .add-ability-counting__header__remain_num{font-size:20px;font-weight:600;padding-bottom:10px;}
+
+    .add-ability-counting__body{margin-top:15px;}
+    .add-ability-counting__body__guide{color: #737373;}
+    .add-ability-counting__body__lists{margin-top:10px;}
+    .add-ability-counting__body__list{display:flex;flex-direction:column;align-items:center;}
+    .add-ability-counting__body__list__item{display:flex;gap:0 20px;padding:10px 0;}
+    .add-ability-counting__body__list__item__title{width:62px;display:flex;flex:none;align-items:center;justify-content:center;font-size:14px;}
+    .add-ability-counting__body__list__item__value{display:flex;flex:none;align-items:center;gap:0 10px;}
+/* 능력 점수 선택 모달 End */
