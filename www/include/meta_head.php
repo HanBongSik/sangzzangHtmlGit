@@ -26,11 +26,6 @@
 <link rel="icon" href="/resources/images/common/favicon.ico" type="image/x-icon"/>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
-<link href="/assets/css/default.css?v=<?php echo $version ?>" rel="stylesheet">
-<link href="/assets/css/guide.css?v=<?php echo $version ?>" rel="stylesheet">
-<link href="/assets/css/guide_impreci.css?v=<?php echo $version ?>" rel="stylesheet">
-<link href="/assets/css/layout.css?v=<?php echo $version ?>" rel="stylesheet">
-<link href="/assets/css/pages.css?v=<?php echo $version ?>" rel="stylesheet">
 <!-- lib -->
     <!-- jquery -->
     <script src="/assets/lib/jquery-3.6.3.min.js?v=1"></script>
@@ -56,12 +51,12 @@
     <!-- html2canvas -->
     <script src="/assets/lib/html2canvas.min.js"></script>
     <!-- html2canvas End -->
-
-
-
-
-
 <!-- lib End -->
+<link href="/assets/css/default.css?v=<?php echo $version ?>" rel="stylesheet">
+<link href="/assets/css/guide.css?v=<?php echo $version ?>" rel="stylesheet">
+<link href="/assets/css/guide_impreci.css?v=<?php echo $version ?>" rel="stylesheet">
+<link href="/assets/css/layout.css?v=<?php echo $version ?>" rel="stylesheet">
+<link href="/assets/css/pages.css?v=<?php echo $version ?>" rel="stylesheet">
 
 <script src="/assets/js/guide.js?v=<?php echo $version ?>"></script>
 <script src="/assets/js/ui_common.js?v=<?php echo $version ?>"></script>

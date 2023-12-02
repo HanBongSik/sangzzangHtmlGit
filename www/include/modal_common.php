@@ -748,7 +748,7 @@
     <!-- 받는 사람 검색 End -->
 
     <!-- 예제 검색 -->
-    <div class="modal-dimmed" id="modalExSearch">
+    <div class="modal-dimmed" id="modalExSearch" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
         <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
@@ -2530,6 +2530,12 @@
         </div>
     </div>
     <!-- 스킬 보기 End -->
+
+    <!-- 스낵 바 메세지 -->
+    <div class="snackbar">
+        <div>Operation completed successfully</div>
+    </div>
+    <!-- 스낵 바 메세지  End -->
 
     <!-- 유저 팝업 End -->
     <script type="text/javascript">

@@ -1,5 +1,15 @@
 
 
+function showSnackbar() {
+    // finds the first element with the `snackbar` css class
+    const snackbar = document.querySelector(".snackbar");
+
+    // add the `show` class to the `snackbar` element
+    snackbar.classList.add("show");
+
+    // remove the `show` class after 3 seconds
+    setTimeout(() => snackbar.classList.remove("show"), 3000);
+}
 function noPullRefreshOn(){
     if($('.content').hasClass('content-3d-card')){
         $('body').addClass('OVERFLOW-HIDDEN');
@@ -28,12 +38,21 @@ function tagifyExe(el){
         // 	input = document.querySelector('input[name="tagInput"]');
         // }
         input = document.querySelector('input[name="tagInput"]');
-        let whitelist = ["연애", "일상", "셀카", "데일리코디", "럽스타그램", "쿡스타그램", "음식", "카페", "집스타그램", "글스타그램", "반려동물", "신혼부부", "육아", "취미", "인테리어", "여행", "그림", "여행", "캠핑", "책", "공부", "산책", "감정", "집밥", "낚시", "음악", "뷰티", "가족", "자취생", "등산", "풍경" ];
+        //let whitelist = ["🎉연애", "🎨일상", "셀카", "데일리코디", "럽스타그램", "쿡스타그램", "음식", "카페", "집스타그램", "글스타그램", "반려동물", "신혼부부", "육아", "취미", "인테리어", "여행", "그림", "여행", "캠핑", "책", "공부", "산책", "감정", "집밥", "낚시", "음악", "뷰티", "가족", "자취생", "등산", "풍경" ];
+        let whitelist = [
+            "💡감사", "💡재미", "💡존경", "💡감동", "💡지식", "💡멘토", "💡잘생김","💡예쁨",
+            "😀귀엽", "😀쾌활", "😀유머", "😀진지",
+            "👒여행", "👒영화", "👒맛집", "👒게임",
+            "🎨여행", "🎨그림","🎨독서",
+            "📖엑셀", "📖피그마", "📖포토샵", "📖일러스트", "📖동영상편집",
+            "🎯기획자", "🎯디자이너", "🎯퍼블리셔", "🎯개발자",
+            "📻아이패드", "📻닌텐도스위치", "📻플스5",
+    ];
         // let whitelist = _whitelist;
         var tagify = new Tagify(input, {
             whitelist:whitelist,
             blacklist : ["requestman","전체","TOPS","ES6자료","프로그래밍자료"],
-            maxTags: 100,
+            maxTags: 3,
             dropdown: {
                 maxItems: 200,
                 classname: "tags-look",

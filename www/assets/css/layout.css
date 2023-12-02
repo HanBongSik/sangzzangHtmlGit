@@ -175,12 +175,21 @@ section#container .content{margin-top:20px;}
             border-radius:6px;
             overflow: hidden;
         }
+        .tagify__tag>div{
+            padding:0.3em 0.5em;
+        }
         .tagify__tag-text{
             color:#fff;
         }
         .tagify__tag__removeBtn{background:#6c6c6c;}
         .tagify__tag__removeBtn::after{color:#fff;}
 
+        .tagify__dropdown__wrapper{
+            border:1px solid #c8c8c8;
+            background:#efefef;
+            padding:5px;
+            background:#fff;
+        }
         .tags-look .tagify__dropdown__item{
             display: inline-block;
             border-radius: 3px;
@@ -191,11 +200,19 @@ section#container .content{margin-top:20px;}
             font-size: .85em;
             color: #fff;
             transition: 0s;
+
+            background: #e6e6e6;
+            color: var(--black);
+            border: 1px solid var(--black);
+            border-radius: 6px;
+            border:1px solid var(--lignt-gray);
+            padding:5px 6 px;
+            font-size:13px;
         }
 
         .tags-look .tagify__dropdown__item--active{
             transition:all 0.3s;
-            color: #fff;
+            /*color: #fff;*/
             opacity:0.8
         }
         /* 드랍다운의 태그 */
