@@ -258,7 +258,7 @@ function modalOffAfterImmediately(el){
 }
 function modalOffAfter(el){
     if(el == '#modalSzDownload'){
-        $('#modalSzDownload .sz-download-modal-col').empty();
+        $('#modalSzDownload .sz-download-modal-col').find('canvas').remove();
         renderDiv2TextareaReset();
     }
     if(el == '#modalPhotoFullView'){

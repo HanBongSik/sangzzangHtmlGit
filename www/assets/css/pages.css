@@ -374,9 +374,15 @@
 /* 상장 배경 디자인 선택 End */
 
 /* 상장 비율 */
+    .sz-ratio-loading{position:absolute;left:50%;padding-top:65%;transform:translateX(-50%);animation-name:sz-loading-ani-opacity;animation-duration: 5s;animation-delay: 0s;}
+    .sz-capture-loading{position:absolute;left:50%;padding-top:0;transform:translateX(-50%);animation-name:sz-loading-ani-opacity;animation-duration: 0s;animation-delay: 0s;}
+    @keyframes sz-loading-ani-opacity {
+        0%{opacity:0}
+        100%{opacity:1}
+    }
     .sz-bg-design{display:block;width:100%;}
-    .SZ-ORIGIN{border:1px solid #e9e9e9;overflow:hidden;}
-    .SZ-RATIO{position:relative;}
+    .SZ-ORIGIN{position:relative;border:1px solid #e9e9e9;overflow:hidden;}
+    .SZ-RATIO{position:relative;opacity:0;}
     .SZ-RATIO textarea,
     .SZ-RATIO input[type="text"]{/*border:2px solid #8caee5;*/}
     .SZ-WRITE .sz-sticker,.SZ-WRITE .sz-stamp{position:relative;}
@@ -700,7 +706,7 @@
         .sz-download-modal-col{position:relative;display:flex;align-items:center;justify-content:center;}
         .sz-download-modal-col:after{content:'';display:block;padding-bottom: 142%;}
         .sz-download-modal-col{-webkit-touch-callout: none;user-select: none;-moz-user-select: none;-ms-user-select: none;-webkit-user-select: none;}
-        .sz-download-modal-col canvas{-webkit-touch-callout: none;user-select: none;-moz-user-select: none;-ms-user-select: none;-webkit-user-select: none;width:100% !important;height:auto !important;}
+        .sz-download-modal-col canvas{position:relative;z-index:1;-webkit-touch-callout: none;user-select: none;-moz-user-select: none;-ms-user-select: none;-webkit-user-select: none;width:100% !important;height:auto !important;}
     /** 상장 다운로드 End */
 
     /** 포토 사진 */
@@ -744,7 +750,7 @@
 /* 상장보기 End */
 
 /* 능력 점수 선택 모달 */
-    .add-ability-counting{margin-top:0px;}
+    .add-ability-counting{margin-top:10px;}
     .add-ability-counting__header{background:#f4f4f4;background:#fff;border:1px solid #ccc;box-shadow:6px 1px 10px rgb(0 0 0 / 10%);}
     .add-ability-counting__header__title{font-size:20px;font-weight:bold;padding-top:10px;}
     /*.add-ability-counting__header__remain__list{display:inline-flex;margin-top:10px;gap:0 10px;}*/

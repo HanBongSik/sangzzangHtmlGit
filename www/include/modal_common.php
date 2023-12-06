@@ -191,7 +191,7 @@
                                         <ul>
                                             <li class="active"><a href="#tabSearchReceiverAll" data-target="#tabSearchReceiverAll">전체</a></li>
                                             <!--                                        <li><a href="#tabSearchTag">태그</a></li>-->
-                                            <li><a href="#tabSearchReceiverSkill" data-target="#tabSearchReceiverSkill">팔로우</a></li>
+                                            <li><a href="#tabSearchReceiverSkill" data-target="#tabSearchReceiverFollow">팔로우</a></li>
                                         </ul>
                                     </div>
 
@@ -202,31 +202,13 @@
                                     <div class="panels">
                                         <div id="tabSearchReceiverAll" class="panel active" tabindex="0">
                                             <!-- 전체 검색 -->
-                                            <?php include("$path/include/include_temp/inc_user_list.php"); ?>
+                                            <?php include("$path/include/include_temp/inc_user_list_select.php"); ?>
                                             <!-- 전체 검색 End -->
                                         </div>
-                                        <div id="tabSearchReceiverUser" class="panel" tabindex="0">
+                                        <div id="tabSearchReceiverFollow" class="panel" tabindex="0">
                                             <!-- 회원 검색 -->
-                                            <?php include("$path/include/include_temp/inc_user_list_02.php"); ?>
+                                            <?php include("$path/include/include_temp/inc_user_list_02_select.php"); ?>
                                             <!-- 회원 검색 End -->
-                                        </div>
-
-                                        <div id="tabSearchReceiverTag" class="panel" tabindex="0">
-                                            <!-- 태그 검색 -->
-                                            <?php /* include("include/include_temp/inc_search_02.php"); */ ?>
-                                            <!-- 태그 검색 End -->
-                                        </div>
-
-                                        <div id="tabSearchReceiverSkill" class="panel" tabindex="0">
-                                            <!-- 회원 검색 -->
-                                            <?php include("$path/include/include_temp/inc_user_list_03.php"); ?>
-                                            <!-- 회원 검색 End -->
-                                        </div>
-
-                                        <div id="tabSearchReceiverSz" class="panel" tabindex="0">
-                                            <!-- 상짱 검색 -->
-                                            <?php include("$path/include/sz_list_search.php"); ?>
-                                            <!-- 상짱 검색 End -->
                                         </div>
 
                                     </div>
@@ -1025,7 +1007,7 @@
                                             <li class="active"><a href="#tabSearchAll" data-target="#tabSearchAll">전체</a></li>
                                             <li><a href="#tabSearchUser" data-target="#tabSearchUser">회원</a></li>
                                             <!--                                        <li><a href="#tabSearchTag">태그</a></li>-->
-                                            <li><a href="#tabSearchSkill" data-target="#tabSearchSkill">스킬</a></li>
+                                            <li><a href="#tabSearchAbility" data-target="#tabSearchAbility">능력</a></li>
                                             <li><a href="#tabSearchSz" data-target="#tabSearchSz">상장</a></li>
                                         </ul>
                                     </div>
@@ -1052,7 +1034,7 @@
                                             <!-- 태그 검색 End -->
                                         </div>
 
-                                        <div id="tabSearchSkill" class="panel" tabindex="0">
+                                        <div id="tabSearchAbility" class="panel" tabindex="0">
                                             <!-- 스킬 검색 -->
                                             <?php include("$path/include/include_temp/inc_user_list_03.php"); ?>
                                             <!-- 스킬 검색 End -->
@@ -2186,7 +2168,9 @@
                                 <div class="g sz-download-modal">
                                     <div class="r sz-download-modal-row">
                                         <div class="c sz-download-modal-col">
-
+                                            <div class="sz-capture-loading">
+                                                <img class="img-loading" src="/assets/img/loading/loading.jpg" alt="로딩 중"/>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -2301,7 +2285,7 @@
                                 <!--                            </div>-->
 
                                 <div class="add-ability">
-                                    <input type="text" name="tagInput" class="add-ability-input" id="input-ability" placeholder="능력 입력하세요." value="" autocomplete="off" style="position:absolute;left:-99999999999px;top:-99999999999px;">
+                                    <input type="text" name="tagInput" class="add-ability-input" id="input-ability" placeholder="능력을 입력하세요. (최대 3개)" value="" autocomplete="off" style="position:absolute;left:-99999999999px;top:-99999999999px;">
                                 </div>
                                 <div class="add-ability-counting">
                                     <div class="add-ability-counting__header">

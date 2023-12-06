@@ -33,6 +33,9 @@
                         https://www.url2png.com/#testdrive
                     -->
                     <div class="SANGZZANG SZ-ORIGIN SZ-WRITING"> <!-- 보기 페이지 : SANGZZANG SZ-ORIGIN SZ-VIEW -->
+                        <div class="sz-ratio-loading">
+                            <img class="img-loading" src="/assets/img/loading/loading.jpg" alt="로딩 중"/>
+                        </div>
                         <div class="SZ-WRITE SZ-RATIO clearfix CAPTURE-AREA">
                             <img class="sz-bg-design" src="/assets/img/design/sz_000004.png" alt=""/>
 
@@ -918,14 +921,24 @@
                                                     <div class="h3">
                                                         <a href="#;" class="h3__link MODAL-BTN" data-target="#modalGuide"><h3>이름 가리기 <img class="ico-question" src="/assets/img/ico/ico-question.png" alt="?"></h3></a>
                                                     </div>
-                                                    <div class="forms">
-                                                        <label for="source" class="hidden">이름 가리기</label>
-                                                        <span class="forms">
-                                                            <label for="checkbox-sw01" class="switch">
-                                                                <input type="checkbox" name="checkbox-sw01" value="checkbox-sw01" id="checkbox-sw01">
-                                                                <span class="slider"></span>
-                                                            </label>
-                                                        </span>
+                                                    <div class="form-g">
+                                                        <div class="form-r">
+                                                            <div class="form-c">
+                                                                <label for="source" class="hidden">이름 가리기</label>
+                                                                <span class="forms">
+                                                                    <label for="checkbox-sw01" class="switch">
+                                                                        <input type="checkbox" name="checkbox-sw01" value="checkbox-sw01" id="checkbox-sw01">
+                                                                        <span class="slider"></span>
+                                                                    </label>
+                                                                </span>
+                                                            </div>
+                                                            <div class="form-c">
+                                                                <span class="name-random">
+                                                                    <!-- https://blog.naver.com/bluechart/220399117999 -->
+                                                                    기상청
+                                                                </span>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

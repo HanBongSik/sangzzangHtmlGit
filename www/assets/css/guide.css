@@ -504,9 +504,11 @@ a.link-secondary{text-decoration:underline;color:var(--secondary);}
 {background:url(/assets/img/guide/btn-excel.png) no-repeat 10px center !important;color:#000;border-color:#000;padding-left: 30px;}
 
 
-.btn-follow, button.btn-follow, input[type="button"].btn-follow, input[type="submit"].btn-follow
+.btn-follow, button.btn-follow, input[type="button"].btn-follow, input[type="submit"].btn-follow,
+.btn-add, button.btn-add, input[type="button"].btn-add, input[type="submit"].btn-add
 {background: white;border-color: var(--black);color: var(--black);}
-.btn-follow-ing, button.btn-follow-ing, input[type="button"].btn-follow-ing, input[type="submit"].btn-follow-ing
+.btn-follow-ing, button.btn-follow-ing, input[type="button"].btn-follow-ing, input[type="submit"].btn-follow-ing,
+.btn-remove, button.btn-remove, input[type="button"].btn-remove, input[type="submit"].btn-remove
 {background: #fff; color:var(--primary);border-color: var(--primary);}
 
 

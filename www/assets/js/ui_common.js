@@ -25,6 +25,7 @@ function noPullRefreshOn(){
 
 /** 해시 태그 봉스타그램 js에 자세히 사용된 것 있음   */
 function tagifyExe(el){
+    /* https://github.com/yairEO/tagify#events */
     if($('.add-ability-input').length > 0){
         var input = document.querySelector('.post-list.TARGET input[name="tagInput"]');
         // let _whitelist = [];
@@ -41,7 +42,7 @@ function tagifyExe(el){
         //let whitelist = ["🎉연애", "🎨일상", "셀카", "데일리코디", "럽스타그램", "쿡스타그램", "음식", "카페", "집스타그램", "글스타그램", "반려동물", "신혼부부", "육아", "취미", "인테리어", "여행", "그림", "여행", "캠핑", "책", "공부", "산책", "감정", "집밥", "낚시", "음악", "뷰티", "가족", "자취생", "등산", "풍경" ];
         let whitelist = [
             "💡감사", "💡재미", "💡존경", "💡감동", "💡지식", "💡멘토", "💡잘생김","💡예쁨",
-            "😀귀엽", "😀쾌활", "😀유머", "😀진지",
+            "😀귀엽", "😀쾌활", "😀유머", "😀진지","😀잠재력",
             "👒여행", "👒영화", "👒맛집", "👒게임",
             "🎨여행", "🎨그림","🎨독서",
             "📖엑셀", "📖피그마", "📖포토샵", "📖일러스트", "📖동영상편집",
@@ -57,7 +58,11 @@ function tagifyExe(el){
                 maxItems: 200,
                 classname: "tags-look",
                 enabled: 0,
-                closeOnSelect: false
+                closeOnSelect: false,
+                highlightFirst:true,
+            },
+            callbacks: {
+                "change": (e) => console.log(e.detail),
             }
         });
         /**
@@ -88,9 +93,11 @@ function sangRatio(){
     $('.SANGZZANG.SZ-ORIGIN').css('height',scaleH+/*border+*/"px");
     $('.SANGZZANG.SZ-ORIGIN .SZ-WRITE').css('transform','scale('+scaleW+')');
 
+
     /* draw 비율*/
     drawH = $('.SANGZZANG.SZ-ORIGIN').first().height()*0.04;
     $('.draw').css('height',drawH+'px');
+    $('.SANGZZANG.SZ-ORIGIN .SZ-RATIO').css('opacity','1');
 };
 
 $(window).on('load', function(){
@@ -127,13 +134,15 @@ var renderSzScale = 1;
 var checkedSzDownloadSize = '';
 
 //다운로드 버튼 누르면
-$('#szDownload').on('click',function(){
-    if(checkedDownloadSize() == 2480){
-        console.log('AD 2480');
-    }else if(checkedDownloadSize() == 1240){
-        console.log('AD 1240');
-    }
-    captureSzDownload();//다운로드 버튼을 누를 때 실행시켜야겠는데
+$(document).ready(function(){
+    $('#szDownload').on('click',function(){
+        if(checkedDownloadSize() == 2480){
+            console.log('AD 2480');
+        }else if(checkedDownloadSize() == 1240){
+            console.log('AD 1240');
+        }
+        captureSzDownload();//다운로드 버튼을 누를 때 실행시켜야겠는데
+    })
 })
 
 function bindCheckedDownloadSize(){
@@ -197,9 +206,12 @@ function captureSzInit(ev){ //뷰에서 다운로드 모달로 스크린샷 기�
     $('.sangzzang.sangzzang-copy').css('height',scaleH+border+"px");
     */
     let appendTargetEl = '#modalSzDownload .sz-download-modal-col'; //캡쳐 붙여넣을 곳
-    $(appendTargetEl).empty();
+    $(appendTargetEl).find('canvas').remove();
+    // $(appendTargetEl).html(loading);
+
     html2canvas(document.querySelector(".SZ-ORIGIN .CAPTURE-AREA"),{ scale:5 }).then(function(canvas) { //scale은 모바일에서 깨져보이지 않게 하기 위해
-        document.querySelector(appendTargetEl).appendChild(canvas);
+        // $(appendTargetEl).empty();
+        document.querySelector(appendTargetEl).append(canvas);
         checkedDownloadSize();
         captureSzDownload('init');
     });
@@ -207,7 +219,7 @@ function captureSzInit(ev){ //뷰에서 다운로드 모달로 스크린샷 기�
 
 function captureSzDownload(state){ //스크린샷 기능
     let appendTargetEl = '.AREA-SANGZZANG-COPY-DOWNLOAD'; //캡쳐 붙여넣을 곳
-    $(appendTargetEl).empty();
+    // Z
     // html2canvas(document.querySelector(".sangzzang-origin .CAPTUREAREA"),{ scale:1 }).then(function(canvas) {
 
     // 사이즈에 맞는 곳으로 복사하여 붙여넣자

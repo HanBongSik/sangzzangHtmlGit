@@ -168,6 +168,9 @@
                                             https://www.url2png.com/#testdrive
                                         -->
                                         <div class="SANGZZANG SZ-ORIGIN SZ-VIEW"> <!-- 만들기 페이지 : SANGZZANG SZ-ORIGIN SZ-WRITING -->
+                                            <div class="sz-ratio-loading">
+                                                <img class="img-loading" src="/assets/img/loading/loading.jpg" alt="로딩 중"/>
+                                            </div>
                                             <div class="SZ-WRITE SZ-RATIO clearfix CAPTURE-AREA">
                                                 <img class="sz-bg-design" src="/assets/img/design/sz_000004.png" alt=""/>
 
