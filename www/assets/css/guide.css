@@ -1143,6 +1143,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 .display-inline{display:inline !important;}
 .display-inline-block{display:inline-block !important;}
 .display-flex{display:flex !important;}
+.direction-column{flex-direction:column !important;}
 /*.flex-middle,
 .flex-middle{justify-content:center !important; align-items:center !important;}
 */

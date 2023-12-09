@@ -52,14 +52,14 @@
         <div class="content content-3d-card">
 
             <div class='container--rea'>
-                <div class='cube cube--ani cube--color-red' id="my_cube">
+                <div class='cube cube--ani cube--color-red' id="my_cube" style="">
                     <div class='face--one face--ani'><img src="https://hanbongsik.cafe24.com/tempImg/iu.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
 
                     <div class='face--two face--ani'></div>
                     <!--
                     <div class='face--tree face--ani'><img src="https://hanbongsik.cafe24.com/tempImg/iu.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>-->
 
-                    <div class='face--tree face--ani'><img src="/assets/img/temp_sz2.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
+                    <div class='face--tree face--ani'><img src="/assets/tempImg/temp_sz2.png" style="width:100%;height:100%;vertical-align:top;" alt=""/></div>
 
                     <div class='face--four face--ani'></div>
                     <div class='face--five face--ani'></div>
@@ -143,8 +143,12 @@
             // alert("Original width=" + originalWidth + ", " + "Original height=" + originalHeight);
             console.log(ratio);
             let height = $('#my_cube').height();
-            $('#my_cube').css('width',height * ratio+'px');
+            $('#my_cube').css('width',height * ratio+'px').css('transform', 'rotateX(0deg) rotateY(-2700deg) rotateZ(0deg)')
+
         }
     </script>
+    <style>
+        #my_cube{transition:transform 3s;}
+    </style>
 </div>
 </body>

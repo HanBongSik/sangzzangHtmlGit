@@ -161,12 +161,242 @@
                                         </div>
 
                                     </div>
-                                    <div class="r post__row">
+                                    <div class="r post__row direction-column">
                                         <!-- 상장 만들기 보기 -->
                                         <!--
                                             https://html2canvas.hertzen.com/
                                             https://www.url2png.com/#testdrive
                                         -->
+                                        <div class="sz-function sz-function-receive shadow">
+                                            <a class="cta-wrapper cta-wrapper--interactive" data-dom="cta-shop" href="#;">
+                                                <div class="cta shine shine--autoplay" data-template-text="ctaShop" data-text="SHOP THE COLLECTION">
+                                                    <span class="cta-text" data-template-html="ctaShop">상장 받기</span>
+                                                    <span class="cta-line"></span>
+                                                </div>
+                                            </a>
+                                            <style>
+                                                .cta-wrapper {display: inline-flex;justify-content: center;}
+                                                .cta {position: relative;font-size: 10px;
+                                                    color: rgba(255, 255, 255, 0.8);
+                                                    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+                                                    text-align: center;
+                                                    font-size:14px;
+                                                }
+                                                .cta-text {
+                                                    display: block;
+                                                }
+                                                .shine {
+                                                    background: rgba(255, 255, 255, 0) linear-gradient(
+                                                            to right,
+                                                            rgba(130, 112, 45, 0) 0%,
+                                                            rgba(130, 112, 45, 1) 20%,
+                                                            rgba(224, 218, 200, 1) 50%,
+                                                            rgba(130, 112, 45, 1) 80%,
+                                                            rgba(130, 112, 45, 0) 100%
+                                                    ) 0 0 no-repeat;
+                                                    background: rgba(255, 255, 255, 0) linear-gradient(
+                                                            to right,
+                                                            rgba(var(--shine-light, 130, 112, 45), 0) 0%,
+                                                            rgba(var(--shine-light, 130, 112, 45), 1) 20%,
+                                                            rgba(var(--shine-light-2, 224, 218, 200), 1) 50%,
+                                                            rgba(var(--shine-light, 130, 112, 45), 1) 80%,
+                                                            rgba(var(--shine-light, 130, 112, 45), 0) 100%
+                                                    ) 0 0 no-repeat;
+                                                    background-position: 50%;
+                                                    background-size: 40% 100%;
+                                                    background-size: var(--shine-size, 40%) 100%;
+                                                    -webkit-background-clip: text;
+                                                    background-clip: text;
+                                                    will-change: background-position;
+                                                }
+                                                .shine--autoplay {
+                                                    -webkit-animation: shine 1.6s infinite;
+                                                    animation: shine 1.6s infinite;
+                                                }
+                                                .cta-line {
+                                                    bottom: -8px;
+                                                    margin: auto;
+                                                    display: block;
+                                                    height: 2px;
+                                                    width: 60px;
+                                                    left: 0;
+                                                    right: 0;
+                                                    -webkit-animation: cta-start 1.6s infinite;
+                                                    animation: cta-start 1.6s infinite;
+                                                    -webkit-backface-visibility: hidden;
+                                                    backface-visibility: hidden;
+                                                 }
+                                                .cta-line, .cta-box {
+                                                    position: absolute;
+                                                    background: currentColor;
+                                                    border: currentColor;
+                                                }.cta::after {
+                                                     position: absolute;
+                                                     top: 0;
+                                                     left: 0;
+                                                     right: 0;
+                                                     content: ' ';
+                                                     background: inherit;
+                                                     -webkit-filter: blur(4px);
+                                                     filter: blur(10px);
+                                                 }
+
+                                                @-webkit-keyframes cta-start {
+                                                    0% {
+                                                        -webkit-animation-timing-function: cubic-bezier(.27,.01,1,.77);
+                                                        animation-timing-function: cubic-bezier(.27,.01,1,.77);
+                                                        -webkit-transform: translateX(-160%) scaleX(0);
+                                                        transform: translateX(-160%) scaleX(0);
+                                                        opacity: 0.2;
+                                                    }
+                                                    35% {
+                                                        -webkit-animation-timing-function: cubic-bezier(0,.13,.59,1);
+                                                        animation-timing-function: cubic-bezier(0,.13,.59,1);
+                                                        -webkit-transform: translateX(0%) scaleX(1.5);
+                                                        transform: translateX(0%) scaleX(1.5);
+                                                        opacity: 0.8;
+                                                    }
+                                                    65% {
+                                                        -webkit-transform: translateX(160%) scaleX(0);
+                                                        transform: translateX(160%) scaleX(0);
+                                                        opacity: 0;
+                                                    }
+                                                    100% {
+                                                        -webkit-transform: translateX(160%) scaleX(0);
+                                                        transform: translateX(160%) scaleX(0);
+                                                        background: white;
+                                                        opacity: 0;
+                                                    }
+                                                }
+
+                                                @keyframes cta-start {
+                                                    0% {
+                                                        -webkit-animation-timing-function: cubic-bezier(.27,.01,1,.77);
+                                                        animation-timing-function: cubic-bezier(.27,.01,1,.77);
+                                                        -webkit-transform: translateX(-160%) scaleX(0);
+                                                        transform: translateX(-160%) scaleX(0);
+                                                        opacity: 0.2;
+                                                    }
+                                                    35% {
+                                                        -webkit-animation-timing-function: cubic-bezier(0,.13,.59,1);
+                                                        animation-timing-function: cubic-bezier(0,.13,.59,1);
+                                                        -webkit-transform: translateX(0%) scaleX(1.5);
+                                                        transform: translateX(0%) scaleX(1.5);
+                                                        opacity: 0.8;
+                                                    }
+                                                    65% {
+                                                        -webkit-transform: translateX(160%) scaleX(0);
+                                                        transform: translateX(160%) scaleX(0);
+                                                        opacity: 0;
+                                                    }
+                                                    100% {
+                                                        -webkit-transform: translateX(160%) scaleX(0);
+                                                        transform: translateX(160%) scaleX(0);
+                                                        background: white;
+                                                        opacity: 0;
+                                                    }
+                                                }
+
+                                                @-webkit-keyframes blur {
+                                                    from {
+                                                        -webkit-filter: blur(4px);
+                                                        filter: blur(4px);
+                                                    }
+                                                    to {
+                                                        -webkit-filter: blur(0px);
+                                                        filter: blur(0px);
+                                                    }
+                                                }
+
+                                                @keyframes blur {
+                                                    from {
+                                                        -webkit-filter: blur(4px);
+                                                        filter: blur(4px);
+                                                    }
+                                                    to {
+                                                        -webkit-filter: blur(0px);
+                                                        filter: blur(0px);
+                                                    }
+                                                }
+
+                                                @-webkit-keyframes hover-cta-line {
+                                                    from {
+                                                        -webkit-filter: blur(4px);
+                                                        filter: blur(4px);
+                                                        -webkit-transform: scaleX(0);
+                                                        transform: scaleX(0);
+                                                    }
+                                                    to {
+                                                        -webkit-filter: blur(0px);
+                                                        filter: blur(0px);
+                                                        -webkit-transform: scaleX(1);
+                                                        transform: scaleX(1);
+                                                    }
+                                                }
+
+                                                @keyframes hover-cta-line {
+                                                    from {
+                                                        -webkit-filter: blur(4px);
+                                                        filter: blur(4px);
+                                                        -webkit-transform: scaleX(0);
+                                                        transform: scaleX(0);
+                                                    }
+                                                    to {
+                                                        -webkit-filter: blur(0px);
+                                                        filter: blur(0px);
+                                                        -webkit-transform: scaleX(1);
+                                                        transform: scaleX(1);
+                                                    }
+                                                }
+
+                                                @-webkit-keyframes shine {
+                                                    0% { background-position: -60%; }
+                                                    100% { background-position: 160%; }
+                                                }
+
+                                                @keyframes shine {
+                                                    0% { background-position: -60%; }
+                                                    100% { background-position: 160%; }
+                                                }
+
+                                                @-webkit-keyframes cta-audio-line {
+                                                    0% {
+                                                        opacity: 0.5;
+                                                        -webkit-transform: scaleY(1);
+                                                        transform: scaleY(1);
+                                                    }
+                                                    50% {
+                                                        opacity: 0.1;
+                                                        -webkit-transform: scaleY(0.2);
+                                                        transform: scaleY(0.2);
+                                                    }
+                                                    100% {
+                                                        opacity: 0.5;
+                                                        -webkit-transform: scaleY(1);
+                                                        transform: scaleY(1);
+                                                    }
+                                                }
+
+                                                @keyframes cta-audio-line {
+                                                    0% {
+                                                        opacity: 0.5;
+                                                        -webkit-transform: scaleY(1);
+                                                        transform: scaleY(1);
+                                                    }
+                                                    50% {
+                                                        opacity: 0.1;
+                                                        -webkit-transform: scaleY(0.2);
+                                                        transform: scaleY(0.2);
+                                                    }
+                                                    100% {
+                                                        opacity: 0.5;
+                                                        -webkit-transform: scaleY(1);
+                                                        transform: scaleY(1);
+                                                    }
+                                                }
+
+                                            </style>
+                                        </div>
                                         <div class="SANGZZANG SZ-ORIGIN SZ-VIEW"> <!-- 만들기 페이지 : SANGZZANG SZ-ORIGIN SZ-WRITING -->
                                             <div class="sz-ratio-loading">
                                                 <img class="img-loading" src="/assets/img/loading/loading.jpg" alt="로딩 중"/>

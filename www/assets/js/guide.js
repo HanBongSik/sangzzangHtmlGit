@@ -453,7 +453,7 @@ function modalOffAfter(el){
     function bindDatepicker(){
         if($(".datepicker").length > 0){
             datepickerSetting();
-            $(".datepicker").datepicker();
+            //$(".datepicker").datepicker();
         }
 
     }

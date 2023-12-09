@@ -680,6 +680,10 @@
         .sz-public-select{padding:20px 0 10px 0;gap:20px;text-align:center;justify-content:center;margin-bottom:10px;}
     /** 옵션 선택 End */
 
+    /** 상장 받기 기능 */
+    .sz-function-receive{margin-top:5px;margin-bottom:5px;text-align:center;padding:10px;overflow:hidden;background:#171717;border-radius: 8px;border-top-right-radius: 0;border-top-left-radius: 0;}
+    /** 상장 받기 기능 End */
+
     /** 상장 기능 */
         .sz-function-btn{margin-top:5px;text-align:center;padding:10px;}
         .sz-function{text-align:center;}
