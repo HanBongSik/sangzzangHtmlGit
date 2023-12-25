@@ -12,16 +12,13 @@
 
 /* 모달 - 로그인 - modal */
     #modalLogin .modal-content{max-width:310px;}
-    #modal-login .login > .r{margin-bottom:10px;}
-    #modal-login .login > .r:nth-last-of-type(1){margin-bottom:0;}
-    #modal-login .login__login-lnk{width:100%;text-align:center;}
-    #modal-login .login-sns{display:block;width:100%;}
-    #modal-login .login-sns__outer{display:inline-block;text-align:center;}
-    #modal-login .login-sns__img{display:block;width:100%;max-height:40px;}
-    #modal-login .login-auto{padding-bottom:2px;font-size:14px;text-align:right;}
-    #modal-login .login-sns{text-align:center;}
-    #modal-login .login-lnk a{font-size:14px;}
-    #modal-login .login-sns img{display:inline-block;height:38px;padding:0px;margin:0 5px;}
+    #modalLogin .login{display:flex;flex-direction:column;gap:10px;}
+    #modalLogin .login__pw{margin-top:-5px;}
+    #modalLogin .login__login-lnk{padding:10px 0;width:100%;text-align:center;}
+    #modalLogin .login__sns{padding-bottom:5px;}
+    #modalLogin .login-sns .r{gap:0 10px;}
+    #modalLogin .login-sns__outer{flex:1;}
+    #modalLogin .login-sns__img{display:block;width:100%;border-radius:6px;overflow:hidden;}
 /* 모달 - 로그인-modal End */
 
 /* 모달 - 공유하기 - modal */
@@ -31,17 +28,17 @@
 
 
 /* 모달 - 어빌리티 - modal */
-    .user-skill-grp{margin:0 auto !important;width:278px !important;;height:300px !important;;}
-    .user-skill-detail-header{font-weight:600;}
-    .user-skill-detail-body{margin-top:10px;}
-    .user-skill-detail-layout{}
-    .user-skill-detail-layout ul{overflow:hidden;}
-    .user-skill-detail-layout li{float:left;width:50%;display:flex;padding:5px 0;}
-    .user-skill-detail-layout .user-skill-detail-title{float:left;width:50%;font-size:14px;display:flex;align-items:center;justify-content:center;font-weight:600;overflow:auto;word-break:keep-all;}
-    .user-skill-detail-layout .user-skill-detail-title span{display:inline-block;padding:0 5px;}
-    .user-skill-detail-layout .user-skill-detail-value{float:left;width:50%;font-size:12px;display:flex;align-items:center;justify-content:center;}
-    .user-skill-detail-layout .user-skill-detail-value span{display:inline-block;padding-right:5px;}
-    .user-skill-detail-layout .user-skill-detail-value span:nth-last-of-type(1){padding-right:0px;}
+    .user-skill-grp{margin:0 auto !important;width:278px !important;;height:300px !important;}
+    .user-skill-detail__header{font-weight:600;text-align:center;justify-content:center;}
+    .user-skill-detail__body{margin-top:10px;}
+    .user-skill-detail__layout{}
+    .user-skill-detail__layout ul{overflow:hidden;}
+    .user-skill-detail__layout li{float:left;width:50%;display:flex;padding:5px 0;}
+    .user-skill-detail__layout .user-skill-detail-title{float:left;width:50%;font-size:14px;display:flex;align-items:center;justify-content:center;font-weight:600;overflow:auto;word-break:keep-all;}
+    .user-skill-detail__layout .user-skill-detail-title span{display:inline-block;padding:0 5px;}
+    .user-skill-detail__layout .user-skill-detail-value{float:left;width:50%;font-size:12px;display:flex;align-items:center;justify-content:center;}
+    .user-skill-detail__layout .user-skill-detail-value span{display:inline-block;padding-right:5px;}
+    .user-skill-detail__layout .user-skill-detail-value span:nth-last-of-type(1){padding-right:0px;}
 /* 모달 - 어빌리티 - modal End */
 
 /* 아이템들의 layout */
@@ -106,6 +103,7 @@
         .user-profile-top{}
         .user-profile.user-profile-top > .r > .c {align-self:flex-start;}
         .user-action-info-detail{text-align:left;}
+        .user-action-info-detail .user-comment{display:inline-block;margin-top:4px;}
         .num{text-align:right;}
         .img-more__outer{display:block;}
         .img-more__outer__img{width:16px;opacity:0.5;}
@@ -171,14 +169,21 @@
         .img-profiles{position:relative;float:left;}
         .img-profiles > .r{position:relative;width:100%;}
         .img-profiles > .r > .c{margin-left:-16px;}
+
         .img-profiles .user-img .img-profile__outer{width:var(--img-profiles-width);height:var(--img-profiles-height);}
         .img-profile__outer{display:flex;align-items:center;overflow:hidden;border:1px solid #afafaf;width:40px;height:40px;border-radius:50%;}
         .img-profile__outer.v-hidde{visibility:hidden;height:auto;}
         .img-profile__outer.sm{width:30px;height:30px;}
+        .img-profile__outer.lg{width:100px;height:100px;}
         .img-profile__img{display:block;width:100%;}
         .img-profile-outer.big .img-profile-outer .img-profile__img{display:block;height:100%;width:auto;padding:10px 0;}
         .user-follow-state__link{font-weight:bold;}
         .user-follow-state.following .user-follow-state__link{color:#f2a83b;}
+
+        .user-profile.lg .img-profile__outer{width:100px;height:100px;}
+        .user-profile.lg > .r{gap:20px;}
+        .user-profile.lg .user-id{font-size:18px;}
+        .user-profile.lg .user-name{font-size:18px;}
     /** 유저 프로필 이미지 End */
 
     /** 좋아요 버튼 영역 */
@@ -247,7 +252,7 @@
     /** 드래그 수정 기능 End */
 
     /** 롤링페이퍼 */
-        .rollingpaper-banner{}
+        .rollingpaper-banner{display:none;}
         .rollingpaper-banner__img{display:block;width:100%;}
         .post-state{margin-top:10px;}
         .post-state .ico-comment{display:inline-block;margin-top:-2px;height:20px;}
@@ -437,10 +442,11 @@
 
     /** 상장 도장 */
         .SZ-RATIO .sz-stamp{position:absolute;z-index:500;right:15%;top:77%;width:14%;height:10%;margin:0 auto;text-align:center;}
-        .SZ-RATIO .sz-stamp > a > *{display:inline-block;width:100%;}
+        .SZ-RATIO .sz-stamp .sz-stamp-img{display:inline-block;width:100%;}
+        /*.SZ-RATIO .sz-stamp > a > *{display:inline-block;width:100%;}*/
         .SZ-RATIO .sz-sticking{position:absolute;left:0;top:0;transform:rotate(5deg);will-change:transform;}
         .SZ-RATIO .sz-stamping{position:absolute;left:0;top:0;transform:translateY(5%);will-change:transform;}
-        .SZ-RATIO .sz-sticker > a > .sz-sticking{display:none;width:100%;left:9%;top:-5%;z-index:1;will-change:transform;}
+        .SZ-RATIO .sz-sticker .sz-sticking{display:none;width:100%;left:9%;top:-5%;z-index:1;will-change:transform;}
         .SZ-RATIO .sz-stamp .sz-stamping{display:none;width:150%;left:-25%;top:-30%;z-index:1;will-change:transform;}
     /** 상장 도장 */
 
@@ -751,6 +757,150 @@
         #modalPhotoFullView .swiper-wrapper{height:var(--vh);}
         #modalPhotoFullView .swiper-slide{height:var(--vh);}
     /** 포토 확대보기 모달 End */
+
+    /** 상장 받기 버튼 */
+    .cta-wrapper {display: inline-flex;justify-content: center;}
+    .cta {position: relative;font-size: 10px;color: rgba(255, 255, 255, 0.8);text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);text-align: center;font-size:14px;}
+    .cta-text {display: block;}
+    .shine {
+        background: rgba(255, 255, 255, 0) linear-gradient(to right,rgba(130, 112, 45, 0) 0%,rgba(130, 112, 45, 1) 20%,rgba(224, 218, 200, 1) 50%,rgba(130, 112, 45, 1) 80%,rgba(130, 112, 45, 0) 100%) 0 0 no-repeat;
+        background: rgba(255, 255, 255, 0) linear-gradient(to right,rgba(var(--shine-light, 130, 112, 45), 0) 0%,rgba(var(--shine-light, 130, 112, 45), 1) 20%,rgba(var(--shine-light-2, 224, 218, 200), 1) 50%,rgba(var(--shine-light, 130, 112, 45), 1) 80%,rgba(var(--shine-light, 130, 112, 45), 0) 100%) 0 0 no-repeat;
+        background-position: 50%;
+        background-size: 40% 100%;
+        background-size: var(--shine-size, 40%) 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        will-change: background-position;
+    }
+    .shine--autoplay {animation: shine 1.6s infinite;}
+    .cta-line {bottom: -8px;margin: auto;display: block;height: 2px;width: 60px;left: 0;right: 0;animation: cta-start 1.6s infinite;backface-visibility: hidden;}
+    .cta-line, .cta-box {position: absolute;background: currentColor;border: currentColor;}
+    .cta::after {position: absolute;top: 0;left: 0;right: 0;content: ' ';background: inherit;filter: blur(10px);}
+
+    @-webkit-keyframes cta-start {
+        0% {
+            animation-timing-function: cubic-bezier(.27,.01,1,.77);
+            transform: translateX(-160%) scaleX(0);
+            opacity: 0.2;
+        }
+        35% {
+            animation-timing-function: cubic-bezier(0,.13,.59,1);
+            transform: translateX(0%) scaleX(1.5);
+            opacity: 0.8;
+        }
+        65% {
+            transform: translateX(160%) scaleX(0);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(160%) scaleX(0);
+            background: white;
+            opacity: 0;
+        }
+    }
+
+    @keyframes cta-start {
+        0% {
+            animation-timing-function: cubic-bezier(.27,.01,1,.77);
+            transform: translateX(-160%) scaleX(0);
+            opacity: 0.2;
+        }
+        35% {
+            animation-timing-function: cubic-bezier(0,.13,.59,1);
+            transform: translateX(0%) scaleX(1.5);
+            opacity: 0.8;
+        }
+        65% {
+            transform: translateX(160%) scaleX(0);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(160%) scaleX(0);
+            background: white;
+            opacity: 0;
+        }
+    }
+
+    @-webkit-keyframes blur {
+        from {
+            filter: blur(4px);
+        }
+        to {
+            filter: blur(0px);
+        }
+    }
+
+    @keyframes blur {
+        from {
+            filter: blur(4px);
+        }
+        to {
+            filter: blur(0px);
+        }
+    }
+
+    @-webkit-keyframes hover-cta-line {
+        from {
+            filter: blur(4px);
+            transform: scaleX(0);
+        }
+        to {
+            filter: blur(0px);
+            transform: scaleX(1);
+        }
+    }
+
+    @keyframes hover-cta-line {
+        from {
+            filter: blur(4px);
+            transform: scaleX(0);
+        }
+        to {
+            filter: blur(0px);
+            transform: scaleX(1);
+        }
+    }
+
+    @-webkit-keyframes shine {
+        0% { background-position: -60%; }
+        100% { background-position: 160%; }
+    }
+
+    @keyframes shine {
+        0% { background-position: -60%; }
+        100% { background-position: 160%; }
+    }
+
+    @-webkit-keyframes cta-audio-line {
+        0% {
+            opacity: 0.5;
+            transform: scaleY(1);
+        }
+        50% {
+            opacity: 0.1;
+            transform: scaleY(0.2);
+        }
+        100% {
+            opacity: 0.5;
+            transform: scaleY(1);
+        }
+    }
+
+    @keyframes cta-audio-line {
+        0% {
+            opacity: 0.5;
+            transform: scaleY(1);
+        }
+        50% {
+            opacity: 0.1;
+            transform: scaleY(0.2);
+        }
+        100% {
+            opacity: 0.5;
+            transform: scaleY(1);
+        }
+    }
+    /** 상장 받기 버튼 End */
 /* 상장보기 End */
 
 /* 능력 점수 선택 모달 */

@@ -1274,6 +1274,9 @@ table tr:hover td{background:#f8f8f8 !important;}
 .modal-body
 {border-top:1px solid #e8e8e8;padding:10px 0 0 0;}
 
+.modal-body.pd-lg
+{padding:10px 20px 0 20px !important;}
+
 .modal-body.no-scroll{overflow:hidden !important;}
 
 .modal-footer
@@ -1394,7 +1397,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 
 .modal-ani-down{
     animation-name: modal-ani-down;
-    animation-duration: 0.3s;
+    animation-duration: 0.25s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-down{
@@ -1408,7 +1411,7 @@ table tr:hover td{background:#f8f8f8 !important;}
 
 .modal-ani-down-up{
     animation-name: modal-ani-down-up;
-    animation-duration: 0.3s;
+    animation-duration: 0.25s;
     animation-delay: 0s;
 }
 @keyframes modal-ani-down-up{

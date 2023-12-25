@@ -118,9 +118,9 @@
                                         </div>
                                         <div class="sns">
                                             <ul>
-                                                <li><span class="sns-name md-visible-inline">인스타 : </span><a href="https://www.instagram.com/s2yun_o/" target="_blank">https://www.instagram.com/coral0128</a> <!--인증됨--></li>
-                                                <li><span class="sns-name md-visible-inline">페이스북 : </span><a href="https://www.facebook.com/jisora" target="_blank">https://www.facebook.com/jisora</a></li>
-                                                <li><span class="sns-name md-visible-inline">유튜브 : </span><a href="https://www.youtube.com/@yodelay" target="_blank">https://www.youtube.com/channel/UCtfGLmp6xMwvPoYpI-A5Kdg</a></li>
+                                                <li><span class="sns-name md-visible-inline">인스타 : </span><a href="https://www.instagram.com/s2yun_o/" target="_blank">https://www.instagram.com/aaa</a> <!--인증됨--></li>
+                                                <li><span class="sns-name md-visible-inline">페이스북 : </span><a href="https://www.facebook.com/jisora" target="_blank">https://www.facebook.com/bbb</a></li>
+                                                <li><span class="sns-name md-visible-inline">유튜브 : </span><a href="https://www.youtube.com/@yodelay" target="_blank">https://www.youtube.com/channel/ccc</a></li>
                                             </ul>
                                         </div>
                                         <!--

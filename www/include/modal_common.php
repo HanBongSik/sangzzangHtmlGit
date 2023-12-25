@@ -14,9 +14,9 @@
                         </div>
                         <!-- 모달 헤더 End -->
                         <!-- 모달 바디 -->
-                        <div class="modal-body">
+                        <div class="modal-body pd-lg">
                             <div class="g login">
-                                <div class="r">
+                                <div class="r login__auto">
                                     <div class="c center-right">
                                         <span class="forms">
                                             <input type="checkbox" class="xs" name="loginAuto" value="loginAuto" id="loginAuto" checked="checked">
@@ -24,45 +24,53 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div class="r">
+                                <div class="r login__id">
                                     <span class="forms forms-full">
-                                        <input type="text" class="md" value="" placeholder="아이디">
+                                        <input type="text" class="primary md" value="" placeholder="아이디">
                                     </span>
                                 </div>
-                                <div class="r">
+                                <div class="r login__pw">
                                     <span class="forms forms-full">
-                                        <input type="text" class="md" value="" placeholder="패스워드">
+                                        <input type="text" class="primary md" value="" placeholder="패스워드">
                                     </span>
                                 </div>
-                                <div class="r">
+
+                                <div class="r login__btn">
+                                    <span class="forms forms-full">
+                                        <button class="btn w-100 xl">로그인</button>
+                                    </span>
+                                </div>
+                                <div class="r login__another">
                                     <div class="login__login-lnk">
-                                        <a href="member_find_id.php">아이디 찾기</a>&nbsp;|&nbsp;
-                                        <a href="member_find_pwd.php">비밀번호 찾기</a>&nbsp;|&nbsp;
+                                        <a href="member_find_id.php">아이디 찾기</a>&nbsp;|
+                                        <a href="member_find_pwd.php">비밀번호 찾기</a>&nbsp;|
                                         <a href="member_join.php">회원가입</a>
                                     </div>
                                 </div>
-                                <div class="r">
-                                    <div class="login-sns">
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-naver.png" alt="네이버"></a>
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-kakao.png" alt="카카오톡"></a>
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-google.png" alt="구글"></a>
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-facebook.png" alt="페이스북"></a>
-                                        <a href="#;" class="login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-instagram.png" alt="인스타그램"></a>
-                                        <!--
-                                        <a href="#;"><img src="./assets/img/kakaostory.png" alt="카카오스토리"></a>
-                                        -->
+                                <div class="r login__sns">
+                                    <div class="g login-sns">
+                                        <div class="r ">
+                                            <a href="#;" class="c login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-naver.png" alt="네이버"></a>
+                                            <a href="#;" class="c login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-kakao.png" alt="카카오톡"></a>
+                                            <a href="#;" class="c login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-google.png" alt="구글"></a>
+                                            <a href="#;" class="c login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-facebook.png" alt="페이스북"></a>
+                                            <a href="#;" class="c login-sns__outer"><img class="login-sns__img" src="/assets/img/ico/sns-instagram.png" alt="인스타그램"></a>
+                                            <!--
+                                            <a href="#;"><img src="./assets/img/kakaostory.png" alt="카카오스토리"></a>
+                                            -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- 모달 헤더 End -->
 
-                        <!-- 모달 푸터 -->
+                        <!-- 모달 푸터
                         <div class="modal-footer">
                             <button class="btn">로그인</button>
                             <button class="btn btn-black MODAL-CLOSE">취소</button>
                         </div>
-                        <!-- 모달 푸터 End -->
+                        모달 푸터 End -->
                     </div>
                 </div>
             </div>
@@ -963,7 +971,7 @@
     <!-- 예제 검색 End -->
 
     <!-- 검색 -->
-    <div class="modal-dimmed" id="modalSearch">
+    <div class="modal-dimmed" id="modalSearch" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
         <div class="modal-full modal-height-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
@@ -1217,7 +1225,7 @@
     
 
 	<!-- 알람 모달 팝업 -->
-    <div class="modal-dimmed" id="modalAlarm">
+    <div class="modal-dimmed" id="modalAlarm" data-ani-on="modal-ani-opacity" data-ani-off="modal-ani-opacity-opacity">
         <div class="modal-full modal-height-max-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
@@ -2391,7 +2399,7 @@
     <!-- 상장 보기 End -->
     <!-- 스킬 보기 -->
     <div class="modal-dimmed" id="modalSkill">
-        <div class="modal-full modal-height-full">
+        <div class="modal-full modal-height-max-full">
             <div class="modal-wrapper">
                 <div class="modal-container">
                     <div class="modal-content" data-ani-on="modal-ani-target" data-ani-off="modal-ani-target-target">
@@ -2400,105 +2408,117 @@
                         </div>
                         <!-- 모달 헤더 -->
                         <div class="modal-header">
-                            <h2>한봉식님의 스킬</h2>
+                            <h2>한봉식님의 어빌리티</h2>
                         </div>
                         <!-- 모달 헤더 End -->
 
                         <!-- 모달 바디 -->
                         <div class="modal-body">
-                            <div class="g g-pd-sm user-action-info">
-                                <div class="r">
-                                    <!--                                        <div class="c c-float">-->
-                                    <!--                                            <div class="num">1</div>-->
-                                    <!--                                        </div>-->
-                                    <div class="c c-inner-width">
-                                        <div class="img-profile">
-                                            <div class="img-profile-outer">
-                                                <img class="img-profile-outer__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c">
-                                        <div class="g">
-                                            <div class="r">
-                                                <div class="c">
-                                                    <div class="user-action-info-detail">
-                                                        <span class="user-id">bongsikhan</span>
-                                                        <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                        <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="r">
-                                                <div class="c">
-                                                    <div class="user-action-info-detail">
-                                                        <span class="user-name">한봉식</span>
-                                                        <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--                                                <div class="r">-->
-                                            <!--                                                    <div class="c">-->
-                                            <!--                                                        <div class="skill-list">-->
-                                            <!--                                                            개발자 화가 축구 JAVA 서피스북-->
-                                            <!--                                                        </div>-->
-                                            <!--                                                    </div>-->
-                                            <!--                                                </div>-->
-                                        </div>
-                                    </div>
-                                    <div class="c c-inner-width">
-                                        <div class="btn-user-action">
-                                            <!--                                                <span class="forms">-->
-                                            <!--                                                    <button type="button" class="btn-primary">follow</button>-->
-                                            <!--                                                </span>-->
-                                        </div>
 
-<!--                                        <div class="btn-more-action">-->
-<!--                                            <div class="img-more">-->
-<!--                                                <a href="#;" class="trigger img-more__outer"><img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt=""></a>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-                                    </div>
-                                </div>
+                            <div class="g users">
+                                <ul class="users__list">
+                                    <li class="users__list__item">
+                                        <div class="g lay-user-action-info">
+                                            <div class="r">
+                                                <div class="c">
+                                                    <!-- 유저 프로필 덩어리 -->
+
+                                                    <div class="g user-profile lg user-profile-top">
+                                                        <div class="r">
+                                                            <div class="c c-inner-width">
+                                                                <div class="img-profile">
+                                                                    <a href="/pages/myroom.php" class="img-profile__link">
+                                                                        <div class="img-profile__outer">
+                                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="c">
+                                                                <div class="g">
+                                                                    <div class="r">
+                                                                        <div class="c">
+                                                                            <div class="user-action-info-detail">
+                                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsikhan</span></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="r">
+                                                                        <div class="c">
+                                                                            <div class="user-action-info-detail">
+                                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="r">
+                                                                        <div class="c">
+                                                                            <div class="user-action-info-detail">
+                                                                                이시대의 상남자 입니다.<br>
+                                                                                https://www.instagram.com/aaa<br>
+                                                                                https://www.facebook.com/bbb<br>
+                                                                                https://www.youtube.com/channel/ccc
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 유저 프로필 덩어리 End -->
+                                                </div>
+
+<!--                                                <div class="c c-full center-right">-->
+<!--                                                    <span class="forms">-->
+<!--                                                        <button type="button" class="btn-follow-ing">팔로잉</button>-->
+<!--                                                    </span>-->
+<!--                                                </div>-->
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
 
-                            <div class="user-skill-grp"></div>
-
-                            <div class="user-skill-detail-grp">
-                                <div class="user-skill-detail-header">
+                            <div class="g user-skill-detail">
+                                <div class="r user-skill-detail__header">
                                     어빌리티
                                 </div>
-                                <div class="user-skill-detail-body">
-                                    <div class="user-skill-detail-layout">
+                                <div class="r user-skill-detail__body">
+                                    <div class="user-skill-detail__layout">
                                         <ul>
                                             <li>
-                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">다정함</span></div>
-                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(10%)</span></div>
+                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">유머</span></div>
+                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(99%)</span></div>
                                             </li>
                                             <li>
-                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">스타크래프트</span></div>
-                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(10%)</span></div>
+                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">진지</span></div>
+                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(88%)</span></div>
                                             </li>
                                             <li>
-                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">퍼블리싱</span></div>
-                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(10%)</span></div>
+                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">장난기</span></div>
+                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(100%)</span></div>
                                             </li>
                                             <li>
-                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">디자인</span></div>
-                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(10%)</span></div>
+                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">게임</span></div>
+                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(90%)</span></div>
                                             </li>
                                             <li>
-                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">자바스크립트</span></div>
-                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(10%)</span></div>
+                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">독서</span></div>
+                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(100%)</span></div>
                                             </li>
                                             <li>
-                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">다크소울3</span></div>
-                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(10%)</span></div>
+                                                <div class="user-skill-detail-title"><span class="user-skill-detail-label">맥북</span></div>
+                                                <div class="user-skill-detail-value"><span class="point">50</span><span class="percent">(85%)</span></div>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="user-skill-grp"></div>
                         </div>
                         <!-- 모달 바디 End -->
 
