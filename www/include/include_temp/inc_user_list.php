@@ -13,7 +13,7 @@
                                                     <div class="img-profile">
                                                         <a href="/pages/myroom.php" class="img-profile__link">
                                                             <div class="img-profile__outer">
-                                                                <img class="img-profile__img" src="/assets/tempImg/profile/af.jpg" alt="프로필 이미지">
+                                                                <img class="img-profile__img" src="/assets/tempImg/profile/ar.jpg" alt="프로필 이미지">
                                                             </div>
                                                         </a>
                                                     </div>

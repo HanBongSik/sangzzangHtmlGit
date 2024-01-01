@@ -39,15 +39,70 @@
                                 <div class="g user-profile-card__header">
                                     <div class="r">
                                         <div class="c">
-                                            <div class="img-profile">
-                                                <div class="img-profile-outer big">
+                                            <div class="img-profile lg">
+                                                <div class="img-profile-outer">
                                                     <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="c">
-                                            <div class="skills">
-                                                <a href="./assets/img/test-graph2.png" class="skills-link MODAL-BTN" target="_blank" data-target="#modalSkill"><!--<img class="skill-grap" src="./assets/img/test-graph2.png" class="img-graph" alt="스킬 그래프">--></a>
+<!--                                        <div class="c">-->
+<!--                                            <div class="skills">-->
+<!--                                                <a href="./assets/img/test-graph2.png" class="skills-link MODAL-BTN" target="_blank" data-target="#modalSkill"><img class="skill-grap" src="./assets/img/test-graph2.png" class="img-graph" alt="스킬 그래프"></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+                                        <div class="c direction-column">
+                                            <div class="g tag-ability tag-ability-st01">
+                                                <ul class="r tag-ability__list style-01 MODAL-BTN" data-target="#modalSkill">
+                                                    <li class="c tag-ability__list__item">
+                                                        <div class="tag-skill style-01">
+                                                            <div class="tag-skill__gauge-bg"></div>
+                                                            <div class="tag-skill__gauge w-95">95%</div>
+                                                            <span class="tag-skill__num">12</span>
+                                                            <span class="tag-skill__name">유머</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-ability__list__item">
+                                                        <div class="tag-skill">
+                                                            <div class="tag-skill__gauge-bg"></div>
+                                                            <div class="tag-skill__gauge w-85">85%</div>
+                                                            <span class="tag-skill__num">82</span>
+                                                            <span class="tag-skill__name">진지</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-ability__list__item">
+                                                        <div class="tag-skill">
+                                                            <div class="tag-skill__gauge-bg"></div>
+                                                            <div class="tag-skill__gauge w-50">50%</div>
+                                                            <span class="tag-skill__num">90</span>
+                                                            <span class="tag-skill__name">장난기</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-ability__list__item">
+                                                        <div class="tag-skill">
+                                                            <div class="tag-skill__gauge-bg"></div>
+                                                            <div class="tag-skill__gauge w-78">78%</div>
+                                                            <span class="tag-skill__num">666</span>
+                                                            <span class="tag-skill__name">게임</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-ability__list__item">
+                                                        <div class="tag-skill">
+                                                            <div class="tag-skill__gauge-bg"></div>
+                                                            <div class="tag-skill__gauge w-65">65%</div>
+                                                            <span class="tag-skill__num">37</span>
+                                                            <span class="tag-skill__name">독서</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="c tag-ability__list__item">
+                                                        <div class="tag-skill">
+                                                            <div class="tag-skill__gauge-bg"></div>
+                                                            <div class="tag-skill__gauge w-15">15%</div>
+                                                            <span class="tag-skill__num">8</span>
+                                                            <span class="tag-skill__name">맥북</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
                                             </div>
                                         </div>
                                     </div>

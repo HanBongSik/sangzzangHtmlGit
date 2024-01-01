@@ -30,7 +30,16 @@
                             <!-- 리스트 -->
                             <li class="c posts__list__item">
                                 <div class="post">
-
+                                    <div class="r post__row">
+                                        <div class="sz-function sz-function-receive shadow">
+                                            <a class="cta-wrapper cta-wrapper--interactive" data-dom="cta-shop" href="#;" onclick="bottomSheetOn('#bottomSheetSZReceive','on');">
+                                                <div class="cta shine shine--autoplay" data-template-text="ctaShop" data-text="SHOP THE COLLECTION">
+                                                    <span class="cta-text" data-template-html="ctaShop">상장 받기</span>
+                                                    <span class="cta-line"></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
                                     <div class="r post__row">
                                         <div class="showcase-state" style="text-align:right;">
                                             <!--<button type="button" class="button small" id="addShowcase">쇼케이스에 진열</button>-->
@@ -167,14 +176,7 @@
                                             https://html2canvas.hertzen.com/
                                             https://www.url2png.com/#testdrive
                                         -->
-                                        <div class="sz-function sz-function-receive shadow">
-                                            <a class="cta-wrapper cta-wrapper--interactive" data-dom="cta-shop" href="#;">
-                                                <div class="cta shine shine--autoplay" data-template-text="ctaShop" data-text="SHOP THE COLLECTION">
-                                                    <span class="cta-text" data-template-html="ctaShop">상장 받기</span>
-                                                    <span class="cta-line"></span>
-                                                </div>
-                                            </a>
-                                        </div>
+
                                         <div class="SANGZZANG SZ-ORIGIN SZ-VIEW"> <!-- 만들기 페이지 : SANGZZANG SZ-ORIGIN SZ-WRITING -->
                                             <div class="sz-ratio-loading">
                                                 <img class="img-loading" src="/assets/img/loading/loading.jpg" alt="로딩 중"/>
@@ -2020,6 +2022,12 @@
     </div>
     <!-- 포토 확대 보기 End -->
 <!-- 상장보기 전용 모달 End -->
+
+<script>
+    $(document).ready(function(){
+        bottomSheetOn('#bottomSheetSZReceive','on');
+    })
+</script>
 </body>
 
 

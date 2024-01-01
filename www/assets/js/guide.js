@@ -2,12 +2,12 @@
 var timeOutNum = 280;
 
 /* 모바일 100vh 사용을 위함 */
-let vh = window.innerHeight;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-window.addEventListener('resize', () => {
     let vh = window.innerHeight;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
-})
+    window.addEventListener('resize', () => {
+        let vh = window.innerHeight;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    })
 /* 모바일 100vh 사용을 위함 End */
 
 /* 모달 팝업 */
@@ -53,77 +53,77 @@ window.addEventListener('resize', () => {
     }
 
 /* 헤더 높이 css 변수로 사용하기 위함 */
-function styleHeaderHeight(){
-    let target = document.querySelector('header.header');
-    //let headerHeightNum = target.clientHeight; //46px;
-    let headerHeightNum =  target ? target.clientHeight : 0; //46px;
-    /* 기존 style이 있다면 삭제 */
-    if(document.getElementById('styleHeaderHeight')){
-        document.getElementById('styleHeaderHeight').remove();
-    }
-    let styleEl = document.createElement('style');
-    styleEl.id = 'headerHeight';
-    // styleEl.innerHTML = `.HEADER-HEIGHT{${HeaderHeight}px !important;}`;//.w-90{min-width:var(--w-90) !important;}
-    styleEl.innerHTML =`:root {
-        --hedaer-height: ${headerHeightNum}px;
-    }`;
-    document.head.appendChild(styleEl);
-}
-/* 헤더 높이 css 변수로 사용하기 위함 End */
-
-/* 푸터 높이 css 변수로 사용하기 위함 */
-function styleFooterHeight(){
-    let target = document.querySelector('footer.footer');
-    //let footerHeightNum = target.clientHeight; //46px;
-    let footerHeightNum =  target ? target.clientHeight : 0; //46px;
-    /* 기존 style이 있다면 삭제 */
-    if(document.getElementById('styleHeaderHeight')){
-        document.getElementById('styleHeaderHeight').remove();
-    }
-    let styleEl = document.createElement('style');
-    styleEl.id = 'footerHeight';
-    styleEl.innerHTML =`:root {
-        --footer-height: ${footerHeightNum}px;
-    }`;
-    document.head.appendChild(styleEl);
-}
-/* 푸터 높이 css 변수로 사용하기 위함 */
-
-/* 제목 높이 css 변수로 사용하기 위함 */
-function styleHeader01Height(){
-    let target = document.querySelector('.header-01');
-    let header01HeightNum = 0; //46px;
-    if(target === null){
-        header01HeightNum = 0;
-    }else{
-        let header01HeightNum = target.clientHeight; //46px;
+    function styleHeaderHeight(){
+        let target = document.querySelector('header.header');
+        //let headerHeightNum = target.clientHeight; //46px;
+        let headerHeightNum =  target ? target.clientHeight : 0; //46px;
         /* 기존 style이 있다면 삭제 */
-        if(document.getElementById('styleHeader01Height')){
-            document.getElementById('styleHeader01Height').remove();
+        if(document.getElementById('styleHeaderHeight')){
+            document.getElementById('styleHeaderHeight').remove();
         }
         let styleEl = document.createElement('style');
-        styleEl.id = 'header01Height';
+        styleEl.id = 'headerHeight';
+        // styleEl.innerHTML = `.HEADER-HEIGHT{${HeaderHeight}px !important;}`;//.w-90{min-width:var(--w-90) !important;}
         styleEl.innerHTML =`:root {
-            --header01-height: ${header01HeightNum}px;
+            --hedaer-height: ${headerHeightNum}px;
         }`;
         document.head.appendChild(styleEl);
     }
+/* 헤더 높이 css 변수로 사용하기 위함 End */
 
-}
+/* 푸터 높이 css 변수로 사용하기 위함 */
+    function styleFooterHeight(){
+        let target = document.querySelector('footer.footer');
+        //let footerHeightNum = target.clientHeight; //46px;
+        let footerHeightNum =  target ? target.clientHeight : 0; //46px;
+        /* 기존 style이 있다면 삭제 */
+        if(document.getElementById('styleHeaderHeight')){
+            document.getElementById('styleHeaderHeight').remove();
+        }
+        let styleEl = document.createElement('style');
+        styleEl.id = 'footerHeight';
+        styleEl.innerHTML =`:root {
+            --footer-height: ${footerHeightNum}px;
+        }`;
+        document.head.appendChild(styleEl);
+    }
+/* 푸터 높이 css 변수로 사용하기 위함 */
+
+/* 제목 높이 css 변수로 사용하기 위함 */
+    function styleHeader01Height(){
+        let target = document.querySelector('.header-01');
+        let header01HeightNum = 0; //46px;
+        if(target === null){
+            header01HeightNum = 0;
+        }else{
+            let header01HeightNum = target.clientHeight; //46px;
+            /* 기존 style이 있다면 삭제 */
+            if(document.getElementById('styleHeader01Height')){
+                document.getElementById('styleHeader01Height').remove();
+            }
+            let styleEl = document.createElement('style');
+            styleEl.id = 'header01Height';
+            styleEl.innerHTML =`:root {
+                --header01-height: ${header01HeightNum}px;
+            }`;
+            document.head.appendChild(styleEl);
+        }
+
+    }
 /* 제목 높이 css 변수로 사용하기 위함 End */
 
-function noPullRefreshModalOn(el){
-    $('body').addClass('OVERFLOW-HIDDEN');
-    $('#wrap').addClass('OVERSCROLL');
-    $('body, #wrap').addClass('OVERFLOW-HIDDEN');
-    $(el).addClass('OVERSCROLL');
-}
-function noPullRefreshModalOff(el){
-    $('body').removeClass('OVERFLOW-HIDDEN');
-    $('#wrap').removeClass('OVERSCROLL');
-    $('body, #wrap').removeClass('OVERFLOW-HIDDEN');
-    $(el).removeClass('OVERSCROLL');
-}
+    function noPullRefreshModalOn(el){
+        $('body').addClass('OVERFLOW-HIDDEN');
+        $('#wrap').addClass('OVERSCROLL');
+        $('body, #wrap').addClass('OVERFLOW-HIDDEN');
+        $(el).addClass('OVERSCROLL');
+    }
+    function noPullRefreshModalOff(el){
+        $('body').removeClass('OVERFLOW-HIDDEN');
+        $('#wrap').removeClass('OVERSCROLL');
+        $('body, #wrap').removeClass('OVERFLOW-HIDDEN');
+        $(el).removeClass('OVERSCROLL');
+    }
     function modalOn(from,el){
         let aniOn = $(el).data('ani-on');
         let aniOff = $(el).data('ani-off');
@@ -249,22 +249,22 @@ function noPullRefreshModalOff(el){
         // alert(aniOff && aniOff.length > 0)
         // alert(aniOffInner && aniOffInner.length > 0)
     }
-function modalOffAfterImmediately(el){
-    if(el == '#modalAddAbility'){
-        if(document.querySelectorAll(".tagify__dropdown").length > 0){
-            document.querySelector(".tagify__dropdown").style.display = "none";
+    function modalOffAfterImmediately(el){
+        if(el == '#modalAddAbility'){
+            if(document.querySelectorAll(".tagify__dropdown").length > 0){
+                document.querySelector(".tagify__dropdown").style.display = "none";
+            }
         }
     }
-}
-function modalOffAfter(el){
-    if(el == '#modalSzDownload'){
-        $('#modalSzDownload .sz-download-modal-col').find('canvas').remove();
-        renderDiv2TextareaReset();
+    function modalOffAfter(el){
+        if(el == '#modalSzDownload'){
+            $('#modalSzDownload .sz-download-modal-col').find('canvas').remove();
+            renderDiv2TextareaReset();
+        }
+        if(el == '#modalPhotoFullView'){
+            $('#modalPhotoFullView').find('.swiper-wrapper').empty();
+        }
     }
-    if(el == '#modalPhotoFullView'){
-        $('#modalPhotoFullView').find('.swiper-wrapper').empty();
-    }
-}
     
     function bindModals(){
         $('.MODAL-BTN').each(function(index, item){
@@ -290,6 +290,117 @@ function modalOffAfter(el){
         });
     }
 /* 모달 팝업 End */
+
+/* bottom sheet */
+
+    // Copyright (c) 2022 Ivan Teplov
+    function bottomSheetOn(el,init){
+        // noPullRefreshModalOn();
+        const $ = document.querySelector.bind(document);
+        const openSheetButton = $("#btn-open-bottom-sheet");
+        const sheet = $(el);
+        const sheetContents = sheet.querySelector(".bottom-sheet__contents");
+        const draggableArea = sheet.querySelector(".draggable-area");
+
+        let sheetHeight; // in vh
+        let sheetHeightInit = 35;
+
+        const setSheetHeight = (value) => {
+            sheetHeight = Math.max(0, Math.min(100, value));
+            sheetContents.style.height = `${sheetHeight}vh`;
+            if (sheetHeight === 100) {
+                sheetContents.classList.add("fullscreen");
+            } else {
+                sheetContents.classList.remove("fullscreen");
+            }
+        }
+
+        const setIsSheetShown = (isShown) => {
+            sheet.setAttribute("aria-hidden", String(!isShown));
+        }
+
+        // Open the sheet when clicking the 'open sheet' button
+        // openSheetButton.addEventListener("click", () => {
+        //     setSheetHeight(Math.min(sheetHeightInit, 720 / window.innerHeight * 100));
+        //     setIsSheetShown(true);
+        // })
+
+        // Hide the sheet when clicking the 'close' button
+        sheet.querySelector(".close-sheet").addEventListener("click", () => {
+            setIsSheetShown(false);
+            // noPullRefreshModalOff();
+        })
+
+        // Hide the sheet when clicking the background
+        sheet.querySelector(".bottom-sheet__overlay").addEventListener("click", () => {
+            setIsSheetShown(false);
+            // noPullRefreshModalOff();
+        })
+
+        const isFocused = element => document.activeElement === element;
+
+        // Hide the sheet when pressing Escape if the target element
+        // is not an input field
+        window.addEventListener("keyup", (event) => {
+            const isSheetElementFocused = sheet.contains(event.target) && isFocused(event.target);
+            if (event.key === "Escape" && !isSheetElementFocused) {
+                setIsSheetShown(false);
+            }
+        })
+
+        const touchPosition = (event) => event.touches ? event.touches[0] : event;
+
+        let dragPosition
+
+        const onDragStart = (event) => {
+            dragPosition = touchPosition(event).pageY;
+            sheetContents.classList.add("not-selectable");
+            draggableArea.style.cursor = document.body.style.cursor = "grabbing";
+        }
+
+        const onDragMove = (event) => {
+            if (dragPosition === undefined) return;
+
+            const y = touchPosition(event).pageY;
+            const deltaY = dragPosition - y;
+            const deltaHeight = deltaY / window.innerHeight * 100;
+
+            setSheetHeight(sheetHeight + deltaHeight);
+            dragPosition = y;
+        }
+
+        const onDragEnd = () => {
+            dragPosition = undefined;
+            sheetContents.classList.remove("not-selectable");
+            draggableArea.style.cursor = document.body.style.cursor = "";
+
+            if (sheetHeight < 25) {
+                setIsSheetShown(false);
+                // noPullRefreshModalOff();
+            } else if (sheetHeight > 75) {
+                setSheetHeight(100);
+                // noPullRefreshModalOn();
+            } else {
+                setSheetHeight(sheetHeightInit);
+                // noPullRefreshModalOn();
+            }
+        }
+
+        draggableArea.addEventListener("mousedown", onDragStart);
+        draggableArea.addEventListener("touchstart", onDragStart);
+
+        window.addEventListener("mousemove", onDragMove);
+        window.addEventListener("touchmove", onDragMove);
+
+        window.addEventListener("mouseup", onDragEnd);
+        window.addEventListener("touchend", onDragEnd);
+
+        if(init == 'on'){
+            setSheetHeight(Math.min(sheetHeightInit, 720 / window.innerHeight * 100));
+            setIsSheetShown(true);
+        }
+    }
+/* bottom sheet End */
 
 /** 탭 */
 

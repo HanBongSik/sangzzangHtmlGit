@@ -802,7 +802,7 @@
                                     <div class="btn-group">
                                         <button type="button" id="SAVE" class="btn btn-primary btn-lg" onclick="go('./sz_view.php')">작성완료</button>
                                         <button type="button" id="SAVE" class="btn btn-secondary btn-lg" >미리보기</button>
-                                        <button type="button" class="btn btn-black btn-lg">초기화</button>
+                                        <button type="button" class="btn btn-negative btn-lg">초기화</button>
                                     </div>
                                 </div>
                             </div>
@@ -973,7 +973,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -1029,7 +1029,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>

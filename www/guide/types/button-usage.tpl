@@ -23,10 +23,20 @@
         <div class="__figure">
             <div class="__element">
                 <span class="forms">
-                    <button type="button" class="btn-cancel">취소</button>
+                    <button type="button" class="btn-positive">확인</button>
                 </span>
             </div>
-            <div class="__class">.btn-cancel</div>
+            <div class="__class">.btn-positive</div>
+        </div>
+    </div>
+    <div class="__list">
+        <div class="__figure">
+            <div class="__element">
+                <span class="forms">
+                    <button type="button" class="btn-negative">취소</button>
+                </span>
+            </div>
+            <div class="__class">.btn-negative</div>
         </div>
     </div>
     <div class="__list">

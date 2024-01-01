@@ -6,16 +6,16 @@
                 <div class="award-list award-on">
                     <ol class="award-ol">
                         <li class="gold">
-                            <img class="profile-img" src="/assets/tempImg/profile/af.jpg" alt=""/>
-                            <div class="award-nick"><span>bamvhm</span></div>
+                            <img class="profile-img" src="/assets/tempImg/profile/ar.jpg" alt=""/>
+                            <div class="award-nick"><span>__youngbae__</span></div>
                         </li>
                         <li class="silver">
                             <img class="profile-img" src="/assets/tempImg/profile/r.jpg" alt=""/>
-                            <div class="award-nick"><span>leewoonseong</span></div>
+                            <div class="award-nick"><span>blackpinkofficial</span></div>
                         </li>
                         <li class="bronze">
                             <img class="profile-img" src="/assets/tempImg/profile/b.jpg" alt=""/>
-                            <div class="award-nick"><span>syung.kim_</span></div>
+                            <div class="award-nick"><span>leedongwook_official</span></div>
                         </li>
                     </ol>
                 </div>

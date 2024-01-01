@@ -844,7 +844,7 @@
                                     <div class="btn-group">
                                         <button type="button" id="SAVE" class="btn btn-primary btn-lg" onclick="go('./sz_view.php')">작성완료</button>
                                         <button type="button" id="SAVE" class="btn btn-secondary btn-lg" >미리보기</button>
-                                        <button type="button" class="btn btn-black btn-lg">초기화</button>
+                                        <button type="button" class="btn btn-negative btn-lg">초기화</button>
                                     </div>
                                 </div>
                             </div>

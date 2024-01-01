@@ -15,6 +15,7 @@ header,
 #wrap{padding-bottom:var(--wrap-padding-bottom);}
 section#container, header .header, footer .footer{max-width: 1000px;margin:0 auto;}
 section#container .content{margin-top:20px;}
+section#container .content.sm{max-width:400px;margin-left:auto;margin-right:auto;}
 
 /* footer */
 .footer{position:fixed;bottom:0;left:0;width:100%;border-top:1px solid #ddd;padding:10px;overflow:auto;background-color:#fff;z-index:100;}
@@ -122,7 +123,7 @@ section#container .content{margin-top:20px;}
 
     /* 버튼 */
         .btn-group{text-align:center;width:100%;margin-top:20px;}
-        .btn-group .btn{margin:0 2px;}
+        .btn-group .btn{margin:0 2px;min-width:100px;}
         .btn:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover{opacity:1;}
     /* 버튼 End */
 
@@ -138,12 +139,20 @@ section#container .content{margin-top:20px;}
     /* 토글 End */
 
     /* input - 디자인 추가 */
-        input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]).primary,textarea.primary
-        {display:inline-block;opacity:1;border:none;border:1px solid #e8e8e8;transition:all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
-        input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]).secondary
-        {border-color:var(--secondary);}
         input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"])
         {width:var(--input-md-width);height:var(--xl-height);line-height:var(--md-line-height);padding:var(--input-md-padding);font-size:var(--md-font-size);font-weight:var(--btn-md-font-weight);background:#fff;}
+
+        input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]).primary,textarea.primary
+        {display:inline-block;opacity:1;border:none;border:1px solid #c4c4c4;transition:all var(--transition-time);border-radius:var(--radius);background-color:#fff;background:#fafafa !important;resize: none;}
+        input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]).secondary,textarea.secondary
+        {border-color:var(--secondary);}
+
+        textarea.primary{width:var(--input-md-width);height:var(--xl-height);line-height:var(--md-line-height);padding:var(--input-md-padding);font-size:var(--md-font-size);font-weight:var(--btn-md-font-weight);background:#fff;padding-top:5px;padding-bottom:5px;height:50px;}
+        textarea.primary.line-01{height:50px;}
+        textarea.primary.line-02{height:75px;}
+        textarea.primary.line-03{height:100px;}
+        textarea.primary.line-04{height:125px;}
+
     /* input - 디자인 추가 End */
 
     /* 댓글 */

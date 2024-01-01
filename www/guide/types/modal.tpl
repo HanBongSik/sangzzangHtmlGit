@@ -41,7 +41,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -74,7 +74,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -106,7 +106,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -157,7 +157,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -189,7 +189,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -221,7 +221,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -253,7 +253,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -285,7 +285,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -317,7 +317,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>
@@ -349,7 +349,7 @@
                     <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <button class="btn">확인</button>
-                        <button class="btn btn-black MODAL-CLOSE">취소</button>
+                        <button class="btn btn-negative MODAL-CLOSE">취소</button>
                     </div>
                     <!-- 모달 푸터 End -->
                 </div>

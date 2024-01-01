@@ -1011,7 +1011,7 @@
                                     <div class="btn-group">
 <!--                                        <button type="button" id="SAVE" class="btn btn-white btn-lg" >미리보기</button>-->
                                         <button type="button" id="SAVE" class="btn btn-primary btn-lg" onclick="go('./sz_view.php')">작성완료</button>
-                                        <button type="button" class="btn btn-black btn-lg" onclick="confirm('정말 초기화하시겠습니까?')">초기화</button>
+                                        <button type="button" class="btn btn-negative btn-lg" onclick="confirm('정말 초기화하시겠습니까?')">초기화</button>
                                     </div>
                                 </div>
                             </div>
