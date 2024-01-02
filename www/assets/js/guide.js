@@ -295,7 +295,8 @@ var timeOutNum = 280;
 
     // Copyright (c) 2022 Ivan Teplov
     function bottomSheetOn(el,init){
-        // noPullRefreshModalOn();
+        noPullRefreshModalOn();
+        console.log('noPullRefreshModalOn() 1');
         const $ = document.querySelector.bind(document);
         const openSheetButton = $("#btn-open-bottom-sheet");
         const sheet = $(el);
@@ -310,13 +311,16 @@ var timeOutNum = 280;
             sheetContents.style.height = `${sheetHeight}vh`;
             if (sheetHeight === 100) {
                 sheetContents.classList.add("fullscreen");
+                console.log('add fullscreen');
             } else {
                 sheetContents.classList.remove("fullscreen");
+                console.log('remove fullscreen');
             }
         }
 
         const setIsSheetShown = (isShown) => {
             sheet.setAttribute("aria-hidden", String(!isShown));
+            console.log('setIsSheetShown');
         }
 
         // Open the sheet when clicking the 'open sheet' button
@@ -328,13 +332,20 @@ var timeOutNum = 280;
         // Hide the sheet when clicking the 'close' button
         sheet.querySelector(".close-sheet").addEventListener("click", () => {
             setIsSheetShown(false);
-            // noPullRefreshModalOff();
+            console.log('close-sheet');
+            setTimeout( function () {
+                noPullRefreshModalOff();
+            }, 400);
+
         })
 
         // Hide the sheet when clicking the background
         sheet.querySelector(".bottom-sheet__overlay").addEventListener("click", () => {
             setIsSheetShown(false);
-            // noPullRefreshModalOff();
+            console.log('bottom-sheet__overlay');
+            setTimeout( function () {
+                noPullRefreshModalOff();
+            }, 400);
         })
 
         const isFocused = element => document.activeElement === element;
@@ -376,13 +387,16 @@ var timeOutNum = 280;
 
             if (sheetHeight < 25) {
                 setIsSheetShown(false);
-                // noPullRefreshModalOff();
+                noPullRefreshModalOff();
+                console.log('< 25');
             } else if (sheetHeight > 75) {
                 setSheetHeight(100);
-                // noPullRefreshModalOn();
+                noPullRefreshModalOn();
+                console.log('> 75');
             } else {
+                //시작
                 setSheetHeight(sheetHeightInit);
-                // noPullRefreshModalOn();
+                console.log('else');
             }
         }
 
@@ -398,6 +412,9 @@ var timeOutNum = 280;
         if(init == 'on'){
             setSheetHeight(Math.min(sheetHeightInit, 720 / window.innerHeight * 100));
             setIsSheetShown(true);
+            console.log('init on setIsSheetShown');
+            noPullRefreshModalOn();
+
         }
     }
 /* bottom sheet End */

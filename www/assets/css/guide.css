@@ -323,6 +323,7 @@
 
 .text-primary{color:var(--primary);}
 .text-secondary{color:var(--secondary);}
+.text-empha{color:var(--primary);font-weight:600;font-size:18px;}
 .bold{font-weight:600;}
 a.link{}
 a.link-primary{text-decoration:underline;color:var(--primary);}
@@ -2224,7 +2225,7 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type=
 .bottom-sheet__contents.fullscreen {border-radius: 0;}
 .bottom-sheet[aria-hidden="true"] .bottom-sheet__contents {transform: translateY(100%);}
 .bottom-sheet__contents__controls {display: flex;flex-direction:column;}
-.bottom-sheet .draggable-area {width: 80%;margin: auto;padding: 15px;cursor: grab;}
+.bottom-sheet .draggable-area {width: 50%;margin: auto;padding: 15px;cursor: grab;}
 .bottom-sheet .draggable-thumb {width: 100%;height: 5px;background: #dcdcdc;border-radius: 2px;transform:translate(0%,0);}
 .bottom-sheet .close-sheet {border: none;padding: 0px;}
 

@@ -2661,7 +2661,7 @@
                     <div class="r sz-receive__message">
                         <div class="c c-full-width flex-center-center">
                             <p>
-                                🎉이 상장을 받으면 아래와 같은 <span class="text-primary bold" style="font-size:18px;">능력치</span>가 올라가요!
+                                🎉 이 상장을 받으면 아래와 같은 <span class="text-empha">능력치</span>가 올라가요!
                             </p>
                         </div>
                     </div>
@@ -2716,6 +2716,11 @@
 
                             </div>
 
+                        </div>
+                    </div>
+                    <div class="r sz-receive__guide">
+                        <div class="c c-full-width flex-center-center">
+                            😆 상장 페이지 제일 위쪽 '상장 받기' 버튼으로 다시 받으실 수 있어요!
                         </div>
                     </div>
                 </div>

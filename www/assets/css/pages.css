@@ -112,7 +112,7 @@
         .img-more__outer{display:block;}
         .img-more__outer__img{width:16px;opacity:0.5;}
         .user-action-date{font-size:12px;color:#ababab;}
-        .tag-ability__list{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-start;}
+        .tag-ability__list{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;}
         .tag-ability__list.center{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;}
         .tag-ability__list__item{flex:none;box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);border-radius:6px;overflow:hidden;}
         .tag-skill{position:relative;display:flex;align-items:center;border:1px solid #d4d4d4;overflow:hidden;border-radius:6px;}
@@ -951,4 +951,5 @@
 .sz-receive__title{margin-top:0px;text-align:center;}
 .sz-receive__message{margin-top:10px;text-align:center;}
 .sz-receive__ability{margin-top:20px;text-align:center;}
+.sz-receive__guide{margin-top:20px;text-align:center;}
 /* 상장 받기 bottomsheet End */
