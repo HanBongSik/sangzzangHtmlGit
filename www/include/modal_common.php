@@ -1357,6 +1357,9 @@
 
                         <!-- 모달 바디 -->
                         <div class="modal-body">
+                            <div class="r showcase-link">
+                                <a href="/pages/myroom.php" class="link-primary">쇼케이스 보기</a>
+                            </div>
                             <div class="r showcase-in-select">
                                 <span class="forms">
                                     <input type="radio" name="showcase-in" value="radio-showcase-in" id="radio-showcase-in" checked="checked">
@@ -1372,7 +1375,6 @@
 
                         <!-- 모달 푸터 -->
                         <div class="modal-footer">
-                            <a href="/pages/myroom.php" class="btn btn-white">쇼케이스 보기</a>
                             <button class="btn">확인</button>
                             <button class="btn btn-negative MODAL-CLOSE">취소</button>
                         </div>
@@ -1886,17 +1888,17 @@
                                         </div>
                                     </div>
                                     <div class="c">
-                                    <span class="forms forms-full">
-                                        <input type="text" placeholder="댓글을 입력하세요." value="" id="inputKeyward" class="INPUT-RESET">
-                                    </span>
-                                    </div>
-                                    <div class="c c-inner-width">
-                                        <div class="writing-btn">
-                                        <span class="forms">
-                                            <button type="button" class="btn-writing">작성</button>
+                                        <span class="forms forms-full">
+                                            <input type="text" placeholder="댓글을 입력하세요." value="" id="inputKeyward" class="INPUT-RESET">
                                         </span>
-                                        </div>
                                     </div>
+<!--                                    <div class="c c-inner-width">-->
+<!--                                        <div class="writing-btn">-->
+<!--                                        <span class="forms">-->
+<!--                                            <button type="button" class="btn-writing">작성</button>-->
+<!--                                        </span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -1904,7 +1906,7 @@
 
                         <!-- 모달 푸터 -->
                         <div class="modal-footer">
-                            <!--                            <button class="btn">확인</button>-->
+                            <button class="btn">작성</button>
                             <button class="btn btn-negative MODAL-CLOSE">취소</button>
                         </div>
                         <!-- 모달 푸터 End -->
@@ -2015,17 +2017,17 @@
                                         </div>
                                     </div>
                                     <div class="c">
-                                    <span class="forms forms-full">
-                                        <input type="text" placeholder="댓글을 입력하세요." value="" id="inputKeyward" class="INPUT-RESET">
-                                    </span>
-                                    </div>
-                                    <div class="c c-inner-width">
-                                        <div class="writing-btn">
-                                        <span class="forms">
-                                            <button type="button" class="btn-writing-modal">작성</button>
+                                        <span class="forms forms-full">
+                                            <input type="text" placeholder="댓글을 입력하세요." value="" id="inputKeyward" class="INPUT-RESET">
                                         </span>
-                                        </div>
                                     </div>
+<!--                                    <div class="c c-inner-width">-->
+<!--                                        <div class="writing-btn">-->
+<!--                                            <span class="forms">-->
+<!--                                                <button type="button" class="btn-writing-modal">작성</button>-->
+<!--                                            </span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
                                 </div>
                             </div>
 
@@ -2034,7 +2036,7 @@
 
                         <!-- 모달 푸터 -->
                         <div class="modal-footer">
-                            <!--                            <button class="btn">확인</button>-->
+                            <button class="btn">작성</button>
                             <button class="btn btn-negative MODAL-CLOSE">취소</button>
                         </div>
                         <!-- 모달 푸터 End -->

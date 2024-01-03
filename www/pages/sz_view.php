@@ -41,10 +41,10 @@
                                         </div>
                                     </div>
                                     <div class="r post__row">
-                                        <div class="showcase-state" style="text-align:right;">
+                                        <div class="showcase-state">
                                             <!--<button type="button" class="button small" id="addShowcase">쇼케이스에 진열</button>-->
-                                            <button type="button" class="button sm MODAL-BTN" data-target="#modalShowcaseSwitching">쇼케이스 진열 중</button>
-                                            <button type="button" class="btn-black sm MODAL-BTN" data-target="#modalSzPublic">비공개</button>
+                                            <button type="button" class="button btn-white sm MODAL-BTN" data-target="#modalShowcaseSwitching">쇼케이스 진열 중</button>
+                                            <button type="button" class="btn-primary bordered sm MODAL-BTN sm MODAL-BTN" data-target="#modalSzPublic">비공개</button>
                                         </div>
                                     </div>
                                     <div class="r post__row">
@@ -329,37 +329,37 @@
                                                 </li>
                                                 <li class="c tag-ability__list__item">
                                                     <div class="tag-skill">
-                                                        <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
+                                                        <span class="tag-skill__num"><span class="tag-skill__value">84</span><span class="tag-skill__up">↑</span></span>
                                                         <span class="tag-skill__name">아트</span>
                                                     </div>
                                                 </li>
                                                 <li class="c tag-ability__list__item">
                                                     <div class="tag-skill">
-                                                        <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
+                                                        <span class="tag-skill__num"><span class="tag-skill__value">34</span><span class="tag-skill__up">↑</span></span>
                                                         <span class="tag-skill__name">beauty</span>
                                                     </div>
                                                 </li>
                                                 <li class="c tag-ability__list__item">
                                                     <div class="tag-skill">
-                                                        <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
+                                                        <span class="tag-skill__num"><span class="tag-skill__value">111</span><span class="tag-skill__up">↑</span></span>
                                                         <span class="tag-skill__name">게임</span>
                                                     </div>
                                                 </li>
                                                 <li class="c tag-ability__list__item">
                                                     <div class="tag-skill">
-                                                        <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
+                                                        <span class="tag-skill__num"><span class="tag-skill__value">32</span><span class="tag-skill__up">↑</span></span>
                                                         <span class="tag-skill__name">맥북</span>
                                                     </div>
                                                 </li>
                                                 <li class="c tag-ability__list__item">
                                                     <div class="tag-skill">
-                                                        <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
+                                                        <span class="tag-skill__num"><span class="tag-skill__value">114</span><span class="tag-skill__up">↑</span></span>
                                                         <span class="tag-skill__name">여행</span>
                                                     </div>
                                                 </li>
                                                 <li class="c tag-ability__list__item">
                                                     <div class="tag-skill">
-                                                        <span class="tag-skill__num"><span class="tag-skill__value">1</span><span class="tag-skill__up">↑</span></span>
+                                                        <span class="tag-skill__num"><span class="tag-skill__value">1536</span><span class="tag-skill__up">↑</span></span>
                                                         <span class="tag-skill__name">nature</span>
                                                     </div>
                                                 </li>

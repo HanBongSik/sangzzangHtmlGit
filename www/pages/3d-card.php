@@ -143,12 +143,10 @@
             // alert("Original width=" + originalWidth + ", " + "Original height=" + originalHeight);
             console.log(ratio);
             let height = $('#my_cube').height();
-            $('#my_cube').css('width',height * ratio+'px').css('transform', 'rotateX(0deg) rotateY(-2700deg) rotateZ(0deg)')
+            $('#my_cube').css('width',height * ratio+'px');
+            // $('#my_cube').css('width',height * ratio+'px').css('transform', 'rotateX(0deg) rotateY(-2700deg) rotateZ(0deg)')
 
         }
     </script>
-    <style>
-        #my_cube{transition:transform 3s;}
-    </style>
 </div>
 </body>

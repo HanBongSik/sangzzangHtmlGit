@@ -64,6 +64,16 @@
         <div class="__figure">
             <div class="__element">
                 <span class="forms">
+                    <button type="button" class="btn-gray">버튼</button>
+                </span>
+            </div>
+            <div class="__class">.btn-gray-dark</div>
+        </div>
+    </div>
+    <div class="__list">
+        <div class="__figure">
+            <div class="__element">
+                <span class="forms">
                     <button type="button" class="btn-black">버튼</button>
                 </span>
             </div>
