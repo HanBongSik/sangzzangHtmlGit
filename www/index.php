@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <script>
-        location.href="/pages/index.php";
+        location.href="/pages/list.php";
     </script>
 </head>
 <body>

@@ -650,11 +650,14 @@
         html .ex-words .tab__list{flex:none;}
         html .ex-words__outer .panels{flex:1;overflow:auto;padding-bottom:50px;}
         /*** ai 작성 */
-            html .chat-messages{min-height:150px;border:1px solid #ccc;background:#fff;border-radius: var(--radius);background: var(--gray);border:1px solid var(--gray-border-color);}
+            html .chat-message{display:flex;flex-direction:column;height:100%;}
+            html .chat-message .chat-messages{flex:1;overflow:auto;}
+            html .chat-message .search{flex:none;}
+            html .chat-messages{border:1px solid #ccc;background:#fff;border-radius: var(--radius);border-bottom-left-radius:0;border-bottom-right-radius:0;background: var(--gray);border:1px solid var(--gray-border-color);}
             html .question{font-size:13px;text-align:right;}
             html .question__inner{display:inline-block;text-align:right;background: #fff;border:1px solid var(--gray-border-color);color: var(--black);padding:10px;border-top-left-radius:6px;border-bottom-left-radius:6px;margin-top:5px;white-space:normal;border-right:none;}
             html .chat-messages .answer:nth-last-of-type(1){margin-bottom:0;}
-            html .answer{border-bottom:1px solid #ccc;font-size:13px;margin-bottom:5px;padding-bottom:0px;text-align:left;margin-top:10px;}
+            html .answer{border-bottom:1px solid #ccc;font-size:13px;margin-bottom:15px;padding-bottom:0px;text-align:left;margin-top:10px;}
             html .answer__inner{display:inline-block;background:#fff;border:1px solid var(--gray-border-color);color: var(--black);text-align:left;padding:10px;border-top-right-radius:6px;border-bottom-right-radius:6px;white-space:normal;border-left:none;}
             html .answer-function{text-align:center;}
             html .answer-function a{display:inline-block;padding:6px 0 6px 0;text-align:center;color:var(--black);font-weight:600;}
@@ -700,6 +703,11 @@
 
     /** 상장 받기 기능 */
     .sz-function-receive{width:100%;margin-top:0px;margin-bottom:0px;text-align:center;padding:10px;overflow:hidden;background:#171717;border-radius: 8px;border-top-right-radius: 0;border-top-left-radius: 0;}
+    .sz-function-receive::before {content: "";position: absolute;width: 200%;height: 20px;top: -100%;right: 0;background-color: rgba(255, 255, 255, 0.3);transform: rotate(-45deg);box-shadow: 10px 0 2px #fff;filter: blur(10px);transition: all 2s;animation: lighting-right 1.6s infinite;}
+    @keyframes lighting-right {
+        0% {transform: translate(0%, 0%) rotate(-45deg);}
+        100% {transform: translate(100%, 500%) rotate(-45deg);}
+    }
     /** 상장 받기 기능 End */
 
     /** 상장 기능 */

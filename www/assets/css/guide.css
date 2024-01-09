@@ -1808,7 +1808,7 @@ table.align-bottom, table .align-bottom{vertical-align:bottom !important;}
 
 /* COMPONENTS / PANELS */
 .panels > .panel
-{display:none;}
+{display:none;height:100%;}
 .panels > .panel.active
 {display:block;}
 .panels > .panel.active:focus

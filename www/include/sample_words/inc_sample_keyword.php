@@ -1,5 +1,5 @@
 
-<div class="g post__list">
+<div class="g chat-message">
     <div class="chat-messages">
     </div>
     <div class="search">
