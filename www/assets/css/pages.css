@@ -245,9 +245,6 @@
         @media (max-width: 1000px) {
             #showcase .post__list > .r > .c{width:calc((100%)/2);}
         }
-        /*@media (max-width: 500px) {*/
-        /*    #showcase .post__list > .r > .c{width:calc((100%));}*/
-        /*}*/
         #showcase .post__list__outer{background:#fff;}
         .showcase > ul > li .checkbox{position:absolute;left:14%;top:5px;width:10%;height:7.9%;}
         .showcase > ul > li.selected .sz-img{margin-top:-3%;border:2px solid #da4f4d;}
