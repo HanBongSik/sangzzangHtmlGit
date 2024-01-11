@@ -240,12 +240,14 @@
         .tab__list .ico-charger{display:inline-block;height:18px;}
     /** 탭 아이콘 이미지 End */
     /** 쇼케이스 */
-        #showcase .post__list > .r{flex-wrap: wrap;}
-        #showcase .post__list > .r > .c{position: relative;margin-bottom: 30px;width:calc(100% / 3 - 10px);justify-content:center;padding-bottom: 20px;background: url(/assets/img/design/showcase/bg_showcase_seperate.png) left bottom repeat-x;background-size: 100% 25px;}
+        #showcase .panel__outer{}
+        #showcase .post__list{}
+        #showcase .post__list > .r{flex-wrap: wrap;width:calc(100% );}
+        #showcase .post__list > .r > .c{position: relative;margin-bottom: 30px;width:calc(100% / 3 );justify-content:center;padding-bottom: 20px;background: url(/assets/img/design/showcase/bg_showcase_seperate.png) left bottom repeat-x;background-size: 100% 25px;}
         @media (max-width: 1000px) {
             #showcase .post__list > .r > .c{width:calc((100%)/2);}
         }
-        #showcase .post__list__outer{background:#fff;}
+        #showcase .post__list__outer{background:#fff;padding:0 5px;}
         .showcase > ul > li .checkbox{position:absolute;left:14%;top:5px;width:10%;height:7.9%;}
         .showcase > ul > li.selected .sz-img{margin-top:-3%;border:2px solid #da4f4d;}
         .showcase > ul > li .handle{overflow:hidden;display:flex;align-items:center;justify-content:center;position:absolute;left:50%;top:50%;width:50%;height:40%;transform:translate(-50%,-50%);border-radius:10%;z-index:1;background:rgba(0, 0, 0, 0.15);text-align:center;}
