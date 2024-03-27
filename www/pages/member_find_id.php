@@ -52,7 +52,7 @@
                 <div class="r member-join__btn-group">
                     <div class="btn-group">
                         <!--                                        <button type="button" id="SAVE" class="btn btn-white btn-lg" >미리보기</button>-->
-                        <a type="button" id="SAVE" class="btn btn-primary btn-lg" href="/pages/list.php">가입하기</a>
+                        <a type="button" id="SAVE" class="btn btn-primary btn-lg" href="/pages/member_join.php">가입하기</a>
                         <button type="button" class="btn btn-cancel btn-lg" onclick="confirm('정말 취소하시겠습니까?')">취소</button>
                     </div>
                 </div>
@@ -60,12 +60,6 @@
             </div>
         </div>
         <!-- content End -->
-
-
-        <!-- Button to open a sheet -->
-        <button type="button" id="btn-open-bottom-sheet" aria-controls="sheet">Open Sheet</button>
-
-
     </section>
     <!-- container End -->
     <!-- footer -->

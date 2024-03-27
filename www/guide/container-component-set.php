@@ -1,12 +1,12 @@
 <section class="__guide__section">
 
-    <?php include('./aside/aside-etc.php')?>
+    <?php include('./aside/aside-component-set.php')?>
 
     <div class="__wrapper">
 
         <div class="__box">
             <div class="__h1">
-                ETC<span class="__sub">기타</span>
+                SET<span class="__sub">컴포넌트 세트</span>
             </div>
             <div class="__h2">
                 (0) - 기본 정보 레이아웃 구조 <br>

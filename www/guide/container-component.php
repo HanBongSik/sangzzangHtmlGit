@@ -1,12 +1,12 @@
 <section class="__guide__section">
 
-    <?php include('./aside/aside-usage-detail.php') ?>
+    <?php include('./aside/aside-component.php') ?>
 
     <div class="__wrapper">
 
         <div class="__box">
             <div class="__h1">
-                USAGE<span class="__sub">사용성</span>
+                Component<span class="__sub">컴포넌트</span>
             </div>
             <div class="__h2">
                 (0) - 기본 정보 레이아웃 구조 <br>
@@ -15,7 +15,7 @@
             <div class="__preview">
                 <div class="__view" title="">
                     <div class="__list_wrapper">
-                        <?php include("types-etc/info.tpl"); ?>
+                        <?php include("types-usage/post.tpl"); ?>
                     </div>
                 </div>
             </div>

@@ -1,58 +1,12 @@
 <aside class="__guide_aside">
     <?php include('./aside/aside-toggle.php')?>
-    <?php include('./aside/aside-useage-link.php')?>
+    <?php include('./aside/aside-component-link.php')?>
     <nav>
         <ul class="nav-01-ul">
             <li class="nav-01-li">
-                <div class="nav-01 on">
-                    <a class="nav-01-link" href="#COMMON-MODAL">
-                        <div class="nav-01-txt">팝업</div>
-                        <div class="nav-01-ico"></div>
-                    </a>
-                </div>
-                <ul class="nav-02-ul">
-                    <li>
-                        <div class="nav-02">
-                            <a class="nav-02-link" href="#COMMON-MODAL">
-                                <div class="nav-02-txt">(0) 필수</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="nav-02">
-                            <a class="nav-02-link" href="#COMMON-MODAL-DIMMED-CLOSE">
-                                <div class="nav-02-txt">(1) 배경 닫기 - dimmed 닫기</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="nav-02">
-                            <a class="nav-02-link" href="#COMMON-MODAL-FULL">
-                                <div class="nav-02-txt">(0) full</div>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="nav-02">
-                            <a class="nav-02-link" href="#COMMON-MODAL-CALENDAR">
-                                <div class="nav-02-txt">(0) 달력</div>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-
-
-
-
-
-
-
-            <li class="nav-01-li">
                 <div class="nav-01">
                     <a class="nav-01-link" href="#DEFAULT">
-                        <div class="nav-01-txt">Default</div>
+                        <div class="nav-01-txt">ETC</div>
                         <div class="nav-01-ico"></div>
                     </a>
                 </div>
@@ -385,13 +339,6 @@
                     </li>
                     <li>
                         <div class="nav-02">
-                            <a class="nav-02-link" href="#COMMON-CHECKBOX-SWITCH">
-                                <div class="nav-02-txt">(1) switch</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="nav-02">
                             <a class="nav-02-link" href="#COMMON-CALENDAR">
                                 <div class="nav-02-txt">(1) 달력</div>
                             </a>
@@ -489,22 +436,6 @@
                             </a>
                         </div>
                     </li>
-                    <li>
-                        <div class="nav-02">
-                            <a class="nav-02-link" href="#COMMON-MODAL-FULL">
-                                <div class="nav-02-txt">(0) full</div>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="nav-02">
-                            <a class="nav-02-link" href="#COMMON-MODAL-CALENDAR">
-                                <div class="nav-02-txt">(0) 달력</div>
-                            </a>
-                        </div>
-                    </li>
-                    
                 </ul>
             </li>
 

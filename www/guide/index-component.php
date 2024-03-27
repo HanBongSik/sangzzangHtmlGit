@@ -36,7 +36,7 @@
         <div class="__guide__wrapper">
             <?php include('./header.php')?>
 
-            <?php include('./container-usage-detail.php') ?>
+            <?php include('./container-component.php') ?>
 
             <?php /*include('./footer.php')*/?>
         </div>

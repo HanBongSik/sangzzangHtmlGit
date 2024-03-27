@@ -105,18 +105,13 @@
                 </div>
             </div>
 
-            <div class="__box">
-                <div class="__h1" id="COMMON-BUTTON-USAGE-BOTTOM">
-                    하단 버튼
-                </div>
-                <div class="__h2">
-                    (0) - 필수
-                </div>
-                <div class="__preview">
-                    <div class="__view" title="tab">
-                        <div class="__list_wrapper">
-                            <?php include("types/footer-button.tpl"); ?>
-                        </div>
+            <div class="__h2">
+                (1) - 하단 버튼
+            </div>
+            <div class="__preview">
+                <div class="__view" title="tab">
+                    <div class="__list_wrapper">
+                        <?php include("types/footer-button.tpl"); ?>
                     </div>
                 </div>
             </div>
@@ -573,14 +568,13 @@
                     </div>
                 </div>
             </div>
-
-            <div class="__h2" id="COMMON-TAB-MULTI">
-                (1) 멀티탭
+            <div class="__h2" id="COMMON-TAB-SIZING">
+                (2) 탭 - 사이징
             </div>
             <div class="__preview">
                 <div class="__view" title="tab">
                     <div class="__list_wrapper">
-                        <?php include("types/tab-multi.tpl"); ?>
+                        <?php include("types/tab-fixed-sizing.tpl"); ?>
                     </div>
                 </div>
             </div>
@@ -596,6 +590,17 @@
                 </div>
             </div>
 
+            <div class="__h2" id="COMMON-TAB-MULTI">
+                (1) 멀티탭
+            </div>
+            <div class="__preview">
+                <div class="__view" title="tab">
+                    <div class="__list_wrapper">
+                        <?php include("types/tab-multi.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+
             <div class="__h2" id="COMMON-TAB-STYLE">
                 (2) 탭 - 디자인 추가
             </div>
@@ -603,6 +608,33 @@
                 <div class="__view" title="tab">
                     <div class="__list_wrapper">
                         <?php include("types/tab-style.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="__box">
+            <div class="__h1" id="COMMON-CHIP">
+                칩 Chip
+            </div>
+            <div class="__h2">
+                (0) - 필수
+            </div>
+            <div class="__preview">
+                <div class="__view" title="tooltip">
+                    <div class="__list_wrapper">
+                        <?php include("types/chip.tpl"); ?>
+                    </div>
+                </div>
+            </div>
+
+            <div class="__h2">
+                (1) - 디자인 추가
+            </div>
+            <div class="__preview">
+                <div class="__view" title="tooltip">
+                    <div class="__list_wrapper">
+                        <?php include("types/chip-style-01.tpl"); ?>
                     </div>
                 </div>
             </div>
@@ -642,7 +674,7 @@
 
         <div class="__box">
             <div class="__h1">
-                약관
+                Bottom Sheet
             </div>
             <div class="__h2">
                 (0) - 필수

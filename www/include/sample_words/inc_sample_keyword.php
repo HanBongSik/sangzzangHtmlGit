@@ -41,9 +41,10 @@
 
     async function sendMessage() {
         const messageContent = messageInput.value.trim();
+        //alert(messageContent); //마리오파티 우승, 경쟁자를 제치고, 챔피언
         if (messageContent) {
 
-            addMessageToChat(messageContent, 'right');
+            addMessageToChat('', messageContent, 'right');
 
             // 아이콘 추가
             const snippet = addSnippet();
@@ -51,12 +52,13 @@
             messageInput.value = '';
 
             try {
-                const response = await fetch('https://bs.doseong.net/content', {
+                const response = await fetch('https://gpt-api.impreci.com/content', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ content: messageContent })
+                    //body: JSON.stringify({ content: messageContent })
+                    body: JSON.stringify({ message: messageContent })
                 });
 
                 if (response.ok) {
@@ -65,7 +67,8 @@
                     snippet.remove();
                     // 응답
 
-                    addMessageToChat(aiResponse.message, 'left');
+                    //addMessageToChat(aiResponse.title, 'left');
+                    addMessageToChat(aiResponse.title, aiResponse.content, 'left');
                 }
             } catch (error) {
                 console.error('Error while sending message:', error);
@@ -82,17 +85,25 @@
         return snippetDiv;
     }
 
-    function addMessageToChat(message, direction) {
+    function addMessageToChat(title = '키워드', message, direction) {
         const messageDiv = document.createElement('div');
+        console.log(message);
+        const displayTitle = title.replace(/\n/g, '<br>');
         const displayMessage = message.replace(/\n/g, '<br>');
         if (direction === 'right') {
             messageDiv.className = 'question';
             messageDiv.innerHTML = `<div class="question__inner">${displayMessage}</div>`;
         } else {
             messageDiv.className = 'answer';
-            messageDiv.innerHTML = `<div class="answer__inner">${displayMessage}</div><div class="answer-function">
-    <a href="javascript:void(0)" onclick="alert('적용 되었습니다.')">적용하기</a>
-</div>`;
+            messageDiv.innerHTML = `
+                <div class="answer__inner">
+                    <div class="answer-title" style="font-weight:600;">${displayTitle}</div>
+                    <div class="answer-message">${displayMessage}</div>
+                </div>
+                <div class="answer-function">
+                    <a href="javascript:void(0)" onclick="alert('적용 되었습니다.')">적용하기</a>
+                </div>
+            `;
         }
         chatMessages.appendChild(messageDiv);
         chatMessages.scrollTop = chatMessages.scrollHeight;
