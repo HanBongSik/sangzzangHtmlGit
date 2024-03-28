@@ -35,7 +35,9 @@ section#container .content.sm{max-width:400px;margin-left:auto;margin-right:auto
 .podiums .podiums-body,
 .sz-bg-design-choice__li,
 /*.sz-design-select,*/
+.myroom-tab,
 .SANGZZANG.SZ-ORIGIN.SZ-WRITING{box-shadow: 6px 1px 10px rgb(0 0 0 / 10%);}
+
 
 .scroll-opacity-right{mask-image:linear-gradient(to left,transparent 0,transparent 0px,#000 40px,#000 100%);}
 .post{box-shadow: 4px 5px 10px rgb(0 0 0 / 10%);}

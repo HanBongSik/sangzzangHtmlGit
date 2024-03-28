@@ -207,7 +207,7 @@
 
 /* 내 상장 */
     /** 내 상장 - 프로필 카드 */
-        .user-profile-card{padding:10px;border-radius:10px;}
+        .user-profile-card{padding:10px;border-radius:10px 10px 0 0;}
         .user-profile-card__header{}
         .user-profile-card__header > .r{}
         .user-profile-card__header > .r > .c{flex:1;}
@@ -231,7 +231,7 @@
         .user-profile-card .user-infos{margin-top:8px;}
         .user-profile-card .user-infos .nick{font-weight:bold;font-size:20px;}
         .user-profile-card .user-infos .intro{padding:6px 0;font-size:16px;}
-        .user-profile-card .user-infos .sns li{font-size:12px;}
+        .user-profile-card .user-infos .sns li{font-size:12px;margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
         .user-profile-card .user-infos .sns .sns-name{display:none;}
         .user-profile-card .personal{margin-top:10px;}
     /** 내 상장 - 프로필 카드 */
@@ -969,3 +969,38 @@
 .sz-receive__ability{margin-top:20px;text-align:center;}
 .sz-receive__guide{margin-top:20px;text-align:center;}
 /* 상장 받기 bottomsheet End */
+
+/* 마이페이지 */
+.myroom-tab{margin-top:20px;}
+
+.user-profile-card__header > .r.r-01-first{flex-direction:column;}
+.user-profile-card__header > .r > .c-01-first{flex-direction:column;}
+.user-profile-card__header > .r .c-01-first{flex-direction:column;}
+.user-profile-card__header > .r .r-02-second{margin-top:10px;padding-left:10px;padding-right:10px;}
+.user-profile-card__header > .r .c-02-first{align-items:center;justify-content:center;padding-left:10px;padding-right:10px;}
+.user-profile-card__header > .r .r-02-third{display:none;}
+.user-profile-card__header > .r > .c.c-02-third{padding-left:10px;padding-right:10px;display:none;}
+
+.user-profile-card__header > .r .r-02-second .tag-ability.tag-ability-st01 .tag-ability__list.style-01{justify-content: center;}
+.user-profile-card__body{display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.user-profile-card__body .lay-user-action-info{display: flex;align-items: center;justify-content: center;}
+
+@media (min-width: 670px) {
+    .user-profile-card__header > .r{gap:20px;}
+    .user-profile-card__header > .r.r-01-first{flex-direction:row;}
+    .user-profile-card__header > .r > .c-01-first{flex:none;}
+    .user-profile-card__header > .r .r-02-second{display:none;}
+    .user-profile-card__header > .r > .c.c-02-third{display:flex;}
+    .user-profile-card__body{display: flex;align-items: start;justify-content: start;flex-direction: column;}
+    .user-profile-card__body .lay-user-action-info{display: flex;align-items: start;justify-content: start;width:100%;box-sizing:border-box;}
+
+}
+@media (min-width: 800px) {
+    .user-profile-card__header > .r{gap:20px;}
+    .user-profile-card__header > .r .r-02-second{display:none;}
+    .user-profile-card__header > .r > .c-01-first{flex:none;}
+    .user-profile-card__header > .r > .c.c-02-second{flex:none;max-width:250px;}
+    .lay-user-action-info > .r > .c.btn-more-action-outer{justify-content:start;}
+
+}
+/* 마이페이지 End */

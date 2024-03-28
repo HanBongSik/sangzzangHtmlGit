@@ -23,183 +23,231 @@
         <!-- h1 End -->
         <!-- content -->
         <div class="content">
-            <div class="layout-two-one layout-with-profile">
-<!--                <div class="layout-two-one__layout-left">-->
-<!--                    left-->
-<!--                </div>-->
-<!--                <div class="layout-two-one__layout-right">-->
-<!--                    right-->
-<!--                </div>-->
+            <div class="layout-with-profile">
+                <div class="g user-profile-card">
+                    <div class="r">
+                        <div class="c">
+                            <div class="g user-profile-card__header">
+                                <div class="r r-01-first">
+                                    <div class="c c-01-first">
 
-                <div class="layout-two-one__layout-left">
-                    <div class="g user-profile-card">
-                        <div class="r">
-                            <div class="c">
+                                        <div class="g g-02-first">
+                                            <div class="r r-02-first">
+                                                <div class="c c-02-first">
+                                                    <div class="img-profile lg">
+                                                        <div class="img-profile-outer">
+                                                            <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                <div class="g user-profile-card__header">
-                                    <div class="r">
-                                        <div class="c">
-                                            <div class="img-profile lg">
-                                                <div class="img-profile-outer">
-                                                    <img class="img-profile__img" src="/assets/tempImg/profile/hbs.jpg" alt="프로필 이미지">
+                                            <div class="r r-02-second">
+                                                <div class="c">
+                                                    <div class="g tag-ability tag-ability-st01">
+                                                        <ul class="r tag-ability__list style-01 MODAL-BTN" data-target="#modalSkill">
+                                                            <li class="c tag-ability__list__item">
+                                                                <div class="tag-skill style-01">
+                                                                    <div class="tag-skill__gauge-bg"></div>
+                                                                    <div class="tag-skill__gauge w-95">95%</div>
+                                                                    <span class="tag-skill__num">12</span>
+                                                                    <span class="tag-skill__name">유머</span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="c tag-ability__list__item">
+                                                                <div class="tag-skill">
+                                                                    <div class="tag-skill__gauge-bg"></div>
+                                                                    <div class="tag-skill__gauge w-85">85%</div>
+                                                                    <span class="tag-skill__num">82</span>
+                                                                    <span class="tag-skill__name">진지</span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="c tag-ability__list__item">
+                                                                <div class="tag-skill">
+                                                                    <div class="tag-skill__gauge-bg"></div>
+                                                                    <div class="tag-skill__gauge w-50">50%</div>
+                                                                    <span class="tag-skill__num">90</span>
+                                                                    <span class="tag-skill__name">장난기</span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="c tag-ability__list__item">
+                                                                <div class="tag-skill">
+                                                                    <div class="tag-skill__gauge-bg"></div>
+                                                                    <div class="tag-skill__gauge w-78">78%</div>
+                                                                    <span class="tag-skill__num">666</span>
+                                                                    <span class="tag-skill__name">게임</span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="c tag-ability__list__item">
+                                                                <div class="tag-skill">
+                                                                    <div class="tag-skill__gauge-bg"></div>
+                                                                    <div class="tag-skill__gauge w-65">65%</div>
+                                                                    <span class="tag-skill__num">37</span>
+                                                                    <span class="tag-skill__name">독서</span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="c tag-ability__list__item">
+                                                                <div class="tag-skill">
+                                                                    <div class="tag-skill__gauge-bg"></div>
+                                                                    <div class="tag-skill__gauge w-15">15%</div>
+                                                                    <span class="tag-skill__num">8</span>
+                                                                    <span class="tag-skill__name">맥북</span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+
+
+                                    </div>
 <!--                                        <div class="c">-->
 <!--                                            <div class="skills">-->
 <!--                                                <a href="./assets/img/test-graph2.png" class="skills-link MODAL-BTN" target="_blank" data-target="#modalSkill"><img class="skill-grap" src="./assets/img/test-graph2.png" class="img-graph" alt="스킬 그래프"></a>-->
 <!--                                            </div>-->
 <!--                                        </div>-->
-                                        <div class="c direction-column">
-                                            <div class="g tag-ability tag-ability-st01">
-                                                <ul class="r tag-ability__list style-01 MODAL-BTN" data-target="#modalSkill">
-                                                    <li class="c tag-ability__list__item">
-                                                        <div class="tag-skill style-01">
-                                                            <div class="tag-skill__gauge-bg"></div>
-                                                            <div class="tag-skill__gauge w-95">95%</div>
-                                                            <span class="tag-skill__num">12</span>
-                                                            <span class="tag-skill__name">유머</span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="c tag-ability__list__item">
-                                                        <div class="tag-skill">
-                                                            <div class="tag-skill__gauge-bg"></div>
-                                                            <div class="tag-skill__gauge w-85">85%</div>
-                                                            <span class="tag-skill__num">82</span>
-                                                            <span class="tag-skill__name">진지</span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="c tag-ability__list__item">
-                                                        <div class="tag-skill">
-                                                            <div class="tag-skill__gauge-bg"></div>
-                                                            <div class="tag-skill__gauge w-50">50%</div>
-                                                            <span class="tag-skill__num">90</span>
-                                                            <span class="tag-skill__name">장난기</span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="c tag-ability__list__item">
-                                                        <div class="tag-skill">
-                                                            <div class="tag-skill__gauge-bg"></div>
-                                                            <div class="tag-skill__gauge w-78">78%</div>
-                                                            <span class="tag-skill__num">666</span>
-                                                            <span class="tag-skill__name">게임</span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="c tag-ability__list__item">
-                                                        <div class="tag-skill">
-                                                            <div class="tag-skill__gauge-bg"></div>
-                                                            <div class="tag-skill__gauge w-65">65%</div>
-                                                            <span class="tag-skill__num">37</span>
-                                                            <span class="tag-skill__name">독서</span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="c tag-ability__list__item">
-                                                        <div class="tag-skill">
-                                                            <div class="tag-skill__gauge-bg"></div>
-                                                            <div class="tag-skill__gauge w-15">15%</div>
-                                                            <span class="tag-skill__num">8</span>
-                                                            <span class="tag-skill__name">맥북</span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
+                                    <div class="c c-02-second">
+                                        <div class="user-profile-card__body">
+                                            <div class="g lay-user-action-info">
+                                                <div class="r">
+                                                    <div class="c c-inner-width">
+                                                        <!-- 유저 프로필 덩어리 -->
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="r">
-                            <div class="c">
-                                <div class="user-profile-card__body">
-                                    <div class="g lay-user-action-info">
-                                        <div class="r">
-                                            <div class="c c-inner-width">
-                                                <!-- 유저 프로필 덩어리 -->
-
-                                                <div class="g user-profile">
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsikbongsik</span></a>
-                                                                <!--                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
-                                                                <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                        <div class="g user-profile">
+                                                            <div class="r">
+                                                                <div class="c">
+                                                                    <div class="user-action-info-detail">
+                                                                        <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-id">bongsikbongsik</span></a>
+                                                                        <!--                                                            <span class="user-follow-state"><a href="#;" class="user-follow-state__link">팔로우</a></span>-->
+                                                                        <!--                                                            <span class="user-action">님이 상장을 보냈습니다.</span>-->
+                                                                        <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="r">
+                                                                <div class="c">
+                                                                    <div class="user-action-info-detail">
+                                                                        <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
+                                                                        <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
+                                                        <!-- 유저 프로필 덩어리 End -->
+
                                                     </div>
-                                                    <div class="r">
-                                                        <div class="c">
-                                                            <div class="user-action-info-detail">
-                                                                <a href="/pages/myroom.php" class="user-action-info-detail__link"><span class="user-name">한봉식</span></a>
-                                                                <!--                                                            <span class="user-action-date">23.10.17 10 11</span>-->
+                                                    <div class="c c-inner-width">
+                                                        <span class="forms">
+                                                            <button type="button" class="btn-follow-ing">팔로잉</button>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="c c-full center-start">
+                                                        <div class="btn-more-action">
+                                                            <div class="img-more">
+                                                                <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
+                                                                    <div class="img-more__outer">
+                                                                        <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- 유저 프로필 덩어리 End -->
-
-                                            </div>
-                                            <div class="c c-inner-width">
-                                                <span class="forms">
-                                                    <button type="button" class="btn-follow-ing">팔로잉</button>
-                                                </span>
                                             </div>
 
-                                            <div class="c c-full center-right">
-                                                <div class="btn-more-action">
-                                                    <div class="img-more">
-                                                        <a href="#;" class="img-more__link MODAL-BTN" data-target="#modalMore">
-                                                            <div class="img-more__outer">
-                                                                <img class="img-more__outer__img" src="/assets/img/ico/ico-more.png" alt="">
-                                                            </div>
-                                                        </a>
-                                                    </div>
+                                            <div class="user-infos">
+
+                                                <div class="intro">
+                                                    이시대의 상남자 입니다.
                                                 </div>
+                                                <div class="sns">
+                                                    <ul>
+                                                        <li><span class="sns-name md-visible-inline">인스타 : </span><a href="https://www.instagram.com/s2yun_o/" target="_blank">https://www.instagram.com/aaaaaaaaaaaa</a> <!--인증됨--></li>
+                                                        <li><span class="sns-name md-visible-inline">페이스북 : </span><a href="https://www.facebook.com/jisora" target="_blank">https://www.facebook.com/bbb</a></li>
+                                                        <li><span class="sns-name md-visible-inline">유튜브 : </span><a href="https://www.youtube.com/@yodelay" target="_blank">https://www.youtube.com/channel/ccc</a></li>
+                                                    </ul>
+                                                </div>
+                                                <!--
+                                                <div class="personal">
+                                                    <button type="button" class="button medium">쪽지 보내기</button>
+                                                </div>-->
                                             </div>
+
                                         </div>
+
                                     </div>
 
-
-
-
-
-                                    <div class="user-infos">
-
-                                        <div class="intro">
-                                            이시대의 상남자 입니다.
-                                        </div>
-                                        <div class="sns">
-                                            <ul>
-                                                <li><span class="sns-name md-visible-inline">인스타 : </span><a href="https://www.instagram.com/s2yun_o/" target="_blank">https://www.instagram.com/aaa</a> <!--인증됨--></li>
-                                                <li><span class="sns-name md-visible-inline">페이스북 : </span><a href="https://www.facebook.com/jisora" target="_blank">https://www.facebook.com/bbb</a></li>
-                                                <li><span class="sns-name md-visible-inline">유튜브 : </span><a href="https://www.youtube.com/@yodelay" target="_blank">https://www.youtube.com/channel/ccc</a></li>
+                                    <div class="c c-02-third direction-column">
+                                        <div class="g tag-ability tag-ability-st01">
+                                            <ul class="r tag-ability__list style-01 MODAL-BTN" data-target="#modalSkill">
+                                                <li class="c tag-ability__list__item">
+                                                    <div class="tag-skill style-01">
+                                                        <div class="tag-skill__gauge-bg"></div>
+                                                        <div class="tag-skill__gauge w-95">95%</div>
+                                                        <span class="tag-skill__num">12</span>
+                                                        <span class="tag-skill__name">유머</span>
+                                                    </div>
+                                                </li>
+                                                <li class="c tag-ability__list__item">
+                                                    <div class="tag-skill">
+                                                        <div class="tag-skill__gauge-bg"></div>
+                                                        <div class="tag-skill__gauge w-85">85%</div>
+                                                        <span class="tag-skill__num">82</span>
+                                                        <span class="tag-skill__name">진지</span>
+                                                    </div>
+                                                </li>
+                                                <li class="c tag-ability__list__item">
+                                                    <div class="tag-skill">
+                                                        <div class="tag-skill__gauge-bg"></div>
+                                                        <div class="tag-skill__gauge w-50">50%</div>
+                                                        <span class="tag-skill__num">90</span>
+                                                        <span class="tag-skill__name">장난기</span>
+                                                    </div>
+                                                </li>
+                                                <li class="c tag-ability__list__item">
+                                                    <div class="tag-skill">
+                                                        <div class="tag-skill__gauge-bg"></div>
+                                                        <div class="tag-skill__gauge w-78">78%</div>
+                                                        <span class="tag-skill__num">666</span>
+                                                        <span class="tag-skill__name">게임</span>
+                                                    </div>
+                                                </li>
+                                                <li class="c tag-ability__list__item">
+                                                    <div class="tag-skill">
+                                                        <div class="tag-skill__gauge-bg"></div>
+                                                        <div class="tag-skill__gauge w-65">65%</div>
+                                                        <span class="tag-skill__num">37</span>
+                                                        <span class="tag-skill__name">독서</span>
+                                                    </div>
+                                                </li>
+                                                <li class="c tag-ability__list__item">
+                                                    <div class="tag-skill">
+                                                        <div class="tag-skill__gauge-bg"></div>
+                                                        <div class="tag-skill__gauge w-15">15%</div>
+                                                        <span class="tag-skill__num">8</span>
+                                                        <span class="tag-skill__name">맥북</span>
+                                                    </div>
+                                                </li>
                                             </ul>
                                         </div>
-                                        <!--
-                                        <div class="personal">
-                                            <button type="button" class="button medium">쪽지 보내기</button>
-                                        </div>-->
+
                                     </div>
-
                                 </div>
-
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
-                <div class="layout-two-one__layout-right">
-
-
+                <div class="g myroom-tab">
                     <div class="tab">
                         <div class="tab__list fixed">
                             <ul>
                                 <li class="active"><a href="#tab-showcase" data-target="#showcase"><div class="tab-name">쇼케이스</div></a></li>
                                 <li><a href="#rolling-paper" data-target="#rolling-paper"><div class="tab-name">롤링페이퍼</div></a></li>
-<!--                                <li><a href="#energizer" data-target="#energizer"><div class="tab-name">에너자이저</div></a></li>-->
+                                <!--                                <li><a href="#energizer" data-target="#energizer"><div class="tab-name">에너자이저</div></a></li>-->
                                 <li><a href="#charger" data-target="#charger"><div class="tab-name"><!--<img class="ico-charger" src="/assets/img/ico/ico-charger.png" alt="charger">-->⚡차저</div></a></li>
                             </ul>
                             <ul class="lg">
@@ -277,9 +325,8 @@
                         </div>
                         <!-- panels End -->
                     </div>
-
-
                 </div>
+
             </div>
         </div>
         <!-- content End -->
