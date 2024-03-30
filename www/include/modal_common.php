@@ -787,7 +787,8 @@
                                         <div class="tab__list">
                                             <div class="ex-words__outer">
                                                 <div class="ex-words__list">
-                                                    <button type="button" class="words__list__item btn-badge TAB-BTN active" data-target="#tabExWords">전체</button>
+                                                    <button type="button" class="btn-gray btn-badge TAB-BTN active" data-target="#tabKeyword">키워드로 작성</button>
+                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExWords">전체</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExThankyou">😊고맙다</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExFun">😝즐거웠다</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExCheerUp">🤯힘내라</button>
@@ -798,7 +799,6 @@
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExClassicCertificates">수료증</button>
                                                 </div>
                                                 <div class="ex-words__list">
-                                                    <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabKeyword">키워드로 작성</button>
                                                     <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabExScquaintance">지인</button>
                                                     <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabFriend">친구</button>
                                                     <button type="button" class="btn-gray btn-badge TAB-BTN" data-target="#tabDifferentGender">이성</button>
@@ -818,7 +818,14 @@
                                         </div>
 
                                         <div class="panels">
-                                            <div id="tabExThankyou" class="panel active" tabindex="0">
+
+                                            <div id="tabKeyword" class="panel active" tabindex="0">
+                                                <!-- 키워드로 검색 -->
+                                                <?php include("$path/include/sample_words/inc_sample_keyword.php"); ?>
+                                                <!-- 키워드로 End -->
+                                            </div>
+
+                                            <div id="tabExThankyou" class="panel" tabindex="0">
                                                 <!-- 고맙다 검색 -->
                                                 <?php include("$path/include/sample_words/inc_sample_thankyou.php"); ?>
                                                 <!-- 고맙다 검색 End -->
@@ -864,12 +871,6 @@
                                                 <!-- 수료증 검색 -->
                                                 <?php include("$path/include/sample_words/inc_sample_fun.php"); ?>
                                                 <!-- 수료증 검색 End -->
-                                            </div>
-
-                                            <div id="tabKeyword" class="panel" tabindex="0">
-                                                <!-- 키워드로 검색 -->
-                                                <?php include("$path/include/sample_words/inc_sample_keyword.php"); ?>
-                                                <!-- 키워드로 End -->
                                             </div>
 
                                             <div id="tabExScquaintance" class="panel" tabindex="0">

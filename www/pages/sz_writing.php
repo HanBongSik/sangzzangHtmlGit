@@ -254,6 +254,7 @@
                                             <div class="tab__list">
                                                 <div class="ex-words__outer">
                                                     <div class="ex-words__list">
+                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">키워드로 작성</button>
                                                         <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">전체</button>
                                                         <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">😊고맙다</button>
                                                         <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">😝즐거웠다</button>
@@ -265,7 +266,6 @@
                                                         <button type="button" class="words__list__item btn-badge MODAL-BTN" data-target="#modalExSearch">수료증</button>
                                                     </div>
                                                     <div class="ex-words__list">
-                                                        <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">키워드로 작성</button>
                                                         <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">지인</button>
                                                         <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">친구</button>
                                                         <button type="button" class="btn-gray btn-badge MODAL-BTN" data-target="#modalExSearch">이성</button>
