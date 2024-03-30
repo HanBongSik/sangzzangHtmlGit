@@ -9,7 +9,24 @@ function renderDiv2TextareaReset(){
     $('#sangTextDiv').empty();
     $('.SZ-ORIGIN').removeClass('RENDERED');
 }
+/* 날짜 자동 입력 */
+function todayYMD(){
+    var today;
+    today = new Date();
+    today = today.getFullYear() + "년 " + (today.getMonth() + 1) + "월 " + today.getDate() + "일";
+    //$("#sang_date").text(today);
+    //return today;
+    $('#sangDate').text(today);
+}
 
+function applyAnswer(el){
+    alert('적용되었습니다.');
+    let exTitle = $(el).parents('.answer').find('.answer-title').text();
+    let exText = $(el).parents('.answer').find('.answer-message').text();
+    $('.SZ-ORIGIN .ELEMENT #sangTitle').text(exTitle);
+    $('.SZ-ORIGIN .ELEMENT #sangText').text(exText);
+    modalOff('#modalExSearch');
+}
 $(function(){
     /* 상장 작성 페이지일 때 */
     if($('.SZ-WRITING').length > 0){
@@ -105,6 +122,10 @@ $(function(){
             $('.SANGZZANG .sz-design').attr('src',src);
             $('.edit-guide-wrapper').css('display','none');
         });
+
+        /* 날짜 자동 입력 */
+        todayYMD();
+
     }
     /* 상장 작성 페이지 End */
 

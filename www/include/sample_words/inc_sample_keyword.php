@@ -101,7 +101,7 @@
                     <div class="answer-message">${displayMessage}</div>
                 </div>
                 <div class="answer-function">
-                    <a href="javascript:void(0)" onclick="alert('적용 되었습니다.')">적용하기</a>
+                    <a href="javascript:void(0)" onclick="applyAnswer(this);return false;">적용하기</a>
                 </div>
             `;
         }
