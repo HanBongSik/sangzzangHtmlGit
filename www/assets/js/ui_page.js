@@ -9,9 +9,6 @@ function renderDiv2TextareaReset(){
     $('#sangTextDiv').empty();
     $('.SZ-ORIGIN').removeClass('RENDERED');
 }
-<<<<<<< HEAD
-
-=======
 /* 날짜 자동 입력 */
 function todayYMD(){
     var today;
