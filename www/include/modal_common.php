@@ -788,7 +788,7 @@
                                             <div class="ex-words__outer">
                                                 <div class="ex-words__list">
                                                     <button type="button" class="btn-gray btn-badge TAB-BTN active" data-target="#tabKeyword">키워드로 작성</button>
-                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExWords">전체</button>
+<!--                                                    <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExWords">전체</button>-->
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExThankyou">😊고맙다</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExFun">😝즐거웠다</button>
                                                     <button type="button" class="words__list__item btn-badge TAB-BTN" data-target="#tabExCheerUp">🤯힘내라</button>
