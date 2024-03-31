@@ -5,5 +5,6 @@
         location.href="/pages/list.php";
     </script>
 </head>
+
 <body>
 </body>
