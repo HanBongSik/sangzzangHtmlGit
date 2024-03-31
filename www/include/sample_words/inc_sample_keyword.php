@@ -102,6 +102,7 @@
                 </div>
                 <div class="answer-function">
                     <a href="javascript:void(0)" onclick="applyAnswer(this);return false;">적용하기</a>
+>>>>>>> f1c5d16448d9979e34462f5f008750d364acab21
                 </div>
             `;
         }

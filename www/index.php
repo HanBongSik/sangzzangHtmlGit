@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-    <script>
+    <script> 
         location.href="/pages/list.php";
     </script>
 </head>
